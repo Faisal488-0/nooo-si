@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b1221">
+  <meta name="description" content="nooo.si — موقع قيد التجهيز.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>nooo.si | قريباً</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif; color-scheme: dark; }
+    * { box-sizing: border-box; }
+    html, body { min-height: 100%; margin: 0; }
+    body {
+      display: grid; place-items: center; padding: 24px;
+      color: #eef5ff; background: #0b1221;
+      background-image: radial-gradient(ellipse at 75% 15%, #183c54 0%, transparent 46%),
+                        radial-gradient(ellipse at 20% 85%, #202a5b 0%, transparent 45%);
+    }
+    main { width: min(100%, 680px); }
+    .mark { display: inline-block; padding: 9px 15px; border: 1px solid #60708c66; border-radius: 999px;
+            letter-spacing: .09em; font-size: 14px; color: #b1eaff; direction: ltr; }
+    h1 { margin: 28px 0 16px; font-size: clamp(36px, 7vw, 76px); line-height: 1.2; letter-spacing: -.045em; }
+    p { margin: 0; font-size: clamp(17px, 2.5vw, 21px); line-height: 1.95; color: #b6c5d9; }
+    .english { direction: ltr; text-align: left; margin-top: 24px; font-size: 16px; color: #92a8c3; }
+    .rule { width: 56px; height: 3px; margin: 36px 0 18px auto; background: #6be4d7; border-radius: 3px; }
+    footer { font-size: 13px; color: #889ab3; }
+    @media (prefers-reduced-motion: no-preference) {
+      main { animation: appear .65s ease-out both; }
+      @keyframes appear { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    }
+  </style>
+</head>
+<body>
+  <main aria-labelledby="heading">
+    <span class="mark">nooo.si</span>
+    <h1 id="heading">شيء جديد<br>قريباً.</h1>
+    <p>نعمل على تجهيز هذه المساحة. ترقّبوا الإطلاق.</p>
+    <p class="english" lang="en">Something new is on the way.<br>Our website is coming soon.</p>
+    <div class="rule" aria-hidden="true"></div>
+    <footer>nooo.si</footer>
+  </main>
+</body>
+</html>
