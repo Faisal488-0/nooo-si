@@ -4,8 +4,9 @@
 
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { existsSync, readFileSync } from 'node:fs';
-import { CATEGORIES, LOCALES, contentHash, ENGINE_VERSION } from './lib/engine.mjs';
+import { existsSync, readFileSync, statSync } from 'node:fs';
+import { imageKind } from './lib/photos.mjs';
+import { ALL_CATEGORIES as CATEGORIES, LOCALES, contentHash, ENGINE_VERSION } from './lib/engine.mjs';
 import { loadBanks, loadHistory, paths, readJson, LATEST_COUNT } from './lib/store.mjs';
 import { toBinary, toMorse } from '../assets/js/lib/encoders.js';
 
@@ -50,6 +51,24 @@ export function validateItem(item, ctx) {
       if (item.code.output !== expected) errors.push(`${where}: ${item.category} encoding is wrong`);
       if (item.category === 'morse' && expected.includes('#')) errors.push(`${where}: morse contains unsupported characters`);
     }
+  }
+  if (item.category === 'photo' || item.photo) {
+    const ph = item.photo ?? {};
+    if (item.category !== 'photo') errors.push(`${where}: photo data on a non-photo card`);
+    if (!['cc0', 'pdm'].includes(ph.license)) errors.push(`${where}: photo license must be cc0 or pdm`);
+    if (!/^https:\/\//.test(ph.landingUrl ?? '') || !/^https:\/\/creativecommons\.org\//.test(ph.licenseUrl ?? '')) errors.push(`${where}: photo needs https landing + license URLs`);
+    if (!ph.title || !ph.provider || !ph.sourceId) errors.push(`${where}: photo credit incomplete`);
+    if (!/^data\/feed\/img\/[\w.-]+\.(jpg|png)$/.test(ph.file ?? '')) errors.push(`${where}: bad photo file path`);
+    else if (ctx.root) {
+      const abs = join(ctx.root, ph.file);
+      if (!existsSync(abs)) errors.push(`${where}: photo file missing`);
+      else {
+        const buf = readFileSync(abs);
+        if (!imageKind(buf)) errors.push(`${where}: photo file is not a JPEG/PNG`);
+        if (statSync(abs).size > 250000) errors.push(`${where}: photo file too large`);
+      }
+    }
+    if (ctx.photoPattern && ctx.photoPattern.test(`${ph.title} ${ph.creator}`)) errors.push(`${where}: photo title hits the sensitive-content filter`);
   }
   if (item.category === 'global') {
     const lang = ctx.languages.find((l) => l.id === item.lang?.id);
@@ -120,7 +139,7 @@ export function validateAll(root, { now = Date.now() } = {}) {
 
   // Feed.
   const history = loadHistory(root);
-  const ctx = { now, blocked: banks.visual.blockedTerms, visual: banks.visual, languages: langs };
+  const ctx = { now, root, blocked: banks.visual.blockedTerms, visual: banks.visual, languages: langs, photoPattern: banks.photo ? new RegExp(banks.photo.blockedPattern, 'i') : null };
   const seenIds = new Set();
   const seenHashes = new Set();
   for (const item of history) {

@@ -1,0 +1,401 @@
+{
+ "enabled": true,
+ "description": "Settings and caption pairs for hourly museum-art cards. Only CC0 / Public Domain Mark images from allow-listed museums and libraries are used, via the Openverse API (no key, no cost).",
+ "perDay": "one photo card roughly every 6th card",
+ "everyNth": 6,
+ "licenses": {
+  "cc0": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "pdm": "https://creativecommons.org/publicdomain/mark/1.0/"
+ },
+ "sources": [
+  "met",
+  "rijksmuseum",
+  "brooklynmuseum",
+  "clevelandmuseum",
+  "smk",
+  "bio_diversity"
+ ],
+ "maxBytes": 200000,
+ "blockedPattern": "\\b(god|gods|allah|prophet|muhammad|mohammed|christ|jesus|saint|saints|madonna|virgin|buddha|bodhisattva|angel|angels|crucifi\\w*|martyr\\w*|apostle\\w*|quran|koran|bible|caliph|companion|nude|naked|erotic|sex|rape|murder\\w*|massacre|execution|executed|slave|slaves|slaughter\\w*|corpse|dead|death|died|battle|war|torture\\w*|hanging|hanged|blood\\w*|sacrific\\w*|hunt|hunting|hunter|killed|kill|slain|butcher\\w*|negro|savage|blackamoor|hottentot|coolie|skull|skeleton|prisoner|prison|gun|rifle|shot)\\b",
+ "themes": [
+  {
+   "id": "cat",
+   "query": "cat",
+   "match": "\\b(cat|cats|kitten|kitty)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The cat, when asked to get off the keyboard:",
+      "reply": "No. This is my keyboard now."
+     },
+     {
+      "headline": "Cat reviewing your 'quick call' invite:",
+      "reply": "Declined. I have a nap scheduled until 2031."
+     },
+     {
+      "headline": "Cat, 3 a.m., asked to be quiet:",
+      "reply": "No. The hallway needs a concert."
+     },
+     {
+      "headline": "Cat asked to share the sofa:",
+      "reply": "Sharing is a human concept. No."
+     },
+     {
+      "headline": "Cat, when you say 'dinner is in ten minutes':",
+      "reply": "I've been dying since the last ten minutes. No."
+     },
+     {
+      "headline": "Cat on your Monday morning plans:",
+      "reply": "Cancelled. By paw."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "القطة، حين طلبوا منها النزول عن الكيبورد:",
+      "reply": "لا. هذا الكيبورد صار كيبوردي."
+     },
+     {
+      "headline": "القطة تراجع دعوة «مكالمة سريعة»:",
+      "reply": "مرفوضة. عندي قيلولة محجوزة حتى 2031."
+     },
+     {
+      "headline": "القطة، الثالثة فجرًا، حين طُلب منها الهدوء:",
+      "reply": "لا. الممر يحتاج حفلة."
+     },
+     {
+      "headline": "القطة حين طلبوا منها مشاركة الكنبة:",
+      "reply": "المشاركة فكرة بشرية. لا."
+     },
+     {
+      "headline": "القطة حين تقول لها «العشاء بعد عشر دقائق»:",
+      "reply": "أنا أموت من العشر دقائق الماضية. لا."
+     },
+     {
+      "headline": "القطة تعلّق على خطط صباح الاثنين:",
+      "reply": "ملغاة. بالمخلب."
+     }
+    ]
+   }
+  },
+  {
+   "id": "dog",
+   "query": "dog",
+   "match": "\\b(dog|dogs|puppy|hound)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The dog, asked to leave the park:",
+      "reply": "No. Five more minutes. Forever."
+     },
+     {
+      "headline": "Dog hearing the word 'bath':",
+      "reply": "I heard nothing. I know nothing. No."
+     },
+     {
+      "headline": "Dog asked to stop barking at the mailman:",
+      "reply": "This is my job. No."
+     },
+     {
+      "headline": "Dog invited to a 'serious conversation':",
+      "reply": "Is there a ball in it? No ball, no talk."
+     },
+     {
+      "headline": "Dog at the vet door:",
+      "reply": "I changed my mind about every walk. NO."
+     },
+     {
+      "headline": "Dog when you say 'not now':",
+      "reply": "'Not now' is a language I don't speak. No."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "الكلب حين طُلب منه مغادرة الحديقة:",
+      "reply": "لا. خمس دقائق إضافية. للأبد."
+     },
+     {
+      "headline": "الكلب حين يسمع كلمة «حمّام»:",
+      "reply": "ما سمعت شيئًا. ما أعرف شيئًا. لا."
+     },
+     {
+      "headline": "الكلب حين طُلب منه ألا ينبح على ساعي البريد:",
+      "reply": "هذه وظيفتي. لا."
+     },
+     {
+      "headline": "الكلب مدعوًّا إلى «حديث جدّي»:",
+      "reply": "هل فيه كرة؟ بدون كرة لا حديث."
+     },
+     {
+      "headline": "الكلب عند باب الطبيب البيطري:",
+      "reply": "غيّرت رأيي في كل المشاوير. لا."
+     },
+     {
+      "headline": "الكلب حين تقول له «ليس الآن»:",
+      "reply": "«ليس الآن» لغة لا أتكلمها. لا."
+     }
+    ]
+   }
+  },
+  {
+   "id": "owl",
+   "query": "owl",
+   "match": "\\b(owl|owls)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The owl, asked to join the 7 a.m. meeting:",
+      "reply": "Wisdom says no. Night says no. Everything says no."
+     },
+     {
+      "headline": "Owl reading your 'urgent' email:",
+      "reply": "Who? Who sent this? Who cares? No."
+     },
+     {
+      "headline": "Owl asked to be a morning person:",
+      "reply": "I'll think about it. By thinking I mean no."
+     },
+     {
+      "headline": "Owl hearing 'let's circle back':",
+      "reply": "I circle at night. This is not a circle. No."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "البومة حين دُعيت إلى اجتماع السابعة صباحًا:",
+      "reply": "الحكمة تقول لا. الليل يقول لا. كل شيء يقول لا."
+     },
+     {
+      "headline": "البومة تقرأ بريدك «العاجل»:",
+      "reply": "مَن؟ مَن أرسله؟ ومَن يهتم؟ لا."
+     },
+     {
+      "headline": "البومة حين طلبوا منها أن تصير صباحية:",
+      "reply": "سأفكّر. والتفكير هنا معناه لا."
+     },
+     {
+      "headline": "البومة حين تسمع «نعود إلى هذا لاحقًا»:",
+      "reply": "أنا أحوم ليلًا. وهذه ليست دائرة. لا."
+     }
+    ]
+   }
+  },
+  {
+   "id": "horse",
+   "query": "horse",
+   "match": "\\b(horse|horses|stallion|mare|pony)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The horse, asked to move faster on Monday:",
+      "reply": "Horsepower: 1. Motivation: 0. No."
+     },
+     {
+      "headline": "Horse at the stable door:",
+      "reply": "I know it's a trap. It's always a trap. No."
+     },
+     {
+      "headline": "Horse hearing 'one more lap':",
+      "reply": "You said that three laps ago. No."
+     },
+     {
+      "headline": "Horse asked to wear the tiny hat:",
+      "reply": "I have dignity. Small, but it exists. No."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "الحصان حين طلبوا منه أن يسرع يوم الاثنين:",
+      "reply": "القدرة الحصانية: واحد. الحماس: صفر. لا."
+     },
+     {
+      "headline": "الحصان عند باب الإسطبل:",
+      "reply": "أعرف أنها مصيدة. دائمًا مصيدة. لا."
+     },
+     {
+      "headline": "الحصان حين يسمع «لفّة أخيرة»:",
+      "reply": "قلتها قبل ثلاث لفّات. لا."
+     },
+     {
+      "headline": "الحصان حين طلبوا منه ارتداء القبعة الصغيرة:",
+      "reply": "عندي كرامة. صغيرة، لكنها موجودة. لا."
+     }
+    ]
+   }
+  },
+  {
+   "id": "lion",
+   "query": "lion",
+   "match": "\\b(lion|lions|lioness)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The lion when you ask for a 'quick favour':",
+      "reply": "I'm the king. The king's favours are slow. No."
+     },
+     {
+      "headline": "Lion invited to a team-building day:",
+      "reply": "My team is asleep. We're building the nap. No."
+     },
+     {
+      "headline": "Lion asked to roar a bit quieter:",
+      "reply": "NOOOO. (That was the quiet one.)"
+     },
+     {
+      "headline": "Lion told 'this is a sprint, not a marathon':",
+      "reply": "I'm a lion. I do 'a short sprint, then 20 hours of no'."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "الأسد حين تطلب منه «خدمة سريعة»:",
+      "reply": "أنا الملك. وخدمات الملك بطيئة. لا."
+     },
+     {
+      "headline": "الأسد مدعوًّا ليوم بناء الفريق:",
+      "reply": "فريقي نائم. نحن نبني القيلولة. لا."
+     },
+     {
+      "headline": "الأسد حين طلبوا منه زئيرًا أخفّ:",
+      "reply": "لااااا. (وهذا كان الهادئ.)"
+     },
+     {
+      "headline": "الأسد حين قيل له «هذا سباق سرعة لا ماراثون»:",
+      "reply": "أنا أسد. أركض قليلًا ثم عشرون ساعة من اللا."
+     }
+    ]
+   }
+  },
+  {
+   "id": "rooster",
+   "query": "rooster",
+   "match": "\\b(rooster|cockerel|cock|hen|chicken)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The rooster at 4:59 a.m.:",
+      "reply": "The sun asked for permission. I said no. Then I said it louder."
+     },
+     {
+      "headline": "Rooster asked to be quiet on Sunday:",
+      "reply": "Sunday doesn't exist. Cock-a-doodle-NO."
+     },
+     {
+      "headline": "Hen told the egg is 'a little late':",
+      "reply": "I'm not a printer. No."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "الديك في الرابعة وتسع وخمسين صباحًا:",
+      "reply": "الشمس طلبت إذنًا. قلت لا. ثم قلتها بصوت أعلى."
+     },
+     {
+      "headline": "الديك حين طلبوا منه الهدوء يوم الأحد:",
+      "reply": "الأحد غير موجود. كوكو-لا."
+     },
+     {
+      "headline": "الدجاجة حين قيل لها إن البيضة «تأخرت قليلًا»:",
+      "reply": "أنا لست طابعة. لا."
+     }
+    ]
+   }
+  },
+  {
+   "id": "monkey",
+   "query": "monkey",
+   "match": "\\b(monkey|monkeys|ape|apes|baboon)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The monkey, asked to explain the spreadsheet:",
+      "reply": "I only know bananas. No."
+     },
+     {
+      "headline": "Monkey invited to 'brainstorm':",
+      "reply": "My brain is a storm of bananas. No."
+     },
+     {
+      "headline": "Monkey when the boss says 'do it by hand':",
+      "reply": "I'm doing it by foot. Still no."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "القرد حين طلبوا منه شرح ملف الإكسل:",
+      "reply": "أعرف الموز فقط. لا."
+     },
+     {
+      "headline": "القرد مدعوًّا إلى «عصف ذهني»:",
+      "reply": "دماغي عاصفة موز. لا."
+     },
+     {
+      "headline": "القرد حين يقول المدير «افعلها يدويًا»:",
+      "reply": "سأفعلها بالقدم. وما زالت لا."
+     }
+    ]
+   }
+  },
+  {
+   "id": "donkey",
+   "query": "donkey",
+   "match": "\\b(donkey|donkeys|ass|mule|burro)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The donkey, asked for 'just one more load':",
+      "reply": "I read Nasreddin. I know how this ends. No."
+     },
+     {
+      "headline": "Donkey asked to be a bit more enthusiastic:",
+      "reply": "This IS my enthusiasm. No."
+     },
+     {
+      "headline": "Donkey told 'don't be stubborn':",
+      "reply": "I prefer 'consistent'. No."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "الحمار حين طلبوا منه «حمولة واحدة فقط»:",
+      "reply": "قرأت نصر الدين خوجا. أعرف كيف تنتهي. لا."
+     },
+     {
+      "headline": "الحمار حين طلبوا منه حماسًا أكثر:",
+      "reply": "هذا هو حماسي. لا."
+     },
+     {
+      "headline": "الحمار حين قيل له «لا تكن عنيدًا»:",
+      "reply": "أفضّل «ثابت على موقفه». لا."
+     }
+    ]
+   }
+  },
+  {
+   "id": "bear",
+   "query": "bear",
+   "match": "\\b(bear|bears)\\b",
+   "captions": {
+    "en": [
+     {
+      "headline": "The bear, asked to wake up for spring:",
+      "reply": "Spring can wait. I'm in a meeting with my pillow."
+     },
+     {
+      "headline": "Bear hearing 'let's go on a diet':",
+      "reply": "I'm preparing for winter. Every day. No."
+     }
+    ],
+    "ar": [
+     {
+      "headline": "الدبّ حين طلبوا منه الاستيقاظ للربيع:",
+      "reply": "الربيع يستطيع الانتظار. أنا في اجتماع مع وسادتي."
+     },
+     {
+      "headline": "الدبّ حين يسمع «لنبدأ حمية»:",
+      "reply": "أستعد للشتاء. كل يوم. لا."
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -34,6 +34,7 @@ export function loadBanks(root) {
     text,
     machine: readJson(join(p.banks, 'machine.json')),
     visual: readJson(join(p.banks, 'visual.json')),
+    photo: existsSync(join(p.banks, 'photo.json')) ? readJson(join(p.banks, 'photo.json')) : null,
     languages: readJson(p.languages)
   };
 }

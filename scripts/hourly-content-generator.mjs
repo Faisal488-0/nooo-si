@@ -8,13 +8,15 @@
 // Options: --root <dir> --seed <int> --now <ISO date>
 //
 // Exit codes: 0 = card added, 3 = CONTENT_POOL_EXHAUSTED, 1 = any other error.
-// No network access, no API keys, no paid services.
+// Text cards need no network. Every Nth card is a museum-art photo card (free Openverse API, no key);
+// if that step fails for any reason the run just makes a normal text card. No paid services, no secrets.
 
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { randomInt } from 'node:crypto';
 import { generateNext, makeRng, capacityReport, ENGINE_VERSION } from './lib/engine.mjs';
 import { loadBanks, loadHistory, appendItem } from './lib/store.mjs';
+import { isPhotoTurn, makePhotoCard } from './lib/photos.mjs';
 
 function parseArgs(argv) {
   const args = { dryRun: false, capacity: false };
@@ -49,7 +51,13 @@ try {
   if (Number.isNaN(now.getTime())) throw new Error(`Invalid --now value: ${args.now}`);
   const seed = Number.isFinite(args.seed) ? args.seed : randomInt(1, 2 ** 31 - 1);
 
-  const { item, tried } = generateNext({ banks, history, now, rng: makeRng(seed) });
+  let item = null;
+  let tried = [];
+  if (isPhotoTurn(history, banks.photo)) {
+    item = await makePhotoCard({ root, banks, history, now, rng: makeRng(seed ^ 0x5bd1e995), log: (m) => console.log(`::notice::${m}`) });
+    if (!item) console.log('::notice::Photo card unavailable this hour; making a text card instead.');
+  }
+  if (!item) ({ item, tried } = generateNext({ banks, history, now, rng: makeRng(seed) }));
   if (tried.length) console.log(`::notice::Streams with no fresh combos were skipped: ${tried.join(', ')}`);
 
   if (args.dryRun) {

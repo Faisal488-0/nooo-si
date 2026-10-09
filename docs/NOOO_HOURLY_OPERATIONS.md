@@ -62,3 +62,13 @@
 ## Things this workflow will never do
 
 Change DNS / NS / MX / DNSSEC or e-mail records, change `CNAME` (the validator enforces `nooo.si`), force-push, call a paid API, or store secrets.
+
+## Museum photo cards (every 6th card)
+
+- **What:** a CC0 / Public-Domain-Mark museum image (cats, dogs, owls, horses, donkeys…) with a NOOO caption. Found via the free Openverse API (no key), allow-listed sources only: `met`, `rijksmuseum`, `brooklynmuseum`, `clevelandmuseum`, `smk`, `bio_diversity` (settings: `content/banks/photo.json`).
+- **Stored locally:** the thumbnail (≤ 200 KB) is saved in `data/feed/img/` and credited on the card, so visitors' browsers never contact a third party.
+- **Safety:** CC0/PDM only; an on-theme check (the animal must be in the title/tags); a blocklist for religious, nudity, violence, slavery and similar words (`blockedPattern`); the validator re-checks every stored photo (license, https credit links, real JPEG/PNG, size).
+- **Never breaks the hour:** if Openverse is down, the image is rejected, or nothing acceptable is found, that hour simply makes a normal text card.
+- **Kill switch:** set `"enabled": false` in `content/banks/photo.json`. To remove one image, delete its card from `data/feed/archive/*.json` and its file in `data/feed/img/`, then run `npm run check`.
+- **Honest limit:** automatic picking cannot be perfect. Tell us on GitHub about any image that should go.
+- Memes: real "meme templates" are almost always copyrighted, so they are NOT pulled automatically. Museum art + a caption is the legal, free version of the same genre.

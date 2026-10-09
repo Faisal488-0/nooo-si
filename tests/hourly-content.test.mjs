@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, cpSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, cpSync, readFileSync, writeFileSync, rmSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -16,6 +16,9 @@ function sandbox({ emptyFeed = true } = {}) {
   const dir = mkdtempSync(join(tmpdir(), 'nooo-'));
   for (const p of ['content', 'data', 'assets', 'scripts', 'CNAME', 'index.html', 'package.json']) cpSync(join(ROOT, p), join(dir, p), { recursive: true });
   if (emptyFeed) rmSync(join(dir, 'data', 'feed'), { recursive: true, force: true });
+  // Tests never touch the network: photo cards are switched off here and tested separately with a fake fetch.
+  const pb = join(dir, 'content', 'banks', 'photo.json');
+  const bank = JSON.parse(readFileSync(pb, 'utf8')); bank.enabled = false; writeFileSync(pb, JSON.stringify(bank));
   return dir;
 }
 
@@ -149,4 +152,55 @@ test('world laughs data: every joke has a region + both languages, every quote h
   assert.ok(regions.size >= 15, 'jokes should cover many parts of the world');
   for (const j of wit.jokes) assert.ok(wit.regions[j.region] && j.ar && j.en, j.id);
   for (const q of wit.quotes) assert.ok(q.source && q.text.ar && q.text.en && q.take.ar && q.take.en, q.id);
+});
+
+// ---------- photo cards (fake network) ----------
+import { acceptCandidate, makePhotoCard, isPhotoTurn, imageKind } from '../scripts/lib/photos.mjs';
+
+const JPEG = Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xe0]), Buffer.alloc(5000, 1)]);
+const cand = (o = {}) => ({ id: 'aaaaaaaa-1111-2222-3333-444444444444', license: 'cc0', source: 'met', mature: false, title: 'Cat amulet', creator: '', foreign_landing_url: 'https://www.metmuseum.org/x', tags: [], ...o });
+const fakeFetch = (results, { thumbOk = true, buf = JPEG } = {}) => async (url) => (String(url).includes('/thumb/')
+  ? { ok: thumbOk, arrayBuffer: async () => buf }
+  : { ok: true, json: async () => ({ results }) });
+
+test('photo filter: only CC0/PDM, allow-listed source, on-theme, no sensitive words', () => {
+  const bank = loadBanks(ROOT).photo;
+  const theme = bank.themes.find((t) => t.id === 'cat');
+  const ok = (o) => acceptCandidate(cand(o), theme, bank, new Set());
+  assert.equal(ok({}), true);
+  assert.equal(ok({ license: 'by' }), false, 'attribution-licensed images are not used');
+  assert.equal(ok({ license: 'by-sa' }), false);
+  assert.equal(ok({ source: 'flickr' }), false, 'unknown sources are not used');
+  assert.equal(ok({ mature: true }), false);
+  assert.equal(ok({ title: 'Dog' }), false, 'must match the theme');
+  for (const bad of ['Cat and the nude woman', 'Saint with a cat', 'Death of a cat', 'Cat hunting scene', 'Prophet and the cat']) assert.equal(ok({ title: bad }), false, bad);
+  assert.equal(acceptCandidate(cand(), theme, bank, new Set([cand().id])), false, 'no repeats');
+});
+
+test('photo card is built, stored, credited and passes the validator', async () => {
+  const dir = sandbox();
+  const banks = loadBanks(dir); banks.photo.enabled = true;
+  const item = await makePhotoCard({ root: dir, banks, history: [], now: new Date('2026-10-09T10:17:00Z'), fetchImpl: fakeFetch([cand()]) });
+  assert.ok(item && item.category === 'photo');
+  assert.equal(item.photo.license, 'cc0');
+  assert.ok(existsSync(join(dir, item.photo.file)));
+  assert.equal(item.contentHash, contentHash(item));
+});
+
+test('photo problems never break the run: network error, bad image, too big, nothing acceptable', async () => {
+  const dir = sandbox();
+  const banks = loadBanks(dir); banks.photo.enabled = true;
+  const args = { root: dir, banks, history: [], now: new Date('2026-10-09T10:17:00Z') };
+  assert.equal(await makePhotoCard({ ...args, fetchImpl: async () => { throw new Error('offline'); } }), null);
+  assert.equal(await makePhotoCard({ ...args, fetchImpl: fakeFetch([cand()], { buf: Buffer.from('<html>not an image</html>'.repeat(200)) }) }), null);
+  assert.equal(await makePhotoCard({ ...args, fetchImpl: fakeFetch([cand()], { buf: Buffer.concat([JPEG, Buffer.alloc(300000)]) }) }), null);
+  assert.equal(await makePhotoCard({ ...args, fetchImpl: fakeFetch([cand({ license: 'by' })]) }), null);
+  assert.equal(imageKind(Buffer.from('GIF89a')), null);
+});
+
+test('photo cards appear every Nth turn and can be switched off', () => {
+  const bank = { enabled: true, everyNth: 6 };
+  assert.equal(isPhotoTurn(new Array(5).fill({}), bank), true);
+  assert.equal(isPhotoTurn(new Array(4).fill({}), bank), false);
+  assert.equal(isPhotoTurn(new Array(5).fill({}), { ...bank, enabled: false }), false);
 });

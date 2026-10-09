@@ -5,6 +5,7 @@ export const DICT = {
   ar: {
     skip: 'انتقل إلى المحتوى',
     tagline: 'NOOO! — اللغة العالمية لكلمة «لا»',
+    photoBy: 'الصورة', publicDomain: 'ملك عام',
     witTitle: 'ضحك العالم — نكت وحكم وسخرية من كل الأرض',
     witIntro: 'نكت من مختلف أنحاء العالم، وأقوال علماء وحكماء وساخرين بمصادرها. اضغط «نكتة عشوائية» ثم اسمع طبلة النكتة.',
     witJokes: 'نكت العالم', witQuotes: 'حكماء وساخرون', witAll: 'كل العالم', witRegion: 'المنطقة',
@@ -31,7 +32,7 @@ export const DICT = {
     feedError: 'تعذّر تحميل البطاقات الآن. حاول التحديث.',
     freshToast: 'وصلت «لا» طازجة! 🎉',
     archiveBtn: 'تصفّح الأرشيف', archiveMonth: 'الشهر', archiveCat: 'الفئة', allCats: 'الكل', loadMore: 'المزيد',
-    cats: { boss: 'لا للمدير', friends: 'لا للأصدقاء', relationship: 'لا في العلاقات', cat: 'لا القطط', scifi: 'لا الفضائية', binary: 'لا بالثنائي', morse: 'لا بمورس', office: 'لا المكتب', monday: 'لا أول الأسبوع', global: 'لا العالمية' },
+    cats: { boss: 'لا للمدير', friends: 'لا للأصدقاء', relationship: 'لا في العلاقات', cat: 'لا القطط', scifi: 'لا الفضائية', binary: 'لا بالثنائي', morse: 'لا بمورس', office: 'لا المكتب', monday: 'لا أول الأسبوع', global: 'لا العالمية', photo: 'لا في المتحف' },
     share: 'مشاركة', copy: 'نسخ', copied: 'تم النسخ ✓', download: 'تنزيل PNG', replay: 'أعد المؤثر', copyLink: 'نسخ الرابط',
     shareText: 'قلها بثقة: NOOO! 🙅',
     verified: 'مُدقّقة', source: 'المصدر',
@@ -79,6 +80,7 @@ export const DICT = {
   en: {
     skip: 'Skip to content',
     tagline: 'NOOO! — The Universal Language of No',
+    photoBy: 'Image', publicDomain: 'Public Domain',
     witTitle: 'THE WORLD LAUGHS — jokes, wisdom and satire from everywhere',
     witIntro: 'Jokes from around the world plus quotes from scholars, sages and satirists, with sources. Hit "Random joke", then bring the rimshot.',
     witJokes: 'World jokes', witQuotes: 'Sages & satirists', witAll: 'Whole world', witRegion: 'Region',
@@ -105,7 +107,7 @@ export const DICT = {
     feedError: "Couldn't load the cards right now. Try refreshing.",
     freshToast: 'A fresh NO just landed! 🎉',
     archiveBtn: 'Browse the archive', archiveMonth: 'Month', archiveCat: 'Category', allCats: 'All', loadMore: 'Load more',
-    cats: { boss: 'Boss NO', friends: 'Friends NO', relationship: 'Relationship NO', cat: 'Cat NO', scifi: 'Sci-Fi NO', binary: 'Binary NO', morse: 'Morse NO', office: 'Office NO', monday: 'Monday NO', global: 'Global NO' },
+    cats: { boss: 'Boss NO', friends: 'Friends NO', relationship: 'Relationship NO', cat: 'Cat NO', scifi: 'Sci-Fi NO', binary: 'Binary NO', morse: 'Morse NO', office: 'Office NO', monday: 'Monday NO', global: 'Global NO', photo: 'Museum NO' },
     share: 'Share', copy: 'Copy', copied: 'Copied ✓', download: 'Download PNG', replay: 'Replay effect', copyLink: 'Copy link',
     shareText: 'Say it with confidence: NOOO! 🙅',
     verified: 'Verified', source: 'Source',

@@ -10,6 +10,7 @@ import { toBinary, toMorse, morseSupported } from '../../assets/js/lib/encoders.
 
 export const ENGINE_VERSION = 'template-engine-v1';
 export const CATEGORIES = ['boss', 'friends', 'relationship', 'cat', 'scifi', 'binary', 'morse', 'office', 'monday', 'global'];
+export const ALL_CATEGORIES = [...CATEGORIES, 'photo'];
 export const TEXT_CATEGORIES = ['boss', 'friends', 'relationship', 'cat', 'scifi', 'office', 'monday'];
 export const LOCALES = ['ar', 'en'];
 export const SIMILARITY_THRESHOLD = 0.8;
@@ -62,7 +63,9 @@ export function jaccard(a, b) {
 
 export function contentHash(item) {
   const code = item.code ? `${item.code.type}:${item.code.input}:${item.code.output}` : '';
-  return sha256([item.category, item.locale, item.headline, item.body, code].join('|'));
+  const parts = [item.category, item.locale, item.headline, item.body, code];
+  if (item.photo) parts.push(`photo:${item.photo.sourceId}`); // existing cards keep their original hashes
+  return sha256(parts.join('|'));
 }
 
 export function textForSimilarity(item) {

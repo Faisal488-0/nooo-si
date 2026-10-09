@@ -67,21 +67,31 @@ function drawCaption(ctx, text, y, anchor, W) {
 }
 
 /** Composes a meme into a canvas. Returns the canvas. */
-export async function composeMeme({ preset, top, bottom, sticker = true }) {
+export async function composeMeme({ preset, top, bottom, sticker = true, photoUrl = null }) {
   const W = 800;
   const H = 600;
   try { await Promise.all([document.fonts.load('40px Bungee'), document.fonts.load('40px Lalezar')]); } catch { /* fonts optional */ }
   const svg = renderScene({ ...preset, sticker: null }, { sticker: false, idSuffix: 'export' }).replace('<svg ', `<svg width="${W}" height="${H}" `);
   const img = new Image();
   img.decoding = 'async';
-  img.src = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+  img.src = photoUrl || `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
   await img.decode();
   const canvas = document.createElement('canvas');
   canvas.width = W;
   canvas.height = H;
   const ctx = canvas.getContext('2d');
-  ctx.drawImage(img, 0, 0, W, H);
-  if (sticker && preset.sticker) {
+  if (photoUrl) {
+    // Cover-fit the museum photo on a paper background.
+    ctx.fillStyle = '#FFF6E5';
+    ctx.fillRect(0, 0, W, H);
+    const k = Math.max(W / img.naturalWidth, H / img.naturalHeight);
+    const w = img.naturalWidth * k;
+    const h = img.naturalHeight * k;
+    ctx.drawImage(img, (W - w) / 2, (H - h) / 2, w, h);
+  } else {
+    ctx.drawImage(img, 0, 0, W, H);
+  }
+  if (sticker && preset.sticker && !photoUrl) {
     const ar = isArabic(preset.sticker);
     ctx.save();
     ctx.translate(preset.layout === 'right' ? 190 : 640, top ? 170 : 110);
@@ -141,7 +151,13 @@ export function buildCard(item, { big = false, badge = null } = {}) {
   const itemLang = item.locale === 'ar' ? 'ar' : 'en';
   const card = el('article', { class: `card cat-${item.category}${big ? ' card-big' : ''}`, lang: itemLang, dir: itemLang === 'ar' ? 'rtl' : 'ltr', id: `card-${item.id}`, dataset: { id: item.id } });
   const art = el('div', { class: 'card-art' });
-  art.append(svgNode(renderScene(item.visualPreset, { idSuffix: item.id.slice(-8), title: `${item.headline} — ${item.body}` })));
+  if (item.photo) {
+    const img = el('img', { class: 'card-photo', src: item.photo.file, alt: `${item.photo.title} — ${item.photo.provider}`, loading: 'lazy', decoding: 'async' });
+    img.addEventListener('error', () => { img.replaceWith(svgNode(renderScene(item.visualPreset, { idSuffix: item.id.slice(-8), title: item.headline }))); });
+    art.append(img);
+  } else {
+    art.append(svgNode(renderScene(item.visualPreset, { idSuffix: item.id.slice(-8), title: `${item.headline} — ${item.body}` })));
+  }
   if (badge) art.append(el('span', { class: 'badge', text: badge }));
   card.append(art);
 
@@ -155,6 +171,12 @@ export function buildCard(item, { big = false, badge = null } = {}) {
   }
   body.append(el('p', { class: 'card-reply', text: item.body }));
   if (item.kicker) body.append(el('p', { class: 'kicker', text: item.kicker }));
+  if (item.photo) {
+    const p = item.photo;
+    body.append(el('p', { class: 'photo-credit' },
+      `${t('photoBy')}: `, el('a', { href: p.landingUrl, target: '_blank', rel: 'noopener noreferrer', text: `${p.title}${p.creator ? ` — ${p.creator}` : ''}` }),
+      ` · ${p.provider} · `, el('a', { href: p.licenseUrl, target: '_blank', rel: 'noopener noreferrer', text: p.license === 'cc0' ? 'CC0' : t('publicDomain') })));
+  }
   if (item.verified && item.lang?.sourceUrl) {
     body.append(el('p', { class: 'verified' }, `✓ ${t('verified')} — `, el('a', { href: item.lang.sourceUrl, target: '_blank', rel: 'noopener noreferrer', text: t('source') })));
   }
@@ -164,7 +186,7 @@ export function buildCard(item, { big = false, badge = null } = {}) {
   const actions = el('div', { class: 'card-actions' },
     el('button', { class: 'btn btn-sm', type: 'button', text: t('share'), onclick: () => openShare({ title: 'NOOO!', text: cardText(item), url: cardUrl(item) }) }),
     el('button', { class: 'btn btn-sm', type: 'button', text: t('copy'), onclick: async () => { if (await copyText(`${cardText(item)}\n${cardUrl(item)}`)) toast(t('copied')); } }),
-    el('button', { class: 'btn btn-sm', type: 'button', text: t('download'), onclick: () => downloadMeme({ preset: item.visualPreset, top: item.headline, bottom: item.code ? item.code.input : item.lang ? item.lang.no : item.body }, `nooo-${item.id}.png`) }),
+    el('button', { class: 'btn btn-sm', type: 'button', text: t('download'), onclick: () => downloadMeme({ preset: item.visualPreset, photoUrl: item.photo?.file, top: item.headline, bottom: item.code ? item.code.input : item.lang ? item.lang.no : item.body }, `nooo-${item.id}.png`) }),
     item.effect && item.effect !== 'none' ? el('button', { class: 'btn btn-sm btn-ghost', type: 'button', 'aria-label': t('replay'), title: t('replay'), text: '✨', onclick: () => playEffect(card, item.effect) }) : null
   );
   body.append(actions);
