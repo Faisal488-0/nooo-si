@@ -1,0 +1,534 @@
+{
+ "meta": {
+  "description": "Jokes and quotes for the WORLD LAUGHS section.",
+  "jokeNote": {
+   "en": "Jokes marked 'folk' are retellings of widely known folk tales (Nasreddin, Juha) and old anecdotes. Jokes marked 'NOOO original' are written for this site as affectionate humour about everyday cultural habits — they poke fun at situations, not at people.",
+   "ar": "النكت المصنّفة «تراثية» إعادة صياغة لحكايات شعبية معروفة (نصر الدين خوجا، جحا) ونوادر قديمة. والنكت المصنّفة «أصلية من NOOO» كُتبت لهذا الموقع كفكاهة ودّية عن عادات يومية: نسخر من المواقف لا من الناس."
+  },
+  "quoteNote": {
+   "en": "Each quote names its published source. Where the original is not English or Arabic, the translation is ours (free translation). The line under each quote is NOOO's own joke, not the author's.",
+   "ar": "كل قول يذكر مصدره المنشور. حيث لا يكون الأصل بالعربية أو الإنجليزية فالترجمة منا (ترجمة حرّة). والسطر تحت كل قول هو نكتة NOOO وليس من كلام صاحب القول."
+  }
+ },
+ "regions": {
+  "tr": {
+   "en": "Turkey / Anatolia",
+   "ar": "تركيا والأناضول"
+  },
+  "me": {
+   "en": "Arab world",
+   "ar": "العالم العربي"
+  },
+  "ir": {
+   "en": "Iran",
+   "ar": "إيران"
+  },
+  "in": {
+   "en": "India",
+   "ar": "الهند"
+  },
+  "cn": {
+   "en": "China",
+   "ar": "الصين"
+  },
+  "jp": {
+   "en": "Japan",
+   "ar": "اليابان"
+  },
+  "ru": {
+   "en": "Russia",
+   "ar": "روسيا"
+  },
+  "uk": {
+   "en": "United Kingdom",
+   "ar": "بريطانيا"
+  },
+  "ie": {
+   "en": "Ireland",
+   "ar": "أيرلندا"
+  },
+  "de": {
+   "en": "Germany",
+   "ar": "ألمانيا"
+  },
+  "nl": {
+   "en": "Netherlands",
+   "ar": "هولندا"
+  },
+  "fi": {
+   "en": "Finland",
+   "ar": "فنلندا"
+  },
+  "fr": {
+   "en": "France",
+   "ar": "فرنسا"
+  },
+  "es": {
+   "en": "Spain & Latin America",
+   "ar": "إسبانيا وأمريكا اللاتينية"
+  },
+  "br": {
+   "en": "Brazil",
+   "ar": "البرازيل"
+  },
+  "za": {
+   "en": "South Africa",
+   "ar": "جنوب أفريقيا"
+  },
+  "ng": {
+   "en": "Nigeria",
+   "ar": "نيجيريا"
+  },
+  "au": {
+   "en": "Australia",
+   "ar": "أستراليا"
+  },
+  "ca": {
+   "en": "Canada",
+   "ar": "كندا"
+  },
+  "th": {
+   "en": "Thailand",
+   "ar": "تايلاند"
+  },
+  "bg": {
+   "en": "Bulgaria",
+   "ar": "بلغاريا"
+  },
+  "ma": {
+   "en": "Morocco",
+   "ar": "المغرب"
+  }
+ },
+ "jokes": [
+  {
+   "id": "j01",
+   "region": "tr",
+   "kind": "folk",
+   "en": "A neighbour asks to borrow Nasreddin's donkey. \"Sorry, it's out.\" Right then the donkey brays from the stable. \"But it's right there!\" Nasreddin, offended: \"Who do you trust — me, or a donkey?\"",
+   "ar": "طلب جار من نصر الدين خوجا أن يستعير حماره. قال: «آسف، الحمار غير موجود». في هذه اللحظة نهق الحمار من الإسطبل. قال الجار: «لكنه هناك!» فقال خوجا غاضبًا: «تصدّقني أنا أم تصدّق حمارًا؟»"
+  },
+  {
+   "id": "j02",
+   "region": "tr",
+   "kind": "folk",
+   "en": "A neighbour returns Nasreddin's pot with a tiny one inside: \"Your pot gave birth!\" Nasreddin smiles and keeps both. Next week the neighbour borrows it again — and Nasreddin says: \"Condolences. Your pot died.\" \"Pots don't die!\" \"You believed it could give birth, but not that it could die?\"",
+   "ar": "أعاد الجار قدر نصر الدين وفي داخله قدر صغير: «قدرك ولدت!» ابتسم خوجا وأخذ القدرين. بعد أسبوع استعار القدر مرة أخرى، فقال خوجا: «البقاء لله، قدرك ماتت». قال الجار: «القدور لا تموت!» فقال: «صدّقت أنها تلد ولا تصدّق أنها تموت؟»"
+  },
+  {
+   "id": "j03",
+   "region": "me",
+   "kind": "folk",
+   "en": "Juha was asked his age. \"Forty.\" \"But you said forty five years ago!\" Juha: \"I'm a man of my word. I don't change it.\"",
+   "ar": "سُئل جحا عن عمره فقال: «أربعون». قيل له: «لكنك قلت أربعين قبل خمس سنوات!» فقال: «أنا رجل صاحب كلمة، لا أغيّر كلامي.»"
+  },
+  {
+   "id": "j04",
+   "region": "me",
+   "kind": "folk",
+   "en": "Juha was on his knees under a streetlamp, searching. \"What did you lose?\" \"My key.\" \"Where?\" \"At home.\" \"Then why look here?\" \"The light is better here.\"",
+   "ar": "كان جحا راكعًا تحت عمود الإنارة يبحث عن شيء. سألوه: «ماذا أضعت؟» قال: «مفتاحي». «أين؟» «في البيت». «فلماذا تبحث هنا؟» قال: «لأن الإضاءة هنا أحسن.»"
+  },
+  {
+   "id": "j05",
+   "region": "me",
+   "kind": "original",
+   "en": "The Arab \"five minutes\", measured by scientists: five minutes = forty minutes, plus traffic, plus one more tea, plus a cousin who \"just needs to say hi\".",
+   "ar": "«خمس دقائق» العربية، كما قاسها العلماء: خمس دقائق = أربعون دقيقة، زائد الزحمة، زائد شاي إضافي، زائد قريب «بس بيسلّم»."
+  },
+  {
+   "id": "j06",
+   "region": "me",
+   "kind": "original",
+   "en": "You say \"no thank you\" to tea. The host hears \"opening bid\". By the fifth glass you have said no six times and drunk four. Nobody won. Everybody is awake until 3 a.m.",
+   "ar": "تقول «لا شكرًا» للشاي، فيسمعها المضيّف «بداية المفاوضات». عند الكأس الخامس تكون قلت لا ست مرات وشربت أربعة. لا أحد فاز، والكل صاحٍ حتى الثالثة فجرًا."
+  },
+  {
+   "id": "j07",
+   "region": "ir",
+   "kind": "original",
+   "en": "In Persian ta'arof you refuse the first offer, the second and the third — and you mean yes. The fourth time you mean no, but by then everyone has already served the food. Visitors have starved politely for centuries.",
+   "ar": "في «التعارف» الفارسي ترفض العرض الأول والثاني والثالث وأنت تعني نعم. وفي الرابع تعني لا فعلًا، لكن الجميع يكون قد قدّم الطعام. ضيوف جاعوا بأدب لقرون."
+  },
+  {
+   "id": "j08",
+   "region": "in",
+   "kind": "original",
+   "en": "The Indian head wobble was studied by a panel of experts. Conclusion: it means yes, no, maybe, hello, and \"I'm listening\" — all at once. Schrödinger's nod.",
+   "ar": "درست لجنة خبراء هزّة الرأس الهندية. الخلاصة: تعني نعم، لا، ربما، مرحبًا، و«أنا أسمعك» في الوقت نفسه. إنها إيماءة شرودنغر."
+  },
+  {
+   "id": "j09",
+   "region": "cn",
+   "kind": "original",
+   "en": "A Chinese parent says \"eat more.\" You say \"I'm full.\" Parent: \"Then you didn't eat enough.\" The only language where \"no\" is translated as \"another bowl of rice\".",
+   "ar": "الأم الصينية تقول: «كُل أكثر». تقول لها: «شبعت». ترد: «يعني ما أكلت كفاية». اللغة الوحيدة التي تُترجم فيها «لا» إلى «صحن رز ثانٍ»."
+  },
+  {
+   "id": "j10",
+   "region": "jp",
+   "kind": "original",
+   "en": "In Japanese, \"chotto…\" (a little…) means no. The longer the pause after it, the bigger the no. A fourteen-second \"ehhh…\" is basically a legal document.",
+   "ar": "في اليابانية كلمة «تشوتّو…» (قليلًا…) تعني لا. وكلما طالت الوقفة بعدها كبرت اللا. «إيه…» لأربع عشرة ثانية هي عمليًا وثيقة قانونية."
+  },
+  {
+   "id": "j11",
+   "region": "ru",
+   "kind": "folk",
+   "en": "The pessimist says: \"It can't get any worse!\" The optimist says: \"Oh, it can.\"",
+   "ar": "المتشائم يقول: «أسوأ من هيك مستحيل!» والمتفائل يقول: «لا، ممكن.»"
+  },
+  {
+   "id": "j12",
+   "region": "uk",
+   "kind": "original",
+   "en": "British translation guide: \"Quite interesting\" = no. \"With the greatest respect\" = you are wrong. \"I'll bear it in mind\" = never again. \"Perhaps we could consider…\" = no, and please stop talking.",
+   "ar": "دليل ترجمة بريطاني: «مثير للاهتمام نوعًا ما» = لا. «مع فائق الاحترام» = أنت مخطئ. «سآخذ ذلك بالاعتبار» = ولا مرة أخرى. «ربما يمكننا التفكير في…» = لا، ورجاءً اسكت."
+  },
+  {
+   "id": "j13",
+   "region": "ie",
+   "kind": "original",
+   "en": "In Ireland you never say \"no\". You say: \"Ah, it'd be grand, but sure we'll see.\" It is the only country where a refusal needs three cups of tea and your mother's blessing.",
+   "ar": "في أيرلندا لا تقول «لا» أبدًا. تقول: «آه، سيكون رائعًا، لكن لنرَ». البلد الوحيد الذي يحتاج الرفض فيه إلى ثلاثة أكواب شاي وبركة أمك."
+  },
+  {
+   "id": "j14",
+   "region": "de",
+   "kind": "original",
+   "en": "How many Germans does it take to change a light bulb? One — but only after the bulb files form 27b and waits for the stamp.",
+   "ar": "كم ألمانيًا يلزم لتغيير مصباح؟ واحد — لكن بعد أن يقدّم المصباح النموذج 27 ب وينتظر الختم."
+  },
+  {
+   "id": "j15",
+   "region": "nl",
+   "kind": "original",
+   "en": "Dutch directness: \"no\" is not rude, it's a service. They deliver it with the warmth of a receipt — itemised, accurate and non-refundable.",
+   "ar": "الصراحة الهولندية: «لا» ليست وقاحة بل خدمة. يقدمونها بدفء الإيصال: مفصّلة ودقيقة وغير قابلة للاسترداد."
+  },
+  {
+   "id": "j16",
+   "region": "fi",
+   "kind": "original",
+   "en": "A Finn says \"no\" by staying silent for four minutes. A Finn says \"yes\" by breathing in. A Finnish extrovert looks at YOUR shoes.",
+   "ar": "الفنلندي يقول «لا» بالصمت أربع دقائق، ويقول «نعم» بشهيق. والفنلندي المنفتح هو الذي ينظر إلى حذائك أنت."
+  },
+  {
+   "id": "j17",
+   "region": "fr",
+   "kind": "original",
+   "en": "A French person says \"non\" as a greeting. It isn't rejection — it's the warm-up. The real answer arrives after the second coffee and a small strike.",
+   "ar": "الفرنسي يقول «لا» كتحية. ليست رفضًا بل تسخين. الجواب الحقيقي يأتي بعد القهوة الثانية وإضراب صغير."
+  },
+  {
+   "id": "j18",
+   "region": "es",
+   "kind": "original",
+   "en": "\"Mañana\" doesn't mean tomorrow. It means \"not today\" — a legally protected, culturally sacred and deeply peaceful form of \"no\".",
+   "ar": "«مانيانا» لا تعني غدًا، بل تعني «ليس اليوم»: أرقى أشكال الرفض وأكثرها سلامًا ومحميّة بالعُرف."
+  },
+  {
+   "id": "j19",
+   "region": "es",
+   "kind": "original",
+   "en": "In Mexico, \"ahorita\" can mean now, in an hour, tomorrow, or never. Mexicans know which one from the tone. Foreigners find out from the calendar.",
+   "ar": "في المكسيك، كلمة «أوريتا» قد تعني الآن أو بعد ساعة أو غدًا أو أبدًا. المكسيكي يعرف أيها من النبرة. والأجنبي يعرف من التقويم."
+  },
+  {
+   "id": "j20",
+   "region": "br",
+   "kind": "original",
+   "en": "Brazilians almost never say no. They say \"vamos marcar\" — let's schedule something. In history, nobody has ever scheduled. It's a no with a hug.",
+   "ar": "البرازيليون لا يقولون لا تقريبًا. يقولون: «فلنحدد موعدًا». ولم يحدد أحد موعدًا في التاريخ. إنها «لا» مع عناق."
+  },
+  {
+   "id": "j21",
+   "region": "za",
+   "kind": "original",
+   "en": "South African time: \"now\" means later. \"Just now\" means much later. \"Now now\" means soon. And \"right now\" means now — which nobody has ever seen.",
+   "ar": "التوقيت في جنوب أفريقيا: «الآن» تعني لاحقًا، و«الآن تمامًا» تعني بعد وقت طويل، و«الآن الآن» تعني قريبًا، و«حالًا» تعني الآن فعلًا، وهذا لم يره أحد."
+  },
+  {
+   "id": "j22",
+   "region": "ng",
+   "kind": "original",
+   "en": "\"I'm on my way\" (said in every country on Earth). Translation: I am looking for my keys.",
+   "ar": "«أنا في الطريق» (تُقال في كل دولة على الأرض). الترجمة: أبحث عن مفاتيحي."
+  },
+  {
+   "id": "j23",
+   "region": "au",
+   "kind": "original",
+   "en": "In Australia \"yeah, nah\" means no. \"Nah, yeah\" means yes. \"Yeah, nah, yeah\" means a decision still being negotiated. The entire language runs on trust.",
+   "ar": "في أستراليا «yeah, nah» تعني لا، و«nah, yeah» تعني نعم، و«yeah, nah, yeah» تعني قرارًا ما زال قيد التفاوض. اللغة كلها تقوم على الثقة."
+  },
+  {
+   "id": "j24",
+   "region": "ca",
+   "kind": "original",
+   "en": "\"Sorry\" in Canada means: sorry, thank you, hello, I disagree, and \"you stepped on my foot\".",
+   "ar": "كلمة «آسف» في كندا تعني: آسف، شكرًا، مرحبًا، أنا لا أوافقك، و«لقد دُسْتَ على قدمي»."
+  },
+  {
+   "id": "j25",
+   "region": "th",
+   "kind": "original",
+   "en": "In Thailand \"mai pen rai\" (no problem) is said politely while the building burns. The fire department is also \"no problem\".",
+   "ar": "في تايلاند تُقال «مَي بِن راي» (لا مشكلة) بأدب والمبنى يحترق. وفرقة الإطفاء أيضًا «لا مشكلة»."
+  },
+  {
+   "id": "j26",
+   "region": "bg",
+   "kind": "original",
+   "en": "In Bulgaria nodding means no and shaking your head means yes. Tourists have been refused soup for saying yes since the 1970s.",
+   "ar": "في بلغاريا هزّ الرأس للأسفل يعني لا وهزّه للجانبين يعني نعم. سياح حُرموا من الشوربة لأنهم قالوا نعم منذ السبعينات."
+  },
+  {
+   "id": "j27",
+   "region": "ma",
+   "kind": "original",
+   "en": "In Morocco \"la\" is no. \"La la\" is a polite no. \"La la la la\" is no, a counter-offer, and I like you.",
+   "ar": "في المغرب «لا» هي لا، و«لا لا» لا مهذبة، و«لا لا لا لا» تعني لا، وعرض مضاد، وأنا أحبك."
+  },
+  {
+   "id": "j28",
+   "region": "me",
+   "kind": "original",
+   "en": "Levantine Arabic: \"may you bury me\" is a love declaration. Wedding vows and fights sound identical, and the only difference is the second tea.",
+   "ar": "في العامية الشامية «تقبرني» إعلان حب. وكلام الفرح وكلام الخناقة متطابقان، والفرق الوحيد هو كأس الشاي الثاني."
+  }
+ ],
+ "quotes": [
+  {
+   "id": "socrates",
+   "author": {
+    "en": "Socrates (as recorded by Plato)",
+    "ar": "سقراط (كما نقله أفلاطون)"
+   },
+   "role": {
+    "en": "Philosopher, Athens, 5th c. BCE",
+    "ar": "فيلسوف، أثينا، القرن الخامس ق.م"
+   },
+   "text": {
+    "en": "The unexamined life is not worth living.",
+    "ar": "الحياة التي لا تُمتحن لا تستحق أن تُعاش."
+   },
+   "source": "Plato, Apology 38a",
+   "original": "en-tr",
+   "take": {
+    "en": "Examine everything — starting with that meeting invitation. Verdict: decline.",
+    "ar": "افحص كل شيء، وابدأ بدعوة الاجتماع هذه. الحكم: رفض."
+   }
+  },
+  {
+   "id": "diogenes",
+   "author": {
+    "en": "Diogenes of Sinope",
+    "ar": "ديوجين الكلبي"
+   },
+   "role": {
+    "en": "Philosopher, 4th c. BCE",
+    "ar": "فيلسوف، القرن الرابع ق.م"
+   },
+   "text": {
+    "en": "Stand out of my sun.",
+    "ar": "ابتعد عن شمسي."
+   },
+   "source": "Reported by Plutarch, Life of Alexander (Alexander asked what favour he wanted)",
+   "original": "en-tr",
+   "take": {
+    "en": "The greatest NO in history: said to the most powerful man on Earth, and he laughed.",
+    "ar": "أعظم «لا» في التاريخ: قيلت لأقوى رجل على الأرض، فضحك."
+   }
+  },
+  {
+   "id": "voltaire",
+   "author": {
+    "en": "Voltaire",
+    "ar": "فولتير"
+   },
+   "role": {
+    "en": "Writer and satirist, France, 18th c.",
+    "ar": "كاتب وساخر، فرنسا، القرن الثامن عشر"
+   },
+   "text": {
+    "en": "Doubt is not a pleasant condition, but certainty is an absurd one.",
+    "ar": "الشك حالة غير مريحة، لكن اليقين حالة سخيفة."
+   },
+   "source": "Letter to Frederick II of Prussia",
+   "original": "en-tr",
+   "take": {
+    "en": "This is why 'maybe' is the world's best excuse.",
+    "ar": "ولهذا تبقى «ربما» أفضل عذر في العالم."
+   }
+  },
+  {
+   "id": "swift",
+   "author": {
+    "en": "Jonathan Swift",
+    "ar": "جوناثان سويفت"
+   },
+   "role": {
+    "en": "Satirist, Ireland, 18th c.",
+    "ar": "كاتب ساخر، أيرلندا، القرن الثامن عشر"
+   },
+   "text": {
+    "en": "Satire is a sort of glass, wherein beholders do generally discover everybody's face but their own.",
+    "ar": "الهجاء مرآة، يرى فيها الناظرون وجوه الجميع ما عدا وجوههم."
+   },
+   "source": "Preface to The Battle of the Books (1704)",
+   "original": "en",
+   "take": {
+    "en": "Everyone laughs at the joke about 'that person at work'. Nobody checks the mirror.",
+    "ar": "الكل يضحك على نكتة «ذاك الزميل»، ولا أحد ينظر في المرآة."
+   }
+  },
+  {
+   "id": "wilde",
+   "author": {
+    "en": "Oscar Wilde",
+    "ar": "أوسكار وايلد"
+   },
+   "role": {
+    "en": "Playwright, Ireland, 19th c.",
+    "ar": "كاتب مسرحي، أيرلندا، القرن التاسع عشر"
+   },
+   "text": {
+    "en": "I can resist everything except temptation.",
+    "ar": "أستطيع مقاومة كل شيء إلا الإغراء."
+   },
+   "source": "Lady Windermere's Fan (1892)",
+   "original": "en",
+   "take": {
+    "en": "The only NO that was never said successfully: 'no thanks' to the second slice.",
+    "ar": "أصعب «لا» لم تنجح قط: «لا شكرًا» للقطعة الثانية."
+   }
+  },
+  {
+   "id": "shaw",
+   "author": {
+    "en": "George Bernard Shaw",
+    "ar": "جورج برنارد شو"
+   },
+   "role": {
+    "en": "Playwright, Ireland, 20th c.",
+    "ar": "كاتب مسرحي، أيرلندا، القرن العشرون"
+   },
+   "text": {
+    "en": "The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man.",
+    "ar": "الرجل المعقول يتكيّف مع العالم، وغير المعقول يصرّ على تكييف العالم مع نفسه. لذلك يعتمد كل تقدّم على الرجل غير المعقول."
+   },
+   "source": "Man and Superman (1903), Maxims for Revolutionists",
+   "original": "en",
+   "take": {
+    "en": "Every progress began with someone saying a very annoying NO.",
+    "ar": "كل تقدّم بدأ بشخص قال «لا» مزعجة جدًا."
+   }
+  },
+  {
+   "id": "twain",
+   "author": {
+    "en": "Mark Twain",
+    "ar": "مارك توين"
+   },
+   "role": {
+    "en": "Humorist, USA, 19th–20th c.",
+    "ar": "كاتب ساخر، أمريكا"
+   },
+   "text": {
+    "en": "The report of my death was an exaggeration.",
+    "ar": "خبر وفاتي كان مبالغًا فيه."
+   },
+   "source": "Note to the New York Journal, 1897",
+   "original": "en",
+   "take": {
+    "en": "The best way to decline a funeral invitation.",
+    "ar": "أفضل طريقة للاعتذار عن حضور جنازة."
+   }
+  },
+  {
+   "id": "russell",
+   "author": {
+    "en": "Bertrand Russell",
+    "ar": "برتراند راسل"
+   },
+   "role": {
+    "en": "Philosopher, UK, 20th c.",
+    "ar": "فيلسوف، بريطانيا، القرن العشرون"
+   },
+   "text": {
+    "en": "The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt.",
+    "ar": "السبب الجوهري للمشكلة أن الأغبياء في العالم الحديث واثقون من أنفسهم بينما الأذكياء مليئون بالشك."
+   },
+   "source": "'The Triumph of Stupidity' (1933)",
+   "original": "en",
+   "take": {
+    "en": "Which explains who replies-all to everyone, always.",
+    "ar": "وهذا يفسّر من يضغط «الرد على الجميع» دائمًا."
+   }
+  },
+  {
+   "id": "groucho",
+   "author": {
+    "en": "Groucho Marx",
+    "ar": "غروتشو ماركس"
+   },
+   "role": {
+    "en": "Comedian, USA, 20th c.",
+    "ar": "ممثل كوميدي، أمريكا"
+   },
+   "text": {
+    "en": "Please accept my resignation. I don't want to belong to any club that will accept me as a member.",
+    "ar": "أرجو قبول استقالتي. لا أريد أن أنتمي إلى أي نادٍ يقبلني عضوًا."
+   },
+   "source": "Groucho and Me (1959)",
+   "original": "en",
+   "take": {
+    "en": "The most elegant NO ever sent by telegram.",
+    "ar": "أرقى «لا» أُرسلت بالبرقية."
+   }
+  },
+  {
+   "id": "mutanabbi1",
+   "author": {
+    "en": "Al-Mutanabbi",
+    "ar": "أبو الطيب المتنبي"
+   },
+   "role": {
+    "en": "Poet, Iraq/Syria, 10th c.",
+    "ar": "شاعر، العراق وبلاد الشام، القرن العاشر"
+   },
+   "text": {
+    "en": "Not everything a man wishes for does he attain: the winds blow in ways the ships don't want.",
+    "ar": "ما كلُّ ما يتمنّى المرءُ يُدركُهُ ... تجري الرياحُ بما لا تشتهي السفنُ"
+   },
+   "source": "Diwan al-Mutanabbi",
+   "original": "ar",
+   "take": {
+    "en": "The oldest recorded Monday morning complaint.",
+    "ar": "أقدم شكوى مسجّلة من صباح الاثنين."
+   }
+  },
+  {
+   "id": "mutanabbi2",
+   "author": {
+    "en": "Al-Mutanabbi",
+    "ar": "أبو الطيب المتنبي"
+   },
+   "role": {
+    "en": "Poet, Iraq/Syria, 10th c.",
+    "ar": "شاعر، العراق وبلاد الشام، القرن العاشر"
+   },
+   "text": {
+    "en": "How much in Egypt is there to laugh at — but it is laughter like weeping.",
+    "ar": "وكم ذا بمصرَ من المضحكاتِ ... ولكنّه ضحكٌ كالبكا"
+   },
+   "source": "Diwan al-Mutanabbi, satire on Kafur",
+   "original": "ar",
+   "take": {
+    "en": "A thousand years before stand-up, already the gold standard of bitter comedy.",
+    "ar": "قبل ألف سنة من الستاند أب، وهو بالفعل معيار الكوميديا المرّة."
+   }
+  }
+ ]
+}

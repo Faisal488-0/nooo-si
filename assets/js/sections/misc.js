@@ -3,7 +3,7 @@ import { el, $, fetchJson, shuffle } from '../lib/dom.js';
 import { t, lang } from '../i18n.js';
 import { play, stop, SOUND_IDS } from '../sound.js';
 
-const ICONS = { dramatic: '🎭', robot: '🤖', cat: '🐱', alien: '👽', bit8: '👾', whisper: '🤫', echo: '🏔️', alarm: '🚨', morse: '📡', kazoo: '🎺' };
+const ICONS = { dramatic: '🎭', robot: '🤖', cat: '🐱', alien: '👽', bit8: '👾', whisper: '🤫', echo: '🏔️', alarm: '🚨', morse: '📡', kazoo: '🎺', human: '🗣️', deep: '🎙️', tiny: '🐭', announcer: '📢', rimshot: '🥁', trombone: '📯', buzzer: '❌', airhorn: '📣', boing: '🦘', gong: '🔔' };
 
 function renderSound() {
   $('#sound-pads').replaceChildren(...SOUND_IDS.map((id) => el('button', {

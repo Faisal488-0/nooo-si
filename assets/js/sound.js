@@ -21,7 +21,12 @@ function ensure() {
     ctx = new AC();
     master = ctx.createGain();
     master.gain.value = muted ? 0 : volume;
-    master.connect(ctx.destination);
+    // A gentle compressor keeps every pad clear and loud without clipping.
+    const comp = ctx.createDynamicsCompressor();
+    comp.threshold.value = -18; comp.knee.value = 24; comp.ratio.value = 5; comp.attack.value = 0.003; comp.release.value = 0.2;
+    const lift = ctx.createGain();
+    lift.gain.value = 1.8;
+    master.connect(comp); comp.connect(lift); lift.connect(ctx.destination);
   }
   if (ctx.state === 'suspended') ctx.resume();
   return ctx;
@@ -45,6 +50,7 @@ export function setVolume(v) {
 
 export function stop() {
   clearTimeout(stopTimer);
+  try { window.speechSynthesis?.cancel(); } catch { /* speech unavailable */ }
   for (const n of active) {
     try { n.stop?.(); } catch { /* already stopped */ }
     try { n.disconnect(); } catch { /* ignore */ }
@@ -91,6 +97,41 @@ function noiseBuffer(seconds) {
   for (let i = 0; i < d.length; i += 1) d[i] = Math.random() * 2 - 1;
   return buf;
 }
+
+
+// ---- Real human voice (the browser's own text-to-speech; nothing is downloaded) ----
+const SPEECH_LANG = { ar: 'ar-SA', en: 'en-US' };
+
+export function canSpeak() { return typeof window !== 'undefined' && 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window; }
+
+function pickVoice(langTag) {
+  const voices = window.speechSynthesis.getVoices?.() ?? [];
+  const base = langTag.slice(0, 2).toLowerCase();
+  const same = voices.filter((v) => v.lang?.toLowerCase().startsWith(base));
+  return same.find((v) => v.lang.toLowerCase() === langTag.toLowerCase() && v.localService) || same.find((v) => v.localService) || same[0] || null;
+}
+
+/** Speaks text with the device voice. Call only from a user gesture. Returns false if unavailable or muted. */
+export function speak(text, { pitch = 1, rate = 1, lang: l } = {}) {
+  if (muted || !canSpeak() || !text) return false;
+  const code = (l || document.documentElement.lang || 'en').slice(0, 2) === 'ar' ? 'ar' : 'en';
+  stop();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = SPEECH_LANG[code];
+  const v = pickVoice(u.lang);
+  if (v) u.voice = v;
+  u.pitch = pitch; u.rate = rate; u.volume = Math.max(0.05, volume);
+  window.speechSynthesis.speak(u);
+  return true;
+}
+
+const sayNo = () => (document.documentElement.lang === 'ar' ? 'لا!' : 'No!');
+const SPEECH_VOICES = {
+  human: () => speak(sayNo(), { pitch: 1, rate: 0.9 }),
+  deep: () => speak(document.documentElement.lang === 'ar' ? 'لااااا!' : 'Nooooo!', { pitch: 0.1, rate: 0.55 }),
+  tiny: () => speak(document.documentElement.lang === 'ar' ? 'لا لا لا لا!' : 'No no no no!', { pitch: 2, rate: 1.5 }),
+  announcer: () => speak(document.documentElement.lang === 'ar' ? 'والجواب النهائي هو: لا.' : 'And the final answer is: no.', { pitch: 0.6, rate: 0.8 })
+};
 
 const MORSE_NO = '-. --- --- ---';
 
@@ -167,6 +208,66 @@ const VOICES = {
     }
     return 1.6;
   },
+  rimshot(t) {
+    // Ba-dum-tss: two drum hits and a cymbal crash.
+    const hit = (at, f) => {
+      const g = env(at, 0.002, 0.04, 0.12, 0.9); g.connect(master);
+      const o = osc('sine', f, at, at + 0.2, g);
+      o.frequency.exponentialRampToValueAtTime(f * 0.4, at + 0.15);
+    };
+    hit(t, 190); hit(t + 0.16, 140);
+    const src = track(ctx.createBufferSource()); src.buffer = noiseBuffer(1);
+    const hp = track(ctx.createBiquadFilter()); hp.type = 'highpass'; hp.frequency.value = 6000;
+    const g = env(t + 0.4, 0.002, 0.02, 0.7, 0.55);
+    src.connect(hp); hp.connect(g); g.connect(master);
+    src.start(t + 0.4); src.stop(t + 1.2);
+    return 1.3;
+  },
+  trombone(t) {
+    // Sad trombone: wah, wah, wah, waaaah.
+    [[311, 0, 0.32], [294, 0.4, 0.32], [277, 0.8, 0.32], [262, 1.2, 1.0]].forEach(([f, s0, d], i) => {
+      const g = env(t + s0, 0.04, d - 0.08, 0.08, 0.5); g.connect(master);
+      const lp = track(ctx.createBiquadFilter()); lp.type = 'lowpass'; lp.Q.value = 3; lp.connect(g);
+      lp.frequency.setValueAtTime(500, t + s0); lp.frequency.linearRampToValueAtTime(1500, t + s0 + 0.12); lp.frequency.linearRampToValueAtTime(700, t + s0 + d);
+      const o = osc('sawtooth', f, t + s0, t + s0 + d + 0.1, lp);
+      if (i === 3) {
+        o.frequency.linearRampToValueAtTime(f * 0.93, t + s0 + 0.5);
+        const lfo = osc('sine', 6, t + s0, t + s0 + d + 0.1, track(ctx.createGain()));
+        const dp = track(ctx.createGain()); dp.gain.value = 5; lfo.disconnect(); lfo.connect(dp); dp.connect(o.frequency);
+      }
+    });
+    return 2.3;
+  },
+  buzzer(t) {
+    // Game-show wrong answer.
+    const g = env(t, 0.01, 0.75, 0.1, 0.45); g.connect(master);
+    for (const f of [110, 116]) osc('square', f, t, t + 1, g);
+    return 0.95;
+  },
+  airhorn(t) {
+    const g = env(t, 0.01, 0.9, 0.25, 0.4); g.connect(master);
+    for (const f of [440, 554, 659]) {
+      const o = osc('sawtooth', f, t, t + 1.3, g);
+      o.frequency.setValueAtTime(f * 0.96, t); o.frequency.exponentialRampToValueAtTime(f, t + 0.08);
+    }
+    return 1.3;
+  },
+  boing(t) {
+    const g = env(t, 0.005, 0.5, 0.35, 0.5); g.connect(master);
+    const o = osc('sine', 200, t, t + 1, g);
+    o.frequency.exponentialRampToValueAtTime(900, t + 0.08);
+    const lfo = osc('sine', 18, t, t + 1, track(ctx.createGain()));
+    const d = track(ctx.createGain()); d.gain.value = 140; lfo.disconnect(); lfo.connect(d); d.connect(o.frequency);
+    o.frequency.exponentialRampToValueAtTime(260, t + 0.8);
+    return 1.0;
+  },
+  gong(t) {
+    for (const [f, a] of [[110, 0.5], [165, 0.3], [233, 0.22], [349, 0.15]]) {
+      const g = env(t, 0.005, 0.1, 2.2, a); g.connect(master);
+      osc('sine', f, t, t + 2.5, g);
+    }
+    return 2.6;
+  },
   morse(t) { return playMorseAt(t, MORSE_NO); },
   kazoo(t) {
     const g = env(t, 0.05, 0.7, 0.3, 0.3); g.connect(master);
@@ -195,11 +296,13 @@ function playMorseAt(t0, code, onSymbol) {
   return t - t0 + 0.1;
 }
 
-export const SOUND_IDS = Object.keys(VOICES);
+export const SPEECH_IDS = Object.keys(SPEECH_VOICES);
+export const SOUND_IDS = [...Object.keys(SPEECH_VOICES).filter(() => canSpeak()), ...Object.keys(VOICES)];
 
 /** Plays one voice. Returns false if muted or audio is unavailable. Call only from a user gesture. */
 export function play(id) {
   if (muted) return false;
+  if (SPEECH_VOICES[id] && canSpeak()) return SPEECH_VOICES[id]();
   if (!ensure()) return false;
   stop();
   const fn = VOICES[id] ?? VOICES.dramatic;
@@ -216,3 +319,6 @@ export function playMorse(code, onSymbol) {
   stopTimer = setTimeout(stop, (dur + 0.4) * 1000);
   return true;
 }
+
+/** Joke punchline: rimshot sound effect (the synth path is always available). */
+export const rimshot = () => play('rimshot');

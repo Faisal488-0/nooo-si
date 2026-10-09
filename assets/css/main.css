@@ -366,3 +366,18 @@ body.fx-hue .hero { animation: hue 1.2s linear; }
   .fx-layer { display: none; }
 }
 :lang(ar) .hero-title, :lang(ar) .card-reply, :lang(ar) .lang-no { -webkit-text-stroke: 0; }
+
+/* ---- WORLD LAUGHS (jokes + quotes) ---- */
+.wit-random { display: grid; gap: 16px; margin-bottom: 20px; justify-items: center; }
+.joke-grid, .quote-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.joke-card, .quote-card { background: #fff; color: var(--ink); border: var(--b); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 14px 16px; margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.joke-big { width: 100%; max-width: 760px; box-shadow: var(--shadow); background: var(--yellow); }
+.joke-big .joke-text { font-size: clamp(19px, 3vw, 26px); }
+.joke-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+.joke-region { font-weight: 800; font-size: 14px; }
+.joke-text { margin: 0; font-size: 18px; line-height: 1.6; overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.quote-text { margin: 0; font-size: 20px; line-height: 1.55; font-weight: 600; border-inline-start: 6px solid var(--red); padding-inline-start: 12px; overflow-wrap: anywhere; }
+.quote-card figcaption { font-size: 15px; }
+.quote-source { margin: 0; font-size: 13px; font-weight: 600; opacity: .8; }
+.quote-take { margin: 0; padding: 8px 10px; background: var(--paper); border: 2px dashed var(--ink); border-radius: 10px; font-weight: 700; font-size: 15px; }

@@ -97,6 +97,21 @@ export function validateAll(root, { now = Date.now() } = {}) {
     if (!banks.languages.meta.sources[l.source]) errors.push(`languages: ${l.id} has unknown source ${l.source}`);
     if (!['ltr', 'rtl'].includes(l.dir)) errors.push(`languages: ${l.id} bad dir`);
   }
+  const wit = readJson(join(root, 'data', 'wit.json'));
+  const seenWit = new Set();
+  for (const j of wit.jokes) {
+    if (seenWit.has(j.id)) errors.push(`wit: duplicate id ${j.id}`);
+    seenWit.add(j.id);
+    if (!wit.regions[j.region]) errors.push(`wit: ${j.id} unknown region ${j.region}`);
+    if (!['folk', 'original'].includes(j.kind)) errors.push(`wit: ${j.id} bad kind`);
+    for (const l of ['ar', 'en']) if (typeof j[l] !== 'string' || j[l].length < 20 || j[l].length > 600 || /[<>]/.test(j[l])) errors.push(`wit: ${j.id} bad ${l} text`);
+  }
+  for (const q of wit.quotes) {
+    if (seenWit.has(q.id)) errors.push(`wit: duplicate id ${q.id}`);
+    seenWit.add(q.id);
+    if (!q.source) errors.push(`wit: quote ${q.id} has no published source`);
+    for (const l of ['ar', 'en']) if (!q.text?.[l] || !q.author?.[l] || !q.take?.[l] || /[<>]/.test(q.text[l])) errors.push(`wit: quote ${q.id} incomplete (${l})`);
+  }
   const galactic = readJson(join(root, 'data', 'galactic.json'));
   for (const g of galactic.entries) {
     if (!['documented', 'nooo-original'].includes(g.kind)) errors.push(`galactic: ${g.id} bad kind`);

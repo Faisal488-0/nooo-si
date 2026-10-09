@@ -140,3 +140,13 @@ test('global cards only use verified languages with a source', () => {
     assert.match(g.lang.sourceUrl, /^https:\/\//);
   }
 });
+
+test('world laughs data: every joke has a region + both languages, every quote has a source', async () => {
+  const { readFileSync } = await import('node:fs');
+  const wit = JSON.parse(readFileSync(new URL('../data/wit.json', import.meta.url), 'utf8'));
+  assert.ok(wit.jokes.length >= 25 && wit.quotes.length >= 10);
+  const regions = new Set(wit.jokes.map((j) => j.region));
+  assert.ok(regions.size >= 15, 'jokes should cover many parts of the world');
+  for (const j of wit.jokes) assert.ok(wit.regions[j.region] && j.ar && j.en, j.id);
+  for (const q of wit.quotes) assert.ok(q.source && q.text.ar && q.text.en && q.take.ar && q.take.en, q.id);
+});

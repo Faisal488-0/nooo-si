@@ -9,6 +9,7 @@ import { isMuted, setMuted, getVolume, setVolume } from './sound.js';
 const SECTIONS = {
   art: () => import('./sections/art.js'),
   world: () => import('./sections/world.js'),
+  wit: () => import('./sections/wit.js'),
   machine: () => import('./sections/machine.js'),
   memes: () => import('./sections/memes.js'),
   sound: () => import('./sections/misc.js'),
