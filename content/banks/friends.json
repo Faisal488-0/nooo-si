@@ -1,0 +1,82 @@
+{
+  "category": "friends",
+  "characters": ["ghost", "phone", "cactus", "mug"],
+  "en": {
+    "headlinePrefix": "Your friend asks",
+    "asks": [
+      "Can I borrow some money? I'll pay you back… eventually.",
+      "Drive me to the airport at 4 AM?",
+      "One more game. Just one. Until sunrise.",
+      "Help me move on Friday? It's only a piano.",
+      "Come to my cousin's friend's DJ set?",
+      "Let's start a business. You fund it.",
+      "Watch my three cats, two parrots and a lizard this week?",
+      "Rate my new haircut. Honestly. No, more honestly.",
+      "Join my 5 AM workout group?",
+      "Lend me your charger. Forever.",
+      "Can I use your streaming account? And your sofa? And your fridge?",
+      "Let's go out. Leaving in three minutes.",
+      "Listen to my 200 voice notes?",
+      "Be my plus-one at a wedding of people I don't know?"
+    ],
+    "replies": [
+      "I love you, buddy. My answer doesn't.",
+      "Friendship: yes. This: no.",
+      "Let me ask my wallet… it fainted.",
+      "I'll pass, but I'll cheer from my bed.",
+      "No, but I'll send a very supportive emoji.",
+      "I'm saving my 'yes' for a real emergency, like pizza.",
+      "Absolutely not, my dear friend.",
+      "My couch and I have a prior commitment.",
+      "That's a group-chat no. Everyone agrees.",
+      "Not today, not tomorrow — ask me never-ish.",
+      "I'd do anything for you. Except that.",
+      "I consulted my inner circle. It's just me. Still no.",
+      "Let's keep the friendship and lose the plan.",
+      "My battery is at 2%, and so is my willingness.",
+      "Counter-offer: no, plus a hug.",
+      "Love the energy. Declining the itinerary.",
+      "Bestie, the vibes are saying no.",
+      "I'm legally required to say no. The law is me."
+    ]
+  },
+  "ar": {
+    "headlinePrefix": "صديقك يطلب",
+    "asks": [
+      "سلّفني شوي، أرجعها لك… بعدين.",
+      "توصلني المطار الساعة ٤ الفجر؟",
+      "قيم وحدة بس. وحدة. لين يطلع الفجر.",
+      "تساعدني أنقل يوم الجمعة؟ بس بيانو.",
+      "تعال حفلة ولد خالة صاحب ربيعي.",
+      "خلنا نفتح مشروع، وأنت تموّل.",
+      "دير بالك على ٣ قطاوة وببغاوين وسحلية هالأسبوع؟",
+      "قيّم قصتي الجديدة. بصراحة. لا، بصراحة أكثر.",
+      "تعال معاي تمرين الساعة ٥ الصبح.",
+      "عطني شاحنك. للأبد.",
+      "أقدر أستخدم حسابك في منصة الأفلام؟ وكنبتك؟ وثلاجتك؟",
+      "يلا نطلع. نتحرك بعد ٣ دقايق.",
+      "اسمع رسايلي الصوتية، بس ٢٠٠ رسالة.",
+      "تعال معاي عرس ناس ما أعرفهم؟"
+    ],
+    "replies": [
+      "أحبك يا صديقي. بس جوابي ما يحبك.",
+      "الصداقة: نعم. هذا: لا.",
+      "خلني أسأل محفظتي… أغمى عليها.",
+      "بعتذر، بس بشجعك من فراشي.",
+      "لا، بس برسل لك إيموجي داعم جدًا.",
+      "محتفظ بـ«نعم» لحالة طوارئ حقيقية، مثل البيتزا.",
+      "لا وألف لا يا غالي.",
+      "عندي ارتباط مسبق مع الكنبة.",
+      "هذي «لا» بإجماع القروب.",
+      "لا اليوم ولا باچر، اسألني تقريبًا أبدًا.",
+      "أسوي لك أي شي. إلا هذا.",
+      "استشرت دائرتي المقربة. الدائرة أنا. برضو لا.",
+      "خلنا نحافظ على الصداقة ونخسر الخطة.",
+      "بطاريتي ٢٪، ورغبتي نفس الشي.",
+      "عرض مضاد: لا، مع حضن.",
+      "أحب حماسك، وأرفض البرنامج.",
+      "يا صديقي، الأجواء تقول لا.",
+      "القانون يلزمني أقول لا. والقانون أنا."
+    ]
+  }
+}

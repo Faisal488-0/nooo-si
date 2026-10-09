@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "description": "Fictional and invented ways to say no, kept strictly separate from human languages. 'documented' = a word published for a constructed fictional language (single words only; no film material is used). 'nooo-original' = invented by nooo.si for fun and labelled as such.",
+    "sources": { "berlitz": "https://berlitz.com/blog/yes-no-different-languages" }
+  },
+  "entries": [
+    { "id": "klingon", "kind": "documented", "name": { "en": "Klingon", "ar": "الكلينغونية" }, "no": "ghobe'", "source": "berlitz", "alien": "horned" },
+    { "id": "navi", "kind": "documented", "name": { "en": "Na'vi", "ar": "النافي" }, "no": "kehe", "source": "berlitz", "alien": "tall" },
+    { "id": "dothraki", "kind": "documented", "name": { "en": "Dothraki", "ar": "الدوثراكية" }, "no": "vos", "source": "berlitz", "alien": "rider" },
+    { "id": "valyrian", "kind": "documented", "name": { "en": "Valyrian", "ar": "الفاليرية" }, "no": "daor", "source": "berlitz", "alien": "winged" },
+    { "id": "quenya", "kind": "documented", "name": { "en": "Quenya (Elvish)", "ar": "الكوينيا (الإلفية)" }, "no": "lá", "source": "berlitz", "alien": "pointy" },
+    { "id": "blorp", "kind": "nooo-original", "name": { "en": "Blorpish (nooo.si original)", "ar": "البلوربية (من اختراع nooo.si)" }, "no": "NØØØ-glorp", "note": { "en": "Said while slowly retracting all seven antennae.", "ar": "تُقال مع سحب الهوائيات السبعة ببطء." }, "alien": "blob" },
+    { "id": "zeta", "kind": "nooo-original", "name": { "en": "Zeta-Dial (nooo.si original)", "ar": "زيتا-دايل (من اختراع nooo.si)" }, "no": "∅∅∅!", "note": { "en": "Written with three empty sets. Pronounced by hanging up.", "ar": "تُكتب بثلاث مجموعات خالية، وتُنطق بإغلاق الخط." }, "alien": "cyclops" },
+    { "id": "moonmeow", "kind": "nooo-original", "name": { "en": "Moon-Cat (nooo.si original)", "ar": "قطط القمر (من اختراع nooo.si)" }, "no": "Mrrr-NO", "note": { "en": "Accompanied by pushing your request off the table.", "ar": "يرافقها دفع طلبك عن الطاولة." }, "alien": "catstronaut" },
+    { "id": "toaster", "kind": "nooo-original", "name": { "en": "Toaster Prime (nooo.si original)", "ar": "لغة المحمصة العظمى (من اختراع nooo.si)" }, "no": "*pop* NEGATIVE *pop*", "note": { "en": "The bread was never coming back.", "ar": "الخبز لن يعود أبدًا." }, "alien": "robot" }
+  ]
+}

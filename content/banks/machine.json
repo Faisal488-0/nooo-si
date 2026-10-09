@@ -1,0 +1,40 @@
+{
+  "description": "Banks for the computed categories: binary, morse and global. Encodings are computed by assets/js/lib/encoders.js and re-verified by the validator; language words come only from data/languages.json.",
+  "binary": {
+    "characters": ["robot", "laptop", "toaster", "printer"],
+    "en": {
+      "headlines": ["“{phrase}” for your printer", "How a computer says “{phrase}”", "“{phrase}”, in pure ones and zeros"],
+      "phrases": ["NO", "NOPE", "NOT TODAY", "NO THANKS", "NEVER", "NAH", "NO WAY", "STILL NO", "I SAID NO", "NOT NOW", "DENIED", "NEGATIVE", "NO MEETINGS", "NO SPAM", "NO DRAMA", "NOOO", "NOT MY JOB", "NO CALLS"],
+      "replies": ["Your laptop understood instantly.", "Tape it to your smart fridge.", "Zero chance. One refusal.", "Even the router got the message.", "Paste it in the group chat and watch the confusion.", "Machines respect boundaries too.", "Eight bits per letter, zero bits of guilt.", "Compiled with zero warnings."]
+    },
+    "ar": {
+      "headlines": ["«{phrase}» بلغة الكمبيوتر", "كيف تقول الآلة «{phrase}»", "«{phrase}» بالأصفار والآحاد"],
+      "phrases": ["لا", "لا شكرًا", "مو اليوم", "أبدًا", "مستحيل", "ما أقدر", "مرفوض", "لا لا لا", "انسى", "ولا بالأحلام"],
+      "replies": ["فهمها اللابتوب فورًا.", "الصقها على ثلاجتك الذكية.", "صفر فرصة. واحد رفض.", "حتى الراوتر وصلته الرسالة.", "حطها في القروب وشوف الحيرة.", "حتى الأجهزة تحترم الحدود.", "كل حرف عربي = بايتين، وصفر إحساس بالذنب.", "تم التجميع بدون أي تحذيرات."]
+    }
+  },
+  "morse": {
+    "characters": ["alarm", "ufo", "robot", "phone"],
+    "en": {
+      "headlines": ["“{phrase}” in Morse code", "Tap this on the table: “{phrase}”", "Blink “{phrase}” with a flashlight"],
+      "phrases": ["NO", "NOPE", "NOT TODAY", "NO THANKS", "NEVER", "NAH", "NO WAY", "STILL NO", "NOT NOW", "DENIED", "NO MEETINGS", "NOOO", "NO CALLS", "NOT A CHANCE", "NO MORE", "TRY TUESDAY"],
+      "replies": ["Dot dot dash means business.", "Tap it during the meeting. Nobody will know.", "Works through walls, doors and family group chats.", "Long beep = long no.", "Ship captains used to send this. Now you can.", "Perfect for refusing in total silence.", "Your knuckles have spoken.", "Quiet, polite and impossible to argue with."]
+    },
+    "ar": {
+      "headlines": ["«{phrase}» بشفرة مورس", "انقرها على الطاولة: «{phrase}»", "ومّض «{phrase}» بالكشاف"],
+      "phrases": ["NO", "NOPE", "NOT TODAY", "NO THANKS", "NEVER", "NAH", "NO WAY", "STILL NO", "NOT NOW", "DENIED", "NO MEETINGS", "NOOO", "NO CALLS", "NOT A CHANCE", "NO MORE", "TRY TUESDAY"],
+      "replies": ["نقطة نقطة شرطة يعني الموضوع جد.", "انقرها وقت الاجتماع. محد بيدري.", "تعدّي الجدران والأبواب وقروبات العايلة.", "صفارة طويلة = لا طويلة.", "كانوا يرسلونها من السفن. الحين دورك.", "مثالية للرفض في صمت تام.", "مفاصل أصابعك تكلمت.", "هادية ومهذبة ومستحيل تتناقش فيها."]
+    }
+  },
+  "global": {
+    "characters": ["planet", "ufo", "heart", "cat"],
+    "en": {
+      "headlines": ["How to say NO in {lang}", "NO, {lang} edition", "Today's NO comes from {lang}"],
+      "replies": ["Perfect for declining a third dessert.", "Use it when someone says “quick favor”.", "Works on bosses, aunties and spam calls.", "Say it slowly for extra drama.", "Best delivered with raised eyebrows.", "Whisper it for a mysterious refusal.", "Add three O's for emphasis — the locals may not approve.", "Practice it in the mirror before Monday.", "Travel tip: learn this before learning “yes”.", "Short, polite and very final.", "One word, zero meetings.", "Ideal for refusing an extra slice of cake."]
+    },
+    "ar": {
+      "headlines": ["كيف تقول «لا» بـ{lang}", "«لا» بنسخة {lang}", "لا اليوم جاية من {lang}"],
+      "replies": ["مثالية لرفض الحلى الثالث.", "استخدمها لما أحد يقول «طلب صغير».", "تنفع مع المدير والعمّات ومكالمات الإعلانات.", "قلها بطء عشان دراما زيادة.", "أفضل شي تقولها وحواجبك مرفوعة.", "قلها همس عشان رفض غامض.", "زيد ثلاث «و» للتأكيد — أهل اللغة ممكن ما يوافقون.", "تدرّب عليها قدام المراية قبل الدوام.", "نصيحة سفر: تعلّمها قبل «نعم».", "قصيرة ومهذبة ونهائية جدًا.", "كلمة وحدة، وصفر اجتماعات.", "مثالية لرفض قطعة كيك زيادة."]
+    }
+  }
+}

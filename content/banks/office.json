@@ -1,0 +1,74 @@
+{
+  "category": "office",
+  "characters": ["printer", "laptop", "mug", "phone"],
+  "en": {
+    "headlinePrefix": "Office life",
+    "asks": [
+      "Reply-all if you have any questions!",
+      "Icebreaker time: share your deepest fear.",
+      "Can you fix the printer? You're good with computers.",
+      "Let's hop on a quick 90-minute call.",
+      "Can you take notes? You type fast.",
+      "Who wants to organize the office party?",
+      "Can you rename 4,000 files by hand?",
+      "Brainstorm! There are no bad ideas.",
+      "Let's make this meeting a recurring meeting.",
+      "Can you approve this without reading it?",
+      "Camera on, please. And smile more.",
+      "Can you train the new intern, the new system, and the new plant?"
+    ],
+    "replies": [
+      "Muting myself now. Permanently.",
+      "I scheduled a meeting to say no. It's now.",
+      "The printer and I agreed never to speak again.",
+      "Let me take that offline. Very offline.",
+      "I'll circle back. The circle is closed.",
+      "Out of office, out of patience, out of here.",
+      "Looping in: nobody.",
+      "My Wi-Fi has decided for me: no.",
+      "That's outside my job description, and my galaxy.",
+      "Moving forward: backward.",
+      "Can't — my status says Do Not Disturb, and I believe in it.",
+      "The synergy says no.",
+      "Per our policy, which I just wrote: no.",
+      "Sending you a calendar invite titled 'No'.",
+      "I've CC'd my boundaries.",
+      "Let's table it. Under the table. Forever."
+    ]
+  },
+  "ar": {
+    "headlinePrefix": "حياة المكتب",
+    "asks": [
+      "اللي عنده سؤال يسوي «رد على الكل»!",
+      "نشاط تعارف: قول أكبر مخاوفك.",
+      "تصلح الطابعة؟ أنت شاطر بالكمبيوتر.",
+      "مكالمة سريعة، ٩٠ دقيقة بس.",
+      "تكتب المحضر؟ أنت تكتب بسرعة.",
+      "منو يبي ينظم حفلة المكتب؟",
+      "تقدر تغيّر أسماء ٤٠٠٠ ملف يدوي؟",
+      "عصف ذهني: ما في فكرة غلط.",
+      "خلنا نخلي هالاجتماع متكرر.",
+      "توافق على هذا بدون ما تقراه؟",
+      "شغّل الكاميرا لو سمحت. وابتسم أكثر.",
+      "تدرّب المتدرب الجديد، والنظام الجديد، والنبتة الجديدة؟"
+    ],
+    "replies": [
+      "كتمت الصوت. وللأبد.",
+      "حجزت اجتماع عشان أقول لا. والاجتماع الحين.",
+      "أنا والطابعة اتفقنا ما نكلم بعض مرة ثانية.",
+      "خلنا نكملها برّا الاجتماع. برّا وايد.",
+      "برجع لك. بس الطريق مسكّر.",
+      "خارج المكتب، خارج الصبر، خارج المبنى.",
+      "إضافة للنقاش: ولا أحد.",
+      "الواي فاي قرر عني: لا.",
+      "هذا برّا وصفي الوظيفي، وبرّا مجرتي.",
+      "الخطوة الجاية: للورا.",
+      "ما أقدر، حالتي «عدم الإزعاج» وأنا مؤمن فيها.",
+      "التكامل الوظيفي يقول لا.",
+      "حسب سياستنا اللي توني كتبتها: لا.",
+      "أرسلت لك دعوة تقويم عنوانها «لا».",
+      "حطيت حدودي في النسخة.",
+      "نأجلها. تحت الطاولة. للأبد."
+    ]
+  }
+}

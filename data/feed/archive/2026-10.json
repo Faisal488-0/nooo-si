@@ -1,0 +1,306 @@
+{
+  "month": "2026-10",
+  "items": [
+    {
+      "id": "20261009-010821-global-a67744dc",
+      "createdAt": "2026-10-09T01:08:21Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول «لا» بـالإندونيسية",
+      "body": "مثالية لرفض قطعة كيك زيادة.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "shocked",
+        "sticker": "مستحيل",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 714741
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 31,
+        "headline": 0,
+        "reply": 11
+      },
+      "contentHash": "a67744dc53445c130de6e4d0d0566fc01f4e64d85888a978ffbd8c6d9e43c257",
+      "verified": true,
+      "lang": {
+        "id": "id",
+        "name": "الإندونيسية",
+        "no": "Tidak",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
+      }
+    },
+    {
+      "id": "20261009-010820-monday-a82600fa",
+      "createdAt": "2026-10-09T01:08:20Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "أول الأسبوع: أسبوع جديد، أهداف جديدة!",
+      "body": "حماسي لسا على تجوال الويكند.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "cyan",
+        "character": "mug",
+        "expression": "angry",
+        "sticker": "لا قاطعة",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 963393
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 10
+      },
+      "contentHash": "a82600fa1b842f83a3d6f98dacd25f8d3d59b660e29ac421aa4a7206bf8d686b",
+      "verified": null
+    },
+    {
+      "id": "20261009-010819-office-d17e26c5",
+      "createdAt": "2026-10-09T01:08:19Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "خلنا نخلي هالاجتماع متكرر.",
+      "body": "ما أقدر، حالتي «عدم الإزعاج» وأنا مؤمن فيها.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "unbothered",
+        "sticker": "مستحيل",
+        "animation": "float",
+        "layout": "right",
+        "seed": 196796
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 10
+      },
+      "contentHash": "d17e26c5f0ace0b41ceb3e26e67ca3cbb4161e184d8e7d12b79a66b60e5d4097",
+      "verified": null
+    },
+    {
+      "id": "20261009-010818-morse-6bec75bd",
+      "createdAt": "2026-10-09T01:08:18Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "ومّض «NEVER» بالكشاف",
+      "body": "تعدّي الجدران والأبواب وقروبات العايلة.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "لا قاطعة",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 783735
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 4,
+        "headline": 2,
+        "reply": 2
+      },
+      "contentHash": "6bec75bd90bef83c6f0f46075d5f5192f7adeff086a7a0e173150c975f4a0bad",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NEVER",
+        "output": "-. . ...- . .-."
+      }
+    },
+    {
+      "id": "20261009-010817-binary-e1abe8a3",
+      "createdAt": "2026-10-09T01:08:17Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«لا» بالأصفار والآحاد",
+      "body": "صفر فرصة. واحد رفض.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "cyan",
+        "character": "robot",
+        "expression": "dramatic",
+        "sticker": "لا قاطعة",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 512839
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 0,
+        "headline": 2,
+        "reply": 2
+      },
+      "contentHash": "e1abe8a36d509b1afc8867a0e8e905f9f01470a947aeb8471f8824112e37a517",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "لا",
+        "output": "11011001 10000100 11011000 10100111"
+      }
+    },
+    {
+      "id": "20261009-010816-scifi-aa3293c0",
+      "createdAt": "2026-10-09T01:08:16Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "المحطة الأرضية: ألغِ استراحة القهوة.",
+      "body": "سلبي أيها الأرضي. جاري بث «لا» على كل الترددات.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "mint",
+        "character": "planet",
+        "expression": "shocked",
+        "sticker": "لااا!",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 136270
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 0
+      },
+      "contentHash": "aa3293c074101252ef8b2ec9a02f95025d93c95f92a05c572b0e41c841a2bcbd",
+      "verified": null
+    },
+    {
+      "id": "20261009-010815-cat-4402f6ed",
+      "createdAt": "2026-10-09T01:08:15Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "قلّل الدراما شوي؟",
+      "body": "لا. وبالمناسبة، الكوب اللي على الطاولة؟ راح.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "cyan",
+        "character": "cat",
+        "expression": "angry",
+        "sticker": "لااا!",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 185204
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 4
+      },
+      "contentHash": "4402f6ed64fdb1b23e76e19c9d273541de94722be5d3c8d165b764a14b659acf",
+      "verified": null
+    },
+    {
+      "id": "20261009-010807-relationship-236eec30",
+      "createdAt": "2026-10-09T01:08:07Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "أقدر أشوف جوالك؟",
+      "body": "هذي «لا» للطلب، مو «لا» لك.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lime",
+        "character": "cactus",
+        "expression": "smug",
+        "sticker": "مستحيل",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 669786
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 2
+      },
+      "contentHash": "236eec3089ddab7e72ba6c91fe8cffcf6bc8bc23ef9583ce6bda3e1716bb0e6d",
+      "verified": null
+    },
+    {
+      "id": "20261009-010806-friends-1a1a65b5",
+      "createdAt": "2026-10-09T01:08:06Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "تعال معاي تمرين الساعة ٥ الصبح.",
+      "body": "أحبك يا صديقي. بس جوابي ما يحبك.",
+      "kicker": "معتمدة من قطط العالم.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "grape",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "مو اليوم",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 780426
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 0
+      },
+      "contentHash": "1a1a65b581639dfcf5eed803a437ddd090662a4ff05e775951fead791ff72c56",
+      "verified": null
+    },
+    {
+      "id": "20261009-010805-boss-596644e8",
+      "createdAt": "2026-10-09T01:08:05Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "نرجع نتكلم الساعة ١١ بالليل.",
+      "body": "فرصة رائعة… لشخص ثاني.",
+      "kicker": "أرسلها لشخص يحتاجها.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "grape",
+        "character": "laptop",
+        "expression": "unbothered",
+        "sticker": "لا.",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 619927
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 6
+      },
+      "contentHash": "596644e8f9940defca286a81bb077f28625f49eee580ff8eb1ad249839f49717",
+      "verified": null
+    }
+  ]
+}

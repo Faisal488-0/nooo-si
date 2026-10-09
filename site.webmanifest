@@ -1,0 +1,12 @@
+{
+  "name": "NOOO! — The Universal Language of No",
+  "short_name": "NOOO!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF6E5",
+  "theme_color": "#FF3B30",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "assets/img/icon-180.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

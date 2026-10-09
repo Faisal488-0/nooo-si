@@ -8,7 +8,7 @@
 - Custom domain: `nooo.si`
 - File `CNAME`: exactly `nooo.si`
 
-This repository contains a temporary bilingual "coming soon" page. `index.html` includes `noindex` intentionally until the final site is ready. Remove `noindex` when launching your final site.
+This repository now contains the full NOOO! site (launched 2026-10-09; `noindex` removed). The hourly content workflow is documented in `docs/NOOO_HOURLY_OPERATIONS.md`.
 
 ## 1. Enable GitHub Pages BEFORE switching DNS
 

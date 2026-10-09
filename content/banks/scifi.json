@@ -1,0 +1,74 @@
+{
+  "category": "scifi",
+  "characters": ["alien", "robot", "ufo", "planet"],
+  "en": {
+    "headlinePrefix": "Incoming transmission",
+    "asks": [
+      "Ground control: abort the coffee break.",
+      "Visitor: take me to your leader.",
+      "Ship computer: please open the snack bay doors.",
+      "Earthling: can you teleport me to work?",
+      "Time traveler: can I borrow your weekend?",
+      "Space HR: mandatory team-building on Jupiter.",
+      "Galactic bank: your loan is due in three light-years.",
+      "Robot: upgrade to Human 2.0?",
+      "Spaceship: update available. Restart now?",
+      "Asteroid: mind if I park in your orbit?",
+      "Moon: can you cover my night shift?",
+      "Mars colony: mandatory 6 AM oxygen meeting."
+    ],
+    "replies": [
+      "Negative, Earthling. Broadcasting NO on all frequencies.",
+      "Request rejected at the speed of light.",
+      "My antennae have folded. That is a no.",
+      "Error 404: yes not found.",
+      "NO has been sent to twelve galaxies. They agree.",
+      "I traveled four billion kilometers to say this: no.",
+      "Shields up. Request bounced.",
+      "In my galaxy we have 300 words for no. I'm using all of them.",
+      "Warp drive engaged. Direction: away from your request.",
+      "Beep-boop translation: never, in this timeline.",
+      "We checked every parallel universe. Still no.",
+      "Mission control has lost interest. Over and out.",
+      "The stars aligned to spell N-O.",
+      "Your request entered a black hole. Nothing comes back.",
+      "Gravity says down. I say no.",
+      "Teleporting my answer to you now: NOOO."
+    ]
+  },
+  "ar": {
+    "headlinePrefix": "إرسال وارد",
+    "asks": [
+      "المحطة الأرضية: ألغِ استراحة القهوة.",
+      "زائر: خذني إلى قائدكم.",
+      "كمبيوتر المركبة: افتح بوابة السناكات.",
+      "أرضي: انقلني للدوام آنيًا.",
+      "مسافر عبر الزمن: سلّفني الويكند مالك؟",
+      "موارد بشرية فضائية: نشاط جماعي إجباري على المشتري.",
+      "بنك المجرة: قسطك يستحق بعد ٣ سنوات ضوئية.",
+      "روبوت: ترقية إلى إنسان 2.0؟",
+      "المركبة: تحديث متوفر. إعادة تشغيل الآن؟",
+      "كويكب: أقدر أوقف في مدارك؟",
+      "القمر: تقدر تغطي نوبتي الليلية؟",
+      "مستعمرة المريخ: اجتماع أكسجين إجباري ٦ الصبح."
+    ],
+    "replies": [
+      "سلبي أيها الأرضي. جاري بث «لا» على كل الترددات.",
+      "رُفض الطلب بسرعة الضوء.",
+      "انطوت هوائياتي. هذي «لا».",
+      "خطأ 404: لم يتم العثور على «نعم».",
+      "تم إرسال «لا» إلى ١٢ مجرة. وكلهم موافقين.",
+      "قطعت ٤ مليار كيلومتر عشان أقولها: لا.",
+      "الدروع مرفوعة. الطلب ارتد.",
+      "في مجرتنا ٣٠٠ كلمة لـ«لا». وبستخدمها كلها.",
+      "المحرك الفائق شغّال. الاتجاه: بعيد عن طلبك.",
+      "ترجمة «بيب بوب»: مستحيل في هذا الخط الزمني.",
+      "فتشنا كل الأكوان الموازية. برضو لا.",
+      "مركز التحكم فقد الاهتمام. انتهى الإرسال.",
+      "النجوم اصطفت عشان تكتب: ل-ا.",
+      "طلبك دخل ثقب أسود. ما يرجع منه شي.",
+      "الجاذبية تقول تحت. وأنا أقول لا.",
+      "جاري نقل ردي إليك الآن: لااااا."
+    ]
+  }
+}

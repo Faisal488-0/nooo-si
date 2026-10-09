@@ -1,0 +1,74 @@
+{
+  "category": "monday",
+  "characters": ["alarm", "mug", "bed", "ghost"],
+  "en": {
+    "headlinePrefix": "Monday morning",
+    "asks": [
+      "Alarm: it's 6:00 AM. Monday.",
+      "Monday: ready for a productive week?",
+      "Inbox: you have 214 unread emails.",
+      "Coffee machine: out of order.",
+      "Calendar: eight meetings today, back to back.",
+      "Traffic: expect 45 extra minutes.",
+      "Monday: new week, new goals!",
+      "To-do list: remember everything you left on Friday?",
+      "Weather: rain. Just for you.",
+      "Monday: smile, it's the start of the week!",
+      "Gym app: your weekly streak starts now!",
+      "Bed: you really have to get up now."
+    ],
+    "replies": [
+      "Snooze is my love language.",
+      "Monday, we need to talk. It's not me, it's you.",
+      "I'm opting out of Monday. See you Tuesday.",
+      "My body is here. My soul RSVP'd no.",
+      "Rescheduling Monday to never o'clock.",
+      "I'm not lazy, I'm in energy-saving mode.",
+      "Coffee first. Then, also, no.",
+      "Error: human not responding.",
+      "Monday filed a request. Request denied.",
+      "I'll start the week… next week.",
+      "My motivation is still on weekend roaming.",
+      "No — and I'm saying it in pajamas.",
+      "I'm boycotting the first day of everything.",
+      "Wake me up when it's Wednesday.",
+      "Monday, you are not invited to my week.",
+      "Snooze button, I choose you."
+    ]
+  },
+  "ar": {
+    "headlinePrefix": "صباح أول يوم دوام",
+    "asks": [
+      "المنبّه: الساعة ٦ الصبح. أول يوم دوام.",
+      "أول الأسبوع: جاهز لأسبوع منتج؟",
+      "الإيميل: عندك ٢١٤ رسالة غير مقروءة.",
+      "مكينة القهوة: خارج الخدمة.",
+      "التقويم: ٨ اجتماعات اليوم ورا بعض.",
+      "الزحمة: ٤٥ دقيقة زيادة.",
+      "أول الأسبوع: أسبوع جديد، أهداف جديدة!",
+      "قائمة المهام: تذكر اللي خليته من الخميس؟",
+      "الطقس: غبار. عشانك بالذات.",
+      "أول الأسبوع: ابتسم، بداية الأسبوع!",
+      "تطبيق النادي: سلسلتك الأسبوعية تبدأ الحين!",
+      "السرير: لازم تقوم الحين."
+    ],
+    "replies": [
+      "الغفوة هي لغة الحب عندي.",
+      "يا أول الأسبوع، لازم نتكلم. المشكلة مو فيني، فيك.",
+      "انسحبت من أول يوم. نشوفكم ثاني يوم.",
+      "جسمي حاضر، وروحي اعتذرت.",
+      "أجّلت بداية الأسبوع لساعة «أبدًا».",
+      "مو كسلان، أنا بوضع توفير الطاقة.",
+      "القهوة أول. وبعدها برضو لا.",
+      "خطأ: الإنسان لا يستجيب.",
+      "أول الأسبوع قدّم طلب. الطلب مرفوض.",
+      "ببدأ الأسبوع… الأسبوع الجاي.",
+      "حماسي لسا على تجوال الويكند.",
+      "لا، وأقولها بالبيجامة.",
+      "أقاطع أول يوم من كل شي.",
+      "صحّوني يوم الثلاثاء.",
+      "يا أول الأسبوع، أنت مو معزوم على أسبوعي.",
+      "زر الغفوة، اخترتك أنت."
+    ]
+  }
+}

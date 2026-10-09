@@ -1,0 +1,74 @@
+{
+  "category": "relationship",
+  "characters": ["heart", "phone", "cactus", "ghost"],
+  "en": {
+    "headlinePrefix": "Your partner asks",
+    "asks": [
+      "Can I check your phone?",
+      "Let's move in together. Tomorrow.",
+      "Can we talk about us at 2 AM?",
+      "Could you change your whole personality… a little?",
+      "Let's post our relationship status every hour.",
+      "Can I pick all your outfits?",
+      "Meet my entire family this weekend? All 63 of them.",
+      "Can you reply within four seconds?",
+      "Let's share one email account.",
+      "Can you see your friends a bit less?",
+      "Matching tattoos on our third date?",
+      "Can I name our future cat without you?"
+    ],
+    "replies": [
+      "I care about you, and my answer is still no.",
+      "I love us. I also love boundaries.",
+      "That's a no to the request, not a no to you.",
+      "Let's talk about it — at a human hour. Answer: no.",
+      "My heart says maybe, my boundaries say no, and they're in charge.",
+      "I'd rather be honest than agreeable: no.",
+      "No, and thank you for asking instead of assuming.",
+      "Respectfully, lovingly, completely: no.",
+      "We're a team. Team decision: no.",
+      "No thanks — I like the speed we're at.",
+      "Saying no to this is saying yes to us lasting.",
+      "I hear you. I'm still going to say no.",
+      "Healthy relationships come with a no button. I'm pressing it.",
+      "Not a fight, just a fact: no.",
+      "Let's keep the magic and skip the micromanaging.",
+      "My answer is no. My hug is yes."
+    ]
+  },
+  "ar": {
+    "headlinePrefix": "الشريك يطلب",
+    "asks": [
+      "أقدر أشوف جوالك؟",
+      "خلنا نسكن مع بعض. من باچر.",
+      "نتكلم عن علاقتنا الساعة ٢ الفجر؟",
+      "تقدر تغيّر شخصيتك كلها… شوي؟",
+      "خلنا ننشر حالتنا كل ساعة.",
+      "أختار لك لبسك كله؟",
+      "تعال قابل أهلي كلهم هالأسبوع؟ ٦٣ شخص بس.",
+      "رد على رسايلي خلال ٤ ثواني.",
+      "خلنا نشترك في إيميل واحد.",
+      "خفّف من شوفة ربعك؟",
+      "نسوي وشم متطابق في ثالث موعد؟",
+      "أسمّي قطوتنا المستقبلية بدونك؟"
+    ],
+    "replies": [
+      "أهتم فيك، وجوابي برضو لا.",
+      "أحبنا. وأحب الحدود بعد.",
+      "هذي «لا» للطلب، مو «لا» لك.",
+      "نتكلم عنها، بس بوقت بشري. الجواب: لا.",
+      "قلبي يقول يمكن، وحدودي تقول لا، والقرار لحدودي.",
+      "أفضّل أكون صادق على إني أكون مجامل: لا.",
+      "لا، وشكرًا إنك سألت بدل ما تفترض.",
+      "باحترام وبحب وبشكل كامل: لا.",
+      "إحنا فريق. وقرار الفريق: لا.",
+      "لا شكرًا، مرتاح على سرعتنا الحالية.",
+      "رفضي لهذا تمسّك بعلاقتنا.",
+      "سمعتك، وبرضو بقول لا.",
+      "العلاقة الصحية فيها زر «لا». وأنا ضغطته.",
+      "مو خناقة، بس حقيقة: لا.",
+      "خلنا نحافظ على الحلاوة ونترك التحكم.",
+      "جوابي لا، وحضني نعم."
+    ]
+  }
+}

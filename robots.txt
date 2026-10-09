@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /scripts/
+Disallow: /tests/
+Sitemap: https://nooo.si/sitemap.xml

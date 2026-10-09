@@ -2,44 +2,244 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#0b1221">
-  <meta name="description" content="nooo.si — موقع قيد التجهيز.">
-  <meta name="robots" content="noindex, nofollow">
-  <title>nooo.si | قريباً</title>
-  <style>
-    :root { font-family: system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif; color-scheme: dark; }
-    * { box-sizing: border-box; }
-    html, body { min-height: 100%; margin: 0; }
-    body {
-      display: grid; place-items: center; padding: 24px;
-      color: #eef5ff; background: #0b1221;
-      background-image: radial-gradient(ellipse at 75% 15%, #183c54 0%, transparent 46%),
-                        radial-gradient(ellipse at 20% 85%, #202a5b 0%, transparent 45%);
-    }
-    main { width: min(100%, 680px); }
-    .mark { display: inline-block; padding: 9px 15px; border: 1px solid #60708c66; border-radius: 999px;
-            letter-spacing: .09em; font-size: 14px; color: #b1eaff; direction: ltr; }
-    h1 { margin: 28px 0 16px; font-size: clamp(36px, 7vw, 76px); line-height: 1.2; letter-spacing: -.045em; }
-    p { margin: 0; font-size: clamp(17px, 2.5vw, 21px); line-height: 1.95; color: #b6c5d9; }
-    .english { direction: ltr; text-align: left; margin-top: 24px; font-size: 16px; color: #92a8c3; }
-    .rule { width: 56px; height: 3px; margin: 36px 0 18px auto; background: #6be4d7; border-radius: 3px; }
-    footer { font-size: 13px; color: #889ab3; }
-    @media (prefers-reduced-motion: no-preference) {
-      main { animation: appear .65s ease-out both; }
-      @keyframes appear { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>NOOO! — The Universal Language of No | nooo.si</title>
+  <meta name="description" content="NOOO! — موسوعة كوميدية تفاعلية عن كل طرق قول «لا»: ميمز، أصوات، ألعاب، كلمة لا بلغات العالم، وبطاقة جديدة كل ساعة. An interactive comedy encyclopedia of every way to say no.">
+  <link rel="canonical" href="https://nooo.si/">
+  <meta name="theme-color" content="#FF3B30">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/icon-180.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="nooo.si">
+  <meta property="og:url" content="https://nooo.si/">
+  <meta property="og:title" content="NOOO! — The Universal Language of No">
+  <meta property="og:description" content="Say no in every way imaginable. A fresh original refusal card every hour. قلها بثقة: لا!">
+  <meta property="og:image" content="https://nooo.si/assets/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ar_KW">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NOOO! — The Universal Language of No">
+  <meta name="twitter:description" content="A fresh original refusal card every hour.">
+  <meta name="twitter:image" content="https://nooo.si/assets/img/og.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Lalezar&family=Rubik:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/early.js"></script>
+  <script type="module" src="assets/js/app.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NOOO! — The Universal Language of No","alternateName":"nooo.si","url":"https://nooo.si/","inLanguage":["ar","en"]}</script>
 </head>
 <body>
-  <main aria-labelledby="heading">
-    <span class="mark">nooo.si</span>
-    <h1 id="heading">شيء جديد<br>قريباً.</h1>
-    <p>نعمل على تجهيز هذه المساحة. ترقّبوا الإطلاق.</p>
-    <p class="english" lang="en">Something new is on the way.<br>Our website is coming soon.</p>
-    <div class="rule" aria-hidden="true"></div>
-    <footer>nooo.si</footer>
+  <a class="skip" href="#main" data-i18n="skip">انتقل إلى المحتوى</a>
+
+  <header class="topbar">
+    <a class="logo" href="#hero" aria-label="nooo.si" dir="ltr">NOOO<span>!</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#new" data-i18n="navNew">جديد الساعة</a>
+      <a href="#art" data-i18n="navArt">فن الرفض</a>
+      <a href="#world" data-i18n="navWorld">لا حول العالم</a>
+      <a href="#machine" data-i18n="navMachine">لغة الآلات</a>
+      <a href="#memes" data-i18n="navMemes">الميمز</a>
+      <a href="#sound" data-i18n="navSound">الأصوات</a>
+      <a href="#games" data-i18n="navGames">الألعاب</a>
+    </nav>
+    <div class="controls">
+      <button id="mute-btn" class="icon-btn" type="button" aria-pressed="false" aria-label="كتم الصوت">🔊</button>
+      <input id="volume" class="volume" type="range" min="0" max="100" step="5" value="60" data-i18n-attr="aria-label:volume" aria-label="مستوى الصوت">
+      <button id="lang-btn" class="lang-btn" type="button" data-i18n="langBtn" data-i18n-attr="aria-label:langBtnLabel" lang="en">English</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <p class="hero-kicker" data-i18n="heroKicker">موسوعة كوميدية تفاعلية لكل طرق الرفض</p>
+      <h1 id="hero-title" class="hero-title"><span class="sr-only" data-i18n="tagline">NOOO! — اللغة العالمية لكلمة «لا»</span><span aria-hidden="true" data-i18n="heroTitle">قلها بثقة.</span></h1>
+      <div class="hero-stage">
+        <button id="nooo-btn" class="nooo-btn" type="button" data-i18n-attr="aria-label:heroBtnLabel" aria-label="اضغط زر لا العملاق"><span class="l">N</span><span class="l">O</span><span class="l">O</span><span class="l">O</span><span class="l">!</span></button>
+      </div>
+      <p id="hero-says" class="hero-says" aria-live="polite"></p>
+      <p id="hero-count" class="hero-count"></p>
+      <p class="hero-hint" data-i18n="heroHint">اضغط الزر. لا يوجد صوت قبل ضغطتك، ويمكنك كتمه من الأعلى.</p>
+      <p id="motion-note" class="hero-hint" data-i18n="reduced" hidden>تم تقليل الحركة احترامًا لإعدادات جهازك.</p>
+      <p class="hero-sub" lang="en" dir="ltr">NOOO! — The Universal Language of No.</p>
+    </section>
+
+    <!-- NEW THIS HOUR -->
+    <section id="new" class="band band-yellow" aria-labelledby="new-title">
+      <div class="wrap">
+        <h2 id="new-title" class="section-title"><span class="live">LIVE</span> <span data-i18n="newTitle">NEW THIS HOUR — جديد هالساعة</span></h2>
+        <p class="section-intro" data-i18n="newIntro"></p>
+        <p id="feed-meta" class="feed-meta" aria-live="polite"></p>
+        <div id="feed-shared" class="feed-shared" hidden></div>
+        <div id="feed-hero" class="feed-hero"><noscript><p class="empty">Enable JavaScript to see the hourly cards: <a href="data/feed/latest.json">latest.json</a></p></noscript></div>
+        <div id="feed-grid" class="card-grid"></div>
+        <div class="center"><button id="archive-open" class="btn btn-big" type="button" data-i18n="archiveBtn">تصفّح الأرشيف</button></div>
+        <div id="archive" class="archive" hidden>
+          <div class="archive-controls">
+            <label><span data-i18n="archiveMonth">الشهر</span> <select id="archive-month"></select></label>
+            <label><span data-i18n="archiveCat">الفئة</span> <select id="archive-cat"></select></label>
+          </div>
+          <div id="archive-grid" class="card-grid"></div>
+          <div class="center"><button id="archive-more" class="btn" type="button" data-i18n="loadMore" hidden>المزيد</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ART OF NO -->
+    <section id="art" class="band band-pink" data-lazy="art" aria-labelledby="art-title">
+      <div class="wrap">
+        <h2 id="art-title" class="section-title" data-i18n="artTitle">كيف تقول لا؟ — THE ART OF SAYING NO</h2>
+        <p class="section-intro" data-i18n="artIntro"></p>
+        <div id="art-app" class="art-app"></div>
+      </div>
+    </section>
+
+    <!-- WORLD -->
+    <section id="world" class="band band-cyan" data-lazy="world" aria-labelledby="world-title">
+      <div class="wrap">
+        <h2 id="world-title" class="section-title" data-i18n="worldTitle">موسوعة «لا» حول العالم</h2>
+        <p id="world-intro" class="section-intro"></p>
+        <div class="toolbar">
+          <input id="world-search" type="search" class="input" data-i18n-attr="placeholder:search;aria-label:search" placeholder="ابحث عن لغة أو كلمة…" aria-label="بحث">
+          <label class="inline"><span data-i18n="sortBy">الترتيب</span>
+            <select id="world-sort"><option value="name">الاسم</option><option value="len">أقصر كلمة</option><option value="script">غير اللاتينية أولًا</option></select>
+          </label>
+          <span id="world-count" class="count" aria-live="polite"></span>
+        </div>
+        <ul id="world-list" class="lang-grid"></ul>
+        <p id="world-missing" class="fineprint"></p>
+      </div>
+    </section>
+
+    <!-- GALACTIC -->
+    <section id="galactic" class="band band-space" data-lazy="world" aria-labelledby="galactic-title">
+      <div class="wrap">
+        <h2 id="galactic-title" class="section-title" data-i18n="galacticTitle">GALACTIC NOOO — لا الفضائية</h2>
+        <p class="section-intro" data-i18n="galacticIntro"></p>
+        <div id="galactic-grid" class="gal-grid"></div>
+      </div>
+    </section>
+
+    <!-- MACHINES -->
+    <section id="machine" class="band band-lime" data-lazy="machine" aria-labelledby="machine-title">
+      <div class="wrap">
+        <h2 id="machine-title" class="section-title" data-i18n="machineTitle">لغة الآلات والإشارات</h2>
+        <p class="section-intro" data-i18n="machineIntro"></p>
+        <div class="machine-input">
+          <label for="machine-input" data-i18n="machineInput">النص</label>
+          <input id="machine-input" class="input input-big" type="text" value="NOOO" dir="auto" autocomplete="off" spellcheck="false">
+          <div class="morse-controls">
+            <span id="morse-lamp" class="morse-lamp" aria-hidden="true"></span>
+            <button id="morse-play" class="btn" type="button" data-i18n="playMorse">▶ شغّل مورس</button>
+            <button id="morse-stop" class="btn btn-ghost" type="button" data-i18n="stopMorse">■ إيقاف</button>
+          </div>
+        </div>
+        <div id="machine-out" class="enc-grid"></div>
+      </div>
+    </section>
+
+    <!-- MEMES -->
+    <section id="memes" class="band band-orange" data-lazy="memes" aria-labelledby="memes-title">
+      <div class="wrap">
+        <h2 id="memes-title" class="section-title" data-i18n="memesTitle">متحف الميمز + صانع الميمز</h2>
+        <p class="section-intro" data-i18n="memesIntro"></p>
+        <div class="toolbar">
+          <input id="meme-search" type="search" class="input" data-i18n-attr="placeholder:memeSearch;aria-label:memeSearch" placeholder="ابحث في الميمز…" aria-label="بحث">
+          <button id="meme-random" class="btn btn-pop" type="button" data-i18n="randomMeme">🎲 ميم عشوائي</button>
+        </div>
+        <div id="meme-filters" class="chips" role="group"></div>
+        <div id="meme-grid" class="meme-grid"></div>
+
+        <div class="maker">
+          <h3 class="maker-title" data-i18n="makerTitle">اصنع ميمك</h3>
+          <div class="maker-layout">
+            <div class="maker-canvas">
+              <div id="maker-preview" class="maker-preview"></div>
+              <p id="maker-top-cap" class="cap cap-top"></p>
+              <p id="maker-bottom-cap" class="cap cap-bottom"></p>
+            </div>
+            <div class="maker-form">
+              <label><span data-i18n="makerTop">النص العلوي</span><input id="mk-top" class="input" type="text" maxlength="80" dir="auto"></label>
+              <label><span data-i18n="makerBottom">النص السفلي</span><input id="mk-bottom" class="input" type="text" maxlength="80" dir="auto"></label>
+              <div class="grid2">
+                <label><span data-i18n="makerChar">الشخصية</span><select id="mk-char"></select></label>
+                <label><span data-i18n="makerExpr">التعبير</span><select id="mk-expr"></select></label>
+                <label><span data-i18n="makerBg">الخلفية</span><select id="mk-bg"></select></label>
+                <label><span data-i18n="makerPalette">الألوان</span><select id="mk-pal"></select></label>
+                <label><span data-i18n="makerPos">موضع النص</span><select id="mk-pos"></select></label>
+                <label><span data-i18n="makerSticker">الملصق</span><input id="mk-sticker" class="input" type="text" maxlength="14" dir="auto"></label>
+              </div>
+              <div class="card-actions">
+                <button id="mk-shuffle" class="btn" type="button" data-i18n="makerShuffle">🔀 عشوائي</button>
+                <button id="mk-download" class="btn btn-pop" type="button" data-i18n="download">تنزيل PNG</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOUND LAB -->
+    <section id="sound" class="band band-violet" data-lazy="sound" aria-labelledby="sound-title">
+      <div class="wrap">
+        <h2 id="sound-title" class="section-title" data-i18n="soundTitle">NOOO SOUND LAB — مختبر الأصوات</h2>
+        <p class="section-intro" data-i18n="soundIntro"></p>
+        <div id="sound-pads" class="pads"></div>
+        <div class="center"><button id="sound-stop" class="btn btn-big" type="button" data-i18n="stop">■ إيقاف</button></div>
+      </div>
+    </section>
+
+    <!-- GAMES -->
+    <section id="games" class="band band-yellow" data-lazy="games" aria-labelledby="games-title">
+      <div class="wrap">
+        <h2 id="games-title" class="section-title" data-i18n="gamesTitle">ألعاب الرفض</h2>
+        <div class="games">
+          <article class="game"><h3 data-i18n="g1Title">Don't Press NO</h3><p data-i18n="g1Desc"></p><div id="g1-area" class="g-area"></div></article>
+          <article class="game"><h3 data-i18n="g2Title">Find the NO</h3><p data-i18n="g2Desc"></p><div id="g2-area" class="g-area"></div></article>
+          <article class="game"><h3 data-i18n="g3Title">NO Reaction Test</h3><p data-i18n="g3Desc"></p><div id="g3-area" class="g-area"></div></article>
+          <article class="game"><h3 data-i18n="g4Title">NOOO Typing Race</h3><p data-i18n="g4Desc"></p><div id="g4-area" class="g-area"></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HALL OF NO -->
+    <section id="hall" class="band band-ink" data-lazy="sound" aria-labelledby="hall-title">
+      <div class="wrap">
+        <h2 id="hall-title" class="section-title" data-i18n="hallTitle">HALL OF NO — جدار الرفض</h2>
+        <div class="center"><button id="hall-shuffle" class="btn" type="button" data-i18n="hallShuffle">🔀 خلط</button></div>
+        <div id="hall-walls" class="walls"></div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="footer-logo" aria-hidden="true" dir="ltr">NOOO!</p>
+      <p data-i18n="footerAbout"></p>
+      <p data-i18n="footerEngine"></p>
+      <p data-i18n="footerHonest"></p>
+      <p><a href="https://github.com/Faisal488-0/nooo-si" rel="noopener" data-i18n="footerRepo">الكود على GitHub</a> · <span lang="en" dir="ltr">Say NO. Have fun. Come back next hour.</span></p>
+    </div>
+  </footer>
+
+  <div id="fx-layer" class="fx-layer" aria-hidden="true"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <dialog id="share-dialog" class="dialog">
+    <div class="dialog-head"><strong data-i18n="share">مشاركة</strong><button class="icon-btn" type="button" data-close aria-label="×">✕</button></div>
+    <p class="share-preview"></p>
+    <div class="share-list"></div>
+  </dialog>
+  <dialog id="meme-dialog" class="dialog dialog-wide">
+    <div class="dialog-head"><strong>MEME MUSEUM</strong><button class="icon-btn" type="button" data-close aria-label="×">✕</button></div>
+    <div class="dialog-body"></div>
+  </dialog>
 </body>
 </html>

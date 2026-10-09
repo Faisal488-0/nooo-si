@@ -1,0 +1,122 @@
+{
+  "tones": [
+    { "id": "polite", "en": "Polite", "ar": "مهذّب" },
+    { "id": "professional", "en": "Professional", "ar": "مهني" },
+    { "id": "direct", "en": "Direct", "ar": "مباشر" },
+    { "id": "funny", "en": "Funny", "ar": "مضحك" },
+    { "id": "sarcastic", "en": "Sarcastic", "ar": "ساخر" },
+    { "id": "dramatic", "en": "Dramatic", "ar": "درامي" }
+  ],
+  "categories": [
+    {
+      "id": "boss", "icon": "boss", "title": { "en": "Your boss", "ar": "مديرك" },
+      "situations": [
+        { "title": { "en": "Overtime tonight", "ar": "دوام إضافي الليلة" },
+          "en": { "polite": "I'd like to help, but I can't stay late tonight.", "professional": "I'm at capacity today; I can pick this up first thing tomorrow.", "direct": "No, I'm not staying late tonight.", "funny": "My shift ends at 5. My soul clocked out at 4:59.", "sarcastic": "Sure, let me just cancel my entire personality.", "dramatic": "If I stay one more minute, the office lights will witness me become a ghost." },
+          "ar": { "polite": "ودّي أساعد، بس ما أقدر أتأخر اليوم.", "professional": "طاقتي مكتملة اليوم، وأقدر أبدأ فيها أول شي باچر.", "direct": "لا، ما راح أتأخر اليوم.", "funny": "دوامي يخلص ٥، وروحي بصمت خروج ٤:٥٩.", "sarcastic": "أكيد، خلني بس ألغي حياتي كلها.", "dramatic": "لو قعدت دقيقة زيادة، بتشهد أنوار المكتب تحوّلي إلى شبح." } },
+        { "title": { "en": "Work on your vacation", "ar": "شغل في الإجازة" },
+          "en": { "polite": "I'll be offline during my leave — thank you for understanding.", "professional": "I'm on leave until Sunday; a colleague is covering anything urgent.", "direct": "No, I won't be working on my vacation.", "funny": "My out-of-office has a bodyguard now.", "sarcastic": "Absolutely. I'll answer emails from the beach with sunscreen thumbs.", "dramatic": "The ocean called. It said I belong to it now." },
+          "ar": { "polite": "بكون غير متصل خلال إجازتي، شاكر تفهمك.", "professional": "أنا في إجازة لين الأحد، وزميلي يتابع الأمور العاجلة.", "direct": "لا، ما راح أشتغل في إجازتي.", "funny": "رد الغياب التلقائي صار عنده حارس شخصي.", "sarcastic": "أكيد، برد على الإيميلات من البحر بأصابع كلها واقي شمس.", "dramatic": "البحر ناداني، وقال إني صرت له." } }
+      ]
+    },
+    {
+      "id": "friends", "icon": "ghost", "title": { "en": "Your friends", "ar": "أصدقاؤك" },
+      "situations": [
+        { "title": { "en": "Lend me money", "ar": "سلّفني فلوس" },
+          "en": { "polite": "I'm sorry, I'm not able to lend money right now.", "professional": "I keep a personal rule about not lending money — nothing personal.", "direct": "No, I can't lend you money.", "funny": "My wallet is in witness protection.", "sarcastic": "Of course, let me check under my mattress full of gold.", "dramatic": "My bank account read your message and fainted." },
+          "ar": { "polite": "آسف، ما أقدر أسلّف فلوس الحين.", "professional": "عندي قاعدة شخصية ما أسلّف فيها، مو شي شخصي.", "direct": "لا، ما أقدر أسلّفك.", "funny": "محفظتي في برنامج حماية الشهود.", "sarcastic": "أكيد، خلني أشوف تحت فراشي اللي كله ذهب.", "dramatic": "حسابي البنكي قرا رسالتك وأغمى عليه." } },
+        { "title": { "en": "Gaming until dawn", "ar": "ألعاب لين الفجر" },
+          "en": { "polite": "I'll sit this one out — I need some sleep tonight.", "professional": "I have an early start tomorrow, so I'm logging off now.", "direct": "No, I'm done for tonight.", "funny": "My controller just asked for overtime pay.", "sarcastic": "Sure, who needs sleep when you have respawns?", "dramatic": "One more round and the sun will rise on my ruins." },
+          "ar": { "polite": "بعتذر هالمرة، أحتاج أنام الليلة.", "professional": "عندي دوام بدري باچر، فبطلع الحين.", "direct": "لا، خلاص لليوم.", "funny": "اليد رفعت طلب بدل ساعات إضافية.", "sarcastic": "أكيد، منو يحتاج نوم وعندنا إعادة إحياء؟", "dramatic": "لو لعبت جولة زيادة، الشمس بتطلع على أطلالي." } }
+      ]
+    },
+    {
+      "id": "family", "icon": "heart", "title": { "en": "Family", "ar": "العائلة" },
+      "situations": [
+        { "title": { "en": "A last-minute visit", "ar": "زيارة على آخر لحظة" },
+          "en": { "polite": "I'd love to visit, but today doesn't work. How about the weekend?", "professional": "I have commitments today; let's plan a proper visit soon.", "direct": "Not today, sorry.", "funny": "My sofa and I are in a very serious meeting.", "sarcastic": "Of course, I'll teleport there in my pajamas.", "dramatic": "My energy has left the building; only my shadow remains." },
+          "ar": { "polite": "ودّي أزوركم، بس اليوم ما يمديني. شرايكم الويكند؟", "professional": "عندي التزامات اليوم، خلنا نرتب زيارة عدلة قريب.", "direct": "مو اليوم، آسف.", "funny": "أنا والكنبة في اجتماع مهم جدًا.", "sarcastic": "أكيد، بنتقل لكم آنيًا بالبيجامة.", "dramatic": "طاقتي غادرت المبنى، وما بقى إلا ظلي." } },
+        { "title": { "en": "An errand right now", "ar": "مشوار الحين" },
+          "en": { "polite": "I can't go right now — can it wait an hour?", "professional": "I'm in the middle of something; I can do it afterwards.", "direct": "No, not right now.", "funny": "My car is on strike and my legs joined the union.", "sarcastic": "Sure, I'll drop everything. Literally everything.", "dramatic": "The universe heard 'quick errand' and laughed." },
+          "ar": { "polite": "ما أقدر الحين، ممكن بعد ساعة؟", "professional": "أنا مشغول بشي الحين، أسويها بعدين.", "direct": "لا، مو الحين.", "funny": "سيارتي مضربة، ورجولي انضمت للنقابة.", "sarcastic": "أكيد، بترك كل شي… حرفيًا كل شي.", "dramatic": "الكون سمع «مشوار سريع» وضحك." } }
+      ]
+    },
+    {
+      "id": "relationships", "icon": "heart", "title": { "en": "Relationships", "ar": "العلاقات" },
+      "situations": [
+        { "title": { "en": "Can I check your phone?", "ar": "أقدر أشوف جوالك؟" },
+          "en": { "polite": "I'd rather keep my phone private — and I trust you too.", "professional": "Let's agree on privacy: my phone stays mine, yours stays yours.", "direct": "No, my phone is private.", "funny": "My phone has a strict no-visitors policy.", "sarcastic": "Sure, and I'll read your diary out loud at dinner.", "dramatic": "This phone holds secrets… mostly cat videos. Still no." },
+          "ar": { "polite": "أفضّل يكون جوالي خاص، وأنا أثق فيك بعد.", "professional": "خلنا نتفق على الخصوصية: جوالي لي، وجوالك لك.", "direct": "لا، جوالي خاص.", "funny": "جوالي عنده سياسة صارمة: ممنوع الزوار.", "sarcastic": "أكيد، وأنا بقرا مذكراتك بصوت عالي على العشا.", "dramatic": "هالجوال فيه أسرار… أغلبها فيديوهات قطاوة. برضو لا." } },
+        { "title": { "en": "Plans when you need rest", "ar": "طلعة وأنت تحتاج راحة" },
+          "en": { "polite": "I need a quiet night in — can we plan for tomorrow?", "professional": "I'm out of energy tonight; let's pick a time that works for both of us.", "direct": "No, I'm staying in tonight.", "funny": "My social battery is charging. Please do not unplug.", "sarcastic": "Yes, I'd love to be charming at 1% battery.", "dramatic": "Tonight, I belong to the blanket." },
+          "ar": { "polite": "أحتاج ليلة هادية بالبيت، نخليها باچر؟", "professional": "طاقتي خلصت الليلة، خلنا نختار وقت يناسبنا إحنا الاثنين.", "direct": "لا، بقعد بالبيت الليلة.", "funny": "بطاريتي الاجتماعية تشحن. لا تفصلون الشاحن.", "sarcastic": "أكيد، أحب أكون مرح وبطاريتي ١٪.", "dramatic": "الليلة أنا ملك البطانية." } }
+      ]
+    },
+    {
+      "id": "internet", "icon": "laptop", "title": { "en": "The internet", "ar": "الإنترنت" },
+      "situations": [
+        { "title": { "en": "Popups and newsletters", "ar": "النوافذ والنشرات" },
+          "en": { "polite": "No thanks, I'll pass on the newsletter.", "professional": "Unsubscribe. Preferences: none.", "direct": "Reject all.", "funny": "My inbox is a protected nature reserve.", "sarcastic": "Yes, please send me 14 emails a day about socks.", "dramatic": "Another popup? I shall close you with the force of a thousand X buttons." },
+          "ar": { "polite": "لا شكرًا، ما أبي النشرة.", "professional": "إلغاء الاشتراك. التفضيلات: لا شي.", "direct": "رفض الكل.", "funny": "بريدي محمية طبيعية.", "sarcastic": "أكيد، أرسلوا لي ١٤ إيميل يوميًا عن الجواريب.", "dramatic": "نافذة منبثقة ثانية؟ بسكرك بقوة ألف زر إغلاق." } },
+        { "title": { "en": "Allow notifications?", "ar": "السماح بالإشعارات؟" },
+          "en": { "polite": "Not now — and maybe never.", "professional": "Notifications disabled to protect focus.", "direct": "Block.", "funny": "My phone is in airplane mode. My soul is in cloud mode.", "sarcastic": "Of course, ping me every time someone likes a sandwich.", "dramatic": "Silence, little red dot. Your reign is over." },
+          "ar": { "polite": "مو الحين… ويمكن أبدًا.", "professional": "الإشعارات متوقفة حفاظًا على التركيز.", "direct": "حظر.", "funny": "جوالي على وضع الطيران، وروحي على وضع السحاب.", "sarcastic": "أكيد، نبهني كل ما أحد عجبته ساندويشة.", "dramatic": "اسكتي يا النقطة الحمرا. انتهى عهدك." } }
+      ]
+    },
+    {
+      "id": "yourself", "icon": "mug", "title": { "en": "Yourself", "ar": "نفسك" },
+      "situations": [
+        { "title": { "en": "Staying up too late", "ar": "السهر" },
+          "en": { "polite": "Dear me, kindly go to sleep.", "professional": "Today's tasks are closed. Reopening at 8 AM.", "direct": "No more scrolling. Bed.", "funny": "The internet will still be there tomorrow. I checked.", "sarcastic": "Yes, one more video will definitely fix my life.", "dramatic": "At 3 AM the screen glows, and I whisper: enough." },
+          "ar": { "polite": "عزيزي أنا، تفضل نام لو سمحت.", "professional": "مهام اليوم مغلقة. نعيد الفتح ٨ الصبح.", "direct": "خلاص سكرول. نوم.", "funny": "الإنترنت بيكون موجود باچر. تأكدت.", "sarcastic": "أكيد، فيديو واحد زيادة بيصلح حياتي.", "dramatic": "الساعة ٣ الفجر والشاشة تضوي، وأهمس: يكفي." } },
+        { "title": { "en": "Impulse shopping", "ar": "الشراء الاندفاعي" },
+          "en": { "polite": "Let's wait 24 hours and see if I still want it.", "professional": "This purchase is not in this month's budget.", "direct": "No. Close the tab.", "funny": "Cart: full. Wallet: empty. Wisdom: loading.", "sarcastic": "Yes, a fourth phone case will complete me.", "dramatic": "I hover over 'Buy now'… and choose freedom." },
+          "ar": { "polite": "خلني أنتظر ٢٤ ساعة وأشوف إذا لسا أبيه.", "professional": "هالشراء مو ضمن ميزانية هالشهر.", "direct": "لا. سكّر الصفحة.", "funny": "السلة مليانة، والمحفظة فاضية، والحكمة جاري تحميلها.", "sarcastic": "أكيد، كفر الجوال الرابع بيكملني.", "dramatic": "أحوم فوق «اشترِ الآن»… وأختار الحرية." } }
+      ]
+    },
+    {
+      "id": "styles", "icon": "robot", "title": { "en": "Royal, robot & cosmic", "ar": "ملكي وآلي وكوني" },
+      "situations": [
+        { "title": { "en": "The royal no", "ar": "اللا الملكية" },
+          "en": { "polite": "We thank you for your request and graciously decline.", "professional": "By royal decree, this request is denied.", "direct": "The crown says no.", "funny": "The throne is comfy. We're not getting up.", "sarcastic": "Ah yes, let me consult my 400 advisors. They said no.", "dramatic": "Let the trumpets sound: NOOOOO!" },
+          "ar": { "polite": "نشكركم على طلبكم ونعتذر عنه بكل لطف.", "professional": "بموجب مرسوم ملكي، يُرفض الطلب.", "direct": "التاج يقول لا.", "funny": "العرش مريح، وما راح نقوم.", "sarcastic": "أكيد، خلني أستشير ٤٠٠ مستشار. قالوا لا.", "dramatic": "لتُقرع الطبول: لاااااا!" } },
+        { "title": { "en": "The robot no", "ar": "اللا الآلية" },
+          "en": { "polite": "Request received. Politely rejected. Have a nice day.", "professional": "Processing… Result: DENIED. Code 0x0.", "direct": "NO.", "funny": "Beep boop. Sarcasm module disabled. Still no.", "sarcastic": "Calculating my interest… 0.000%.", "dramatic": "SYSTEM OVERLOAD. ONLY NO REMAINS." },
+          "ar": { "polite": "تم استلام الطلب. تم رفضه بأدب. يومك سعيد.", "professional": "جاري المعالجة… النتيجة: مرفوض. الرمز 0x0.", "direct": "لا.", "funny": "بيب بوب. وحدة السخرية متوقفة. وبرضو لا.", "sarcastic": "جاري حساب اهتمامي… 0.000٪.", "dramatic": "حمل زائد على النظام. لم يتبقَّ إلا «لا»." } }
+      ]
+    },
+    {
+      "id": "noword", "icon": "cactus", "title": { "en": "No, without saying 'no'", "ar": "لا… بدون كلمة «لا»" },
+      "situations": [
+        { "title": { "en": "An invitation you don't want", "ar": "دعوة ما تبيها" },
+          "en": { "polite": "That sounds lovely — I'll have to miss this one.", "professional": "I won't be able to attend, but thank you for including me.", "direct": "I'm going to pass.", "funny": "I'd come, but I'm busy being home.", "sarcastic": "Tempting… in a parallel universe.", "dramatic": "My presence will be felt. My body will be elsewhere." },
+          "ar": { "polite": "تبدو حلوة — بس هالمرة ما راح أقدر.", "professional": "ما راح أقدر أحضر، وشكرًا إنكم تذكرتوني.", "direct": "بعتذر عنها.", "funny": "ودي أجي، بس مشغول إني في البيت.", "sarcastic": "مغرية… في كون موازي.", "dramatic": "حضوري بيكون محسوس، بس جسمي بمكان ثاني." } },
+        { "title": { "en": "One more task", "ar": "مهمة زيادة" },
+          "en": { "polite": "I'm afraid I don't have room for that.", "professional": "That's beyond what I can take on this week.", "direct": "I'll have to decline.", "funny": "My to-do list said: no new members.", "sarcastic": "Love that for someone else.", "dramatic": "Alas, my plate is already a banquet." },
+          "ar": { "polite": "للأسف ما عندي مساحة لها.", "professional": "هذي أكثر من اللي أقدر أتحمله هالأسبوع.", "direct": "مضطر أعتذر.", "funny": "قائمة مهامي قالت: خلاص، ما في أعضاء جدد.", "sarcastic": "حلوة… لشخص ثاني.", "dramatic": "للأسف، صحني صار وليمة كاملة." } }
+      ]
+    },
+    {
+      "id": "school", "icon": "printer", "title": { "en": "School, uni & meetings", "ar": "المدرسة والجامعة والاجتماعات" },
+      "situations": [
+        { "title": { "en": "Lead the group project again", "ar": "قيادة المشروع الجماعي مرة ثانية" },
+          "en": { "polite": "I'd prefer not to lead this time, but I'll do my part.", "professional": "I can own the research section; someone else should coordinate.", "direct": "No, I won't be the leader again.", "funny": "Last time I led, I aged five semesters.", "sarcastic": "Sure, I'll do everything and you can add your names.", "dramatic": "I have carried this group across three deserts. No more." },
+          "ar": { "polite": "أفضّل ما أكون القائد هالمرة، بس بسوي جزئي.", "professional": "أقدر أتكفل بقسم البحث، وخلوا أحد ثاني ينسق.", "direct": "لا، مو أنا القائد مرة ثانية.", "funny": "آخر مرة قدت المجموعة كبرت خمس فصول.", "sarcastic": "أكيد، أسوي كل شي وأنتم حطوا أساميكم.", "dramatic": "حملت هالمجموعة عبر ثلاث صحاري. يكفي." } },
+        { "title": { "en": "Yet another meeting", "ar": "اجتماع إضافي" },
+          "en": { "polite": "Could this be an email instead?", "professional": "I'll skip this one; please share the notes and decisions.", "direct": "I'm declining this meeting.", "funny": "My calendar blocked you in self-defense.", "sarcastic": "Yes, a meeting to plan the meeting. Visionary.", "dramatic": "One more meeting and I shall become a calendar." },
+          "ar": { "polite": "ممكن يكون إيميل بدل اجتماع؟", "professional": "بعتذر عن هذا، أرسلوا لي المحضر والقرارات.", "direct": "أرفض هذا الاجتماع.", "funny": "تقويمي حظرك دفاعًا عن النفس.", "sarcastic": "أكيد، اجتماع عشان نخطط للاجتماع. عبقرية.", "dramatic": "اجتماع ثاني وبتحول لتقويم." } }
+      ]
+    },
+    {
+      "id": "monday", "icon": "alarm", "title": { "en": "Monday morning", "ar": "صباح أول الأسبوع" },
+      "situations": [
+        { "title": { "en": "The 6 AM alarm", "ar": "منبه ٦ الصبح" },
+          "en": { "polite": "Five more minutes, please.", "professional": "Wake-up rescheduled pending further review.", "direct": "No. Snooze.", "funny": "I'm not asleep, I'm loading.", "sarcastic": "Oh good, it's morning again. Love that for me.", "dramatic": "The alarm sings, and my soul refuses to return." },
+          "ar": { "polite": "خمس دقايق بس، لو سمحت.", "professional": "تم تأجيل الاستيقاظ لحين المراجعة.", "direct": "لا. غفوة.", "funny": "مو نايم، أنا جاري التحميل.", "sarcastic": "أوه حلو، رجع الصبح. أحب هالشي.", "dramatic": "المنبه يغني، وروحي ترفض ترجع." } },
+        { "title": { "en": "The motivation speech", "ar": "خطبة الحماس" },
+          "en": { "polite": "Thank you — I'll be motivated after coffee.", "professional": "Motivation will be available from 10 AM.", "direct": "Not today, motivation.", "funny": "My enthusiasm is still stuck in weekend traffic.", "sarcastic": "Yes! Let's crush goals at 7 AM. Wooo.", "dramatic": "You speak of hustle. I speak of my pillow." },
+          "ar": { "polite": "شكرًا، بتحمس بعد القهوة.", "professional": "الحماس متاح من الساعة ١٠ الصبح.", "direct": "مو اليوم يا حماس.", "funny": "حماسي لسا عالق في زحمة الويكند.", "sarcastic": "إي! يلا نحقق الأهداف الساعة ٧ الصبح. ووو.", "dramatic": "أنت تتكلم عن الإنجاز، وأنا أتكلم عن مخدتي." } }
+      ]
+    }
+  ]
+}

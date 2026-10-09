@@ -1,0 +1,74 @@
+{
+  "category": "cat",
+  "characters": ["cat"],
+  "en": {
+    "headlinePrefix": "Human to cat",
+    "asks": [
+      "Please get off my keyboard.",
+      "Time for your bath!",
+      "Come here, kitty kitty!",
+      "Please don't push my phone off the table.",
+      "Try this new, very expensive food.",
+      "Sleep in the fancy bed I bought you.",
+      "Just one cute photo, please.",
+      "Stop singing opera at 4 AM.",
+      "Get in the carrier — it's just the vet.",
+      "Can I sit on my own chair?",
+      "Use the scratching post, not the sofa.",
+      "Could you be a little less dramatic?"
+    ],
+    "replies": [
+      "The council of whiskers has voted: no.",
+      "I considered your request. I chose chaos (very gentle chaos).",
+      "Meow translation: absolutely not.",
+      "I will now stare at you until you forget you asked.",
+      "No. Also, the cup on the table? Gone.",
+      "I accept your offer and immediately reject it.",
+      "My schedule is nap, judge, nap. You're not on it.",
+      "I heard you. I'm choosing to be furniture.",
+      "This is my keyboard now. Your request was typed as 'nnnnnnooooo'.",
+      "Purring means yes. This is not purring.",
+      "I'll consider it after my 17th nap.",
+      "You may pet me twice. Then: no.",
+      "I knocked your request off the table. Look, it's on the floor.",
+      "Hiss is a complete sentence.",
+      "Request denied by the Royal House of Fluff.",
+      "I was here first. I was here before chairs."
+    ]
+  },
+  "ar": {
+    "headlinePrefix": "الإنسان للقطوة",
+    "asks": [
+      "انزل عن الكيبورد لو سمحت.",
+      "يلا وقت الشاور!",
+      "بسبس بسبس، تعال!",
+      "لا تطيّح جوالي من الطاولة.",
+      "جرّب الأكل الجديد الغالي.",
+      "نام في السرير الفخم اللي شريته لك.",
+      "بس صورة وحدة كيوت.",
+      "لا تغني أوبرا الساعة ٤ الفجر.",
+      "ادخل البوكس، رايحين الطبيب بس.",
+      "أقدر أقعد على كرسيي؟",
+      "استخدم عمود الخدش، مو الكنبة.",
+      "قلّل الدراما شوي؟"
+    ],
+    "replies": [
+      "مجلس الشوارب صوّت: لا.",
+      "درست طلبك، واخترت الفوضى (فوضى لطيفة جدًا).",
+      "ترجمة المواء: مستحيل.",
+      "بطالعك لين تنسى إنك سألت.",
+      "لا. وبالمناسبة، الكوب اللي على الطاولة؟ راح.",
+      "أقبل عرضك، وأرفضه فورًا.",
+      "جدولي: نوم، حكم عليك، نوم. وأنت مو فيه.",
+      "سمعتك، واخترت أكون قطعة أثاث.",
+      "الكيبورد صار لي. وطلبك انكتب «ممممنننووو».",
+      "الخرخرة يعني نعم. وهذي مو خرخرة.",
+      "بفكر فيها بعد قيلولتي رقم ١٧.",
+      "تقدر تمسح علي مرتين. بعدها: لا.",
+      "طيّحت طلبك من الطاولة. شوف، صار على الأرض.",
+      "الفحيح جملة كاملة.",
+      "الطلب مرفوض من البيت الملكي للفرو.",
+      "أنا كنت هني قبلك. قبل لا ينخلق الكرسي."
+    ]
+  }
+}

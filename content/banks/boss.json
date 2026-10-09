@@ -1,0 +1,82 @@
+{
+  "category": "boss",
+  "characters": ["boss", "mug", "phone", "laptop"],
+  "en": {
+    "headlinePrefix": "The boss asks",
+    "asks": [
+      "Can you stay a little late tonight?",
+      "Quick call at 5:58?",
+      "Could you just check your email on vacation?",
+      "Can you take this one small urgent thing?",
+      "Let's do a quick Saturday sync.",
+      "Can you cover your colleague's project too?",
+      "We need it by end of day. Which day? Today.",
+      "Can you turn this into a 40-slide deck by morning?",
+      "Can you be \"reachable\" this weekend?",
+      "Let's circle back at 11 PM.",
+      "Could you redo it, but the same, but different?",
+      "Can you join the meeting about the meeting?",
+      "Can you start next week's work this weekend?",
+      "Can you do your job and two others, for the experience?"
+    ],
+    "replies": [
+      "My contract and I talked it over. We both said no.",
+      "I'd love to, but my evening already booked me first.",
+      "Unfortunately my capacity is at 100% and my patience is at 3%.",
+      "Per my last email: no.",
+      "Let me check my calendar… it says no, in bold.",
+      "I'm going to have to decline, respectfully and immediately.",
+      "That sounds like a great opportunity for someone else.",
+      "My work-life balance just filed a formal complaint.",
+      "I'll add it to my list, right under 'never'.",
+      "Great idea. Let's put it in the parking lot. The parking lot is closed.",
+      "My out-of-office was consulted. It also said no.",
+      "I can do it, do it well, or go home. I choose home.",
+      "Let's align on this: no.",
+      "That's a hard no, delivered with a soft smile.",
+      "My laptop went to sleep. It has better boundaries than me — until today.",
+      "Quick sync: N. O.",
+      "I escalated your request to my sofa. It declined.",
+      "I'm fully booked until the heat death of the universe."
+    ]
+  },
+  "ar": {
+    "headlinePrefix": "المدير يسأل",
+    "asks": [
+      "ممكن تتأخر شوي اليوم؟",
+      "مكالمة سريعة الساعة ٥:٥٨؟",
+      "بس شيّك على الإيميل وأنت في الإجازة.",
+      "عندي شغلة صغيرة مستعجلة لك.",
+      "خلنا نسوي اجتماع سريع يوم السبت.",
+      "ممكن تمسك مشروع زميلك بعد؟",
+      "نبيها آخر الدوام. أي دوام؟ اليوم.",
+      "حوّل هذا لعرض من ٤٠ شريحة قبل الصبح.",
+      "خلك «متاح» نهاية الأسبوع.",
+      "نرجع نتكلم الساعة ١١ بالليل.",
+      "عدّلها، بس تكون نفسها، بس مختلفة.",
+      "تعال اجتماع عن الاجتماع.",
+      "ابدأ شغل الأسبوع الجاي من الويكند.",
+      "سوّ شغلك وشغل اثنين غيرك، عشان الخبرة."
+    ],
+    "replies": [
+      "تكلمت مع عقد العمل، واتفقنا إحنا الاثنين: لا.",
+      "ودّي، بس مسائي حاجزني قبلك.",
+      "طاقتي مشغولة ١٠٠٪، وصبري باقي منه ٣٪.",
+      "حسب إيميلي الأخير: لا.",
+      "خلني أشيك التقويم… مكتوب «لا» بخط عريض.",
+      "أعتذر، باحترام وبسرعة.",
+      "فرصة رائعة… لشخص ثاني.",
+      "التوازن بين العمل والحياة رفع شكوى رسمية.",
+      "بحطها بقائمتي، تحت بند «أبدًا».",
+      "فكرة حلوة، نحطها في المواقف. والمواقف مسكّرة.",
+      "سألت الرد التلقائي، وقال لا بعد.",
+      "أقدر أسويها، أو أسويها صح، أو أروح البيت. اخترت البيت.",
+      "خلنا نكون على نفس الصفحة: لا.",
+      "«لا» قاطعة، مع ابتسامة لطيفة.",
+      "اللابتوب نام. حدوده أحسن من حدودي… إلى اليوم.",
+      "تحديث سريع: ل. ا.",
+      "رفعت طلبك للكنبة، والكنبة رفضت.",
+      "جدولي ممتلئ لين نهاية الكون."
+    ]
+  }
+}

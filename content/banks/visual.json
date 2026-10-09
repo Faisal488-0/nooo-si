@@ -1,0 +1,17 @@
+{
+  "description": "Visual building blocks. A card's visualPreset is a small descriptor rendered as original SVG by assets/js/lib/scene.js — no image files, no third-party art.",
+  "backgrounds": ["halftone", "burst", "stripes", "grid", "dots", "rays", "checker", "space", "zigzag"],
+  "palettes": ["tomato", "lemon", "cyan", "bubblegum", "lime", "grape", "tangerine", "mint", "night"],
+  "expressions": ["shocked", "smug", "angry", "sleepy", "dramatic", "unbothered"],
+  "animations": ["shake", "bounce", "wobble", "pulse", "float", "pop", "tilt"],
+  "effects": ["confetti", "stamp", "echo", "glitch", "rain", "zoom", "none"],
+  "stickers": {
+    "en": ["NOOO!", "NOPE", "DENIED", "LOL NO", "NAH", "NEVER", "NO.", "HARD NO", "NOT TODAY"],
+    "ar": ["لااا!", "أبدًا", "مرفوض", "مستحيل", "لا.", "انسى", "لا قاطعة", "مو اليوم"]
+  },
+  "kickers": {
+    "en": ["Status: NOOO delivered.", "Certified by the Department of No.", "No was said. Peace was restored.", "Share this with someone who needs it.", "Boundaries 1 — Chaos 0.", "Fresh NO, baked this hour.", "Side effects: inner peace.", "Approved by cats everywhere.", "Echo: no… no… no…", "Signed, sealed, declined.", "Refusal level: legendary.", "No regrets. Just no.", "The next NO arrives next hour.", "Handle with boundaries.", "Copy. Paste. Decline."],
+    "ar": ["الحالة: تم تسليم «اللا».", "معتمدة من وزارة «لا».", "قيلت «لا» وعاد السلام.", "أرسلها لشخص يحتاجها.", "الحدود ١ — الفوضى ٠.", "«لا» طازجة، مخبوزة هالساعة.", "الأعراض الجانبية: راحة بال.", "معتمدة من قطط العالم.", "صدى: لا… لا… لا…", "مختومة ومرفوضة.", "مستوى الرفض: أسطوري.", "بدون ندم. بس لا.", "«اللا» الجاية بعد ساعة.", "تُستخدم مع الحدود.", "انسخ. الصق. ارفض."]
+  },
+  "blockedTerms": ["idiot", "stupid", "moron", "retard", "ugly", "fat", "kill", "die", "hate you", "shut up", "غبي", "حمار", "قبيح", "اسكت", "تافه", "حيوان", "أكرهك", "موت"]
+}
