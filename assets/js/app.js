@@ -4,6 +4,7 @@ import { detectLang, setLang, lang, t, onLangChange } from './i18n.js';
 import { $, $$ } from './lib/dom.js';
 import { initHero, refreshHeroLang } from './hero.js';
 import { initFeed, refreshFeedLang } from './feed.js';
+import { initTicker } from './ticker.js';
 import { isMuted, setMuted, getVolume, setVolume } from './sound.js';
 
 const SECTIONS = {
@@ -58,6 +59,7 @@ function boot() {
   syncSoundUi();
   initHero();
   initFeed();
+  initTicker();
   lazySections();
   onLangChange(() => {
     syncSoundUi();

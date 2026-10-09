@@ -1,0 +1,1014 @@
+{
+ "meta": {
+  "description": "ARCHIVE OF NO: world figures and events built around saying no. Facts checked against the linked sources; short summaries, translations by NOOO.",
+  "note": {
+   "en": "Short factual summaries; wording of quotes is as reported in the linked sources. Translations are ours — tell us on GitHub if you spot a mistake."
+  }
+ },
+ "languages": [
+  {
+   "id": "ar",
+   "name": "العربية",
+   "dir": "rtl",
+   "label": "أخبار «لا»",
+   "pause": "إيقاف الشريط",
+   "play": "تشغيل الشريط",
+   "region": "شريط أخبار: شخصيات وأحداث قالت لا",
+   "src": "المصدر",
+   "hint": "شخصيات وأحداث عالمية قالت «لا»"
+  },
+  {
+   "id": "en",
+   "name": "English",
+   "dir": "ltr",
+   "label": "NOOO NEWS",
+   "pause": "Pause ticker",
+   "play": "Play ticker",
+   "region": "News ticker: people and events that said no",
+   "src": "Source",
+   "hint": "People and events that said “No”"
+  },
+  {
+   "id": "fr",
+   "name": "Français",
+   "dir": "ltr",
+   "label": "INFOS NOOO",
+   "pause": "Mettre en pause",
+   "play": "Lancer le bandeau",
+   "region": "Bandeau d'infos : ceux qui ont dit non",
+   "src": "Source",
+   "hint": "Personnes et événements qui ont dit « Non »"
+  },
+  {
+   "id": "es",
+   "name": "Español",
+   "dir": "ltr",
+   "label": "NOTICIAS NOOO",
+   "pause": "Pausar cinta",
+   "play": "Reanudar cinta",
+   "region": "Cinta de noticias: quienes dijeron no",
+   "src": "Fuente",
+   "hint": "Personas y hechos que dijeron «No»"
+  },
+  {
+   "id": "de",
+   "name": "Deutsch",
+   "dir": "ltr",
+   "label": "NOOO-NEWS",
+   "pause": "Ticker anhalten",
+   "play": "Ticker starten",
+   "region": "Newsticker: Menschen und Ereignisse, die Nein sagten",
+   "src": "Quelle",
+   "hint": "Menschen und Ereignisse, die „Nein“ sagten"
+  },
+  {
+   "id": "tr",
+   "name": "Türkçe",
+   "dir": "ltr",
+   "label": "NOOO HABER",
+   "pause": "Bandı durdur",
+   "play": "Bandı başlat",
+   "region": "Haber bandı: hayır diyen kişiler ve olaylar",
+   "src": "Kaynak",
+   "hint": "«Hayır» diyen kişiler ve olaylar"
+  },
+  {
+   "id": "fa",
+   "name": "فارسی",
+   "dir": "rtl",
+   "label": "اخبار «نه»",
+   "pause": "توقف نوار",
+   "play": "پخش نوار",
+   "region": "نوار خبری: کسانی و رویدادهایی که نه گفتند",
+   "src": "منبع",
+   "hint": "چهره‌ها و رویدادهایی که «نه» گفتند"
+  },
+  {
+   "id": "ru",
+   "name": "Русский",
+   "dir": "ltr",
+   "label": "НОВОСТИ NOOO",
+   "pause": "Остановить ленту",
+   "play": "Запустить ленту",
+   "region": "Новостная лента: люди и события, сказавшие «нет»",
+   "src": "Источник",
+   "hint": "Люди и события, сказавшие «Нет»"
+  },
+  {
+   "id": "zh",
+   "name": "中文",
+   "dir": "ltr",
+   "label": "NOOO 快讯",
+   "pause": "暂停滚动",
+   "play": "继续滚动",
+   "region": "新闻滚动条：说“不”的人物与事件",
+   "src": "来源",
+   "hint": "说过“不”的人物与事件"
+  }
+ ],
+ "entries": [
+  {
+   "id": "colvin",
+   "year": "1955",
+   "source": "https://en.wikipedia.org/wiki/Claudette_Colvin",
+   "text": {
+    "ar": {
+     "who": "كلوديت كولفن",
+     "what": "في الخامسة عشرة ترفض التخلي عن مقعدها في الحافلة بمونتغمري، قبل روزا باركس بتسعة أشهر."
+    },
+    "en": {
+     "who": "Claudette Colvin",
+     "what": "At 15, she refuses to give up her bus seat in Montgomery — nine months before Rosa Parks."
+    },
+    "fr": {
+     "who": "Claudette Colvin",
+     "what": "À 15 ans, elle refuse de céder sa place dans un bus de Montgomery, neuf mois avant Rosa Parks."
+    },
+    "es": {
+     "who": "Claudette Colvin",
+     "what": "A los 15 años se niega a ceder su asiento en un autobús de Montgomery, nueve meses antes que Rosa Parks."
+    },
+    "de": {
+     "who": "Claudette Colvin",
+     "what": "Mit 15 weigert sie sich, in Montgomery ihren Busplatz zu räumen – neun Monate vor Rosa Parks."
+    },
+    "tr": {
+     "who": "Claudette Colvin",
+     "what": "15 yaşında Montgomery'de otobüsteki koltuğunu bırakmayı reddeder; Rosa Parks'tan dokuz ay önce."
+    },
+    "fa": {
+     "who": "کلودت کالوین",
+     "what": "در پانزده‌سالگی در مونتگومری از ترک صندلی اتوبوس خودداری می‌کند، نه ماه پیش از رزا پارکس."
+    },
+    "ru": {
+     "who": "Клодетт Колвин",
+     "what": "В 15 лет отказывается уступить место в автобусе в Монтгомери — за девять месяцев до Розы Паркс."
+    },
+    "zh": {
+     "who": "克劳黛特·科尔文",
+     "what": "年仅15岁，在蒙哥马利拒绝让座，比罗莎·帕克斯早九个月。"
+    }
+   }
+  },
+  {
+   "id": "parks",
+   "year": "1955",
+   "source": "https://en.wikipedia.org/wiki/Rosa_Parks",
+   "text": {
+    "ar": {
+     "who": "روزا باركس",
+     "what": "ترفض التخلي عن مقعدها في الحافلة بمونتغمري، فيشعل اعتقالها مقاطعة الحافلات التي دامت عامًا."
+    },
+    "en": {
+     "who": "Rosa Parks",
+     "what": "She refuses to give up her bus seat in Montgomery; her arrest sparks the year-long bus boycott."
+    },
+    "fr": {
+     "who": "Rosa Parks",
+     "what": "Elle refuse de céder sa place dans un bus de Montgomery ; son arrestation déclenche un boycott d'un an."
+    },
+    "es": {
+     "who": "Rosa Parks",
+     "what": "Se niega a ceder su asiento en un autobús de Montgomery; su arresto desencadena un boicot de un año."
+    },
+    "de": {
+     "who": "Rosa Parks",
+     "what": "Sie weigert sich, in Montgomery ihren Busplatz zu räumen; ihre Festnahme löst einen einjährigen Busboykott aus."
+    },
+    "tr": {
+     "who": "Rosa Parks",
+     "what": "Montgomery'de otobüsteki koltuğunu bırakmayı reddeder; tutuklanması bir yıl süren otobüs boykotunu başlatır."
+    },
+    "fa": {
+     "who": "رزا پارکس",
+     "what": "در مونتگومری از ترک صندلی اتوبوس خودداری می‌کند؛ بازداشتش بایکوت یک‌ساله‌ی اتوبوس‌ها را برمی‌انگیزد."
+    },
+    "ru": {
+     "who": "Роза Паркс",
+     "what": "Отказывается уступить место в автобусе в Монтгомери; её арест запускает годичный бойкот автобусов."
+    },
+    "zh": {
+     "who": "罗莎·帕克斯",
+     "what": "在蒙哥马利拒绝让座，她的被捕引发了长达一年的抵制公交运动。"
+    }
+   }
+  },
+  {
+   "id": "ali",
+   "year": "1967",
+   "source": "https://en.wikipedia.org/wiki/Clay_v._United_States",
+   "text": {
+    "ar": {
+     "who": "محمد علي كلاي",
+     "what": "يرفض التجنيد في الجيش الأمريكي بهيوستن بسبب حرب فيتنام ويُجرَّد من لقبه؛ والمحكمة العليا تلغي إدانته عام 1971."
+    },
+    "en": {
+     "who": "Muhammad Ali",
+     "what": "Refuses US Army induction in Houston over Vietnam and loses his title; the Supreme Court overturns his conviction in 1971."
+    },
+    "fr": {
+     "who": "Mohamed Ali",
+     "what": "Refuse l'incorporation dans l'armée américaine à Houston à cause du Vietnam et perd son titre ; la Cour suprême annule sa condamnation en 1971."
+    },
+    "es": {
+     "who": "Muhammad Ali",
+     "what": "Se niega a ser incorporado al ejército de EE. UU. en Houston por Vietnam y pierde su título; el Supremo anula su condena en 1971."
+    },
+    "de": {
+     "who": "Muhammad Ali",
+     "what": "Verweigert in Houston wegen Vietnam den Wehrdienst und verliert seinen Titel; der Supreme Court hebt 1971 das Urteil auf."
+    },
+    "tr": {
+     "who": "Muhammed Ali",
+     "what": "Vietnam nedeniyle Houston'da ABD ordusuna katılmayı reddeder, unvanını kaybeder; Yüksek Mahkeme 1971'de mahkûmiyetini bozar."
+    },
+    "fa": {
+     "who": "محمد علی",
+     "what": "به‌دلیل جنگ ویتنام در هیوستون از ورود به ارتش آمریکا سر باز می‌زند و عنوانش را از دست می‌دهد؛ دیوان عالی در ۱۹۷۱ محکومیت او را لغو می‌کند."
+    },
+    "ru": {
+     "who": "Мухаммед Али",
+     "what": "Отказывается идти в армию США из-за Вьетнама и теряет титул; Верховный суд отменяет приговор в 1971 году."
+    },
+    "zh": {
+     "who": "穆罕默德·阿里",
+     "what": "因越战在休斯敦拒绝应征入伍，被剥夺拳王头衔；1971年最高法院推翻了对他的定罪。"
+    }
+   }
+  },
+  {
+   "id": "mandela",
+   "year": "1985",
+   "source": "https://sahistory.org.za/dated-event/president-p-w-botha-offers-nelson-mandela-conditional-release-prison",
+   "text": {
+    "ar": {
+     "who": "نيلسون مانديلا",
+     "what": "يرفض عرض الرئيس بوثا بالإفراج عنه مقابل نبذ العنف: «لا أستطيع ولن أقدّم أي تعهّد»."
+    },
+    "en": {
+     "who": "Nelson Mandela",
+     "what": "Rejects President Botha's offer of release in exchange for renouncing violence: “I cannot and will not give any undertaking.”"
+    },
+    "fr": {
+     "who": "Nelson Mandela",
+     "what": "Refuse l'offre de libération du président Botha contre le renoncement à la violence : « Je ne peux ni ne veux prendre aucun engagement. »"
+    },
+    "es": {
+     "who": "Nelson Mandela",
+     "what": "Rechaza la oferta de libertad del presidente Botha a cambio de renunciar a la violencia: «No puedo ni quiero asumir ningún compromiso»."
+    },
+    "de": {
+     "who": "Nelson Mandela",
+     "what": "Lehnt Präsident Bothas Freilassungsangebot gegen den Verzicht auf Gewalt ab: „Ich kann und werde keine Zusage machen.“"
+    },
+    "tr": {
+     "who": "Nelson Mandela",
+     "what": "Başkan Botha'nın şiddeti reddetme karşılığı serbest bırakma teklifini geri çevirir: «Hiçbir taahhütte bulunamam ve bulunmayacağım.»"
+    },
+    "fa": {
+     "who": "نلسون ماندلا",
+     "what": "پیشنهاد رهایی پرزیدنت بوتا در ازای ترک خشونت را رد می‌کند: «نمی‌توانم و نخواهم توانست هیچ تعهدی بدهم.»"
+    },
+    "ru": {
+     "who": "Нельсон Мандела",
+     "what": "Отвергает предложение президента Боты освободить его в обмен на отказ от насилия: «Я не могу и не буду давать никаких обязательств»."
+    },
+    "zh": {
+     "who": "纳尔逊·曼德拉",
+     "what": "拒绝总统博塔以放弃暴力为条件的释放提议：“我不能，也不会作出任何承诺。”"
+    }
+   }
+  },
+  {
+   "id": "gandhi",
+   "year": "1930",
+   "source": "https://en.wikipedia.org/wiki/Salt_March",
+   "text": {
+    "ar": {
+     "who": "المهاتما غاندي",
+     "what": "يمشي نحو 385 كيلومترًا إلى داندي ويجمع الملح من الشاطئ تحديًا علنيًا لاحتكار الملح البريطاني."
+    },
+    "en": {
+     "who": "Mahatma Gandhi",
+     "what": "Walks about 240 miles to Dandi and picks up salt from the shore in open defiance of the British salt monopoly."
+    },
+    "fr": {
+     "who": "Mahatma Gandhi",
+     "what": "Il marche environ 385 km jusqu'à Dandi et ramasse du sel sur la plage, défiant ouvertement le monopole britannique du sel."
+    },
+    "es": {
+     "who": "Mahatma Gandhi",
+     "what": "Camina unos 385 km hasta Dandi y recoge sal de la orilla, desafiando abiertamente el monopolio británico de la sal."
+    },
+    "de": {
+     "who": "Mahatma Gandhi",
+     "what": "Er marschiert rund 385 km nach Dandi und sammelt am Strand Salz – offener Trotz gegen das britische Salzmonopol."
+    },
+    "tr": {
+     "who": "Mahatma Gandhi",
+     "what": "Yaklaşık 385 km yürüyerek Dandi'ye varır ve sahilden tuz toplayarak İngiliz tuz tekeline açıkça başkaldırır."
+    },
+    "fa": {
+     "who": "مهاتما گاندی",
+     "what": "حدود ۳۸۵ کیلومتر تا داندی پیاده می‌رود و از ساحل نمک برمی‌دارد؛ سرپیچی آشکار از انحصار نمک بریتانیا."
+    },
+    "ru": {
+     "who": "Махатма Ганди",
+     "what": "Проходит около 385 км до Данди и собирает соль на берегу — открытый вызов британской соляной монополии."
+    },
+    "zh": {
+     "who": "圣雄甘地",
+     "what": "徒步约385公里到达丹迪，在海边取盐，公然反抗英国的食盐专卖。"
+    }
+   }
+  },
+  {
+   "id": "luther",
+   "year": "1521",
+   "source": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+   "text": {
+    "ar": {
+     "who": "مارتن لوثر",
+     "what": "في مجمع ورمز يرفض التراجع عن كتاباته قائلًا إنه لا يستطيع ولن يتراجع."
+    },
+    "en": {
+     "who": "Martin Luther",
+     "what": "At the Diet of Worms he refuses to retract his writings, saying he cannot and will not recant."
+    },
+    "fr": {
+     "who": "Martin Luther",
+     "what": "À la Diète de Worms, il refuse de se rétracter, affirmant qu'il ne peut ni ne veut le faire."
+    },
+    "es": {
+     "who": "Martín Lutero",
+     "what": "En la Dieta de Worms se niega a retractarse de sus escritos: dice que no puede ni quiere hacerlo."
+    },
+    "de": {
+     "who": "Martin Luther",
+     "what": "Auf dem Reichstag zu Worms weigert er sich, seine Schriften zu widerrufen – er könne und wolle es nicht."
+    },
+    "tr": {
+     "who": "Martin Luther",
+     "what": "Worms Diyeti'nde yazdıklarından dönmeyi reddeder; geri alamayacağını ve almayacağını söyler."
+    },
+    "fa": {
+     "who": "مارتین لوتر",
+     "what": "در مجمع وُرمس از پس‌گرفتن نوشته‌هایش سر باز می‌زند و می‌گوید نمی‌تواند و نخواهد کرد."
+    },
+    "ru": {
+     "who": "Мартин Лютер",
+     "what": "На рейхстаге в Вормсе отказывается отречься от сочинений: он не может и не станет этого делать."
+    },
+    "zh": {
+     "who": "马丁·路德",
+     "what": "在沃尔姆斯帝国议会上拒绝收回自己的著作，称自己不能也不会撤回。"
+    }
+   }
+  },
+  {
+   "id": "thoreau",
+   "year": "1846",
+   "source": "https://www.massmoments.org/moment-details/henry-david-thoreau-spends-night-in-jail.html",
+   "text": {
+    "ar": {
+     "who": "هنري ديفيد ثورو",
+     "what": "يرفض دفع ضريبة الرأس ويقضي ليلة في سجن كونكورد، ثم يكتب لاحقًا «العصيان المدني»."
+    },
+    "en": {
+     "who": "Henry David Thoreau",
+     "what": "Refuses to pay a poll tax, spends a night in jail in Concord, and later writes “Civil Disobedience”."
+    },
+    "fr": {
+     "who": "Henry David Thoreau",
+     "what": "Il refuse de payer sa capitation, passe une nuit en prison à Concord, puis écrit « La Désobéissance civile »."
+    },
+    "es": {
+     "who": "Henry David Thoreau",
+     "what": "Se niega a pagar un impuesto de capitación, pasa una noche en la cárcel de Concord y luego escribe «Desobediencia civil»."
+    },
+    "de": {
+     "who": "Henry David Thoreau",
+     "what": "Er verweigert die Kopfsteuer, verbringt eine Nacht im Gefängnis von Concord und schreibt später „Civil Disobedience“."
+    },
+    "tr": {
+     "who": "Henry David Thoreau",
+     "what": "Kafa vergisini ödemeyi reddeder, Concord'da bir gece hapis yatar ve sonra «Sivil İtaatsizlik»i yazar."
+    },
+    "fa": {
+     "who": "هنری دیوید تورو",
+     "what": "از پرداخت مالیات سرانه خودداری می‌کند، یک شب در زندان کانکورد می‌ماند و بعدها «نافرمانی مدنی» را می‌نویسد."
+    },
+    "ru": {
+     "who": "Генри Дэвид Торо",
+     "what": "Отказывается платить подушный налог, проводит ночь в тюрьме Конкорда и позже пишет «Гражданское неповиновение»."
+    },
+    "zh": {
+     "who": "亨利·戴维·梭罗",
+     "what": "拒绝缴纳人头税，在康科德监狱度过一夜，后来写下《论公民的不服从》。"
+    }
+   }
+  },
+  {
+   "id": "arkhipov",
+   "year": "1962",
+   "source": "https://en.wikipedia.org/wiki/Vasily_Arkhipov",
+   "text": {
+    "ar": {
+     "who": "فاسيلي أرخيبوف",
+     "what": "على غواصة سوفييتية في أزمة الصواريخ الكوبية، يرفض الموافقة على إطلاق طوربيد نووي."
+    },
+    "en": {
+     "who": "Vasily Arkhipov",
+     "what": "On a Soviet submarine during the Cuban Missile Crisis, he refuses to approve a nuclear torpedo launch."
+    },
+    "fr": {
+     "who": "Vassili Arkhipov",
+     "what": "À bord d'un sous-marin soviétique pendant la crise des missiles de Cuba, il refuse d'autoriser le tir d'une torpille nucléaire."
+    },
+    "es": {
+     "who": "Vasili Arjípov",
+     "what": "En un submarino soviético durante la crisis de los misiles de Cuba, se niega a autorizar el lanzamiento de un torpedo nuclear."
+    },
+    "de": {
+     "who": "Wassili Archipow",
+     "what": "Auf einem sowjetischen U-Boot in der Kubakrise verweigert er die Zustimmung zum Abschuss eines Atomtorpedos."
+    },
+    "tr": {
+     "who": "Vasili Arhipov",
+     "what": "Küba Füze Krizi sırasında bir Sovyet denizaltısında nükleer torpido atışına onay vermeyi reddeder."
+    },
+    "fa": {
+     "who": "واسیلی آرخیپوف",
+     "what": "در بحران موشکی کوبا روی یک زیردریایی شوروی، از تأیید شلیک اژدر هسته‌ای خودداری می‌کند."
+    },
+    "ru": {
+     "who": "Василий Архипов",
+     "what": "На советской подлодке во время Карибского кризиса отказывается дать согласие на пуск ядерной торпеды."
+    },
+    "zh": {
+     "who": "瓦西里·阿尔希波夫",
+     "what": "古巴导弹危机期间，在苏联潜艇上拒绝同意发射核鱼雷。"
+    }
+   }
+  },
+  {
+   "id": "petrov",
+   "year": "1983",
+   "source": "https://en.wikipedia.org/wiki/Stanislav_Petrov",
+   "text": {
+    "ar": {
+     "who": "ستانيسلاف بيتروف",
+     "what": "يعتبر إنذار الصواريخ السوفييتي إنذارًا كاذبًا ويمتنع عن رفعه إلى القيادة."
+    },
+    "en": {
+     "who": "Stanislav Petrov",
+     "what": "Judges a Soviet missile alert a false alarm and does not pass it up the chain of command."
+    },
+    "fr": {
+     "who": "Stanislav Petrov",
+     "what": "Il juge fausse l'alerte aux missiles soviétique et refuse de la transmettre à sa hiérarchie."
+    },
+    "es": {
+     "who": "Stanislav Petrov",
+     "what": "Considera falsa la alerta de misiles soviética y no la transmite a la cadena de mando."
+    },
+    "de": {
+     "who": "Stanislaw Petrow",
+     "what": "Er hält den sowjetischen Raketenalarm für Fehlalarm und meldet ihn nicht weiter."
+    },
+    "tr": {
+     "who": "Stanislav Petrov",
+     "what": "Sovyet füze alarmını yanlış alarm sayar ve komuta zincirine iletmez."
+    },
+    "fa": {
+     "who": "استانیسلاو پتروف",
+     "what": "هشدار موشکی شوروی را هشدار کاذب ارزیابی می‌کند و آن را به بالادستی‌ها گزارش نمی‌دهد."
+    },
+    "ru": {
+     "who": "Станислав Петров",
+     "what": "Считает ракетную тревогу ложной и не передаёт её по цепочке командования."
+    },
+    "zh": {
+     "who": "斯坦尼斯拉夫·彼得罗夫",
+     "what": "判定苏联导弹预警为误报，没有向上级传递。"
+    }
+   }
+  },
+  {
+   "id": "sugihara",
+   "year": "1940",
+   "source": "https://chiune-sugihara.jp/en/aboutchiune.html",
+   "text": {
+    "ar": {
+     "who": "تشيونه سوغيهارا",
+     "what": "طوكيو ترفض، لكنه يمنح تأشيرات عبور للاجئين اليهود في كاوناس رغم ذلك."
+    },
+    "en": {
+     "who": "Chiune Sugihara",
+     "what": "Tokyo says no — he issues transit visas to Jewish refugees in Kaunas anyway."
+    },
+    "fr": {
+     "who": "Chiune Sugihara",
+     "what": "Tokyo dit non — il délivre quand même des visas de transit à des réfugiés juifs à Kaunas."
+    },
+    "es": {
+     "who": "Chiune Sugihara",
+     "what": "Tokio dice que no; aun así emite visados de tránsito a refugiados judíos en Kaunas."
+    },
+    "de": {
+     "who": "Chiune Sugihara",
+     "what": "Tokio sagt Nein – er stellt in Kaunas trotzdem Transitvisa für jüdische Flüchtlinge aus."
+    },
+    "tr": {
+     "who": "Chiune Sugihara",
+     "what": "Tokyo hayır der; o yine de Kaunas'ta Yahudi mültecilere transit vize verir."
+    },
+    "fa": {
+     "who": "چیئونه سوگیهارا",
+     "what": "توکیو نه می‌گوید؛ او با این همه در کائوناس برای پناهجویان یهودی ویزای ترانزیت صادر می‌کند."
+    },
+    "ru": {
+     "who": "Тиунэ Сугихара",
+     "what": "Токио говорит «нет», но он всё равно выдаёт транзитные визы еврейским беженцам в Каунасе."
+    },
+    "zh": {
+     "who": "杉原千亩",
+     "what": "东京的答复是不行，他仍在考纳斯向犹太难民发放过境签证。"
+    }
+   }
+  },
+  {
+   "id": "ohi",
+   "year": "1940",
+   "source": "https://en.wikipedia.org/wiki/Ohi_Day",
+   "text": {
+    "ar": {
+     "who": "ميتاكساس واليونان",
+     "what": "ترفض إنذار إيطاليا؛ ويُحتفل بـ28 أكتوبر حتى اليوم باسم «يوم لا» (أوهي)."
+    },
+    "en": {
+     "who": "Metaxas & Greece",
+     "what": "Greece refuses Italy's ultimatum; 28 October is still celebrated as “Ohi Day” — the day of “No”."
+    },
+    "fr": {
+     "who": "Metaxás et la Grèce",
+     "what": "Face à l'ultimatum italien, la Grèce refuse ; le 28 octobre reste la fête de l'« Ochi », le jour du « Non »."
+    },
+    "es": {
+     "who": "Metaxás y Grecia",
+     "what": "Ante el ultimátum italiano, Grecia lo rechaza; el 28 de octubre se sigue celebrando el «Día del No» (Ohi)."
+    },
+    "de": {
+     "who": "Metaxas und Griechenland",
+     "what": "Griechenland weist Italiens Ultimatum zurück; der 28. Oktober wird bis heute als „Ochi-Tag“ – Tag des Nein – gefeiert."
+    },
+    "tr": {
+     "who": "Metaksas ve Yunanistan",
+     "what": "Yunanistan İtalya'nın ültimatomunu reddeder; 28 Ekim bugün hâlâ «Ohi Günü», yani «Hayır Günü» olarak kutlanır."
+    },
+    "fa": {
+     "who": "متاکساس و یونان",
+     "what": "یونان اولتیماتوم ایتالیا را رد می‌کند؛ ۲۸ اکتبر هنوز «روز نه» (اوهی) جشن گرفته می‌شود."
+    },
+    "ru": {
+     "who": "Метаксас и Греция",
+     "what": "Греция отвергает ультиматум Италии; 28 октября до сих пор отмечают как «День „Охи“» — день «Нет»."
+    },
+    "zh": {
+     "who": "梅塔克萨斯与希腊",
+     "what": "希腊拒绝意大利的最后通牒；10月28日至今仍被纪念为“说不日”（Ohi）。"
+    }
+   }
+  },
+  {
+   "id": "scholl",
+   "year": "1943",
+   "source": "https://en.wikipedia.org/wiki/Sophie_Scholl",
+   "text": {
+    "ar": {
+     "who": "صوفي شول",
+     "what": "الطالبة في «الوردة البيضاء» توزّع منشورات ضد النازية في ميونخ وتُعتقل في 18 فبراير، وتُعدم بعد أربعة أيام."
+    },
+    "en": {
+     "who": "Sophie Scholl",
+     "what": "A White Rose student, she distributes anti-Nazi leaflets in Munich, is arrested on 18 February and executed four days later."
+    },
+    "fr": {
+     "who": "Sophie Scholl",
+     "what": "Étudiante de la Rose blanche, elle distribue des tracts antinazis à Munich, est arrêtée le 18 février et exécutée quatre jours plus tard."
+    },
+    "es": {
+     "who": "Sophie Scholl",
+     "what": "Estudiante de la Rosa Blanca, reparte panfletos antinazis en Múnich, es detenida el 18 de febrero y ejecutada cuatro días después."
+    },
+    "de": {
+     "who": "Sophie Scholl",
+     "what": "Als Studentin der Weißen Rose verteilt sie in München Flugblätter gegen die Nazis, wird am 18. Februar verhaftet und vier Tage später hingerichtet."
+    },
+    "tr": {
+     "who": "Sophie Scholl",
+     "what": "Beyaz Gül'ün öğrencisi, Münih'te Nazi karşıtı bildiriler dağıtır, 18 Şubat'ta tutuklanır ve dört gün sonra idam edilir."
+    },
+    "fa": {
+     "who": "سوفی شُل",
+     "what": "دانشجوی «گل سرخ سفید»، در مونیخ اعلامیه‌های ضدنازی پخش می‌کند، ۱۸ فوریه دستگیر و چهار روز بعد اعدام می‌شود."
+    },
+    "ru": {
+     "who": "Софи Шолль",
+     "what": "Студентка «Белой розы» распространяет в Мюнхене антинацистские листовки, арестована 18 февраля и казнена через четыре дня."
+    },
+    "zh": {
+     "who": "索菲·朔尔",
+     "what": "“白玫瑰”成员，在慕尼黑散发反纳粹传单，2月18日被捕，四天后被处决。"
+    }
+   }
+  },
+  {
+   "id": "tankman",
+   "year": "1989",
+   "source": "https://en.wikipedia.org/wiki/Tank_Man",
+   "text": {
+    "ar": {
+     "who": "«رجل الدبابة»",
+     "what": "رجل مجهول الهوية يقف أمام رتل دبابات في بكين غداة قمع احتجاجات ساحة تيانانمن."
+    },
+    "en": {
+     "who": "Tank Man",
+     "what": "An unidentified man stands in front of a column of tanks in Beijing the day after the Tiananmen crackdown."
+    },
+    "fr": {
+     "who": "« L'homme au tank »",
+     "what": "Un inconnu se tient devant une colonne de chars à Pékin au lendemain de la répression de Tiananmen."
+    },
+    "es": {
+     "who": "«El hombre del tanque»",
+     "what": "Un hombre sin identificar se planta ante una columna de tanques en Pekín un día después de la represión de Tiananmén."
+    },
+    "de": {
+     "who": "„Tank Man“",
+     "what": "Ein unbekannter Mann stellt sich in Peking einen Tag nach der Niederschlagung am Tian'anmen einer Panzerkolonne in den Weg."
+    },
+    "tr": {
+     "who": "«Tank Adam»",
+     "what": "Kimliği bilinmeyen bir adam, Tiananmen bastırmasının ertesi günü Pekin'de bir tank kolunun önünde durur."
+    },
+    "fa": {
+     "who": "«مرد جلوی تانک»",
+     "what": "مردی ناشناس یک روز پس از سرکوب تیان‌آنمن در پکن مقابل ستونی از تانک‌ها می‌ایستد."
+    },
+    "ru": {
+     "who": "«Человек перед танками»",
+     "what": "Неизвестный встаёт перед колонной танков в Пекине на следующий день после подавления протестов на Тяньаньмэнь."
+    },
+    "zh": {
+     "who": "“坦克人”",
+     "what": "天安门镇压次日，一名身份不明的男子在北京挡在一列坦克前。"
+    }
+   }
+  },
+  {
+   "id": "yaa",
+   "year": "1900",
+   "source": "https://en.wikipedia.org/wiki/Yaa_Asantewaa",
+   "text": {
+    "ar": {
+     "who": "يا أسانتيوا",
+     "what": "الملكة الأم لشعب الأشانتي تحشد قومها بعد مطالبة البريطانيين بالمقعد الذهبي وتقود حرب المقاومة."
+    },
+    "en": {
+     "who": "Yaa Asantewaa",
+     "what": "The Asante queen mother rallies her people after the British demand the Golden Stool, and leads the war of resistance."
+    },
+    "fr": {
+     "who": "Yaa Asantewaa",
+     "what": "La reine mère ashanti mobilise son peuple quand les Britanniques exigent le Trône d'or, et mène la guerre de résistance."
+    },
+    "es": {
+     "who": "Yaa Asantewaa",
+     "what": "La reina madre asante moviliza a su pueblo cuando los británicos exigen el Trono de Oro y dirige la guerra de resistencia."
+    },
+    "de": {
+     "who": "Yaa Asantewaa",
+     "what": "Die Asante-Königinmutter mobilisiert ihr Volk, als die Briten den Goldenen Stuhl fordern, und führt den Widerstandskrieg an."
+    },
+    "tr": {
+     "who": "Yaa Asantewaa",
+     "what": "Aşanti kraliçe anne, İngilizler Altın Taht'ı talep edince halkını harekete geçirir ve direniş savaşına önderlik eder."
+    },
+    "fa": {
+     "who": "یا آسانتِوا",
+     "what": "ملکه‌مادر آشانتی وقتی بریتانیایی‌ها تخت طلایی را می‌خواهند مردمش را بسیج می‌کند و جنگ مقاومت را رهبری می‌کند."
+    },
+    "ru": {
+     "who": "Яа Асантеа",
+     "what": "Королева-мать ашанти поднимает народ, когда британцы требуют Золотой трон, и возглавляет войну сопротивления."
+    },
+    "zh": {
+     "who": "亚·阿散蒂瓦",
+     "what": "英国人索要黄金凳后，阿散蒂太后动员族人，领导了抵抗战争。"
+    }
+   }
+  },
+  {
+   "id": "lapulapu",
+   "year": "1521",
+   "source": "https://en.wikipedia.org/wiki/Lapulapu",
+   "text": {
+    "ar": {
+     "who": "لابو-لابو",
+     "what": "زعيم ماكتان يرفض الخضوع للتاج الإسباني وينتصر في المعركة التي قُتل فيها ماجلان."
+    },
+    "en": {
+     "who": "Lapulapu",
+     "what": "The chief of Mactan refuses to submit to the Spanish crown and wins the battle in which Magellan is killed."
+    },
+    "fr": {
+     "who": "Lapulapu",
+     "what": "Le chef de Mactan refuse de se soumettre à la couronne espagnole et remporte la bataille où Magellan est tué."
+    },
+    "es": {
+     "who": "Lapulapu",
+     "what": "El jefe de Mactán se niega a someterse a la corona española y vence en la batalla donde muere Magallanes."
+    },
+    "de": {
+     "who": "Lapulapu",
+     "what": "Der Häuptling von Mactan weigert sich, sich der spanischen Krone zu unterwerfen, und siegt in der Schlacht, in der Magellan fällt."
+    },
+    "tr": {
+     "who": "Lapulapu",
+     "what": "Mactan şefi İspanyol tacına boyun eğmeyi reddeder ve Macellan'ın öldüğü savaşı kazanır."
+    },
+    "fa": {
+     "who": "لاپولاپو",
+     "what": "رئیس ماکتان از تسلیم شدن به تاج اسپانیا سر باز می‌زند و در نبردی که ماژلان کشته می‌شود پیروز می‌شود."
+    },
+    "ru": {
+     "who": "Лапулапу",
+     "what": "Вождь Мактана отказывается подчиниться испанской короне и побеждает в битве, где погибает Магеллан."
+    },
+    "zh": {
+     "who": "拉普拉普",
+     "what": "麦克坦岛酋长拒绝臣服西班牙王室，并在击杀麦哲伦的战役中获胜。"
+    }
+   }
+  },
+  {
+   "id": "turkey2003",
+   "year": "2003",
+   "source": "https://www.everycrsreport.com/reports/RL31794.html",
+   "text": {
+    "ar": {
+     "who": "البرلمان التركي",
+     "what": "في 1 مارس يرفض بفارق ضئيل السماح لـ62 ألف جندي أمريكي باستخدام تركيا قاعدة لحرب العراق."
+    },
+    "en": {
+     "who": "Turkish Parliament",
+     "what": "On 1 March it narrowly rejects letting 62,000 US troops use Turkey as a base for the Iraq war."
+    },
+    "fr": {
+     "who": "Parlement turc",
+     "what": "Le 1er mars, il rejette de justesse l'accueil de 62 000 soldats américains pour la guerre en Irak."
+    },
+    "es": {
+     "who": "Parlamento turco",
+     "what": "El 1 de marzo rechaza por la mínima que 62.000 soldados estadounidenses usen Turquía como base para la guerra de Irak."
+    },
+    "de": {
+     "who": "Türkisches Parlament",
+     "what": "Am 1. März lehnt es knapp ab, 62.000 US-Soldaten die Türkei als Basis für den Irakkrieg zu überlassen."
+    },
+    "tr": {
+     "who": "Türkiye Büyük Millet Meclisi",
+     "what": "1 Mart'ta 62 bin ABD askerinin Irak savaşı için Türkiye'yi üs olarak kullanmasına dair tezkereyi ucu ucuna reddeder."
+    },
+    "fa": {
+     "who": "پارلمان ترکیه",
+     "what": "در ۱ مارس با اختلاف اندک اجازه‌ی استفاده‌ی ۶۲ هزار سرباز آمریکایی از ترکیه به‌عنوان پایگاه جنگ عراق را رد می‌کند."
+    },
+    "ru": {
+     "who": "Парламент Турции",
+     "what": "1 марта с минимальным перевесом отклоняет размещение 62 тысяч американских военных для войны в Ираке."
+    },
+    "zh": {
+     "who": "土耳其议会",
+     "what": "3月1日以微弱差距否决了允许6.2万美军以土耳其为基地进攻伊拉克的议案。"
+    }
+   }
+  },
+  {
+   "id": "iceland",
+   "year": "2010",
+   "source": "https://www.robert-schuman.eu/en/observatoire/1069",
+   "text": {
+    "ar": {
+     "who": "ناخبو آيسلندا",
+     "what": "في استفتاء على سداد ديون «آيسسيف» لبريطانيا وهولندا يصوّت 93٪ بـ«لا»."
+    },
+    "en": {
+     "who": "Iceland's voters",
+     "what": "In a referendum on repaying Britain and the Netherlands for the Icesave collapse, 93% vote “No”."
+    },
+    "fr": {
+     "who": "Les électeurs islandais",
+     "what": "Lors du référendum sur le remboursement du Royaume-Uni et des Pays-Bas après la faillite d'Icesave, 93 % votent « Non »."
+    },
+    "es": {
+     "who": "Los votantes islandeses",
+     "what": "En el referéndum sobre devolver el dinero de Icesave a Reino Unido y Países Bajos, el 93 % vota «No»."
+    },
+    "de": {
+     "who": "Islands Wähler",
+     "what": "Im Referendum über die Rückzahlung der Icesave-Schulden an Großbritannien und die Niederlande stimmen 93 % mit „Nein“."
+    },
+    "tr": {
+     "who": "İzlandalı seçmenler",
+     "what": "Icesave çöküşü nedeniyle İngiltere ve Hollanda'ya borcun ödenmesine ilişkin referandumda yüzde 93 «Hayır» der."
+    },
+    "fa": {
+     "who": "رأی‌دهندگان ایسلندی",
+     "what": "در همه‌پرسی بازپرداخت بدهی ایس‌سیو به بریتانیا و هلند، ۹۳٪ «نه» می‌گویند."
+    },
+    "ru": {
+     "who": "Избиратели Исландии",
+     "what": "На референдуме о выплате долгов по Icesave Британии и Нидерландам 93 % голосуют «Нет»."
+    },
+    "zh": {
+     "who": "冰岛选民",
+     "what": "在是否向英国和荷兰偿还冰储蓄（Icesave）债务的公投中，93%的人投下“反对”票。"
+    }
+   }
+  },
+  {
+   "id": "greece2015",
+   "year": "2015",
+   "source": "https://en.wikipedia.org/wiki/2015_Greek_bailout_referendum",
+   "text": {
+    "ar": {
+     "who": "الناخبون اليونانيون",
+     "what": "في 5 يوليو يصوّت نحو 61٪ بـ«أوهي» (لا) على شروط الدائنين."
+    },
+    "en": {
+     "who": "Greek voters",
+     "what": "On 5 July about 61% vote OXI (“No”) to the creditors' bailout terms."
+    },
+    "fr": {
+     "who": "Les électeurs grecs",
+     "what": "Le 5 juillet, environ 61 % votent OXI (« Non ») aux conditions du plan d'aide des créanciers."
+    },
+    "es": {
+     "who": "Los votantes griegos",
+     "what": "El 5 de julio, alrededor del 61 % vota OXI («No») a las condiciones del rescate de los acreedores."
+    },
+    "de": {
+     "who": "Griechische Wähler",
+     "what": "Am 5. Juli stimmen rund 61 % mit OXI („Nein“) gegen die Bedingungen der Gläubiger."
+    },
+    "tr": {
+     "who": "Yunan seçmenler",
+     "what": "5 Temmuz'da yaklaşık yüzde 61, alacaklıların kurtarma koşullarına OXI («Hayır») der."
+    },
+    "fa": {
+     "who": "رأی‌دهندگان یونانی",
+     "what": "در ۵ ژوئیه حدود ۶۱٪ به شرایط بسته‌ی نجات بستانکاران «اُهی» (نه) می‌گویند."
+    },
+    "ru": {
+     "who": "Избиратели Греции",
+     "what": "5 июля около 61 % голосуют ОХИ («Нет») условиям кредиторов."
+    },
+    "zh": {
+     "who": "希腊选民",
+     "what": "7月5日，约61%的选民对债权人的救助条件投下“OXI”（不）票。"
+    }
+   }
+  },
+  {
+   "id": "france-nl",
+   "year": "2005",
+   "source": "https://en.wikipedia.org/wiki/2005_French_European_Constitution_referendum",
+   "text": {
+    "ar": {
+     "who": "الناخبون الفرنسيون والهولنديون",
+     "what": "فرنسا (29 مايو) وهولندا (1 يونيو) تصوّتان بـ«لا» على الدستور الأوروبي."
+    },
+    "en": {
+     "who": "French & Dutch voters",
+     "what": "France (29 May) and the Netherlands (1 June) both vote “No” to the EU Constitution."
+    },
+    "fr": {
+     "who": "Électeurs français et néerlandais",
+     "what": "La France (29 mai) et les Pays-Bas (1er juin) rejettent la Constitution européenne par « Non »."
+    },
+    "es": {
+     "who": "Votantes franceses y neerlandeses",
+     "what": "Francia (29 de mayo) y Países Bajos (1 de junio) votan «No» a la Constitución Europea."
+    },
+    "de": {
+     "who": "Französische und niederländische Wähler",
+     "what": "Frankreich (29. Mai) und die Niederlande (1. Juni) sagen beide „Nein“ zur EU-Verfassung."
+    },
+    "tr": {
+     "who": "Fransız ve Hollandalı seçmenler",
+     "what": "Fransa (29 Mayıs) ve Hollanda (1 Haziran) AB Anayasası'na «Hayır» der."
+    },
+    "fa": {
+     "who": "رأی‌دهندگان فرانسوی و هلندی",
+     "what": "فرانسه (۲۹ مه) و هلند (۱ ژوئن) هر دو به قانون اساسی اتحادیه اروپا «نه» می‌گویند."
+    },
+    "ru": {
+     "who": "Избиратели Франции и Нидерландов",
+     "what": "Франция (29 мая) и Нидерланды (1 июня) голосуют «Нет» Конституции ЕС."
+    },
+    "zh": {
+     "who": "法国和荷兰选民",
+     "what": "法国（5月29日）和荷兰（6月1日）先后对《欧盟宪法》投下反对票。"
+    }
+   }
+  },
+  {
+   "id": "degaulle",
+   "year": "1940",
+   "source": "https://en.wikipedia.org/wiki/Appeal_of_18_June",
+   "text": {
+    "ar": {
+     "who": "شارل ديغول",
+     "what": "من لندن، في 18 يونيو، يرفض الهدنة ويدعو الفرنسيين إلى مواصلة القتال."
+    },
+    "en": {
+     "who": "Charles de Gaulle",
+     "what": "From London, on 18 June, he rejects the armistice and calls on the French to keep fighting."
+    },
+    "fr": {
+     "who": "Charles de Gaulle",
+     "what": "Depuis Londres, le 18 juin, il refuse l'armistice et appelle les Français à continuer le combat."
+    },
+    "es": {
+     "who": "Charles de Gaulle",
+     "what": "Desde Londres, el 18 de junio, rechaza el armisticio y llama a los franceses a seguir luchando."
+    },
+    "de": {
+     "who": "Charles de Gaulle",
+     "what": "Aus London lehnt er am 18. Juni den Waffenstillstand ab und ruft die Franzosen zum Weiterkämpfen auf."
+    },
+    "tr": {
+     "who": "Charles de Gaulle",
+     "what": "18 Haziran'da Londra'dan ateşkesi reddeder ve Fransızları savaşmaya devam etmeye çağırır."
+    },
+    "fa": {
+     "who": "شارل دوگل",
+     "what": "در ۱۸ ژوئن از لندن آتش‌بس را رد می‌کند و فرانسوی‌ها را به ادامه‌ی نبرد فرا می‌خواند."
+    },
+    "ru": {
+     "who": "Шарль де Голль",
+     "what": "18 июня из Лондона отвергает перемирие и призывает французов продолжать борьбу."
+    },
+    "zh": {
+     "who": "夏尔·戴高乐",
+     "what": "6月18日在伦敦拒绝接受停战，号召法国人继续战斗。"
+    }
+   }
+  },
+  {
+   "id": "more",
+   "year": "1534",
+   "source": "https://en.wikipedia.org/wiki/Thomas_More",
+   "text": {
+    "ar": {
+     "who": "توماس مور",
+     "what": "يرفض أداء اليمين على قانون الخلافة للملك هنري الثامن ويُسجن؛ ويُعدم عام 1535."
+    },
+    "en": {
+     "who": "Thomas More",
+     "what": "Refuses to swear the oath to King Henry VIII's Act of Succession and is imprisoned; he is executed in 1535."
+    },
+    "fr": {
+     "who": "Thomas More",
+     "what": "Il refuse de prêter serment à l'Acte de succession d'Henri VIII et est emprisonné ; il est exécuté en 1535."
+    },
+    "es": {
+     "who": "Tomás Moro",
+     "what": "Se niega a jurar el Acta de Sucesión de Enrique VIII y es encarcelado; es ejecutado en 1535."
+    },
+    "de": {
+     "who": "Thomas Morus",
+     "what": "Er verweigert den Eid auf Heinrichs VIII. Sukzessionsakte, kommt in Haft und wird 1535 hingerichtet."
+    },
+    "tr": {
+     "who": "Thomas More",
+     "what": "VIII. Henry'nin Veraset Yasası'na yemin etmeyi reddeder ve hapsedilir; 1535'te idam edilir."
+    },
+    "fa": {
+     "who": "توماس مور",
+     "what": "از سوگند به قانون جانشینی هنری هشتم خودداری می‌کند و زندانی می‌شود؛ در ۱۵۳۵ اعدام می‌شود."
+    },
+    "ru": {
+     "who": "Томас Мор",
+     "what": "Отказывается присягнуть Акту о престолонаследии Генриха VIII, попадает в тюрьму и в 1535 году казнён."
+    },
+    "zh": {
+     "who": "托马斯·莫尔",
+     "what": "拒绝宣誓效忠亨利八世的《继承法》而入狱，1535年被处决。"
+    }
+   }
+  }
+ ]
+}

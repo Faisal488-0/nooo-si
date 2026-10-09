@@ -131,6 +131,21 @@ export function validateAll(root, { now = Date.now() } = {}) {
     if (!q.source) errors.push(`wit: quote ${q.id} has no published source`);
     for (const l of ['ar', 'en']) if (!q.text?.[l] || !q.author?.[l] || !q.take?.[l] || /[<>]/.test(q.text[l])) errors.push(`wit: quote ${q.id} incomplete (${l})`);
   }
+  const hist = readJson(join(root, 'data', 'no-history.json'));
+  const hLangs = hist.languages.map((l) => l.id);
+  if (hLangs.length < 9) errors.push('no-history: expected at least 9 languages');
+  for (const l of hist.languages) if (!['rtl', 'ltr'].includes(l.dir) || !l.label || !l.pause || !l.play) errors.push(`no-history: language ${l.id} incomplete`);
+  const seenH = new Set();
+  for (const e of hist.entries) {
+    if (seenH.has(e.id)) errors.push(`no-history: duplicate id ${e.id}`);
+    seenH.add(e.id);
+    if (!/^\d{3,4}$/.test(e.year)) errors.push(`no-history: ${e.id} bad year`);
+    if (!/^https:\/\//.test(e.source ?? '')) errors.push(`no-history: ${e.id} needs an https source`);
+    for (const id of hLangs) {
+      const t = e.text?.[id];
+      if (!t?.who || !t?.what || t.what.length < 20 || t.what.length > 260 || /[<>]/.test(`${t.who}${t.what}`)) errors.push(`no-history: ${e.id}/${id} missing or bad text`);
+    }
+  }
   const galactic = readJson(join(root, 'data', 'galactic.json'));
   for (const g of galactic.entries) {
     if (!['documented', 'nooo-original'].includes(g.kind)) errors.push(`galactic: ${g.id} bad kind`);

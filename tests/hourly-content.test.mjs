@@ -204,3 +204,13 @@ test('photo cards appear every Nth turn and can be switched off', () => {
   assert.equal(isPhotoTurn(new Array(4).fill({}), bank), false);
   assert.equal(isPhotoTurn(new Array(5).fill({}), { ...bank, enabled: false }), false);
 });
+
+test('ticker data: every event has a source and text in all 9 languages; direction follows script', () => {
+  const h = JSON.parse(readFileSync(new URL('../data/no-history.json', import.meta.url), 'utf8'));
+  assert.ok(h.entries.length >= 20);
+  assert.deepEqual(h.languages.filter((l) => l.dir === 'rtl').map((l) => l.id).sort(), ['ar', 'fa']);
+  for (const e of h.entries) {
+    assert.match(e.source, /^https:\/\//, e.id);
+    for (const l of h.languages) assert.ok(e.text[l.id]?.who && e.text[l.id]?.what, `${e.id}/${l.id}`);
+  }
+});

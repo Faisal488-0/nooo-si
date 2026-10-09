@@ -29,7 +29,7 @@
   <meta name="twitter:image" content="https://nooo.si/assets/img/og.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Lalezar&family=Rubik:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Lalezar&family=Rubik:wght@400;600;800&family=JetBrains+Mono:wght@500&family=Noto+Sans+SC:wght@500;700&display=swap">
   <link rel="stylesheet" href="assets/css/main.css">
   <script src="assets/js/early.js"></script>
   <script type="module" src="assets/js/app.js"></script>
@@ -58,6 +58,18 @@
   </header>
 
   <main id="main">
+    <!-- NOOO NEWS TICKER -->
+    <section id="ticker" class="ticker" role="region" aria-label="NOOO NEWS" data-motion="left">
+      <div class="tk-bar">
+        <span class="tk-badge"><span class="tk-dot" aria-hidden="true"></span><span id="tk-label">NOOO NEWS</span></span>
+        <span id="tk-hint" class="tk-hint"></span>
+        <label class="tk-lang-wrap"><span aria-hidden="true">🌐</span>
+          <select id="tk-lang" aria-label="Language · اللغة · Langue"></select></label>
+        <button id="tk-pause" class="tk-pause" type="button" aria-pressed="false">❚❚</button>
+      </div>
+      <div id="tk-viewport" class="tk-viewport"></div>
+    </section>
+
     <!-- HERO -->
     <section id="hero" class="hero" aria-labelledby="hero-title">
       <p class="hero-kicker" data-i18n="heroKicker">موسوعة كوميدية تفاعلية لكل طرق الرفض</p>

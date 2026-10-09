@@ -386,3 +386,39 @@ body.fx-hue .hero { animation: hue 1.2s linear; }
 .card-art .card-photo { display: block; width: 100%; height: 100%; max-height: 420px; object-fit: cover; background: var(--paper); }
 .photo-credit { margin: 0; font-size: 13px; font-weight: 600; opacity: .85; overflow-wrap: anywhere; }
 .photo-credit a { text-decoration: underline; }
+
+/* ---- NOOO NEWS ticker ---- */
+.ticker { background: var(--ink); color: #fff; border-bottom: var(--b); border-top: 4px solid var(--yellow); --tk-dur: 240s; }
+.tk-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; padding: 8px 16px 4px; }
+.tk-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--red-text); color: #fff; border: 3px solid #fff; border-radius: 8px; padding: 4px 12px; font-family: var(--display); font-size: 18px; letter-spacing: .02em; box-shadow: 3px 3px 0 var(--yellow); }
+.tk-dot { width: 10px; height: 10px; border-radius: 50%; background: #fff; }
+.tk-hint { flex: 1 1 200px; min-width: 0; font-size: 14px; font-weight: 600; color: var(--yellow); }
+.tk-lang-wrap { display: inline-flex; align-items: center; gap: 6px; }
+.tk-lang-wrap select { min-height: 44px; border: 3px solid #fff; border-radius: 10px; background: var(--paper); color: var(--ink); font: 700 15px var(--body); padding: 0 10px; cursor: pointer; }
+.tk-pause { min-width: 44px; min-height: 44px; border: 3px solid #fff; border-radius: 10px; background: var(--yellow); color: var(--ink); font-weight: 800; cursor: pointer; }
+.tk-viewport { overflow: hidden; padding: 6px 0 10px; }
+.tk-track { display: flex; width: max-content; will-change: transform; }
+.tk-group { display: flex; flex: none; }
+.tk-item { display: inline-flex; align-items: baseline; gap: 10px; flex: none; padding-inline: 18px; color: #fff; text-decoration: none; font-family: var(--body); font-size: clamp(17px, 2.2vw, 22px); line-height: 1.5; white-space: nowrap; }
+.tk-item:lang(zh) { font-family: 'Noto Sans SC', var(--body); }
+.tk-item:hover .tk-who, .tk-item:focus-visible .tk-who { text-decoration: underline; text-decoration-thickness: 3px; }
+.tk-year { background: var(--yellow); color: var(--ink); font-family: 'Bungee', sans-serif; font-size: .78em; padding: 0 10px; border-radius: 6px; direction: ltr; }
+.tk-who { font-family: var(--display); font-size: 1.12em; color: var(--cyan); }
+.tk-item:lang(ar) .tk-who, .tk-item:lang(fa) .tk-who { font-family: 'Lalezar', var(--body); font-size: 1.25em; }
+.tk-item:lang(zh) .tk-who { font-family: 'Noto Sans SC', var(--body); font-weight: 700; }
+.tk-item:lang(ru) .tk-who { font-family: var(--body); font-weight: 800; }
+.tk-what { font-weight: 600; color: #fff; }
+.tk-sep { color: var(--pink); font-family: 'Bungee', sans-serif; margin-inline-start: 6px; }
+@media (prefers-reduced-motion: no-preference) {
+  .tk-dot { animation: blink 1.4s infinite; }
+  .ticker[data-motion="left"] .tk-track { animation: tkLeft var(--tk-dur) linear infinite; }
+  .ticker[data-motion="right"] .tk-track { animation: tkRight var(--tk-dur) linear infinite; }
+  .ticker:hover .tk-track, .ticker:focus-within .tk-track, .ticker.is-paused .tk-track { animation-play-state: paused; }
+}
+@keyframes tkLeft { to { transform: translateX(-50%); } }
+@keyframes tkRight { to { transform: translateX(50%); } }
+@media (prefers-reduced-motion: reduce) {
+  /* No movement: the same list, scrollable by hand. */
+  .tk-viewport { overflow-x: auto; }
+  .tk-group[aria-hidden="true"], .tk-pause { display: none; }
+}
