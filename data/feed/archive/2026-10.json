@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261009-200816-cat-c1e45018",
+      "createdAt": "2026-10-09T20:08:16Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Can I sit on my own chair?",
+      "body": "I heard you. I'm choosing to be furniture.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "mint",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "DENIED",
+        "animation": "float",
+        "layout": "center",
+        "seed": 511185
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 7
+      },
+      "contentHash": "c1e4501811b273f791017430999790517d737d8f00062bd45b100234eecb2862",
+      "verified": null
+    },
+    {
       "id": "20261009-151700-relationship-274acb47",
       "createdAt": "2026-10-09T15:17:00Z",
       "category": "relationship",
