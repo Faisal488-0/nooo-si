@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-09T01:15:52Z",
-  "total": 11,
+  "generatedAt": "2026-10-09T07:24:39Z",
+  "total": 12,
   "items": [
+    {
+      "id": "20261009-072439-friends-d3823343",
+      "createdAt": "2026-10-09T07:24:39Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Let's go out. Leaving in three minutes.",
+      "body": "Absolutely not, my dear friend.",
+      "kicker": "Certified by the Department of No.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lemon",
+        "character": "cactus",
+        "expression": "unbothered",
+        "sticker": "DENIED",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 285925
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 6
+      },
+      "contentHash": "d382334386a372e98b0b23917d2b2e1ab36e2be6aa820a06b409bbd00a9f1901",
+      "verified": null
+    },
     {
       "id": "20261009-011552-boss-88b72d6d",
       "createdAt": "2026-10-09T01:15:52Z",
