@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-09T07:24:39Z",
-  "total": 12,
+  "generatedAt": "2026-10-09T15:17:00Z",
+  "total": 13,
   "items": [
+    {
+      "id": "20261009-151700-relationship-274acb47",
+      "createdAt": "2026-10-09T15:17:00Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Could you change your whole personality… a little?",
+      "body": "My answer is no. My hug is yes.",
+      "kicker": "Echo: no… no… no…",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tangerine",
+        "character": "cactus",
+        "expression": "angry",
+        "sticker": "NOT TODAY",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 127337
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 15
+      },
+      "contentHash": "274acb4722c435e809fe4e3d1c34cf8300347191ff1b4ae40aafc92a4a2dd7a0",
+      "verified": null
+    },
     {
       "id": "20261009-072439-friends-d3823343",
       "createdAt": "2026-10-09T07:24:39Z",
