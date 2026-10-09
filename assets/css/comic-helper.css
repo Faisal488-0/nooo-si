@@ -1,0 +1,17 @@
+/* Original comic buddy, optional visual only. */
+#nooo-friend{position:fixed;left:12px;top:12px;z-index:80;width:58px;height:58px;pointer-events:none;transition:left .12s ease,top .12s ease;direction:ltr}
+#nooo-friend button{pointer-events:auto;cursor:pointer}
+.nooo-friend-face{position:absolute;inset:0;border:3px solid #181818;border-radius:25px;background:#ffe35b;box-shadow:4px 5px 0 #181818;touch-action:none;display:grid;place-items:center;animation:nooo-buddy-breathe 3s ease-in-out infinite}
+.nooo-friend-face:focus-visible,.nooo-friend-hide:focus-visible,.nooo-friend-restore:focus-visible{outline:4px solid #0558b5;outline-offset:4px}
+.nooo-friend-eyes{display:flex;gap:13px;transform:translateY(-6px)}
+.nooo-friend-eyes i{display:block;width:8px;height:10px;border-radius:50%;background:#181818}
+.nooo-friend-mouth{position:absolute;bottom:10px;width:18px;height:10px;border-radius:0 0 20px 20px;background:#181818}
+#nooo-friend.is-reacting .nooo-friend-mouth{height:20px;width:17px;border-radius:50%}
+.nooo-friend-says{position:absolute;right:65px;top:4px;white-space:nowrap;pointer-events:none;color:#151515;background:#fff;border:2px solid #151515;border-radius:12px;padding:6px 10px;font-weight:800;font-size:14px;box-shadow:2px 3px 0 #151515}
+.nooo-friend-says:empty{display:none}
+.nooo-friend-hide{position:absolute;right:-9px;top:-10px;background:#151515;color:#fff;border:2px solid #fff;border-radius:50%;font-size:16px;width:26px;height:26px}
+.nooo-friend-restore{display:grid;place-items:center;width:44px;height:44px;background:#ffe35b;border:2px solid #171717;border-radius:50%;color:#171717;box-shadow:2px 3px 0 #151515}
+.nooo-friend-restore[hidden],.nooo-friend-face[hidden],.nooo-friend-hide[hidden]{display:none}
+@keyframes nooo-buddy-breathe{50%{transform:scale(1.045)}}
+@media(prefers-reduced-motion:reduce){#nooo-friend{transition:none}.nooo-friend-face{animation:none}}
+@media(max-width:500px){.nooo-friend-says{right:auto;left:58px;top:0}}
