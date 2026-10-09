@@ -13,3 +13,4 @@ Short and simple, so we don't conflict:
 Change log for assistants:
 - 2026-10-09 — Claude built the full site, the hourly engine, tests and the workflow (see the implementation report).
 - 2026-10-09 — Claude installed the UI UX Pro Max skill in `.claude/skills/ui-ux-pro-max` and added `CLAUDE.md`. No change to the site or the hourly engine.
+- 2026-10-09 — Claude ran the UI UX Pro Max audit: all tap targets now ≥44px, white-on-red text uses `--red-text` (4.5:1), small muted text opacity raised. CSS only.
