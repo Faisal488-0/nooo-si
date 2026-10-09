@@ -1,10 +1,11 @@
 // NOOO NEWS — a scrolling ticker of people and events that said "No".
-// Direction follows the writing system of the chosen language: right-to-left languages scroll
-// right → left, left-to-right languages scroll left → right. To flip that rule, change MOTION below.
+// Direction follows the writing system of the chosen language: right-to-left languages (Arabic, Persian)
+// travel left → right so their text enters from its beginning; left-to-right languages travel right → left.
+// To flip that rule, change MOTION below.
 import { el, fetchJson, $ } from './lib/dom.js';
 import { lang as siteLang, onLangChange } from './i18n.js';
 
-const MOTION = { rtl: 'left', ltr: 'right' }; // writing direction → direction the text travels
+const MOTION = { rtl: 'right', ltr: 'left' }; // writing direction → direction the text travels
 const SPEED = 85;                              // pixels per second
 
 let data = null;
