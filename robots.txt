@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /scripts/
 Disallow: /tests/
+Disallow: /.claude/
 Sitemap: https://nooo.si/sitemap.xml
