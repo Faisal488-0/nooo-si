@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261009-011552-boss-88b72d6d",
+      "createdAt": "2026-10-09T01:15:52Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Could you redo it, but the same, but different?",
+      "body": "My laptop went to sleep. It has better boundaries than me — until today.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "lemon",
+        "character": "mug",
+        "expression": "shocked",
+        "sticker": "NOPE",
+        "animation": "tilt",
+        "layout": "center",
+        "seed": 983591
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 14
+      },
+      "contentHash": "88b72d6d8364d44a50c520b78249a93e28e8c41a3c77a4dd9d98eb50b25c3b53",
+      "verified": null
+    },
+    {
       "id": "20261009-010821-global-a67744dc",
       "createdAt": "2026-10-09T01:08:21Z",
       "category": "global",
