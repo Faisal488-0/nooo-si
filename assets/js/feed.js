@@ -16,13 +16,6 @@ export const onFeed = (fn) => { listeners.add(fn); if (latest) fn(latest); };
 
 function minutesAgo(iso) { return Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 60000)); }
 
-function nextRunLabel() {
-  const d = new Date();
-  const next = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), d.getUTCHours(), 17));
-  if (next <= d) next.setUTCHours(next.getUTCHours() + 1);
-  return next.toLocaleTimeString(lang() === 'ar' ? 'ar-KW-u-nu-latn' : 'en-GB', { hour: '2-digit', minute: '2-digit' });
-}
-
 function observeEffects(cards) {
   if (!('IntersectionObserver' in window)) return;
   const io = new IntersectionObserver((entries) => {
@@ -34,11 +27,9 @@ function observeEffects(cards) {
 function renderLatest() {
   const heroBox = $('#feed-hero');
   const grid = $('#feed-grid');
-  const meta = $('#feed-meta');
   if (!latest || !latest.items?.length) {
     heroBox.replaceChildren(el('p', { class: 'empty', text: t('feedEmpty') }));
     grid.replaceChildren();
-    meta.replaceChildren(el('span', { text: t('nextRun')(nextRunLabel()) }));
     return;
   }
   const [first, ...rest] = latest.items;
@@ -48,15 +39,6 @@ function renderLatest() {
   heroBox.replaceChildren(big);
   const cards = rest.slice(0, 11).map((it) => { const c = buildCard(it); c._item = it; return c; });
   grid.replaceChildren(...cards);
-  const added = new Date(first.createdAt).toLocaleString(lang() === 'ar' ? 'ar-KW-u-nu-latn' : 'en-GB', { weekday: 'short', hour: '2-digit', minute: '2-digit' });
-  meta.replaceChildren(
-    el('span', { class: 'live-dot', 'aria-hidden': 'true' }),
-    el('span', { text: t('addedAt')(added, t('ago')(minutesAgo(first.createdAt))) }),
-    el('span', { class: 'sep', text: '•' }),
-    el('span', { text: t('totalCards')(latest.total) }),
-    el('span', { class: 'sep', text: '•' }),
-    el('span', { text: t('nextRun')(nextRunLabel()) })
-  );
   observeEffects([big]);
 }
 

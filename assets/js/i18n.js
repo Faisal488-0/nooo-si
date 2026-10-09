@@ -22,12 +22,8 @@ export const DICT = {
     heroSays: ['لا.', 'قلت لا!', 'برضو لا!', 'لاااااا!', 'لا مضروبة في ما لا نهاية.', 'لا، وبالخط العريض.', 'إنجاز: محترف رفض 🏆', 'حتى الزر تعب… لا.', 'لا. لا. لا.', 'اللا هنا أبدية.'],
     clicks: (n) => `عدد مرات الرفض: ${n}`,
     newTitle: 'NEW THIS HOUR — جديد هالساعة',
-    newIntro: 'محرك آلي يضيف بطاقة رفض أصلية جديدة كل ساعة تقريبًا. كل بطاقة تركيبة جديدة من سطور كوميدية مكتوبة ومراجعة مسبقًا، ولا تتكرر.',
     badgeNew: 'جديد هالساعة', badgeLatest: 'آخر إضافة',
-    addedAt: (time, ago) => `أُضيفت ${time} (${ago})`,
     ago: (m) => (m < 1 ? 'قبل لحظات' : m < 60 ? `قبل ${m} دقيقة` : m < 1440 ? `قبل ${Math.round(m / 60)} ساعة` : `قبل ${Math.round(m / 1440)} يوم`),
-    nextRun: (t) => `البطاقة الجاية متوقعة حوالي ${t} — الجدولة مجانية وقد تتأخر قليلًا.`,
-    totalCards: (n) => `${n} بطاقة في الأرشيف`,
     feedEmpty: 'أول بطاقة في الطريق. ارجع بعد ساعة.',
     feedError: 'تعذّر تحميل البطاقات الآن. حاول التحديث.',
     freshToast: 'وصلت «لا» طازجة! 🎉',
@@ -72,9 +68,6 @@ export const DICT = {
     hallTitle: 'HALL OF NO — جدار الرفض', hallShuffle: '🔀 خلط',
     walls: { corporate: 'لا المؤسسية', robot: 'لا الآلية', cat: 'لا القطط', galactic: 'لا المجرية', monday: 'لا أول الأسبوع' },
     footerAbout: 'nooo.si موقع ترفيهي مستقل. المحتوى أصلي، والرسومات والأصوات مُولّدة داخل الموقع.',
-    footerEngine: 'البطاقات الجديدة تتجدد تلقائيًا كل ساعة — بدون ذكاء اصطناعي مدفوع وبدون جمع بيانات.',
-    footerHonest: 'كلمات اللغات منقولة من مراجع منشورة مذكورة بجانب كل لغة. إن وجدت خطأ، أخبرنا عبر GitHub.',
-    footerRepo: 'الكود على GitHub',
     reduced: 'تم تقليل الحركة احترامًا لإعدادات جهازك.'
   },
   en: {
@@ -97,12 +90,8 @@ export const DICT = {
     heroSays: ['NO.', 'I SAID NO!', 'STILL NO!', 'NOOOOO!', 'NO times infinity.', 'No, in bold.', 'Achievement: Professional Refuser 🏆', 'Even the button is tired… no.', 'No. No. No.', 'The no here is eternal.'],
     clicks: (n) => `Refusals so far: ${n}`,
     newTitle: 'NEW THIS HOUR',
-    newIntro: 'An automatic engine adds a fresh, original refusal card about once an hour. Each card is a new combination of pre-written, reviewed comedy lines — never a repeat.',
     badgeNew: 'New this hour', badgeLatest: 'Latest',
-    addedAt: (time, ago) => `Added ${time} (${ago})`,
     ago: (m) => (m < 1 ? 'just now' : m < 60 ? `${m} min ago` : m < 1440 ? `${Math.round(m / 60)} h ago` : `${Math.round(m / 1440)} d ago`),
-    nextRun: (t) => `Next card expected around ${t} — free scheduling can run a little late.`,
-    totalCards: (n) => `${n} cards in the archive`,
     feedEmpty: 'The first card is on its way. Come back next hour.',
     feedError: "Couldn't load the cards right now. Try refreshing.",
     freshToast: 'A fresh NO just landed! 🎉',
@@ -147,9 +136,6 @@ export const DICT = {
     hallTitle: 'HALL OF NO', hallShuffle: '🔀 Shuffle',
     walls: { corporate: 'Corporate NO', robot: 'Robot NO', cat: 'Cat NO', galactic: 'Galactic NO', monday: 'Monday NO' },
     footerAbout: 'nooo.si is an independent comedy site. Content is original; art and sounds are generated inside the site.',
-    footerEngine: 'New cards appear automatically every hour — no paid AI, no tracking.',
-    footerHonest: 'Language words come from the published references linked next to each language. Found a mistake? Tell us on GitHub.',
-    footerRepo: 'Code on GitHub',
     reduced: 'Motion reduced to respect your device settings.'
   }
 };
