@@ -1,17 +1,30 @@
-/* Original comic buddy, optional visual only. */
-#nooo-friend{position:fixed;left:12px;top:12px;z-index:80;width:58px;height:58px;pointer-events:none;transition:left .12s ease,top .12s ease;direction:ltr}
+/* Original NOOO comic buddy with visible eyes, bounded pupil gaze and real page shortcuts. */
+#nooo-friend{position:fixed;z-index:80;width:60px;height:60px;pointer-events:none;transition:left .15s ease,top .15s ease;direction:ltr}
 #nooo-friend button{pointer-events:auto;cursor:pointer}
-.nooo-friend-face{position:absolute;inset:0;border:3px solid #181818;border-radius:25px;background:#ffe35b;box-shadow:4px 5px 0 #181818;touch-action:none;display:grid;place-items:center;animation:nooo-buddy-breathe 3s ease-in-out infinite}
-.nooo-friend-face:focus-visible,.nooo-friend-hide:focus-visible,.nooo-friend-restore:focus-visible{outline:4px solid #0558b5;outline-offset:4px}
-.nooo-friend-eyes{display:flex;gap:13px;transform:translateY(-6px)}
-.nooo-friend-eyes i{display:block;width:8px;height:10px;border-radius:50%;background:#181818}
-.nooo-friend-mouth{position:absolute;bottom:10px;width:18px;height:10px;border-radius:0 0 20px 20px;background:#181818}
-#nooo-friend.is-reacting .nooo-friend-mouth{height:20px;width:17px;border-radius:50%}
-.nooo-friend-says{position:absolute;right:65px;top:4px;white-space:nowrap;pointer-events:none;color:#151515;background:#fff;border:2px solid #151515;border-radius:12px;padding:6px 10px;font-weight:800;font-size:14px;box-shadow:2px 3px 0 #151515}
+.nooo-friend-face{position:absolute;inset:0;border:3px solid #191919;border-radius:24px;background:radial-gradient(circle at 30% 20%,#fff6bd,#ffe048 70%);box-shadow:4px 5px 0 #191919;touch-action:none;user-select:none;animation:nooo-buddy-breathe 3.2s ease-in-out infinite}
+.nooo-friend-face:active{cursor:grabbing}
+.nooo-friend-face:focus-visible,.nooo-friend-hide:focus-visible,.nooo-friend-restore:focus-visible,.nooo-friend-panel button:focus-visible{outline:3px solid #0c67b1;outline-offset:4px}
+.nooo-friend-eyes{position:absolute;top:19px;left:12px;display:flex;gap:9px;pointer-events:none}
+.nooo-friend-eyes i{position:relative;display:block;box-sizing:border-box;width:14px;height:17px;border:2px solid #181818;border-radius:50%;background:#fff;overflow:hidden;animation:nooo-blink 6.5s infinite}
+.nooo-friend-eyes b{position:absolute;left:2px;top:3px;display:block;width:6px;height:6px;border-radius:50%;background:#171717;transform:translate(var(--look-x,0px),var(--look-y,0px));transition:transform .08s ease-out}
+.nooo-friend-mouth{position:absolute;bottom:9px;left:23px;width:16px;height:9px;border-radius:0 0 20px 20px;background:#1b1b1b;transition:all .15s}
+#nooo-friend.is-reacting .nooo-friend-mouth{height:17px;width:16px;border-radius:50%}
+.nooo-friend-badge{position:absolute;right:66px;top:7px;pointer-events:none;padding:6px 10px;border:2px solid #191919;border-radius:11px;background:#fff;color:#191919;font:800 12px/1.4 system-ui,sans-serif;white-space:nowrap;box-shadow:2px 3px #191919}
+.nooo-friend-says{position:absolute;right:65px;top:39px;pointer-events:none;padding:7px 10px;white-space:nowrap;max-width:235px;overflow:hidden;text-overflow:ellipsis;background:#fff;border:2px solid #191919;border-radius:11px;color:#191919;font:800 13px/1.4 system-ui,sans-serif;box-shadow:2px 3px #191919}
 .nooo-friend-says:empty{display:none}
-.nooo-friend-hide{position:absolute;right:-9px;top:-10px;background:#151515;color:#fff;border:2px solid #fff;border-radius:50%;font-size:16px;width:26px;height:26px}
-.nooo-friend-restore{display:grid;place-items:center;width:44px;height:44px;background:#ffe35b;border:2px solid #171717;border-radius:50%;color:#171717;box-shadow:2px 3px 0 #151515}
-.nooo-friend-restore[hidden],.nooo-friend-face[hidden],.nooo-friend-hide[hidden]{display:none}
-@keyframes nooo-buddy-breathe{50%{transform:scale(1.045)}}
-@media(prefers-reduced-motion:reduce){#nooo-friend{transition:none}.nooo-friend-face{animation:none}}
-@media(max-width:500px){.nooo-friend-says{right:auto;left:58px;top:0}}
+.nooo-friend-hide{position:absolute;right:-11px;top:-11px;width:27px;height:27px;background:#191919;color:#fff;border:2px solid #fff;border-radius:50%;font-size:17px;line-height:1}
+.nooo-friend-restore{position:absolute;top:0;left:0;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:2px solid #191919;background:#ffe35b;color:#191919;font-size:22px}
+.nooo-friend-restore[hidden],.nooo-friend-face[hidden],.nooo-friend-hide[hidden],.nooo-friend-badge[hidden]{display:none}
+.nooo-friend-panel{position:fixed;pointer-events:auto;max-height:calc(100dvh - 24px);overflow:auto;box-sizing:border-box;padding:15px;border:2px solid #191919;border-radius:18px;background:#fffbea;color:#191919;box-shadow:4px 5px 0 #191919;font:14px/1.6 system-ui,sans-serif;text-align:start;direction:rtl}
+.nooo-friend-panel[hidden]{display:none}
+.nooo-friend-panel strong{display:block;font-size:18px}
+.nooo-friend-panel p{margin:7px 0 11px}
+.nooo-friend-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.nooo-friend-actions button{font:800 12px/1.5 system-ui,sans-serif;min-height:45px;padding:7px;border:2px solid #191919;border-radius:10px;background:#ffdf45;color:#191919}
+.nooo-friend-actions button:hover{background:#fff098}
+.nooo-friend-controls{margin-top:10px;display:grid}
+.nooo-friend-controls button{min-height:44px;border:1px solid #191919;border-radius:9px;background:#fff;color:#191919;font:inherit}
+@keyframes nooo-buddy-breathe{50%{filter:brightness(1.06)}}
+@keyframes nooo-blink{0%,43%,46%,100%{transform:scaleY(1)}44%,45%{transform:scaleY(.17)}}
+@media(prefers-reduced-motion:reduce){#nooo-friend{transition:none}.nooo-friend-face,.nooo-friend-eyes i{animation:none}.nooo-friend-eyes b{transition:none}}
+@media(max-width:500px){.nooo-friend-badge{display:none}.nooo-friend-says{right:auto;left:58px;top:4px;max-width:min(190px,45vw);font-size:11px}}
