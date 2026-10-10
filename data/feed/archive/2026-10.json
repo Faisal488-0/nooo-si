@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261010-122818-morse-ab53cf14",
+      "createdAt": "2026-10-10T12:28:18Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Blink “NOT A CHANCE” with a flashlight",
+      "body": "Long beep = long no.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "mint",
+        "character": "ufo",
+        "expression": "unbothered",
+        "sticker": "NOT TODAY",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 139338
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 13,
+        "headline": 2,
+        "reply": 3
+      },
+      "contentHash": "ab53cf145f0a3beb23f3b570618b2acba33a85a01f4cff7b18504e55c75648c1",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOT A CHANCE",
+        "output": "-. --- - / .- / -.-. .... .- -. -.-. ."
+      }
+    },
+    {
       "id": "20261010-054854-binary-64a61f18",
       "createdAt": "2026-10-10T05:48:54Z",
       "category": "binary",
