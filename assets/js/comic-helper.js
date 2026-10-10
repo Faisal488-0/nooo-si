@@ -56,6 +56,7 @@
   const refresh=()=>{
     const l=labels();
     title.textContent=l.title;intro.textContent=l.line;badge.textContent=l.tag;
+    panel.dir=document.documentElement.lang.toLowerCase().startsWith('ar')?'rtl':'ltr';
     face.setAttribute('aria-label',l.title+'. '+l.move);face.setAttribute('aria-expanded',String(open));
     face.setAttribute('aria-controls',panel.id);
     panel.setAttribute('aria-label',l.title);
