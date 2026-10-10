@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261010-054854-binary-64a61f18",
+      "createdAt": "2026-10-10T05:48:54Z",
+      "category": "binary",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NOPE” for your printer",
+      "body": "Compiled with zero warnings.",
+      "kicker": "Fresh NO, baked this hour.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "toaster",
+        "expression": "smug",
+        "sticker": "NAH",
+        "animation": "bounce",
+        "layout": "right",
+        "seed": 171873
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 1,
+        "headline": 0,
+        "reply": 7
+      },
+      "contentHash": "64a61f1840f96fb89a00f1c455d495ea607a8bc357db7841b71adad431bfa9b5",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "NOPE",
+        "output": "01001110 01001111 01010000 01000101"
+      }
+    },
+    {
       "id": "20261010-000211-scifi-1840e86c",
       "createdAt": "2026-10-10T00:02:11Z",
       "category": "scifi",
