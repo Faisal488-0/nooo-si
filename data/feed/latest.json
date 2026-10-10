@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-10T12:28:18Z",
-  "total": 17,
+  "generatedAt": "2026-10-10T17:51:15Z",
+  "total": 18,
   "items": [
+    {
+      "id": "20261010-175115-photo-96c822ec",
+      "createdAt": "2026-10-10T17:51:15Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Cat reviewing your 'quick call' invite:",
+      "body": "Declined. I have a nap scheduled until 2031.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "NOT TODAY",
+        "animation": "float",
+        "layout": "right",
+        "seed": 57735
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 0
+      },
+      "contentHash": "96c822ec5f399d05ed95a87096046e28395aee52b03895767dc441480bde6f72",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261010-175115-9674ad1c.jpg",
+        "sourceId": "9674ad1c-7e72-4505-be64-d1a6f84c89e2",
+        "theme": "cat",
+        "title": "Figurine of a cat with kittens",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/545955"
+      }
+    },
     {
       "id": "20261010-122818-morse-ab53cf14",
       "createdAt": "2026-10-10T12:28:18Z",
