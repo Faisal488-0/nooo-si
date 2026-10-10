@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-09T20:08:16Z",
-  "total": 14,
+  "generatedAt": "2026-10-10T00:02:11Z",
+  "total": 15,
   "items": [
+    {
+      "id": "20261010-000211-scifi-1840e86c",
+      "createdAt": "2026-10-10T00:02:11Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Time traveler: can I borrow your weekend?",
+      "body": "We checked every parallel universe. Still no.",
+      "kicker": "No regrets. Just no.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "mint",
+        "character": "robot",
+        "expression": "unbothered",
+        "sticker": "DENIED",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 919945
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 10
+      },
+      "contentHash": "1840e86cc4f9d2e1990d3c681aba029406055bd7f996422e550d785649b5cc8e",
+      "verified": null
+    },
     {
       "id": "20261009-200816-cat-c1e45018",
       "createdAt": "2026-10-09T20:08:16Z",
