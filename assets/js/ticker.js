@@ -66,9 +66,27 @@ function setTickerLang(id) {
   build();
 }
 
+// The ticker sticks right under the top bar; publish both heights so CSS can offset anchors and sticky top.
+function trackStickyHeights() {
+  const set = () => {
+    const bar = $('.topbar');
+    const tk = $('#ticker');
+    if (bar) document.documentElement.style.setProperty('--topbar-h', `${Math.round(bar.getBoundingClientRect().height)}px`);
+    if (tk) document.documentElement.style.setProperty('--ticker-h', `${Math.round(tk.getBoundingClientRect().height)}px`);
+  };
+  set();
+  if ('ResizeObserver' in window) {
+    const ro = new ResizeObserver(set);
+    ro.observe($('.topbar'));
+    ro.observe($('#ticker'));
+  }
+  window.addEventListener('resize', set);
+}
+
 export async function initTicker() {
   const root = $('#ticker');
   if (!root) return;
+  trackStickyHeights();
   try { data = await fetchJson('data/no-history.json'); } catch (e) { root.hidden = true; console.error('ticker failed', e); return; }
   const sel = $('#tk-lang');
   sel.replaceChildren(...data.languages.map((l) => el('option', { value: l.id, text: l.name, lang: l.id })));

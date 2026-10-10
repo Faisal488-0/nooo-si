@@ -388,7 +388,7 @@ body.fx-hue .hero { animation: hue 1.2s linear; }
 .photo-credit a { text-decoration: underline; }
 
 /* ---- NOOO NEWS ticker ---- */
-.ticker { background: var(--ink); color: #fff; border-bottom: var(--b); border-top: 4px solid var(--yellow); --tk-dur: 240s; }
+.ticker { position: sticky; top: var(--topbar-h, 62px); z-index: 25; background: var(--ink); color: #fff; border-bottom: var(--b); border-top: 4px solid var(--yellow); --tk-dur: 240s; }
 .tk-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; padding: 8px 16px 4px; }
 .tk-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--red-text); color: #fff; border: 3px solid #fff; border-radius: 8px; padding: 4px 12px; font-family: var(--display); font-size: 18px; letter-spacing: .02em; box-shadow: 3px 3px 0 var(--yellow); }
 .tk-dot { width: 10px; height: 10px; border-radius: 50%; background: #fff; }
@@ -421,4 +421,14 @@ body.fx-hue .hero { animation: hue 1.2s linear; }
   /* No movement: the same list, scrollable by hand. */
   .tk-viewport { overflow-x: auto; }
   .tk-group[aria-hidden="true"], .tk-pause { display: none; }
+}
+
+/* Sticky stack = top bar + ticker: keep in-page anchors from hiding under it, and keep the ticker slim on phones. */
+html { scroll-padding-top: calc(var(--topbar-h, 62px) + var(--ticker-h, 0px) + 8px); }
+@media (max-width: 700px) {
+  .tk-hint { display: none; }
+  .tk-bar { padding: 6px 12px 2px; }
+  .tk-badge { font-size: 15px; padding: 2px 10px; }
+  .tk-viewport { padding: 2px 0 6px; }
+  .tk-item { font-size: 17px; }
 }
