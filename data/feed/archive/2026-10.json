@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261010-214102-monday-0f6e4033",
+      "createdAt": "2026-10-10T21:41:02Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Traffic: expect 45 extra minutes.",
+      "body": "Monday, you are not invited to my week.",
+      "kicker": "Certified by the Department of No.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "grape",
+        "character": "ghost",
+        "expression": "sleepy",
+        "sticker": "NEVER",
+        "animation": "float",
+        "layout": "right",
+        "seed": 443164
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 14
+      },
+      "contentHash": "0f6e403379d6b7dc3eed8fbbe82320f54d9a2722b23f0b18bf59b8e0663748db",
+      "verified": null
+    },
+    {
       "id": "20261010-175115-photo-96c822ec",
       "createdAt": "2026-10-10T17:51:15Z",
       "category": "photo",
