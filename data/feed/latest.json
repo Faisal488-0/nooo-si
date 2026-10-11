@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-10-10T21:41:02Z",
-  "total": 19,
+  "generatedAt": "2026-10-11T00:59:46Z",
+  "total": 20,
   "items": [
+    {
+      "id": "20261011-005946-global-9f3059f9",
+      "createdAt": "2026-10-11T00:59:46Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Today's NO comes from Azerbaijani",
+      "body": "Practice it in the mirror before Monday.",
+      "kicker": "Echo: no… no… no…",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "cyan",
+        "character": "ufo",
+        "expression": "dramatic",
+        "sticker": "DENIED",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 40861
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 6,
+        "headline": 2,
+        "reply": 7
+      },
+      "contentHash": "9f3059f9a81dd9489a4fa265c628108b370138c2c4ac1c2bf480a1451d4f41e9",
+      "verified": true,
+      "lang": {
+        "id": "az",
+        "name": "Azerbaijani",
+        "no": "Xeyir",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
+      }
+    },
     {
       "id": "20261010-214102-monday-0f6e4033",
       "createdAt": "2026-10-10T21:41:02Z",
