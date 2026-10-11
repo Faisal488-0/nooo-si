@@ -2,6 +2,44 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261011-225257-photo-5715ad0f",
+      "createdAt": "2026-10-11T22:52:57Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الكلب مدعوًّا إلى «حديث جدّي»:",
+      "body": "هل فيه كرة؟ بدون كرة لا حديث.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "night",
+        "character": "laptop",
+        "expression": "shocked",
+        "sticker": "لا.",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 797757
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 1
+      },
+      "contentHash": "5715ad0fe7b831f86d3ae455cdd83a4556243057b3d6aa143ce9d47e19e22121",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261011-225257-2503ca63.jpg",
+        "sourceId": "2503ca63-1f07-4cf1-94cf-30b7d0f04d30",
+        "theme": "dog",
+        "title": "Mechanical Dog",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/544519"
+      }
+    },
+    {
       "id": "20261011-185301-relationship-8109773f",
       "createdAt": "2026-10-11T18:53:01Z",
       "category": "relationship",
