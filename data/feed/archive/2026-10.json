@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261011-185301-relationship-8109773f",
+      "createdAt": "2026-10-11T18:53:01Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "خلنا نسكن مع بعض. من باچر.",
+      "body": "لا، وشكرًا إنك سألت بدل ما تفترض.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "night",
+        "character": "ghost",
+        "expression": "unbothered",
+        "sticker": "لا.",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 603409
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 6
+      },
+      "contentHash": "8109773ff2c1440e73d2a7efae0a6966edcef11c898785c25b579d0b4c074780",
+      "verified": null
+    },
+    {
       "id": "20261011-140128-friends-b9fb7e7f",
       "createdAt": "2026-10-11T14:01:28Z",
       "category": "friends",
