@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-11T00:59:46Z",
-  "total": 20,
+  "generatedAt": "2026-10-11T07:10:30Z",
+  "total": 21,
   "items": [
+    {
+      "id": "20261011-071030-boss-7b31f16f",
+      "createdAt": "2026-10-11T07:10:30Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "سوّ شغلك وشغل اثنين غيرك، عشان الخبرة.",
+      "body": "سألت الرد التلقائي، وقال لا بعد.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "night",
+        "character": "boss",
+        "expression": "unbothered",
+        "sticker": "مرفوض",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 334503
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 13,
+        "reply": 10
+      },
+      "contentHash": "7b31f16fdc42f190975ff45c23a63096e95664ff4a7f0863ff74ca443b71c031",
+      "verified": null
+    },
     {
       "id": "20261011-005946-global-9f3059f9",
       "createdAt": "2026-10-11T00:59:46Z",
