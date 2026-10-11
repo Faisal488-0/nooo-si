@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-11T07:10:30Z",
-  "total": 21,
+  "generatedAt": "2026-10-11T14:01:28Z",
+  "total": 22,
   "items": [
+    {
+      "id": "20261011-140128-friends-b9fb7e7f",
+      "createdAt": "2026-10-11T14:01:28Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "اسمع رسايلي الصوتية، بس ٢٠٠ رسالة.",
+      "body": "يا صديقي، الأجواء تقول لا.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "cyan",
+        "character": "cactus",
+        "expression": "smug",
+        "sticker": "أبدًا",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 78571
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 12,
+        "reply": 16
+      },
+      "contentHash": "b9fb7e7fec360c5abeed219e3438af4d0803463322fa97d83544f49d851fee78",
+      "verified": null
+    },
     {
       "id": "20261011-071030-boss-7b31f16f",
       "createdAt": "2026-10-11T07:10:30Z",
