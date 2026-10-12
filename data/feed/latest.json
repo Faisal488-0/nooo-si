@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-11T22:52:57Z",
-  "total": 24,
+  "generatedAt": "2026-10-12T02:22:28Z",
+  "total": 25,
   "items": [
+    {
+      "id": "20261012-022228-scifi-c7d385a0",
+      "createdAt": "2026-10-12T02:22:28Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "زائر: خذني إلى قائدكم.",
+      "body": "الدروع مرفوعة. الطلب ارتد.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "bubblegum",
+        "character": "planet",
+        "expression": "sleepy",
+        "sticker": "أبدًا",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 833833
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 6
+      },
+      "contentHash": "c7d385a0b8bdf63a726c035e56f5ab841f0666dcceb243d9409820a27f001fcf",
+      "verified": null
+    },
     {
       "id": "20261011-225257-photo-5715ad0f",
       "createdAt": "2026-10-11T22:52:57Z",
