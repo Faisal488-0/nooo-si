@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = join(root, '_site');
-const PUBLIC = ['index.html', '404.html', 'CNAME', '.nojekyll', 'robots.txt', 'sitemap.xml', 'site.webmanifest', 'assets', 'data', 'content/banks'];
+const PUBLIC = ['index.html', '404.html', 'CNAME', '.nojekyll', 'robots.txt', 'sitemap.xml', 'sitemap.txt', 'site.webmanifest', 'assets', 'data', 'content/banks'];
 
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
