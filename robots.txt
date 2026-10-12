@@ -4,3 +4,4 @@ Disallow: /scripts/
 Disallow: /tests/
 Disallow: /.claude/
 Sitemap: https://nooo.si/sitemap.xml
+Sitemap: https://nooo.si/sitemap.txt
