@@ -1,0 +1,51 @@
+name: NOOO Sitemap Reachability
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - 'sitemap.txt'
+      - 'scripts/build-site.mjs'
+      - 'scripts/check-live-sitemap.py'
+      - 'tests/sitemap-discovery.test.mjs'
+      - '.github/workflows/nooo-sitemap-health.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - 'sitemap.txt'
+      - 'scripts/build-site.mjs'
+      - 'scripts/check-live-sitemap.py'
+      - 'tests/sitemap-discovery.test.mjs'
+      - '.github/workflows/nooo-sitemap-health.yml'
+  schedule:
+    - cron: '43 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static:
+    name: Local sitemap consistency
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/sitemap-discovery.test.mjs
+
+  public:
+    name: Production SEO endpoint smoke test
+    if: github.event_name != 'pull_request'
+    needs: static
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check public URLs over HTTPS (standard and Googlebot-like user agents)
+        run: python3 scripts/check-live-sitemap.py
