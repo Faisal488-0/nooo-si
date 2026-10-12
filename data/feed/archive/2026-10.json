@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261012-201704-morse-08f6815a",
+      "createdAt": "2026-10-12T20:17:04Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "انقرها على الطاولة: «NO CALLS»",
+      "body": "صفارة طويلة = لا طويلة.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tomato",
+        "character": "ufo",
+        "expression": "unbothered",
+        "sticker": "لا قاطعة",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 589129
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 12,
+        "headline": 1,
+        "reply": 3
+      },
+      "contentHash": "08f6815addf14f865ffb11abf83ac9f3d69abe088ea442d914ee966a435ea675",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO CALLS",
+        "output": "-. --- / -.-. .- .-.. .-.. ..."
+      }
+    },
+    {
       "id": "20261012-104411-binary-da894d84",
       "createdAt": "2026-10-12T10:44:11Z",
       "category": "binary",
