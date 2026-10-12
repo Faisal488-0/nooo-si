@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-12T02:22:28Z",
-  "total": 25,
+  "generatedAt": "2026-10-12T10:44:11Z",
+  "total": 26,
   "items": [
+    {
+      "id": "20261012-104411-binary-da894d84",
+      "createdAt": "2026-10-12T10:44:11Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول الآلة «مستحيل»",
+      "body": "كل حرف عربي = بايتين، وصفر إحساس بالذنب.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lemon",
+        "character": "laptop",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 590310
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 4,
+        "headline": 1,
+        "reply": 6
+      },
+      "contentHash": "da894d84ed30e8299081390a00036d3997be1a0466aa2eb55bfa8b916123bc1c",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "مستحيل",
+        "output": "11011001 10000101 11011000 10110011 11011000 10101010 11011000 10101101 11011001 10001010 11011001 10000100"
+      }
+    },
     {
       "id": "20261012-022228-scifi-c7d385a0",
       "createdAt": "2026-10-12T02:22:28Z",
