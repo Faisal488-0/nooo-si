@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261013-224240-boss-09796ac9",
+      "createdAt": "2026-10-13T22:42:40Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you stay a little late tonight?",
+      "body": "Great idea. Let's put it in the parking lot. The parking lot is closed.",
+      "kicker": "Refusal level: legendary.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "bubblegum",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 525330
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 9
+      },
+      "contentHash": "09796ac97b6ca4d74850d4b05b5abc502b53f0b013590b355a60d4a3f7d5d2e7",
+      "verified": null
+    },
+    {
       "id": "20261013-173527-photo-b0d78be6",
       "createdAt": "2026-10-13T17:35:27Z",
       "category": "photo",
