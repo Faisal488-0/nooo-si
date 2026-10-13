@@ -1,9 +1,9 @@
 {
   "engineVersion": "template-engine-v1",
-  "lastRunAt": "2026-10-12T20:17:04Z",
+  "lastRunAt": "2026-10-13T02:02:54Z",
   "lastResult": "item-added",
-  "lastItemId": "20261012-201704-morse-08f6815a",
-  "lastCategory": "morse",
-  "totalItems": 27,
+  "lastItemId": "20261013-020254-office-ba6d8dff",
+  "lastCategory": "office",
+  "totalItems": 28,
   "note": "lastRunAt is when the item was generated. It is live once this file is served by nooo.si; the workflow verifies that after deploying."
 }

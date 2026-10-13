@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261013-020254-office-ba6d8dff",
+      "createdAt": "2026-10-13T02:02:54Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Who wants to organize the office party?",
+      "body": "I scheduled a meeting to say no. It's now.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lemon",
+        "character": "mug",
+        "expression": "sleepy",
+        "sticker": "NOT TODAY",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 847050
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 1
+      },
+      "contentHash": "ba6d8dff046057cb7eb063dfbbdef9be111bd87e3e45ac9d0919defc98f8e75f",
+      "verified": null
+    },
+    {
       "id": "20261012-201704-morse-08f6815a",
       "createdAt": "2026-10-12T20:17:04Z",
       "category": "morse",
