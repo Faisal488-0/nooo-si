@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-13T02:02:54Z",
-  "total": 28,
+  "generatedAt": "2026-10-13T09:23:27Z",
+  "total": 29,
   "items": [
+    {
+      "id": "20261013-092327-monday-be4ab380",
+      "createdAt": "2026-10-13T09:23:27Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "أول الأسبوع: جاهز لأسبوع منتج؟",
+      "body": "القهوة أول. وبعدها برضو لا.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "angry",
+        "sticker": "لا قاطعة",
+        "animation": "tilt",
+        "layout": "center",
+        "seed": 345705
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 6
+      },
+      "contentHash": "be4ab380011385b5539532dbf31d9a7c07235854562998860068fa77753ec3ce",
+      "verified": null
+    },
     {
       "id": "20261013-020254-office-ba6d8dff",
       "createdAt": "2026-10-13T02:02:54Z",
