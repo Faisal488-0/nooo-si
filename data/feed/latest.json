@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-13T09:23:27Z",
-  "total": 29,
+  "generatedAt": "2026-10-13T17:35:27Z",
+  "total": 30,
   "items": [
+    {
+      "id": "20261013-173527-photo-b0d78be6",
+      "createdAt": "2026-10-13T17:35:27Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Owl hearing 'let's circle back':",
+      "body": "I circle at night. This is not a circle. No.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "tomato",
+        "character": "printer",
+        "expression": "sleepy",
+        "sticker": "NAH",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 701744
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 2
+      },
+      "contentHash": "b0d78be6a9bfd1f85acbae78dc1497982dbcf3c48392b23568a6d89d0ca2b7eb",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261013-173527-fc710330.jpg",
+        "sourceId": "fc710330-b84c-41fd-b886-0f167692b67a",
+        "theme": "owl",
+        "title": "Covered Owl Jar",
+        "creator": "Atterbury and Company",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/2405"
+      }
+    },
     {
       "id": "20261013-092327-monday-be4ab380",
       "createdAt": "2026-10-13T09:23:27Z",
