@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261014-183614-scifi-6383f33e",
+      "createdAt": "2026-10-14T18:36:14Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Visitor: take me to your leader.",
+      "body": "Teleporting my answer to you now: NOOO.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lime",
+        "character": "planet",
+        "expression": "dramatic",
+        "sticker": "NOOO!",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 322250
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 15
+      },
+      "contentHash": "6383f33e72a2678b2e5718b3bf39148e610c99658b815446418b665ed3308f86",
+      "verified": null
+    },
+    {
       "id": "20261014-134204-cat-9ac93f8c",
       "createdAt": "2026-10-14T13:42:04Z",
       "category": "cat",
