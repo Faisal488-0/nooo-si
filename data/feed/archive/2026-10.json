@@ -2,6 +2,44 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261014-221741-photo-c8b4ea2f",
+      "createdAt": "2026-10-14T22:17:41Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الحصان عند باب الإسطبل:",
+      "body": "أعرف أنها مصيدة. دائمًا مصيدة. لا.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "laptop",
+        "expression": "unbothered",
+        "sticker": "لا قاطعة",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 419991
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 3
+      },
+      "contentHash": "c8b4ea2f5af1395993e0043163a51222d1de528378d39b806d3b7555f70c6e10",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261014-221741-797a53b6.jpg",
+        "sourceId": "797a53b6-78ac-4a6b-8c73-f225e7cc4ca4",
+        "theme": "horse",
+        "title": "Comb with a horse",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/545207"
+      }
+    },
+    {
       "id": "20261014-183614-scifi-6383f33e",
       "createdAt": "2026-10-14T18:36:14Z",
       "category": "scifi",
