@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261014-134204-cat-9ac93f8c",
+      "createdAt": "2026-10-14T13:42:04Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "يلا وقت الشاور!",
+      "body": "الطلب مرفوض من البيت الملكي للفرو.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "mint",
+        "character": "cat",
+        "expression": "sleepy",
+        "sticker": "مرفوض",
+        "animation": "float",
+        "layout": "right",
+        "seed": 610537
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 14
+      },
+      "contentHash": "9ac93f8cfb88801f8bedc0ae68c9e533b436948e2f76b31b070d8d88d706ef0a",
+      "verified": null
+    },
+    {
       "id": "20261014-073523-relationship-c786c0dc",
       "createdAt": "2026-10-14T07:35:23Z",
       "category": "relationship",
