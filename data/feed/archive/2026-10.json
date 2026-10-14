@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261014-073523-relationship-c786c0dc",
+      "createdAt": "2026-10-14T07:35:23Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Can you see your friends a bit less?",
+      "body": "No, and thank you for asking instead of assuming.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "NAH",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 932452
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 6
+      },
+      "contentHash": "c786c0dc4c2d7a6c494e2d3bfab20edbecee490eb3fafbbaf24b8413ac5f7138",
+      "verified": null
+    },
+    {
       "id": "20261014-015401-friends-85a1904f",
       "createdAt": "2026-10-14T01:54:01Z",
       "category": "friends",

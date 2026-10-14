@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-14T01:54:01Z",
-  "total": 32,
+  "generatedAt": "2026-10-14T07:35:23Z",
+  "total": 33,
   "items": [
+    {
+      "id": "20261014-073523-relationship-c786c0dc",
+      "createdAt": "2026-10-14T07:35:23Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Can you see your friends a bit less?",
+      "body": "No, and thank you for asking instead of assuming.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "NAH",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 932452
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 6
+      },
+      "contentHash": "c786c0dc4c2d7a6c494e2d3bfab20edbecee490eb3fafbbaf24b8413ac5f7138",
+      "verified": null
+    },
     {
       "id": "20261014-015401-friends-85a1904f",
       "createdAt": "2026-10-14T01:54:01Z",
@@ -896,34 +924,6 @@
         "reply": 4
       },
       "contentHash": "4402f6ed64fdb1b23e76e19c9d273541de94722be5d3c8d165b764a14b659acf",
-      "verified": null
-    },
-    {
-      "id": "20261009-010807-relationship-236eec30",
-      "createdAt": "2026-10-09T01:08:07Z",
-      "category": "relationship",
-      "locale": "ar",
-      "eyebrow": "الشريك يطلب",
-      "headline": "أقدر أشوف جوالك؟",
-      "body": "هذي «لا» للطلب، مو «لا» لك.",
-      "kicker": "انسخ. الصق. ارفض.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "lime",
-        "character": "cactus",
-        "expression": "smug",
-        "sticker": "مستحيل",
-        "animation": "pop",
-        "layout": "right",
-        "seed": 669786
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 0,
-        "reply": 2
-      },
-      "contentHash": "236eec3089ddab7e72ba6c91fe8cffcf6bc8bc23ef9583ce6bda3e1716bb0e6d",
       "verified": null
     }
   ]
