@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-13T22:42:40Z",
-  "total": 31,
+  "generatedAt": "2026-10-14T01:54:01Z",
+  "total": 32,
   "items": [
+    {
+      "id": "20261014-015401-friends-85a1904f",
+      "createdAt": "2026-10-14T01:54:01Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Listen to my 200 voice notes?",
+      "body": "I'll pass, but I'll cheer from my bed.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "night",
+        "character": "cactus",
+        "expression": "unbothered",
+        "sticker": "NOPE",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 542577
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 12,
+        "reply": 3
+      },
+      "contentHash": "85a1904fa618726c7193a279e274024ebd59f5f63ab00dcff7ac2462b7cc3711",
+      "verified": null
+    },
     {
       "id": "20261013-224240-boss-09796ac9",
       "createdAt": "2026-10-13T22:42:40Z",
@@ -896,34 +924,6 @@
         "reply": 2
       },
       "contentHash": "236eec3089ddab7e72ba6c91fe8cffcf6bc8bc23ef9583ce6bda3e1716bb0e6d",
-      "verified": null
-    },
-    {
-      "id": "20261009-010806-friends-1a1a65b5",
-      "createdAt": "2026-10-09T01:08:06Z",
-      "category": "friends",
-      "locale": "ar",
-      "eyebrow": "صديقك يطلب",
-      "headline": "تعال معاي تمرين الساعة ٥ الصبح.",
-      "body": "أحبك يا صديقي. بس جوابي ما يحبك.",
-      "kicker": "معتمدة من قطط العالم.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "grape",
-        "character": "phone",
-        "expression": "dramatic",
-        "sticker": "مو اليوم",
-        "animation": "shake",
-        "layout": "right",
-        "seed": 780426
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 8,
-        "reply": 0
-      },
-      "contentHash": "1a1a65b581639dfcf5eed803a437ddd090662a4ff05e775951fead791ff72c56",
       "verified": null
     }
   ]
