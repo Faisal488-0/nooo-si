@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261015-212538-boss-cf3d5f7f",
+      "createdAt": "2026-10-15T21:25:38Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "خلك «متاح» نهاية الأسبوع.",
+      "body": "بحطها بقائمتي، تحت بند «أبدًا».",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "grape",
+        "character": "boss",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 263201
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 8
+      },
+      "contentHash": "cf3d5f7f6d84219cae22a5c39190f625977060ead9e445e6f101b2598fef50be",
+      "verified": null
+    },
+    {
       "id": "20261015-181610-global-4f3de077",
       "createdAt": "2026-10-15T18:16:10Z",
       "category": "global",

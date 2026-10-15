@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-15T18:16:10Z",
-  "total": 40,
+  "generatedAt": "2026-10-15T21:25:38Z",
+  "total": 41,
   "items": [
+    {
+      "id": "20261015-212538-boss-cf3d5f7f",
+      "createdAt": "2026-10-15T21:25:38Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "خلك «متاح» نهاية الأسبوع.",
+      "body": "بحطها بقائمتي، تحت بند «أبدًا».",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "grape",
+        "character": "boss",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 263201
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 8
+      },
+      "contentHash": "cf3d5f7f6d84219cae22a5c39190f625977060ead9e445e6f101b2598fef50be",
+      "verified": null
+    },
     {
       "id": "20261015-181610-global-4f3de077",
       "createdAt": "2026-10-15T18:16:10Z",
@@ -900,34 +928,6 @@
         "reply": 6
       },
       "contentHash": "d382334386a372e98b0b23917d2b2e1ab36e2be6aa820a06b409bbd00a9f1901",
-      "verified": null
-    },
-    {
-      "id": "20261009-011552-boss-88b72d6d",
-      "createdAt": "2026-10-09T01:15:52Z",
-      "category": "boss",
-      "locale": "en",
-      "eyebrow": "The boss asks",
-      "headline": "Could you redo it, but the same, but different?",
-      "body": "My laptop went to sleep. It has better boundaries than me — until today.",
-      "kicker": "Side effects: inner peace.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "lemon",
-        "character": "mug",
-        "expression": "shocked",
-        "sticker": "NOPE",
-        "animation": "tilt",
-        "layout": "center",
-        "seed": 983591
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 10,
-        "reply": 14
-      },
-      "contentHash": "88b72d6d8364d44a50c520b78249a93e28e8c41a3c77a4dd9d98eb50b25c3b53",
       "verified": null
     }
   ]
