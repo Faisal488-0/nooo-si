@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-15T01:26:57Z",
-  "total": 37,
+  "generatedAt": "2026-10-15T07:23:59Z",
+  "total": 38,
   "items": [
+    {
+      "id": "20261015-072359-office-8fca1a34",
+      "createdAt": "2026-10-15T07:23:59Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "تقدر تغيّر أسماء ٤٠٠٠ ملف يدوي؟",
+      "body": "برجع لك. بس الطريق مسكّر.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "tangerine",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "مو اليوم",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 152683
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 4
+      },
+      "contentHash": "8fca1a3445726e2fcaaa659bb56952bee2fef3b5ed375568b5606ec5505b7806",
+      "verified": null
+    },
     {
       "id": "20261015-012657-morse-5f632030",
       "createdAt": "2026-10-15T01:26:57Z",
@@ -900,34 +928,6 @@
         "reply": 10
       },
       "contentHash": "a82600fa1b842f83a3d6f98dacd25f8d3d59b660e29ac421aa4a7206bf8d686b",
-      "verified": null
-    },
-    {
-      "id": "20261009-010819-office-d17e26c5",
-      "createdAt": "2026-10-09T01:08:19Z",
-      "category": "office",
-      "locale": "ar",
-      "eyebrow": "حياة المكتب",
-      "headline": "خلنا نخلي هالاجتماع متكرر.",
-      "body": "ما أقدر، حالتي «عدم الإزعاج» وأنا مؤمن فيها.",
-      "kicker": "صدى: لا… لا… لا…",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "lime",
-        "character": "mug",
-        "expression": "unbothered",
-        "sticker": "مستحيل",
-        "animation": "float",
-        "layout": "right",
-        "seed": 196796
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 8,
-        "reply": 10
-      },
-      "contentHash": "d17e26c5f0ace0b41ceb3e26e67ca3cbb4161e184d8e7d12b79a66b60e5d4097",
       "verified": null
     }
   ]

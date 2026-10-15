@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261015-072359-office-8fca1a34",
+      "createdAt": "2026-10-15T07:23:59Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "تقدر تغيّر أسماء ٤٠٠٠ ملف يدوي؟",
+      "body": "برجع لك. بس الطريق مسكّر.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "tangerine",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "مو اليوم",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 152683
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 4
+      },
+      "contentHash": "8fca1a3445726e2fcaaa659bb56952bee2fef3b5ed375568b5606ec5505b7806",
+      "verified": null
+    },
+    {
       "id": "20261015-012657-morse-5f632030",
       "createdAt": "2026-10-15T01:26:57Z",
       "category": "morse",
