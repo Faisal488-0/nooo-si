@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-14T22:17:41Z",
-  "total": 36,
+  "generatedAt": "2026-10-15T01:26:57Z",
+  "total": 37,
   "items": [
+    {
+      "id": "20261015-012657-morse-5f632030",
+      "createdAt": "2026-10-15T01:26:57Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Tap this on the table: “TRY TUESDAY”",
+      "body": "Tap it during the meeting. Nobody will know.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "bubblegum",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "NOOO!",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 416597
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 15,
+        "headline": 1,
+        "reply": 1
+      },
+      "contentHash": "5f6320305ada4535198564042fdb80820c82f22ae5cff68a1b591987c64e1ad3",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "TRY TUESDAY",
+        "output": "- .-. -.-- / - ..- . ... -.. .- -.--"
+      }
+    },
     {
       "id": "20261014-221741-photo-c8b4ea2f",
       "createdAt": "2026-10-14T22:17:41Z",
@@ -895,40 +929,6 @@
       },
       "contentHash": "d17e26c5f0ace0b41ceb3e26e67ca3cbb4161e184d8e7d12b79a66b60e5d4097",
       "verified": null
-    },
-    {
-      "id": "20261009-010818-morse-6bec75bd",
-      "createdAt": "2026-10-09T01:08:18Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "ومّض «NEVER» بالكشاف",
-      "body": "تعدّي الجدران والأبواب وقروبات العايلة.",
-      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "lemon",
-        "character": "phone",
-        "expression": "sleepy",
-        "sticker": "لا قاطعة",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 783735
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 4,
-        "headline": 2,
-        "reply": 2
-      },
-      "contentHash": "6bec75bd90bef83c6f0f46075d5f5192f7adeff086a7a0e173150c975f4a0bad",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NEVER",
-        "output": "-. . ...- . .-."
-      }
     }
   ]
 }
