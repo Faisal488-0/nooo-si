@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-10-15T13:23:42Z",
-  "total": 39,
+  "generatedAt": "2026-10-15T18:16:10Z",
+  "total": 40,
   "items": [
+    {
+      "id": "20261015-181610-global-4f3de077",
+      "createdAt": "2026-10-15T18:16:10Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«لا» بنسخة الباسكية",
+      "body": "مثالية لرفض الحلى الثالث.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "cyan",
+        "character": "cat",
+        "expression": "shocked",
+        "sticker": "انسى",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 237985
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 7,
+        "headline": 1,
+        "reply": 0
+      },
+      "contentHash": "4f3de0779d9984e6dd7c37e7fab57f4480da3789fa6ccd539f705e7ccfdd1c58",
+      "verified": true,
+      "lang": {
+        "id": "eu",
+        "name": "الباسكية",
+        "no": "Ez",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
     {
       "id": "20261015-132342-monday-8a27c832",
       "createdAt": "2026-10-15T13:23:42Z",
@@ -892,43 +929,6 @@
       },
       "contentHash": "88b72d6d8364d44a50c520b78249a93e28e8c41a3c77a4dd9d98eb50b25c3b53",
       "verified": null
-    },
-    {
-      "id": "20261009-010821-global-a67744dc",
-      "createdAt": "2026-10-09T01:08:21Z",
-      "category": "global",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "كيف تقول «لا» بـالإندونيسية",
-      "body": "مثالية لرفض قطعة كيك زيادة.",
-      "kicker": "«اللا» الجاية بعد ساعة.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "lime",
-        "character": "cat",
-        "expression": "shocked",
-        "sticker": "مستحيل",
-        "animation": "tilt",
-        "layout": "right",
-        "seed": 714741
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "lang": 31,
-        "headline": 0,
-        "reply": 11
-      },
-      "contentHash": "a67744dc53445c130de6e4d0d0566fc01f4e64d85888a978ffbd8c6d9e43c257",
-      "verified": true,
-      "lang": {
-        "id": "id",
-        "name": "الإندونيسية",
-        "no": "Tidak",
-        "translit": "",
-        "dir": "ltr",
-        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
-      }
     }
   ]
 }

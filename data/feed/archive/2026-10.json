@@ -2,6 +2,43 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261015-181610-global-4f3de077",
+      "createdAt": "2026-10-15T18:16:10Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«لا» بنسخة الباسكية",
+      "body": "مثالية لرفض الحلى الثالث.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "cyan",
+        "character": "cat",
+        "expression": "shocked",
+        "sticker": "انسى",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 237985
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 7,
+        "headline": 1,
+        "reply": 0
+      },
+      "contentHash": "4f3de0779d9984e6dd7c37e7fab57f4480da3789fa6ccd539f705e7ccfdd1c58",
+      "verified": true,
+      "lang": {
+        "id": "eu",
+        "name": "الباسكية",
+        "no": "Ez",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261015-132342-monday-8a27c832",
       "createdAt": "2026-10-15T13:23:42Z",
       "category": "monday",
