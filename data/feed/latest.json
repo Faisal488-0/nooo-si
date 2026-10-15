@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-15T07:23:59Z",
-  "total": 38,
+  "generatedAt": "2026-10-15T13:23:42Z",
+  "total": 39,
   "items": [
+    {
+      "id": "20261015-132342-monday-8a27c832",
+      "createdAt": "2026-10-15T13:23:42Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "To-do list: remember everything you left on Friday?",
+      "body": "I'm boycotting the first day of everything.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "tangerine",
+        "character": "alarm",
+        "expression": "angry",
+        "sticker": "NOOO!",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 798426
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 12
+      },
+      "contentHash": "8a27c832b2bf83181c7bde84b29f1ce1798a2d472a00f1648e7da24824d1f14d",
+      "verified": null
+    },
     {
       "id": "20261015-072359-office-8fca1a34",
       "createdAt": "2026-10-15T07:23:59Z",
@@ -901,34 +929,6 @@
         "dir": "ltr",
         "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
       }
-    },
-    {
-      "id": "20261009-010820-monday-a82600fa",
-      "createdAt": "2026-10-09T01:08:20Z",
-      "category": "monday",
-      "locale": "ar",
-      "eyebrow": "صباح أول يوم دوام",
-      "headline": "أول الأسبوع: أسبوع جديد، أهداف جديدة!",
-      "body": "حماسي لسا على تجوال الويكند.",
-      "kicker": "انسخ. الصق. ارفض.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "cyan",
-        "character": "mug",
-        "expression": "angry",
-        "sticker": "لا قاطعة",
-        "animation": "tilt",
-        "layout": "left",
-        "seed": 963393
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 6,
-        "reply": 10
-      },
-      "contentHash": "a82600fa1b842f83a3d6f98dacd25f8d3d59b660e29ac421aa4a7206bf8d686b",
-      "verified": null
     }
   ]
 }

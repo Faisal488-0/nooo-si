@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261015-132342-monday-8a27c832",
+      "createdAt": "2026-10-15T13:23:42Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "To-do list: remember everything you left on Friday?",
+      "body": "I'm boycotting the first day of everything.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "tangerine",
+        "character": "alarm",
+        "expression": "angry",
+        "sticker": "NOOO!",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 798426
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 12
+      },
+      "contentHash": "8a27c832b2bf83181c7bde84b29f1ce1798a2d472a00f1648e7da24824d1f14d",
+      "verified": null
+    },
+    {
       "id": "20261015-072359-office-8fca1a34",
       "createdAt": "2026-10-15T07:23:59Z",
       "category": "office",
