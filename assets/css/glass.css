@@ -1,6 +1,6 @@
-/* NOOO — glass layer. Loaded after main.css: animated aurora background, frosted-glass sections,
-   scroll reveal, 3D card tilt. Keeps the pop-art identity (ink borders, hard shadows) inside glass shells.
-   Every effect uses transform/opacity only and is switched off for reduced motion / reduced transparency. */
+/* NOOO — glass layer. Loaded after main.css: animated aurora background, frosted-glass sections, glass top bar/ticker, hero sunburst, click ripples.
+   Keeps the pop-art identity (ink borders, hard shadows) inside glass shells. Scroll reveal / progress / card tilt live in polish.css.
+   Motion uses transform/opacity only and is switched off for reduced motion / reduced transparency. */
 
 :root {
   --glass-border: rgba(255, 255, 255, .55);
