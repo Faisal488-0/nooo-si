@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-16T11:19:07Z",
-  "total": 44,
+  "generatedAt": "2026-10-16T16:36:16Z",
+  "total": 45,
   "items": [
+    {
+      "id": "20261016-163616-scifi-bf26fe0b",
+      "createdAt": "2026-10-16T16:36:16Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "كمبيوتر المركبة: افتح بوابة السناكات.",
+      "body": "الجاذبية تقول تحت. وأنا أقول لا.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "bubblegum",
+        "character": "alien",
+        "expression": "smug",
+        "sticker": "لااا!",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 603999
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 14
+      },
+      "contentHash": "bf26fe0b7d589d06bc3cdae2961bacfc814f21a467ad52e0bb1d34cd78c1dee7",
+      "verified": null
+    },
     {
       "id": "20261016-111907-cat-84dfea4e",
       "createdAt": "2026-10-16T11:19:07Z",
@@ -911,34 +939,6 @@
         "input": "NOPE",
         "output": "01001110 01001111 01010000 01000101"
       }
-    },
-    {
-      "id": "20261010-000211-scifi-1840e86c",
-      "createdAt": "2026-10-10T00:02:11Z",
-      "category": "scifi",
-      "locale": "en",
-      "eyebrow": "Incoming transmission",
-      "headline": "Time traveler: can I borrow your weekend?",
-      "body": "We checked every parallel universe. Still no.",
-      "kicker": "No regrets. Just no.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "mint",
-        "character": "robot",
-        "expression": "unbothered",
-        "sticker": "DENIED",
-        "animation": "pop",
-        "layout": "right",
-        "seed": 919945
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 4,
-        "reply": 10
-      },
-      "contentHash": "1840e86cc4f9d2e1990d3c681aba029406055bd7f996422e550d785649b5cc8e",
-      "verified": null
     }
   ]
 }
