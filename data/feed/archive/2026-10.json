@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261016-224944-morse-00b23266",
+      "createdAt": "2026-10-16T22:49:44Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«NOOO» بشفرة مورس",
+      "body": "انقرها وقت الاجتماع. محد بيدري.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "bubblegum",
+        "character": "alarm",
+        "expression": "smug",
+        "sticker": "انسى",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 703623
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 11,
+        "headline": 0,
+        "reply": 1
+      },
+      "contentHash": "00b23266eba958651ad209f37ecc012d93eeacd7ca904003591f5e982072fbba",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOOO",
+        "output": "-. --- --- ---"
+      }
+    },
+    {
       "id": "20261016-195647-binary-3520cfb4",
       "createdAt": "2026-10-16T19:56:47Z",
       "category": "binary",
