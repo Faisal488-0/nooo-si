@@ -5,6 +5,7 @@ import { $, $$ } from './lib/dom.js';
 import { initHero, refreshHeroLang } from './hero.js';
 import { initFeed, refreshFeedLang } from './feed.js';
 import { initTicker } from './ticker.js';
+import { initFx } from './fx.js';
 import { isMuted, setMuted, getVolume, setVolume } from './sound.js';
 
 const SECTIONS = {
@@ -60,6 +61,7 @@ function boot() {
   initHero();
   initFeed();
   initTicker();
+  initFx();
   lazySections();
   onLangChange(() => {
     syncSoundUi();

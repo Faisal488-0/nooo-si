@@ -11,19 +11,6 @@
 }
 [dir="rtl"] .scroll-progress { transform-origin: right center; }
 
-/* ---------- hero: rotating comic rays (seamless: pattern period = 20deg) ---------- */
-@property --ray { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
-@media (prefers-reduced-motion: no-preference) {
-  .hero {
-    background:
-      radial-gradient(circle at 20% 20%, #ffffff55 0 2px, transparent 3px) 0 0 / 22px 22px,
-      repeating-conic-gradient(from var(--ray) at 50% 55%, var(--red) 0 10deg, #FF5A4E 10deg 20deg);
-    animation: rays 9s linear infinite;
-  }
-  [dir="rtl"] .hero { animation-direction: reverse; }
-}
-@keyframes rays { to { --ray: 20deg; } }
-
 /* ---------- giant button: shine sweep (Magic UI "shine border" / shimmer) ---------- */
 .nooo-btn { overflow: hidden; isolation: isolate; }
 .nooo-btn::after {
