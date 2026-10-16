@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-16T05:49:48Z",
-  "total": 43,
+  "generatedAt": "2026-10-16T11:19:07Z",
+  "total": 44,
   "items": [
+    {
+      "id": "20261016-111907-cat-84dfea4e",
+      "createdAt": "2026-10-16T11:19:07Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Use the scratching post, not the sofa.",
+      "body": "I will now stare at you until you forget you asked.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "bubblegum",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "DENIED",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 64068
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 3
+      },
+      "contentHash": "84dfea4ee903b8c82590105937638e9c78a0dac6a524b9a45966fabab405d55a",
+      "verified": null
+    },
     {
       "id": "20261016-054948-relationship-62e86589",
       "createdAt": "2026-10-16T05:49:48Z",
@@ -910,34 +938,6 @@
         "reply": 10
       },
       "contentHash": "1840e86cc4f9d2e1990d3c681aba029406055bd7f996422e550d785649b5cc8e",
-      "verified": null
-    },
-    {
-      "id": "20261009-200816-cat-c1e45018",
-      "createdAt": "2026-10-09T20:08:16Z",
-      "category": "cat",
-      "locale": "en",
-      "eyebrow": "Human to cat",
-      "headline": "Can I sit on my own chair?",
-      "body": "I heard you. I'm choosing to be furniture.",
-      "kicker": "No was said. Peace was restored.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "mint",
-        "character": "cat",
-        "expression": "smug",
-        "sticker": "DENIED",
-        "animation": "float",
-        "layout": "center",
-        "seed": 511185
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 7
-      },
-      "contentHash": "c1e4501811b273f791017430999790517d737d8f00062bd45b100234eecb2862",
       "verified": null
     }
   ]

@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261016-111907-cat-84dfea4e",
+      "createdAt": "2026-10-16T11:19:07Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Use the scratching post, not the sofa.",
+      "body": "I will now stare at you until you forget you asked.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "bubblegum",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "DENIED",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 64068
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 3
+      },
+      "contentHash": "84dfea4ee903b8c82590105937638e9c78a0dac6a524b9a45966fabab405d55a",
+      "verified": null
+    },
+    {
       "id": "20261016-054948-relationship-62e86589",
       "createdAt": "2026-10-16T05:49:48Z",
       "category": "relationship",
