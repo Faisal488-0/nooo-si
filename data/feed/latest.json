@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-16T00:22:49Z",
-  "total": 42,
+  "generatedAt": "2026-10-16T05:49:48Z",
+  "total": 43,
   "items": [
+    {
+      "id": "20261016-054948-relationship-62e86589",
+      "createdAt": "2026-10-16T05:49:48Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "خلنا ننشر حالتنا كل ساعة.",
+      "body": "لا شكرًا، مرتاح على سرعتنا الحالية.",
+      "kicker": "معتمدة من قطط العالم.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tangerine",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "لا قاطعة",
+        "animation": "float",
+        "layout": "left",
+        "seed": 715459
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 9
+      },
+      "contentHash": "62e86589ca9d960e79e56e6b307e2a9a204eb1788e64f2e81c1025ee4d691666",
+      "verified": null
+    },
     {
       "id": "20261016-002249-photo-d57c0b9a",
       "createdAt": "2026-10-16T00:22:49Z",
@@ -910,34 +938,6 @@
         "reply": 7
       },
       "contentHash": "c1e4501811b273f791017430999790517d737d8f00062bd45b100234eecb2862",
-      "verified": null
-    },
-    {
-      "id": "20261009-151700-relationship-274acb47",
-      "createdAt": "2026-10-09T15:17:00Z",
-      "category": "relationship",
-      "locale": "en",
-      "eyebrow": "Your partner asks",
-      "headline": "Could you change your whole personality… a little?",
-      "body": "My answer is no. My hug is yes.",
-      "kicker": "Echo: no… no… no…",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "tangerine",
-        "character": "cactus",
-        "expression": "angry",
-        "sticker": "NOT TODAY",
-        "animation": "shake",
-        "layout": "left",
-        "seed": 127337
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 3,
-        "reply": 15
-      },
-      "contentHash": "274acb4722c435e809fe4e3d1c34cf8300347191ff1b4ae40aafc92a4a2dd7a0",
       "verified": null
     }
   ]
