@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-17T01:17:39Z",
-  "total": 48,
+  "generatedAt": "2026-10-17T06:54:18Z",
+  "total": 49,
   "items": [
+    {
+      "id": "20261017-065418-monday-8c86abfd",
+      "createdAt": "2026-10-17T06:54:18Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "الطقس: غبار. عشانك بالذات.",
+      "body": "يا أول الأسبوع، لازم نتكلم. المشكلة مو فيني، فيك.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "smug",
+        "sticker": "مستحيل",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 344390
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 1
+      },
+      "contentHash": "8c86abfd9bfc2ff510f2d12eb46f187df93c0b03f18f54f8c42617d1ec9bb0cd",
+      "verified": null
+    },
     {
       "id": "20261017-011739-photo-2fca15d8",
       "createdAt": "2026-10-17T01:17:39Z",
@@ -911,34 +939,6 @@
         "dir": "ltr",
         "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
       }
-    },
-    {
-      "id": "20261010-214102-monday-0f6e4033",
-      "createdAt": "2026-10-10T21:41:02Z",
-      "category": "monday",
-      "locale": "en",
-      "eyebrow": "Monday morning",
-      "headline": "Traffic: expect 45 extra minutes.",
-      "body": "Monday, you are not invited to my week.",
-      "kicker": "Certified by the Department of No.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "grape",
-        "character": "ghost",
-        "expression": "sleepy",
-        "sticker": "NEVER",
-        "animation": "float",
-        "layout": "right",
-        "seed": 443164
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 5,
-        "reply": 14
-      },
-      "contentHash": "0f6e403379d6b7dc3eed8fbbe82320f54d9a2722b23f0b18bf59b8e0663748db",
-      "verified": null
     }
   ]
 }

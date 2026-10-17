@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261017-065418-monday-8c86abfd",
+      "createdAt": "2026-10-17T06:54:18Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "الطقس: غبار. عشانك بالذات.",
+      "body": "يا أول الأسبوع، لازم نتكلم. المشكلة مو فيني، فيك.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "smug",
+        "sticker": "مستحيل",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 344390
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 1
+      },
+      "contentHash": "8c86abfd9bfc2ff510f2d12eb46f187df93c0b03f18f54f8c42617d1ec9bb0cd",
+      "verified": null
+    },
+    {
       "id": "20261017-011739-photo-2fca15d8",
       "createdAt": "2026-10-17T01:17:39Z",
       "category": "photo",
