@@ -2,6 +2,44 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261017-011739-photo-2fca15d8",
+      "createdAt": "2026-10-17T01:17:39Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الديك حين طلبوا منه الهدوء يوم الأحد:",
+      "body": "الأحد غير موجود. كوكو-لا.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "night",
+        "character": "printer",
+        "expression": "smug",
+        "sticker": "لااا!",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 937681
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 5
+      },
+      "contentHash": "2fca15d8e215268216d8b83ae57eeaa51068621a6e3aaeae02c98cb96b9499c6",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261017-011739-0541a846.jpg",
+        "sourceId": "0541a846-ebfa-43a5-83c2-e2263c3a05b7",
+        "theme": "rooster",
+        "title": "Vessel in the Form of a Heavenly Rooster",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/61071"
+      }
+    },
+    {
       "id": "20261016-224944-morse-00b23266",
       "createdAt": "2026-10-16T22:49:44Z",
       "category": "morse",

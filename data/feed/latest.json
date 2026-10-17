@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-16T22:49:44Z",
-  "total": 47,
+  "generatedAt": "2026-10-17T01:17:39Z",
+  "total": 48,
   "items": [
+    {
+      "id": "20261017-011739-photo-2fca15d8",
+      "createdAt": "2026-10-17T01:17:39Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الديك حين طلبوا منه الهدوء يوم الأحد:",
+      "body": "الأحد غير موجود. كوكو-لا.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "night",
+        "character": "printer",
+        "expression": "smug",
+        "sticker": "لااا!",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 937681
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 5
+      },
+      "contentHash": "2fca15d8e215268216d8b83ae57eeaa51068621a6e3aaeae02c98cb96b9499c6",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261017-011739-0541a846.jpg",
+        "sourceId": "0541a846-ebfa-43a5-83c2-e2263c3a05b7",
+        "theme": "rooster",
+        "title": "Vessel in the Form of a Heavenly Rooster",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/61071"
+      }
+    },
     {
       "id": "20261016-224944-morse-00b23266",
       "createdAt": "2026-10-16T22:49:44Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "0f6e403379d6b7dc3eed8fbbe82320f54d9a2722b23f0b18bf59b8e0663748db",
       "verified": null
-    },
-    {
-      "id": "20261010-175115-photo-96c822ec",
-      "createdAt": "2026-10-10T17:51:15Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Cat reviewing your 'quick call' invite:",
-      "body": "Declined. I have a nap scheduled until 2031.",
-      "kicker": "Approved by cats everywhere.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "lemon",
-        "character": "phone",
-        "expression": "angry",
-        "sticker": "NOT TODAY",
-        "animation": "float",
-        "layout": "right",
-        "seed": 57735
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 0
-      },
-      "contentHash": "96c822ec5f399d05ed95a87096046e28395aee52b03895767dc441480bde6f72",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261010-175115-9674ad1c.jpg",
-        "sourceId": "9674ad1c-7e72-4505-be64-d1a6f84c89e2",
-        "theme": "cat",
-        "title": "Figurine of a cat with kittens",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/545955"
-      }
     }
   ]
 }
