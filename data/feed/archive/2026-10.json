@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261017-153051-boss-a53eefb9",
+      "createdAt": "2026-10-17T15:30:51Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you be \"reachable\" this weekend?",
+      "body": "Let's align on this: no.",
+      "kicker": "Certified by the Department of No.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tangerine",
+        "character": "boss",
+        "expression": "unbothered",
+        "sticker": "NAH",
+        "animation": "float",
+        "layout": "center",
+        "seed": 471592
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 12
+      },
+      "contentHash": "a53eefb91bfcf0eddcf65f5e19f38e6669882461e6bbb4d2ff943eecb5360a7d",
+      "verified": null
+    },
+    {
       "id": "20261017-113528-global-695e11d4",
       "createdAt": "2026-10-17T11:35:28Z",
       "category": "global",
