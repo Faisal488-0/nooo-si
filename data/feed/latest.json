@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-17T15:30:51Z",
-  "total": 51,
+  "generatedAt": "2026-10-17T18:28:39Z",
+  "total": 52,
   "items": [
+    {
+      "id": "20261017-182839-friends-fdda1c88",
+      "createdAt": "2026-10-17T18:28:39Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "توصلني المطار الساعة ٤ الفجر؟",
+      "body": "لا، بس برسل لك إيموجي داعم جدًا.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "bubblegum",
+        "character": "cactus",
+        "expression": "shocked",
+        "sticker": "انسى",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 13690
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 4
+      },
+      "contentHash": "fdda1c8826ca4286998ff66068cf2db67f9911b9c6d00250da028ed427c2629b",
+      "verified": null
+    },
     {
       "id": "20261017-153051-boss-a53eefb9",
       "createdAt": "2026-10-17T15:30:51Z",
@@ -910,34 +938,6 @@
         "reply": 6
       },
       "contentHash": "8109773ff2c1440e73d2a7efae0a6966edcef11c898785c25b579d0b4c074780",
-      "verified": null
-    },
-    {
-      "id": "20261011-140128-friends-b9fb7e7f",
-      "createdAt": "2026-10-11T14:01:28Z",
-      "category": "friends",
-      "locale": "ar",
-      "eyebrow": "صديقك يطلب",
-      "headline": "اسمع رسايلي الصوتية، بس ٢٠٠ رسالة.",
-      "body": "يا صديقي، الأجواء تقول لا.",
-      "kicker": "الأعراض الجانبية: راحة بال.",
-      "visualPreset": {
-        "background": "burst",
-        "palette": "cyan",
-        "character": "cactus",
-        "expression": "smug",
-        "sticker": "أبدًا",
-        "animation": "pop",
-        "layout": "center",
-        "seed": 78571
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 12,
-        "reply": 16
-      },
-      "contentHash": "b9fb7e7fec360c5abeed219e3438af4d0803463322fa97d83544f49d851fee78",
       "verified": null
     }
   ]

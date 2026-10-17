@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261017-182839-friends-fdda1c88",
+      "createdAt": "2026-10-17T18:28:39Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "توصلني المطار الساعة ٤ الفجر؟",
+      "body": "لا، بس برسل لك إيموجي داعم جدًا.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "bubblegum",
+        "character": "cactus",
+        "expression": "shocked",
+        "sticker": "انسى",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 13690
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 4
+      },
+      "contentHash": "fdda1c8826ca4286998ff66068cf2db67f9911b9c6d00250da028ed427c2629b",
+      "verified": null
+    },
+    {
       "id": "20261017-153051-boss-a53eefb9",
       "createdAt": "2026-10-17T15:30:51Z",
       "category": "boss",
