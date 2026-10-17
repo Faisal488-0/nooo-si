@@ -2,6 +2,43 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261017-113528-global-695e11d4",
+      "createdAt": "2026-10-17T11:35:28Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "NO, Latin edition",
+      "body": "Travel tip: learn this before learning “yes”.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "cyan",
+        "character": "ufo",
+        "expression": "shocked",
+        "sticker": "NOOO!",
+        "animation": "float",
+        "layout": "center",
+        "seed": 521806
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 37,
+        "headline": 1,
+        "reply": 8
+      },
+      "contentHash": "695e11d4909f86dee70c6058abd53c0c1900002ad43042ee625cd83306ef43b8",
+      "verified": true,
+      "lang": {
+        "id": "la",
+        "name": "Latin",
+        "no": "Minime",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
+      }
+    },
+    {
       "id": "20261017-065418-monday-8c86abfd",
       "createdAt": "2026-10-17T06:54:18Z",
       "category": "monday",
