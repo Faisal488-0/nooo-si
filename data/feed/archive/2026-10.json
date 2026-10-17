@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261017-212631-relationship-32e1aec3",
+      "createdAt": "2026-10-17T21:26:31Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Can we talk about us at 2 AM?",
+      "body": "My heart says maybe, my boundaries say no, and they're in charge.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "bubblegum",
+        "character": "ghost",
+        "expression": "shocked",
+        "sticker": "NOPE",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 37568
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 4
+      },
+      "contentHash": "32e1aec3807c74a8ca0c31301dbace64c239d4d38fa4f4a52e129b3ea6d1c71e",
+      "verified": null
+    },
+    {
       "id": "20261017-182839-friends-fdda1c88",
       "createdAt": "2026-10-17T18:28:39Z",
       "category": "friends",
