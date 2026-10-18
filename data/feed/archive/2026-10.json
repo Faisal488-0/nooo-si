@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261018-042826-scifi-62e1477b",
+      "createdAt": "2026-10-18T04:28:26Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Galactic bank: your loan is due in three light-years.",
+      "body": "Request rejected at the speed of light.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "lime",
+        "character": "robot",
+        "expression": "angry",
+        "sticker": "NOPE",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 613503
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 1
+      },
+      "contentHash": "62e1477b1bfefe82161c2010944e7c87931290cad13ad210c15d8d4e0d18cf57",
+      "verified": null
+    },
+    {
       "id": "20261018-000128-photo-42f4679e",
       "createdAt": "2026-10-18T00:01:28Z",
       "category": "photo",
