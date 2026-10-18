@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261018-172055-office-ab06aaec",
+      "createdAt": "2026-10-18T17:20:55Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Can you fix the printer? You're good with computers.",
+      "body": "Looping in: nobody.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "NEVER",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 285235
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 6
+      },
+      "contentHash": "ab06aaecf616851b7b329c63360ca80505fcdecc0bb57e96cc6c0b722e7a8c38",
+      "verified": null
+    },
+    {
       "id": "20261018-140006-morse-227e3298",
       "createdAt": "2026-10-18T14:00:06Z",
       "category": "morse",

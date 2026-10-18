@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-18T14:00:06Z",
-  "total": 57,
+  "generatedAt": "2026-10-18T17:20:55Z",
+  "total": 58,
   "items": [
+    {
+      "id": "20261018-172055-office-ab06aaec",
+      "createdAt": "2026-10-18T17:20:55Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Can you fix the printer? You're good with computers.",
+      "body": "Looping in: nobody.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "NEVER",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 285235
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 6
+      },
+      "contentHash": "ab06aaecf616851b7b329c63360ca80505fcdecc0bb57e96cc6c0b722e7a8c38",
+      "verified": null
+    },
     {
       "id": "20261018-140006-morse-227e3298",
       "createdAt": "2026-10-18T14:00:06Z",
@@ -910,34 +938,6 @@
         "reply": 6
       },
       "contentHash": "be4ab380011385b5539532dbf31d9a7c07235854562998860068fa77753ec3ce",
-      "verified": null
-    },
-    {
-      "id": "20261013-020254-office-ba6d8dff",
-      "createdAt": "2026-10-13T02:02:54Z",
-      "category": "office",
-      "locale": "en",
-      "eyebrow": "Office life",
-      "headline": "Who wants to organize the office party?",
-      "body": "I scheduled a meeting to say no. It's now.",
-      "kicker": "Side effects: inner peace.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "lemon",
-        "character": "mug",
-        "expression": "sleepy",
-        "sticker": "NOT TODAY",
-        "animation": "pulse",
-        "layout": "right",
-        "seed": 847050
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 5,
-        "reply": 1
-      },
-      "contentHash": "ba6d8dff046057cb7eb063dfbbdef9be111bd87e3e45ac9d0919defc98f8e75f",
       "verified": null
     }
   ]
