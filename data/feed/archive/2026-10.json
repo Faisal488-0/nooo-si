@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261018-203857-monday-706ab0f9",
+      "createdAt": "2026-10-18T20:38:57Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Weather: rain. Just for you.",
+      "body": "Monday, we need to talk. It's not me, it's you.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "cyan",
+        "character": "ghost",
+        "expression": "sleepy",
+        "sticker": "NAH",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 59849
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 1
+      },
+      "contentHash": "706ab0f9fe2fea7282282cf6218324acf1e821b4c52ba800451471c340fa8bc5",
+      "verified": null
+    },
+    {
       "id": "20261018-172055-office-ab06aaec",
       "createdAt": "2026-10-18T17:20:55Z",
       "category": "office",

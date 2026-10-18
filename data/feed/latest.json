@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-18T17:20:55Z",
-  "total": 58,
+  "generatedAt": "2026-10-18T20:38:57Z",
+  "total": 59,
   "items": [
+    {
+      "id": "20261018-203857-monday-706ab0f9",
+      "createdAt": "2026-10-18T20:38:57Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Weather: rain. Just for you.",
+      "body": "Monday, we need to talk. It's not me, it's you.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "cyan",
+        "character": "ghost",
+        "expression": "sleepy",
+        "sticker": "NAH",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 59849
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 1
+      },
+      "contentHash": "706ab0f9fe2fea7282282cf6218324acf1e821b4c52ba800451471c340fa8bc5",
+      "verified": null
+    },
     {
       "id": "20261018-172055-office-ab06aaec",
       "createdAt": "2026-10-18T17:20:55Z",
@@ -911,34 +939,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/2405"
       }
-    },
-    {
-      "id": "20261013-092327-monday-be4ab380",
-      "createdAt": "2026-10-13T09:23:27Z",
-      "category": "monday",
-      "locale": "ar",
-      "eyebrow": "صباح أول يوم دوام",
-      "headline": "أول الأسبوع: جاهز لأسبوع منتج؟",
-      "body": "القهوة أول. وبعدها برضو لا.",
-      "kicker": "بدون ندم. بس لا.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "lime",
-        "character": "mug",
-        "expression": "angry",
-        "sticker": "لا قاطعة",
-        "animation": "tilt",
-        "layout": "center",
-        "seed": 345705
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 1,
-        "reply": 6
-      },
-      "contentHash": "be4ab380011385b5539532dbf31d9a7c07235854562998860068fa77753ec3ce",
-      "verified": null
     }
   ]
 }
