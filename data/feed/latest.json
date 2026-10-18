@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-17T21:26:31Z",
-  "total": 53,
+  "generatedAt": "2026-10-18T00:01:28Z",
+  "total": 54,
   "items": [
+    {
+      "id": "20261018-000128-photo-42f4679e",
+      "createdAt": "2026-10-18T00:01:28Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Monkey when the boss says 'do it by hand':",
+      "body": "I'm doing it by foot. Still no.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "grape",
+        "character": "mug",
+        "expression": "angry",
+        "sticker": "NOPE",
+        "animation": "wobble",
+        "layout": "right",
+        "seed": 412129
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 6
+      },
+      "contentHash": "42f4679e2e9092715433c3a91c270194eddf138aa732eca595540b49ec9e46b8",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261018-000128-d3d7d087.jpg",
+        "sourceId": "d3d7d087-689d-4ac1-83bf-69ab82055b34",
+        "theme": "monkey",
+        "title": "Monkey or meerkat",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/570214"
+      }
+    },
     {
       "id": "20261017-212631-relationship-32e1aec3",
       "createdAt": "2026-10-17T21:26:31Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "c7d385a0b8bdf63a726c035e56f5ab841f0666dcceb243d9409820a27f001fcf",
       "verified": null
-    },
-    {
-      "id": "20261011-225257-photo-5715ad0f",
-      "createdAt": "2026-10-11T22:52:57Z",
-      "category": "photo",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "الكلب مدعوًّا إلى «حديث جدّي»:",
-      "body": "هل فيه كرة؟ بدون كرة لا حديث.",
-      "kicker": "صدى: لا… لا… لا…",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "night",
-        "character": "laptop",
-        "expression": "shocked",
-        "sticker": "لا.",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 797757
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 1
-      },
-      "contentHash": "5715ad0fe7b831f86d3ae455cdd83a4556243057b3d6aa143ce9d47e19e22121",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261011-225257-2503ca63.jpg",
-        "sourceId": "2503ca63-1f07-4cf1-94cf-30b7d0f04d30",
-        "theme": "dog",
-        "title": "Mechanical Dog",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/544519"
-      }
     }
   ]
 }
