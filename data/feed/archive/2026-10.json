@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261018-093446-binary-93c5ad65",
+      "createdAt": "2026-10-18T09:34:46Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«ما أقدر» بلغة الكمبيوتر",
+      "body": "حتى الأجهزة تحترم الحدود.",
+      "kicker": "أرسلها لشخص يحتاجها.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "night",
+        "character": "printer",
+        "expression": "dramatic",
+        "sticker": "مرفوض",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 476836
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 5,
+        "headline": 0,
+        "reply": 5
+      },
+      "contentHash": "93c5ad6537fc3ae68eff510d3814801d846b102891ac40fbb8eb4ffb863b2321",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "ما أقدر",
+        "output": "11011001 10000101 11011000 10100111 00100000 11011000 10100011 11011001 10000010 11011000 10101111 11011000 10110001"
+      }
+    },
+    {
       "id": "20261018-042826-scifi-62e1477b",
       "createdAt": "2026-10-18T04:28:26Z",
       "category": "scifi",
