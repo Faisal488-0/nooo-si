@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-18T09:34:46Z",
-  "total": 56,
+  "generatedAt": "2026-10-18T14:00:06Z",
+  "total": 57,
   "items": [
+    {
+      "id": "20261018-140006-morse-227e3298",
+      "createdAt": "2026-10-18T14:00:06Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NO WAY” in Morse code",
+      "body": "Perfect for refusing in total silence.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "bubblegum",
+        "character": "alarm",
+        "expression": "sleepy",
+        "sticker": "DENIED",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 288057
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 6,
+        "headline": 0,
+        "reply": 5
+      },
+      "contentHash": "227e3298384949c84ec2a677834fd7f789a4703836b1d8a91465fec1afe2a4c0",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO WAY",
+        "output": "-. --- / .-- .- -.--"
+      }
+    },
     {
       "id": "20261018-093446-binary-93c5ad65",
       "createdAt": "2026-10-18T09:34:46Z",
@@ -905,40 +939,6 @@
       },
       "contentHash": "ba6d8dff046057cb7eb063dfbbdef9be111bd87e3e45ac9d0919defc98f8e75f",
       "verified": null
-    },
-    {
-      "id": "20261012-201704-morse-08f6815a",
-      "createdAt": "2026-10-12T20:17:04Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "انقرها على الطاولة: «NO CALLS»",
-      "body": "صفارة طويلة = لا طويلة.",
-      "kicker": "الحالة: تم تسليم «اللا».",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "tomato",
-        "character": "ufo",
-        "expression": "unbothered",
-        "sticker": "لا قاطعة",
-        "animation": "shake",
-        "layout": "right",
-        "seed": 589129
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 12,
-        "headline": 1,
-        "reply": 3
-      },
-      "contentHash": "08f6815addf14f865ffb11abf83ac9f3d69abe088ea442d914ee966a435ea675",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NO CALLS",
-        "output": "-. --- / -.-. .- .-.. .-.. ..."
-      }
     }
   ]
 }

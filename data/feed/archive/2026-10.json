@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261018-140006-morse-227e3298",
+      "createdAt": "2026-10-18T14:00:06Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NO WAY” in Morse code",
+      "body": "Perfect for refusing in total silence.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "bubblegum",
+        "character": "alarm",
+        "expression": "sleepy",
+        "sticker": "DENIED",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 288057
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 6,
+        "headline": 0,
+        "reply": 5
+      },
+      "contentHash": "227e3298384949c84ec2a677834fd7f789a4703836b1d8a91465fec1afe2a4c0",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO WAY",
+        "output": "-. --- / .-- .- -.--"
+      }
+    },
+    {
       "id": "20261018-093446-binary-93c5ad65",
       "createdAt": "2026-10-18T09:34:46Z",
       "category": "binary",
