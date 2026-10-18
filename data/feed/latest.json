@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-18T20:38:57Z",
-  "total": 59,
+  "generatedAt": "2026-10-18T23:09:08Z",
+  "total": 60,
   "items": [
+    {
+      "id": "20261018-230908-photo-6e618bbf",
+      "createdAt": "2026-10-18T23:09:08Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الحمار حين قيل له «لا تكن عنيدًا»:",
+      "body": "أفضّل «ثابت على موقفه». لا.",
+      "kicker": "معتمدة من قطط العالم.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "cyan",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "انسى",
+        "animation": "bounce",
+        "layout": "right",
+        "seed": 485448
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 7
+      },
+      "contentHash": "6e618bbfd7a93414caa0fc2d870bce3b267e3252c370517b6c618187ffb5c1e9",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261018-230908-25a3c536.jpg",
+        "sourceId": "25a3c536-79fe-4f0e-8f59-fd7fca4defdd",
+        "theme": "donkey",
+        "title": "Laden Donkeys and Ploughing, Tomb of Djar",
+        "creator": "Nina de Garis Davies",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/544542"
+      }
+    },
     {
       "id": "20261018-203857-monday-706ab0f9",
       "createdAt": "2026-10-18T20:38:57Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "09796ac97b6ca4d74850d4b05b5abc502b53f0b013590b355a60d4a3f7d5d2e7",
       "verified": null
-    },
-    {
-      "id": "20261013-173527-photo-b0d78be6",
-      "createdAt": "2026-10-13T17:35:27Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Owl hearing 'let's circle back':",
-      "body": "I circle at night. This is not a circle. No.",
-      "kicker": "Side effects: inner peace.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "tomato",
-        "character": "printer",
-        "expression": "sleepy",
-        "sticker": "NAH",
-        "animation": "shake",
-        "layout": "left",
-        "seed": 701744
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 2
-      },
-      "contentHash": "b0d78be6a9bfd1f85acbae78dc1497982dbcf3c48392b23568a6d89d0ca2b7eb",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261013-173527-fc710330.jpg",
-        "sourceId": "fc710330-b84c-41fd-b886-0f167692b67a",
-        "theme": "owl",
-        "title": "Covered Owl Jar",
-        "creator": "Atterbury and Company",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/2405"
-      }
     }
   ]
 }
