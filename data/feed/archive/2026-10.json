@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261019-131048-relationship-3c062dae",
+      "createdAt": "2026-10-19T13:10:48Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "أختار لك لبسك كله؟",
+      "body": "رفضي لهذا تمسّك بعلاقتنا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "tomato",
+        "character": "cactus",
+        "expression": "smug",
+        "sticker": "لااا!",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 845837
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 10
+      },
+      "contentHash": "3c062daec57926fcda3225eee35f0935e7acb365dfe20a2ea44e70f19450638f",
+      "verified": null
+    },
+    {
       "id": "20261019-061257-friends-e406c5cd",
       "createdAt": "2026-10-19T06:12:57Z",
       "category": "friends",

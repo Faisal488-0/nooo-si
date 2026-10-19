@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-19T06:12:57Z",
-  "total": 62,
+  "generatedAt": "2026-10-19T13:10:48Z",
+  "total": 63,
   "items": [
+    {
+      "id": "20261019-131048-relationship-3c062dae",
+      "createdAt": "2026-10-19T13:10:48Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "أختار لك لبسك كله؟",
+      "body": "رفضي لهذا تمسّك بعلاقتنا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "tomato",
+        "character": "cactus",
+        "expression": "smug",
+        "sticker": "لااا!",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 845837
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 10
+      },
+      "contentHash": "3c062daec57926fcda3225eee35f0935e7acb365dfe20a2ea44e70f19450638f",
+      "verified": null
+    },
     {
       "id": "20261019-061257-friends-e406c5cd",
       "createdAt": "2026-10-19T06:12:57Z",
@@ -910,34 +938,6 @@
         "reply": 14
       },
       "contentHash": "9ac93f8cfb88801f8bedc0ae68c9e533b436948e2f76b31b070d8d88d706ef0a",
-      "verified": null
-    },
-    {
-      "id": "20261014-073523-relationship-c786c0dc",
-      "createdAt": "2026-10-14T07:35:23Z",
-      "category": "relationship",
-      "locale": "en",
-      "eyebrow": "Your partner asks",
-      "headline": "Can you see your friends a bit less?",
-      "body": "No, and thank you for asking instead of assuming.",
-      "kicker": "The next NO arrives next hour.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "lemon",
-        "character": "phone",
-        "expression": "angry",
-        "sticker": "NAH",
-        "animation": "shake",
-        "layout": "center",
-        "seed": 932452
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 6
-      },
-      "contentHash": "c786c0dc4c2d7a6c494e2d3bfab20edbecee490eb3fafbbaf24b8413ac5f7138",
       "verified": null
     }
   ]
