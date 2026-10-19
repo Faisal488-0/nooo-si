@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261019-061257-friends-e406c5cd",
+      "createdAt": "2026-10-19T06:12:57Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Rate my new haircut. Honestly. No, more honestly.",
+      "body": "Let's keep the friendship and lose the plan.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "night",
+        "character": "cactus",
+        "expression": "unbothered",
+        "sticker": "LOL NO",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 569894
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 12
+      },
+      "contentHash": "e406c5cd50fa3ad79d809800bc4160b23ba32c2cbb088deef4d8eba310cc5622",
+      "verified": null
+    },
+    {
       "id": "20261019-011413-boss-21823734",
       "createdAt": "2026-10-19T01:14:13Z",
       "category": "boss",
