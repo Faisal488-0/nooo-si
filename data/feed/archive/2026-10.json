@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261019-233742-scifi-f0d43fee",
+      "createdAt": "2026-10-19T23:37:42Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "بنك المجرة: قسطك يستحق بعد ٣ سنوات ضوئية.",
+      "body": "مركز التحكم فقد الاهتمام. انتهى الإرسال.",
+      "kicker": "معتمدة من وزارة «لا».",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "bubblegum",
+        "character": "robot",
+        "expression": "smug",
+        "sticker": "انسى",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 476409
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 11
+      },
+      "contentHash": "f0d43fee4d3bd82b9652c31879e90f4fd2f72d7a177bca6245def723d2fb9b24",
+      "verified": null
+    },
+    {
       "id": "20261019-191932-cat-57f8d562",
       "createdAt": "2026-10-19T19:19:32Z",
       "category": "cat",

@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-19T19:19:32Z",
-  "total": 64,
+  "generatedAt": "2026-10-19T23:37:42Z",
+  "total": 65,
   "items": [
+    {
+      "id": "20261019-233742-scifi-f0d43fee",
+      "createdAt": "2026-10-19T23:37:42Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "بنك المجرة: قسطك يستحق بعد ٣ سنوات ضوئية.",
+      "body": "مركز التحكم فقد الاهتمام. انتهى الإرسال.",
+      "kicker": "معتمدة من وزارة «لا».",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "bubblegum",
+        "character": "robot",
+        "expression": "smug",
+        "sticker": "انسى",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 476409
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 11
+      },
+      "contentHash": "f0d43fee4d3bd82b9652c31879e90f4fd2f72d7a177bca6245def723d2fb9b24",
+      "verified": null
+    },
     {
       "id": "20261019-191932-cat-57f8d562",
       "createdAt": "2026-10-19T19:19:32Z",
@@ -911,34 +939,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/545207"
       }
-    },
-    {
-      "id": "20261014-183614-scifi-6383f33e",
-      "createdAt": "2026-10-14T18:36:14Z",
-      "category": "scifi",
-      "locale": "en",
-      "eyebrow": "Incoming transmission",
-      "headline": "Visitor: take me to your leader.",
-      "body": "Teleporting my answer to you now: NOOO.",
-      "kicker": "No was said. Peace was restored.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "lime",
-        "character": "planet",
-        "expression": "dramatic",
-        "sticker": "NOOO!",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 322250
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 1,
-        "reply": 15
-      },
-      "contentHash": "6383f33e72a2678b2e5718b3bf39148e610c99658b815446418b665ed3308f86",
-      "verified": null
     }
   ]
 }
