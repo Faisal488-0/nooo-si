@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-18T23:09:08Z",
-  "total": 60,
+  "generatedAt": "2026-10-19T01:14:13Z",
+  "total": 61,
   "items": [
+    {
+      "id": "20261019-011413-boss-21823734",
+      "createdAt": "2026-10-19T01:14:13Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "مكالمة سريعة الساعة ٥:٥٨؟",
+      "body": "«لا» قاطعة، مع ابتسامة لطيفة.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "cyan",
+        "character": "laptop",
+        "expression": "sleepy",
+        "sticker": "مستحيل",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 806703
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 13
+      },
+      "contentHash": "2182373462078ae9dd6e10d41b65ed86f8048385c48d03f34199c0b724cd1769",
+      "verified": null
+    },
     {
       "id": "20261018-230908-photo-6e618bbf",
       "createdAt": "2026-10-18T23:09:08Z",
@@ -910,34 +938,6 @@
         "reply": 3
       },
       "contentHash": "85a1904fa618726c7193a279e274024ebd59f5f63ab00dcff7ac2462b7cc3711",
-      "verified": null
-    },
-    {
-      "id": "20261013-224240-boss-09796ac9",
-      "createdAt": "2026-10-13T22:42:40Z",
-      "category": "boss",
-      "locale": "en",
-      "eyebrow": "The boss asks",
-      "headline": "Can you stay a little late tonight?",
-      "body": "Great idea. Let's put it in the parking lot. The parking lot is closed.",
-      "kicker": "Refusal level: legendary.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "bubblegum",
-        "character": "phone",
-        "expression": "shocked",
-        "sticker": "LOL NO",
-        "animation": "tilt",
-        "layout": "left",
-        "seed": 525330
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 0,
-        "reply": 9
-      },
-      "contentHash": "09796ac97b6ca4d74850d4b05b5abc502b53f0b013590b355a60d4a3f7d5d2e7",
       "verified": null
     }
   ]

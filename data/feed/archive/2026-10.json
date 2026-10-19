@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261019-011413-boss-21823734",
+      "createdAt": "2026-10-19T01:14:13Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "مكالمة سريعة الساعة ٥:٥٨؟",
+      "body": "«لا» قاطعة، مع ابتسامة لطيفة.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "cyan",
+        "character": "laptop",
+        "expression": "sleepy",
+        "sticker": "مستحيل",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 806703
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 13
+      },
+      "contentHash": "2182373462078ae9dd6e10d41b65ed86f8048385c48d03f34199c0b724cd1769",
+      "verified": null
+    },
+    {
       "id": "20261018-230908-photo-6e618bbf",
       "createdAt": "2026-10-18T23:09:08Z",
       "category": "photo",
