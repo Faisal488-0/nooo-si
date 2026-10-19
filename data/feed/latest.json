@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-19T13:10:48Z",
-  "total": 63,
+  "generatedAt": "2026-10-19T19:19:32Z",
+  "total": 64,
   "items": [
+    {
+      "id": "20261019-191932-cat-57f8d562",
+      "createdAt": "2026-10-19T19:19:32Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "استخدم عمود الخدش، مو الكنبة.",
+      "body": "الفحيح جملة كاملة.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "angry",
+        "sticker": "لا قاطعة",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 695541
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 13
+      },
+      "contentHash": "57f8d56254d725590c1d18977f6115530b833e472f65c0e1f71cd1414c2fa85b",
+      "verified": null
+    },
     {
       "id": "20261019-131048-relationship-3c062dae",
       "createdAt": "2026-10-19T13:10:48Z",
@@ -910,34 +938,6 @@
         "reply": 15
       },
       "contentHash": "6383f33e72a2678b2e5718b3bf39148e610c99658b815446418b665ed3308f86",
-      "verified": null
-    },
-    {
-      "id": "20261014-134204-cat-9ac93f8c",
-      "createdAt": "2026-10-14T13:42:04Z",
-      "category": "cat",
-      "locale": "ar",
-      "eyebrow": "الإنسان للقطوة",
-      "headline": "يلا وقت الشاور!",
-      "body": "الطلب مرفوض من البيت الملكي للفرو.",
-      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "mint",
-        "character": "cat",
-        "expression": "sleepy",
-        "sticker": "مرفوض",
-        "animation": "float",
-        "layout": "right",
-        "seed": 610537
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 1,
-        "reply": 14
-      },
-      "contentHash": "9ac93f8cfb88801f8bedc0ae68c9e533b436948e2f76b31b070d8d88d706ef0a",
       "verified": null
     }
   ]

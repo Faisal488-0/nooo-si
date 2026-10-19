@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261019-191932-cat-57f8d562",
+      "createdAt": "2026-10-19T19:19:32Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "استخدم عمود الخدش، مو الكنبة.",
+      "body": "الفحيح جملة كاملة.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "angry",
+        "sticker": "لا قاطعة",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 695541
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 13
+      },
+      "contentHash": "57f8d56254d725590c1d18977f6115530b833e472f65c0e1f71cd1414c2fa85b",
+      "verified": null
+    },
+    {
       "id": "20261019-131048-relationship-3c062dae",
       "createdAt": "2026-10-19T13:10:48Z",
       "category": "relationship",
