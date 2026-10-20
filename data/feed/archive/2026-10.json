@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261020-150307-office-43859b96",
+      "createdAt": "2026-10-20T15:03:07Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "تدرّب المتدرب الجديد، والنظام الجديد، والنبتة الجديدة؟",
+      "body": "إضافة للنقاش: ولا أحد.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "lemon",
+        "character": "laptop",
+        "expression": "sleepy",
+        "sticker": "انسى",
+        "animation": "float",
+        "layout": "center",
+        "seed": 385808
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 6
+      },
+      "contentHash": "43859b96a6ece18f73abc4d4ac2791230917f99e750217e4a831fa14ef89f60f",
+      "verified": null
+    },
+    {
       "id": "20261020-100122-morse-1abc954f",
       "createdAt": "2026-10-20T10:01:22Z",
       "category": "morse",
