@@ -2,6 +2,44 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261020-044734-photo-0167c06b",
+      "createdAt": "2026-10-20T04:47:34Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "The bear, asked to wake up for spring:",
+      "body": "Spring can wait. I'm in a meeting with my pillow.",
+      "kicker": "No regrets. Just no.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "grape",
+        "character": "laptop",
+        "expression": "sleepy",
+        "sticker": "NOPE",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 651115
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 8
+      },
+      "contentHash": "0167c06b6a9ad6afdf54dd52780d8e3793d924fa9dcb82ea4ef179083acccc81",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261020-044734-30ae8990.jpg",
+        "sourceId": "30ae8990-630b-4e8d-b259-f330e05c7415",
+        "theme": "bear",
+        "title": "Grizzly Bear, from the Animals of the World series (T180), issued by Abdul Cigarettes",
+        "creator": "Abdul Cigarettes",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/631346"
+      }
+    },
+    {
       "id": "20261019-233742-scifi-f0d43fee",
       "createdAt": "2026-10-19T23:37:42Z",
       "category": "scifi",

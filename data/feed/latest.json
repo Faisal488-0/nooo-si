@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-19T23:37:42Z",
-  "total": 65,
+  "generatedAt": "2026-10-20T04:47:34Z",
+  "total": 66,
   "items": [
+    {
+      "id": "20261020-044734-photo-0167c06b",
+      "createdAt": "2026-10-20T04:47:34Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "The bear, asked to wake up for spring:",
+      "body": "Spring can wait. I'm in a meeting with my pillow.",
+      "kicker": "No regrets. Just no.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "grape",
+        "character": "laptop",
+        "expression": "sleepy",
+        "sticker": "NOPE",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 651115
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 8
+      },
+      "contentHash": "0167c06b6a9ad6afdf54dd52780d8e3793d924fa9dcb82ea4ef179083acccc81",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261020-044734-30ae8990.jpg",
+        "sourceId": "30ae8990-630b-4e8d-b259-f330e05c7415",
+        "theme": "bear",
+        "title": "Grizzly Bear, from the Animals of the World series (T180), issued by Abdul Cigarettes",
+        "creator": "Abdul Cigarettes",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/631346"
+      }
+    },
     {
       "id": "20261019-233742-scifi-f0d43fee",
       "createdAt": "2026-10-19T23:37:42Z",
@@ -900,44 +938,6 @@
         "type": "morse",
         "input": "TRY TUESDAY",
         "output": "- .-. -.-- / - ..- . ... -.. .- -.--"
-      }
-    },
-    {
-      "id": "20261014-221741-photo-c8b4ea2f",
-      "createdAt": "2026-10-14T22:17:41Z",
-      "category": "photo",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "الحصان عند باب الإسطبل:",
-      "body": "أعرف أنها مصيدة. دائمًا مصيدة. لا.",
-      "kicker": "مختومة ومرفوضة.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "mint",
-        "character": "laptop",
-        "expression": "unbothered",
-        "sticker": "لا قاطعة",
-        "animation": "pop",
-        "layout": "center",
-        "seed": 419991
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 3
-      },
-      "contentHash": "c8b4ea2f5af1395993e0043163a51222d1de528378d39b806d3b7555f70c6e10",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261014-221741-797a53b6.jpg",
-        "sourceId": "797a53b6-78ac-4a6b-8c73-f225e7cc4ca4",
-        "theme": "horse",
-        "title": "Comb with a horse",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/545207"
       }
     }
   ]
