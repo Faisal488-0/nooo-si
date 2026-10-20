@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-10-20T19:14:03Z",
-  "total": 69,
+  "generatedAt": "2026-10-20T22:17:47Z",
+  "total": 70,
   "items": [
+    {
+      "id": "20261020-221747-global-9a22e1af",
+      "createdAt": "2026-10-20T22:17:47Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "لا اليوم جاية من الساموية",
+      "body": "كلمة وحدة، وصفر اجتماعات.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "cyan",
+        "character": "planet",
+        "expression": "smug",
+        "sticker": "لا.",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 626816
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 53,
+        "headline": 2,
+        "reply": 10
+      },
+      "contentHash": "9a22e1af10debbb670a41eff512569babc78cc995e10167704b3bf6e9d6bdad6",
+      "verified": true,
+      "lang": {
+        "id": "sm",
+        "name": "الساموية",
+        "no": "Leai",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
     {
       "id": "20261020-191403-monday-967247fd",
       "createdAt": "2026-10-20T19:14:03Z",
@@ -902,43 +939,6 @@
       },
       "contentHash": "cf3d5f7f6d84219cae22a5c39190f625977060ead9e445e6f101b2598fef50be",
       "verified": null
-    },
-    {
-      "id": "20261015-181610-global-4f3de077",
-      "createdAt": "2026-10-15T18:16:10Z",
-      "category": "global",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "«لا» بنسخة الباسكية",
-      "body": "مثالية لرفض الحلى الثالث.",
-      "kicker": "مستوى الرفض: أسطوري.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "cyan",
-        "character": "cat",
-        "expression": "shocked",
-        "sticker": "انسى",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 237985
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "lang": 7,
-        "headline": 1,
-        "reply": 0
-      },
-      "contentHash": "4f3de0779d9984e6dd7c37e7fab57f4480da3789fa6ccd539f705e7ccfdd1c58",
-      "verified": true,
-      "lang": {
-        "id": "eu",
-        "name": "الباسكية",
-        "no": "Ez",
-        "translit": "",
-        "dir": "ltr",
-        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
-      }
     }
   ]
 }

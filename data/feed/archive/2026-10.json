@@ -2,6 +2,43 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261020-221747-global-9a22e1af",
+      "createdAt": "2026-10-20T22:17:47Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "لا اليوم جاية من الساموية",
+      "body": "كلمة وحدة، وصفر اجتماعات.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "cyan",
+        "character": "planet",
+        "expression": "smug",
+        "sticker": "لا.",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 626816
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 53,
+        "headline": 2,
+        "reply": 10
+      },
+      "contentHash": "9a22e1af10debbb670a41eff512569babc78cc995e10167704b3bf6e9d6bdad6",
+      "verified": true,
+      "lang": {
+        "id": "sm",
+        "name": "الساموية",
+        "no": "Leai",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261020-191403-monday-967247fd",
       "createdAt": "2026-10-20T19:14:03Z",
       "category": "monday",
