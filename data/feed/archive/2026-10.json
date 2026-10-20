@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261020-191403-monday-967247fd",
+      "createdAt": "2026-10-20T19:14:03Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "التقويم: ٨ اجتماعات اليوم ورا بعض.",
+      "body": "أول الأسبوع قدّم طلب. الطلب مرفوض.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "bubblegum",
+        "character": "ghost",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 664074
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 8
+      },
+      "contentHash": "967247fdeddd4e17db45817de5c15c569f862418b497a0dea154b106914d6dc5",
+      "verified": null
+    },
+    {
       "id": "20261020-150307-office-43859b96",
       "createdAt": "2026-10-20T15:03:07Z",
       "category": "office",

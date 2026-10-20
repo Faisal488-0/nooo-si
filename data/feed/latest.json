@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-20T15:03:07Z",
-  "total": 68,
+  "generatedAt": "2026-10-20T19:14:03Z",
+  "total": 69,
   "items": [
+    {
+      "id": "20261020-191403-monday-967247fd",
+      "createdAt": "2026-10-20T19:14:03Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "التقويم: ٨ اجتماعات اليوم ورا بعض.",
+      "body": "أول الأسبوع قدّم طلب. الطلب مرفوض.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "bubblegum",
+        "character": "ghost",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 664074
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 8
+      },
+      "contentHash": "967247fdeddd4e17db45817de5c15c569f862418b497a0dea154b106914d6dc5",
+      "verified": null
+    },
     {
       "id": "20261020-150307-office-43859b96",
       "createdAt": "2026-10-20T15:03:07Z",
@@ -911,34 +939,6 @@
         "dir": "ltr",
         "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
       }
-    },
-    {
-      "id": "20261015-132342-monday-8a27c832",
-      "createdAt": "2026-10-15T13:23:42Z",
-      "category": "monday",
-      "locale": "en",
-      "eyebrow": "Monday morning",
-      "headline": "To-do list: remember everything you left on Friday?",
-      "body": "I'm boycotting the first day of everything.",
-      "kicker": "Signed, sealed, declined.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "tangerine",
-        "character": "alarm",
-        "expression": "angry",
-        "sticker": "NOOO!",
-        "animation": "shake",
-        "layout": "left",
-        "seed": 798426
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 7,
-        "reply": 12
-      },
-      "contentHash": "8a27c832b2bf83181c7bde84b29f1ce1798a2d472a00f1648e7da24824d1f14d",
-      "verified": null
     }
   ]
 }
