@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261021-183620-cat-2de5a88a",
+      "createdAt": "2026-10-21T18:36:20Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Come here, kitty kitty!",
+      "body": "Purring means yes. This is not purring.",
+      "kicker": "No regrets. Just no.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "unbothered",
+        "sticker": "NO.",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 498498
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 9
+      },
+      "contentHash": "2de5a88ae40f76f2c58244413b9776d0ead40c0db56893ee0e7f1edee0916687",
+      "verified": null
+    },
+    {
       "id": "20261021-134522-relationship-416048cc",
       "createdAt": "2026-10-21T13:45:22Z",
       "category": "relationship",

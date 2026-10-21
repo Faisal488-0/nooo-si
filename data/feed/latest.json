@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-21T13:45:22Z",
-  "total": 73,
+  "generatedAt": "2026-10-21T18:36:20Z",
+  "total": 74,
   "items": [
+    {
+      "id": "20261021-183620-cat-2de5a88a",
+      "createdAt": "2026-10-21T18:36:20Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Come here, kitty kitty!",
+      "body": "Purring means yes. This is not purring.",
+      "kicker": "No regrets. Just no.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "unbothered",
+        "sticker": "NO.",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 498498
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 9
+      },
+      "contentHash": "2de5a88ae40f76f2c58244413b9776d0ead40c0db56893ee0e7f1edee0916687",
+      "verified": null
+    },
     {
       "id": "20261021-134522-relationship-416048cc",
       "createdAt": "2026-10-21T13:45:22Z",
@@ -910,34 +938,6 @@
         "reply": 14
       },
       "contentHash": "bf26fe0b7d589d06bc3cdae2961bacfc814f21a467ad52e0bb1d34cd78c1dee7",
-      "verified": null
-    },
-    {
-      "id": "20261016-111907-cat-84dfea4e",
-      "createdAt": "2026-10-16T11:19:07Z",
-      "category": "cat",
-      "locale": "en",
-      "eyebrow": "Human to cat",
-      "headline": "Use the scratching post, not the sofa.",
-      "body": "I will now stare at you until you forget you asked.",
-      "kicker": "Boundaries 1 — Chaos 0.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "bubblegum",
-        "character": "cat",
-        "expression": "smug",
-        "sticker": "DENIED",
-        "animation": "tilt",
-        "layout": "left",
-        "seed": 64068
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 10,
-        "reply": 3
-      },
-      "contentHash": "84dfea4ee903b8c82590105937638e9c78a0dac6a524b9a45966fabab405d55a",
       "verified": null
     }
   ]
