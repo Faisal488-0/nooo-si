@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-21T18:36:20Z",
-  "total": 74,
+  "generatedAt": "2026-10-21T22:18:54Z",
+  "total": 75,
   "items": [
+    {
+      "id": "20261021-221854-scifi-cb34fe8f",
+      "createdAt": "2026-10-21T22:18:54Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Asteroid: mind if I park in your orbit?",
+      "body": "My antennae have folded. That is a no.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tangerine",
+        "character": "robot",
+        "expression": "smug",
+        "sticker": "LOL NO",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 393424
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 2
+      },
+      "contentHash": "cb34fe8f4753c18a9c960e5012fdfca98263526c1e6eeafdffe2b7959af93f18",
+      "verified": null
+    },
     {
       "id": "20261021-183620-cat-2de5a88a",
       "createdAt": "2026-10-21T18:36:20Z",
@@ -911,34 +939,6 @@
         "input": "NOT MY JOB",
         "output": "01001110 01001111 01010100 00100000 01001101 01011001 00100000 01001010 01001111 01000010"
       }
-    },
-    {
-      "id": "20261016-163616-scifi-bf26fe0b",
-      "createdAt": "2026-10-16T16:36:16Z",
-      "category": "scifi",
-      "locale": "ar",
-      "eyebrow": "إرسال وارد",
-      "headline": "كمبيوتر المركبة: افتح بوابة السناكات.",
-      "body": "الجاذبية تقول تحت. وأنا أقول لا.",
-      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "bubblegum",
-        "character": "alien",
-        "expression": "smug",
-        "sticker": "لااا!",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 603999
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 2,
-        "reply": 14
-      },
-      "contentHash": "bf26fe0b7d589d06bc3cdae2961bacfc814f21a467ad52e0bb1d34cd78c1dee7",
-      "verified": null
     }
   ]
 }

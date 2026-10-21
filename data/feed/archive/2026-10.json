@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261021-221854-scifi-cb34fe8f",
+      "createdAt": "2026-10-21T22:18:54Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Asteroid: mind if I park in your orbit?",
+      "body": "My antennae have folded. That is a no.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tangerine",
+        "character": "robot",
+        "expression": "smug",
+        "sticker": "LOL NO",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 393424
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 2
+      },
+      "contentHash": "cb34fe8f4753c18a9c960e5012fdfca98263526c1e6eeafdffe2b7959af93f18",
+      "verified": null
+    },
+    {
       "id": "20261021-183620-cat-2de5a88a",
       "createdAt": "2026-10-21T18:36:20Z",
       "category": "cat",
