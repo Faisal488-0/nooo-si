@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-20T22:17:47Z",
-  "total": 70,
+  "generatedAt": "2026-10-21T01:33:21Z",
+  "total": 71,
   "items": [
+    {
+      "id": "20261021-013321-boss-c297f4d0",
+      "createdAt": "2026-10-21T01:33:21Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you do your job and two others, for the experience?",
+      "body": "I'm fully booked until the heat death of the universe.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tomato",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "NEVER",
+        "animation": "float",
+        "layout": "left",
+        "seed": 772455
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 13,
+        "reply": 17
+      },
+      "contentHash": "c297f4d010e29697c28d060d6e132a54ec7cb66c6aeb60b1d0fcf3053858ee77",
+      "verified": null
+    },
     {
       "id": "20261020-221747-global-9a22e1af",
       "createdAt": "2026-10-20T22:17:47Z",
@@ -911,34 +939,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/38503"
       }
-    },
-    {
-      "id": "20261015-212538-boss-cf3d5f7f",
-      "createdAt": "2026-10-15T21:25:38Z",
-      "category": "boss",
-      "locale": "ar",
-      "eyebrow": "المدير يسأل",
-      "headline": "خلك «متاح» نهاية الأسبوع.",
-      "body": "بحطها بقائمتي، تحت بند «أبدًا».",
-      "kicker": "الحدود ١ — الفوضى ٠.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "grape",
-        "character": "boss",
-        "expression": "smug",
-        "sticker": "مو اليوم",
-        "animation": "shake",
-        "layout": "left",
-        "seed": 263201
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 8,
-        "reply": 8
-      },
-      "contentHash": "cf3d5f7f6d84219cae22a5c39190f625977060ead9e445e6f101b2598fef50be",
-      "verified": null
     }
   ]
 }
