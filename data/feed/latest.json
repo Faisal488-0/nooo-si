@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-21T07:35:37Z",
-  "total": 72,
+  "generatedAt": "2026-10-21T13:45:22Z",
+  "total": 73,
   "items": [
+    {
+      "id": "20261021-134522-relationship-416048cc",
+      "createdAt": "2026-10-21T13:45:22Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Let's share one email account.",
+      "body": "That's a no to the request, not a no to you.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "bubblegum",
+        "character": "ghost",
+        "expression": "unbothered",
+        "sticker": "NOPE",
+        "animation": "float",
+        "layout": "left",
+        "seed": 416316
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 2
+      },
+      "contentHash": "416048cc8cc6f71f20c9caa3ecc5c6613013404f4e9358b1988d7f3dacc4abb9",
+      "verified": null
+    },
     {
       "id": "20261021-073537-photo-c7f63982",
       "createdAt": "2026-10-21T07:35:37Z",
@@ -910,34 +938,6 @@
         "reply": 3
       },
       "contentHash": "84dfea4ee903b8c82590105937638e9c78a0dac6a524b9a45966fabab405d55a",
-      "verified": null
-    },
-    {
-      "id": "20261016-054948-relationship-62e86589",
-      "createdAt": "2026-10-16T05:49:48Z",
-      "category": "relationship",
-      "locale": "ar",
-      "eyebrow": "الشريك يطلب",
-      "headline": "خلنا ننشر حالتنا كل ساعة.",
-      "body": "لا شكرًا، مرتاح على سرعتنا الحالية.",
-      "kicker": "معتمدة من قطط العالم.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "tangerine",
-        "character": "phone",
-        "expression": "dramatic",
-        "sticker": "لا قاطعة",
-        "animation": "float",
-        "layout": "left",
-        "seed": 715459
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 4,
-        "reply": 9
-      },
-      "contentHash": "62e86589ca9d960e79e56e6b307e2a9a204eb1788e64f2e81c1025ee4d691666",
       "verified": null
     }
   ]
