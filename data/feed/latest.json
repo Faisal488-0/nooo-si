@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-21T01:33:21Z",
-  "total": 71,
+  "generatedAt": "2026-10-21T07:35:37Z",
+  "total": 72,
   "items": [
+    {
+      "id": "20261021-073537-photo-c7f63982",
+      "createdAt": "2026-10-21T07:35:37Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "القطة تراجع دعوة «مكالمة سريعة»:",
+      "body": "مرفوضة. عندي قيلولة محجوزة حتى 2031.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "mint",
+        "character": "laptop",
+        "expression": "unbothered",
+        "sticker": "لا.",
+        "animation": "float",
+        "layout": "center",
+        "seed": 313897
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 0
+      },
+      "contentHash": "c7f6398267c5846e375edea066fcbd37889f71b06329f88aefc24da1793d10b0",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261021-073537-5af21355.jpg",
+        "sourceId": "5af21355-1677-4a5b-8599-182c665d8fb9",
+        "theme": "cat",
+        "title": "Cat amulet",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/555251"
+      }
+    },
     {
       "id": "20261021-013321-boss-c297f4d0",
       "createdAt": "2026-10-21T01:33:21Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "62e86589ca9d960e79e56e6b307e2a9a204eb1788e64f2e81c1025ee4d691666",
       "verified": null
-    },
-    {
-      "id": "20261016-002249-photo-d57c0b9a",
-      "createdAt": "2026-10-16T00:22:49Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Lion asked to roar a bit quieter:",
-      "body": "NOOOO. (That was the quiet one.)",
-      "kicker": "Side effects: inner peace.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "grape",
-        "character": "laptop",
-        "expression": "angry",
-        "sticker": "DENIED",
-        "animation": "tilt",
-        "layout": "left",
-        "seed": 683439
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 4
-      },
-      "contentHash": "d57c0b9a2e3e37292cce6992b46b45611da2d23cfe031b04093580de36afbea1",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261016-002249-f40b95a8.jpg",
-        "sourceId": "f40b95a8-e9ae-4785-85b1-325b4390403b",
-        "theme": "lion",
-        "title": "Lion",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/38503"
-      }
     }
   ]
 }

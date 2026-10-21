@@ -2,6 +2,44 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261021-073537-photo-c7f63982",
+      "createdAt": "2026-10-21T07:35:37Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "القطة تراجع دعوة «مكالمة سريعة»:",
+      "body": "مرفوضة. عندي قيلولة محجوزة حتى 2031.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "mint",
+        "character": "laptop",
+        "expression": "unbothered",
+        "sticker": "لا.",
+        "animation": "float",
+        "layout": "center",
+        "seed": 313897
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 0
+      },
+      "contentHash": "c7f6398267c5846e375edea066fcbd37889f71b06329f88aefc24da1793d10b0",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261021-073537-5af21355.jpg",
+        "sourceId": "5af21355-1677-4a5b-8599-182c665d8fb9",
+        "theme": "cat",
+        "title": "Cat amulet",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/555251"
+      }
+    },
+    {
       "id": "20261021-013321-boss-c297f4d0",
       "createdAt": "2026-10-21T01:33:21Z",
       "category": "boss",
