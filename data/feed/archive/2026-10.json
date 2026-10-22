@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261022-012915-binary-0b8d77ad",
+      "createdAt": "2026-10-22T01:29:15Z",
+      "category": "binary",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NO DRAMA”, in pure ones and zeros",
+      "body": "Zero chance. One refusal.",
+      "kicker": "Refusal level: legendary.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tangerine",
+        "character": "laptop",
+        "expression": "shocked",
+        "sticker": "NOPE",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 214621
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 14,
+        "headline": 2,
+        "reply": 2
+      },
+      "contentHash": "0b8d77ad660ad3accc033e51f04f6bf8a2533b796e5ddcb94bc4a436dc4833cc",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "NO DRAMA",
+        "output": "01001110 01001111 00100000 01000100 01010010 01000001 01001101 01000001"
+      }
+    },
+    {
       "id": "20261021-221854-scifi-cb34fe8f",
       "createdAt": "2026-10-21T22:18:54Z",
       "category": "scifi",
