@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-22T01:29:15Z",
-  "total": 76,
+  "generatedAt": "2026-10-22T07:31:48Z",
+  "total": 77,
   "items": [
+    {
+      "id": "20261022-073148-morse-391d69c6",
+      "createdAt": "2026-10-22T07:31:48Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Blink “NOT NOW” with a flashlight",
+      "body": "Dot dot dash means business.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tomato",
+        "character": "ufo",
+        "expression": "sleepy",
+        "sticker": "NAH",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 727421
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 8,
+        "headline": 2,
+        "reply": 0
+      },
+      "contentHash": "391d69c6ac801972d103737298bf2638b5518f17512cb82df24fff77ac16bb29",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOT NOW",
+        "output": "-. --- - / -. --- .--"
+      }
+    },
     {
       "id": "20261022-012915-binary-0b8d77ad",
       "createdAt": "2026-10-22T01:29:15Z",
@@ -904,40 +938,6 @@
         "license": "cc0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/61071"
-      }
-    },
-    {
-      "id": "20261016-224944-morse-00b23266",
-      "createdAt": "2026-10-16T22:49:44Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "«NOOO» بشفرة مورس",
-      "body": "انقرها وقت الاجتماع. محد بيدري.",
-      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "bubblegum",
-        "character": "alarm",
-        "expression": "smug",
-        "sticker": "انسى",
-        "animation": "shake",
-        "layout": "center",
-        "seed": 703623
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 11,
-        "headline": 0,
-        "reply": 1
-      },
-      "contentHash": "00b23266eba958651ad209f37ecc012d93eeacd7ca904003591f5e982072fbba",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NOOO",
-        "output": "-. --- --- ---"
       }
     }
   ]
