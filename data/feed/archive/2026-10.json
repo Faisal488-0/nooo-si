@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261022-135747-office-448c0317",
+      "createdAt": "2026-10-22T13:57:47Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Camera on, please. And smile more.",
+      "body": "Let's table it. Under the table. Forever.",
+      "kicker": "Certified by the Department of No.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "printer",
+        "expression": "smug",
+        "sticker": "NO.",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 222296
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 15
+      },
+      "contentHash": "448c0317cf46c59089b955967deeb2feabf74ad63a1ef89f05761bc372e4d74e",
+      "verified": null
+    },
+    {
       "id": "20261022-073148-morse-391d69c6",
       "createdAt": "2026-10-22T07:31:48Z",
       "category": "morse",
