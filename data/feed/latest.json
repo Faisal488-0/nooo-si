@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-10-22T18:30:55Z",
-  "total": 79,
+  "generatedAt": "2026-10-22T22:18:04Z",
+  "total": 80,
   "items": [
+    {
+      "id": "20261022-221804-global-148211fb",
+      "createdAt": "2026-10-22T22:18:04Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "How to say NO in French",
+      "body": "Add three O's for emphasis — the locals may not approve.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lime",
+        "character": "heart",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 109279
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 19,
+        "headline": 0,
+        "reply": 6
+      },
+      "contentHash": "148211fb9db720940ee961d15a43094d60010fe7713361161cf4a2966c706678",
+      "verified": true,
+      "lang": {
+        "id": "fr",
+        "name": "French",
+        "no": "Non",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
     {
       "id": "20261022-183055-monday-6e6304a7",
       "createdAt": "2026-10-22T18:30:55Z",
@@ -892,43 +929,6 @@
       },
       "contentHash": "a53eefb91bfcf0eddcf65f5e19f38e6669882461e6bbb4d2ff943eecb5360a7d",
       "verified": null
-    },
-    {
-      "id": "20261017-113528-global-695e11d4",
-      "createdAt": "2026-10-17T11:35:28Z",
-      "category": "global",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "NO, Latin edition",
-      "body": "Travel tip: learn this before learning “yes”.",
-      "kicker": "Share this with someone who needs it.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "cyan",
-        "character": "ufo",
-        "expression": "shocked",
-        "sticker": "NOOO!",
-        "animation": "float",
-        "layout": "center",
-        "seed": 521806
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "lang": 37,
-        "headline": 1,
-        "reply": 8
-      },
-      "contentHash": "695e11d4909f86dee70c6058abd53c0c1900002ad43042ee625cd83306ef43b8",
-      "verified": true,
-      "lang": {
-        "id": "la",
-        "name": "Latin",
-        "no": "Minime",
-        "translit": "",
-        "dir": "ltr",
-        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
-      }
     }
   ]
 }

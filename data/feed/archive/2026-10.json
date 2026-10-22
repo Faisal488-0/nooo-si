@@ -2,6 +2,43 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261022-221804-global-148211fb",
+      "createdAt": "2026-10-22T22:18:04Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "How to say NO in French",
+      "body": "Add three O's for emphasis — the locals may not approve.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lime",
+        "character": "heart",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 109279
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 19,
+        "headline": 0,
+        "reply": 6
+      },
+      "contentHash": "148211fb9db720940ee961d15a43094d60010fe7713361161cf4a2966c706678",
+      "verified": true,
+      "lang": {
+        "id": "fr",
+        "name": "French",
+        "no": "Non",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261022-183055-monday-6e6304a7",
       "createdAt": "2026-10-22T18:30:55Z",
       "category": "monday",
