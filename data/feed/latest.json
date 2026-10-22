@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-22T13:57:47Z",
-  "total": 78,
+  "generatedAt": "2026-10-22T18:30:55Z",
+  "total": 79,
   "items": [
+    {
+      "id": "20261022-183055-monday-6e6304a7",
+      "createdAt": "2026-10-22T18:30:55Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Coffee machine: out of order.",
+      "body": "I'm opting out of Monday. See you Tuesday.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "night",
+        "character": "bed",
+        "expression": "dramatic",
+        "sticker": "NAH",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 887538
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 2
+      },
+      "contentHash": "6e6304a7fb0562f85b2514c36183b6753a485bfa5b9c9f779f9c86f2e6250208",
+      "verified": null
+    },
     {
       "id": "20261022-135747-office-448c0317",
       "createdAt": "2026-10-22T13:57:47Z",
@@ -901,34 +929,6 @@
         "dir": "ltr",
         "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
       }
-    },
-    {
-      "id": "20261017-065418-monday-8c86abfd",
-      "createdAt": "2026-10-17T06:54:18Z",
-      "category": "monday",
-      "locale": "ar",
-      "eyebrow": "صباح أول يوم دوام",
-      "headline": "الطقس: غبار. عشانك بالذات.",
-      "body": "يا أول الأسبوع، لازم نتكلم. المشكلة مو فيني، فيك.",
-      "kicker": "انسخ. الصق. ارفض.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "lime",
-        "character": "mug",
-        "expression": "smug",
-        "sticker": "مستحيل",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 344390
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 8,
-        "reply": 1
-      },
-      "contentHash": "8c86abfd9bfc2ff510f2d12eb46f187df93c0b03f18f54f8c42617d1ec9bb0cd",
-      "verified": null
     }
   ]
 }
