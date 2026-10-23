@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-23T18:20:27Z",
-  "total": 84,
+  "generatedAt": "2026-10-23T22:07:24Z",
+  "total": 85,
   "items": [
+    {
+      "id": "20261023-220724-scifi-018f6463",
+      "createdAt": "2026-10-23T22:07:24Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "القمر: تقدر تغطي نوبتي الليلية؟",
+      "body": "انطوت هوائياتي. هذي «لا».",
+      "kicker": "قيلت «لا» وعاد السلام.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "mint",
+        "character": "ufo",
+        "expression": "dramatic",
+        "sticker": "أبدًا",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 127731
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 2
+      },
+      "contentHash": "018f6463414baaa5209bd6268ed7a2af036c43c6cf4ce2a7ff651135e8b1e6ef",
+      "verified": null
+    },
     {
       "id": "20261023-182027-photo-d7468a3f",
       "createdAt": "2026-10-23T18:20:27Z",
@@ -901,34 +929,6 @@
         "input": "ما أقدر",
         "output": "11011001 10000101 11011000 10100111 00100000 11011000 10100011 11011001 10000010 11011000 10101111 11011000 10110001"
       }
-    },
-    {
-      "id": "20261018-042826-scifi-62e1477b",
-      "createdAt": "2026-10-18T04:28:26Z",
-      "category": "scifi",
-      "locale": "en",
-      "eyebrow": "Incoming transmission",
-      "headline": "Galactic bank: your loan is due in three light-years.",
-      "body": "Request rejected at the speed of light.",
-      "kicker": "No was said. Peace was restored.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "lime",
-        "character": "robot",
-        "expression": "angry",
-        "sticker": "NOPE",
-        "animation": "pop",
-        "layout": "right",
-        "seed": 613503
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 6,
-        "reply": 1
-      },
-      "contentHash": "62e1477b1bfefe82161c2010944e7c87931290cad13ad210c15d8d4e0d18cf57",
-      "verified": null
     }
   ]
 }

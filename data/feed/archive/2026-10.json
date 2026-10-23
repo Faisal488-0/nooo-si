@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261023-220724-scifi-018f6463",
+      "createdAt": "2026-10-23T22:07:24Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "القمر: تقدر تغطي نوبتي الليلية؟",
+      "body": "انطوت هوائياتي. هذي «لا».",
+      "kicker": "قيلت «لا» وعاد السلام.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "mint",
+        "character": "ufo",
+        "expression": "dramatic",
+        "sticker": "أبدًا",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 127731
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 2
+      },
+      "contentHash": "018f6463414baaa5209bd6268ed7a2af036c43c6cf4ce2a7ff651135e8b1e6ef",
+      "verified": null
+    },
+    {
       "id": "20261023-182027-photo-d7468a3f",
       "createdAt": "2026-10-23T18:20:27Z",
       "category": "photo",
