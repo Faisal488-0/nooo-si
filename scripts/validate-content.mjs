@@ -134,7 +134,7 @@ export function validateAll(root, { now = Date.now() } = {}) {
   const hist = readJson(join(root, 'data', 'no-history.json'));
   const hLangs = hist.languages.map((l) => l.id);
   if (hLangs.length < 9) errors.push('no-history: expected at least 9 languages');
-  for (const l of hist.languages) if (!['rtl', 'ltr'].includes(l.dir) || !l.label || !l.pause || !l.play) errors.push(`no-history: language ${l.id} incomplete`);
+  for (const l of hist.languages) if (!['rtl', 'ltr'].includes(l.dir) || !l.label || !l.pause || !l.play || !l.newLabel) errors.push(`no-history: language ${l.id} incomplete`);
   const seenH = new Set();
   for (const e of hist.entries) {
     if (seenH.has(e.id)) errors.push(`no-history: duplicate id ${e.id}`);

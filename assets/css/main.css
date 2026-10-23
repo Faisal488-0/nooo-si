@@ -432,3 +432,6 @@ html { scroll-padding-top: calc(var(--topbar-h, 62px) + var(--ticker-h, 0px) + 8
   .tk-viewport { padding: 2px 0 6px; }
   .tk-item { font-size: 17px; }
 }
+
+.tk-year.tk-new { background: var(--red-text); color: #fff; font-family: 'Bungee', sans-serif; }
+.tk-live .tk-who { color: var(--yellow); }

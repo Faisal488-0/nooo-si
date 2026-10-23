@@ -8,14 +8,42 @@ import { lang as siteLang, onLangChange } from './i18n.js';
 const MOTION = { rtl: 'right', ltr: 'left' }; // writing direction → direction the text travels
 const SPEED = 85;                              // pixels per second
 
+const REFRESH_MS = 10 * 60 * 1000; // how often to look for a freshly generated card
+const LIVE_COUNT = 6;              // newest cards shown first, with a NEW badge
+
 let data = null;
 let current = 'ar';
 let paused = false;
+let live = [];
+let liveKey = '';
 
 const meta = () => data.languages.find((l) => l.id === current) ?? data.languages[0];
 
+// Newest generated cards, in the script of the ticker language (Arabic/Persian → Arabic cards, others → English cards).
+function pickLive(items, l) {
+  const want = l.dir === 'rtl' ? 'ar' : 'en';
+  return items.filter((c) => c.locale === want && c.headline && c.body).slice(0, LIVE_COUNT).map((c) => ({ live: true, id: c.id, locale: c.locale, who: c.headline, what: c.body }));
+}
+
+// Same events every day would feel stale, so the history list starts from a different event each day.
+function rotated(list) {
+  if (!list.length) return list;
+  const k = Math.floor(Date.now() / 86400000) % list.length;
+  return list.slice(k).concat(list.slice(0, k));
+}
+
 function item(entry, { hidden }) {
   const l = meta();
+  if (entry.live) {
+    return el('a', {
+      class: 'tk-item tk-live', href: '#new', lang: entry.locale, dir: entry.locale === 'ar' ? 'rtl' : 'ltr', tabindex: hidden ? '-1' : null,
+      'aria-label': `${l.newLabel}. ${entry.who}. ${entry.what}`
+    },
+      el('span', { class: 'tk-year tk-new', text: l.newLabel }),
+      el('span', { class: 'tk-who', text: entry.who }),
+      el('span', { class: 'tk-what', text: entry.what }),
+      el('span', { class: 'tk-sep', 'aria-hidden': 'true', text: '✕' }));
+  }
   const t = entry.text[l.id];
   return el('a', {
     class: 'tk-item', href: entry.source, target: '_blank', rel: 'noopener noreferrer',
@@ -50,7 +78,8 @@ function build() {
   const vp = $('#tk-viewport');
   // The track starts on the side the text enters from, so it must lay out in that direction.
   vp.style.direction = motion === 'left' ? 'ltr' : 'rtl';
-  const group = (hidden) => el('div', { class: 'tk-group', 'aria-hidden': hidden ? 'true' : null }, ...data.entries.map((e) => item(e, { hidden })));
+  const all = [...pickLive(live, l), ...rotated(data.entries)];
+  const group = (hidden) => el('div', { class: 'tk-group', 'aria-hidden': hidden ? 'true' : null }, ...all.map((e) => item(e, { hidden })));
   const track = el('div', { class: 'tk-track' }, group(false), group(true));
   vp.replaceChildren(track);
   // Duration from the real width so the speed is the same in every language.
@@ -58,6 +87,18 @@ function build() {
     const w = track.firstElementChild.getBoundingClientRect().width;
     root.style.setProperty('--tk-dur', `${Math.max(40, Math.round(w / SPEED))}s`);
   });
+}
+
+// Pull the newest cards written by the hourly engine; rebuild only when a new one has appeared.
+async function refreshLive() {
+  try {
+    const feed = await fetchJson('data/feed/latest.json', { fresh: true });
+    const key = (feed.items ?? []).slice(0, LIVE_COUNT * 2).map((c) => c.id).join('|');
+    if (key === liveKey) return;
+    liveKey = key;
+    live = feed.items ?? [];
+    build();
+  } catch { /* offline or feed missing: keep what we have */ }
 }
 
 function setTickerLang(id) {
@@ -95,4 +136,7 @@ export async function initTicker() {
   onLangChange((l) => setTickerLang(l)); // switching the site language switches the ticker too
   current = siteLang() === 'en' ? 'en' : 'ar';
   build();
+  await refreshLive();
+  setInterval(refreshLive, REFRESH_MS);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshLive(); });
 }

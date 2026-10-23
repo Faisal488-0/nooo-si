@@ -15,7 +15,8 @@
    "play": "تشغيل الشريط",
    "region": "شريط أخبار: شخصيات وأحداث قالت لا",
    "src": "المصدر",
-   "hint": "شخصيات وأحداث عالمية قالت «لا»"
+   "hint": "شخصيات وأحداث عالمية قالت «لا»",
+   "newLabel": "جديد"
   },
   {
    "id": "en",
@@ -26,7 +27,8 @@
    "play": "Play ticker",
    "region": "News ticker: people and events that said no",
    "src": "Source",
-   "hint": "People and events that said “No”"
+   "hint": "People and events that said “No”",
+   "newLabel": "NEW"
   },
   {
    "id": "fr",
@@ -37,7 +39,8 @@
    "play": "Lancer le bandeau",
    "region": "Bandeau d'infos : ceux qui ont dit non",
    "src": "Source",
-   "hint": "Personnes et événements qui ont dit « Non »"
+   "hint": "Personnes et événements qui ont dit « Non »",
+   "newLabel": "NOUVEAU"
   },
   {
    "id": "es",
@@ -48,7 +51,8 @@
    "play": "Reanudar cinta",
    "region": "Cinta de noticias: quienes dijeron no",
    "src": "Fuente",
-   "hint": "Personas y hechos que dijeron «No»"
+   "hint": "Personas y hechos que dijeron «No»",
+   "newLabel": "NUEVO"
   },
   {
    "id": "de",
@@ -59,7 +63,8 @@
    "play": "Ticker starten",
    "region": "Newsticker: Menschen und Ereignisse, die Nein sagten",
    "src": "Quelle",
-   "hint": "Menschen und Ereignisse, die „Nein“ sagten"
+   "hint": "Menschen und Ereignisse, die „Nein“ sagten",
+   "newLabel": "NEU"
   },
   {
    "id": "tr",
@@ -70,7 +75,8 @@
    "play": "Bandı başlat",
    "region": "Haber bandı: hayır diyen kişiler ve olaylar",
    "src": "Kaynak",
-   "hint": "«Hayır» diyen kişiler ve olaylar"
+   "hint": "«Hayır» diyen kişiler ve olaylar",
+   "newLabel": "YENİ"
   },
   {
    "id": "fa",
@@ -81,7 +87,8 @@
    "play": "پخش نوار",
    "region": "نوار خبری: کسانی و رویدادهایی که نه گفتند",
    "src": "منبع",
-   "hint": "چهره‌ها و رویدادهایی که «نه» گفتند"
+   "hint": "چهره‌ها و رویدادهایی که «نه» گفتند",
+   "newLabel": "تازه"
   },
   {
    "id": "ru",
@@ -92,7 +99,8 @@
    "play": "Запустить ленту",
    "region": "Новостная лента: люди и события, сказавшие «нет»",
    "src": "Источник",
-   "hint": "Люди и события, сказавшие «Нет»"
+   "hint": "Люди и события, сказавшие «Нет»",
+   "newLabel": "НОВОЕ"
   },
   {
    "id": "zh",
@@ -103,7 +111,8 @@
    "play": "继续滚动",
    "region": "新闻滚动条：说“不”的人物与事件",
    "src": "来源",
-   "hint": "说过“不”的人物与事件"
+   "hint": "说过“不”的人物与事件",
+   "newLabel": "最新"
   }
  ],
  "entries": [
