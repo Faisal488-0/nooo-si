@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-23T07:28:38Z",
-  "total": 82,
+  "generatedAt": "2026-10-23T13:23:31Z",
+  "total": 83,
   "items": [
+    {
+      "id": "20261023-132331-relationship-00cc0482",
+      "createdAt": "2026-10-23T13:23:31Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "خلنا نشترك في إيميل واحد.",
+      "body": "مو خناقة، بس حقيقة: لا.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tomato",
+        "character": "ghost",
+        "expression": "angry",
+        "sticker": "لا قاطعة",
+        "animation": "float",
+        "layout": "center",
+        "seed": 43890
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 13
+      },
+      "contentHash": "00cc0482a5634e50634819b88e2cb3cb433a8de7f1cf4c6addc7130d3f8b31e9",
+      "verified": null
+    },
     {
       "id": "20261023-072838-friends-d4594c9f",
       "createdAt": "2026-10-23T07:28:38Z",
@@ -901,34 +929,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/570214"
       }
-    },
-    {
-      "id": "20261017-212631-relationship-32e1aec3",
-      "createdAt": "2026-10-17T21:26:31Z",
-      "category": "relationship",
-      "locale": "en",
-      "eyebrow": "Your partner asks",
-      "headline": "Can we talk about us at 2 AM?",
-      "body": "My heart says maybe, my boundaries say no, and they're in charge.",
-      "kicker": "Side effects: inner peace.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "bubblegum",
-        "character": "ghost",
-        "expression": "shocked",
-        "sticker": "NOPE",
-        "animation": "pop",
-        "layout": "center",
-        "seed": 37568
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 2,
-        "reply": 4
-      },
-      "contentHash": "32e1aec3807c74a8ca0c31301dbace64c239d4d38fa4f4a52e129b3ea6d1c71e",
-      "verified": null
     }
   ]
 }
