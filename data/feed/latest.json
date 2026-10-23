@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-23T01:28:56Z",
-  "total": 81,
+  "generatedAt": "2026-10-23T07:28:38Z",
+  "total": 82,
   "items": [
+    {
+      "id": "20261023-072838-friends-d4594c9f",
+      "createdAt": "2026-10-23T07:28:38Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "قيم وحدة بس. وحدة. لين يطلع الفجر.",
+      "body": "القانون يلزمني أقول لا. والقانون أنا.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "lime",
+        "character": "ghost",
+        "expression": "sleepy",
+        "sticker": "لا قاطعة",
+        "animation": "float",
+        "layout": "left",
+        "seed": 563656
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 17
+      },
+      "contentHash": "d4594c9f8ed94171c4016845e76cabc63bc91fbc9f13b898bd13ac01c41cf34d",
+      "verified": null
+    },
     {
       "id": "20261023-012856-boss-80ffb4a6",
       "createdAt": "2026-10-23T01:28:56Z",
@@ -900,34 +928,6 @@
         "reply": 4
       },
       "contentHash": "32e1aec3807c74a8ca0c31301dbace64c239d4d38fa4f4a52e129b3ea6d1c71e",
-      "verified": null
-    },
-    {
-      "id": "20261017-182839-friends-fdda1c88",
-      "createdAt": "2026-10-17T18:28:39Z",
-      "category": "friends",
-      "locale": "ar",
-      "eyebrow": "صديقك يطلب",
-      "headline": "توصلني المطار الساعة ٤ الفجر؟",
-      "body": "لا، بس برسل لك إيموجي داعم جدًا.",
-      "kicker": "مختومة ومرفوضة.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "bubblegum",
-        "character": "cactus",
-        "expression": "shocked",
-        "sticker": "انسى",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 13690
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 1,
-        "reply": 4
-      },
-      "contentHash": "fdda1c8826ca4286998ff66068cf2db67f9911b9c6d00250da028ed427c2629b",
       "verified": null
     }
   ]

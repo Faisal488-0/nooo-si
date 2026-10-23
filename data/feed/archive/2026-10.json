@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261023-072838-friends-d4594c9f",
+      "createdAt": "2026-10-23T07:28:38Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "قيم وحدة بس. وحدة. لين يطلع الفجر.",
+      "body": "القانون يلزمني أقول لا. والقانون أنا.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "lime",
+        "character": "ghost",
+        "expression": "sleepy",
+        "sticker": "لا قاطعة",
+        "animation": "float",
+        "layout": "left",
+        "seed": 563656
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 17
+      },
+      "contentHash": "d4594c9f8ed94171c4016845e76cabc63bc91fbc9f13b898bd13ac01c41cf34d",
+      "verified": null
+    },
+    {
       "id": "20261023-012856-boss-80ffb4a6",
       "createdAt": "2026-10-23T01:28:56Z",
       "category": "boss",
