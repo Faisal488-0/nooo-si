@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261023-012856-boss-80ffb4a6",
+      "createdAt": "2026-10-23T01:28:56Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "حوّل هذا لعرض من ٤٠ شريحة قبل الصبح.",
+      "body": "طاقتي مشغولة ١٠٠٪، وصبري باقي منه ٣٪.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "night",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "لااا!",
+        "animation": "float",
+        "layout": "right",
+        "seed": 572430
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 2
+      },
+      "contentHash": "80ffb4a6c36727c4285d3e0b172bc5b3e5e20883eea8ff2a3ee75df653755a2c",
+      "verified": null
+    },
+    {
       "id": "20261022-221804-global-148211fb",
       "createdAt": "2026-10-22T22:18:04Z",
       "category": "global",
