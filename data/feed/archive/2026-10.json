@@ -2,6 +2,44 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261023-182027-photo-d7468a3f",
+      "createdAt": "2026-10-23T18:20:27Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Dog at the vet door:",
+      "body": "I changed my mind about every walk. NO.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "cyan",
+        "character": "mug",
+        "expression": "unbothered",
+        "sticker": "LOL NO",
+        "animation": "float",
+        "layout": "center",
+        "seed": 882098
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 1
+      },
+      "contentHash": "d7468a3f7b7d96e900ff800f54e81e7820e07893f20286524a38020e76d57565",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261023-182027-90672baa.jpg",
+        "sourceId": "90672baa-73a8-4a6f-97cd-6840cf37b31d",
+        "theme": "dog",
+        "title": "Cosmetic dish in the shape of a dog",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/545210"
+      }
+    },
+    {
       "id": "20261023-132331-relationship-00cc0482",
       "createdAt": "2026-10-23T13:23:31Z",
       "category": "relationship",

@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-23T13:23:31Z",
-  "total": 83,
+  "generatedAt": "2026-10-23T18:20:27Z",
+  "total": 84,
   "items": [
+    {
+      "id": "20261023-182027-photo-d7468a3f",
+      "createdAt": "2026-10-23T18:20:27Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Dog at the vet door:",
+      "body": "I changed my mind about every walk. NO.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "cyan",
+        "character": "mug",
+        "expression": "unbothered",
+        "sticker": "LOL NO",
+        "animation": "float",
+        "layout": "center",
+        "seed": 882098
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 1
+      },
+      "contentHash": "d7468a3f7b7d96e900ff800f54e81e7820e07893f20286524a38020e76d57565",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261023-182027-90672baa.jpg",
+        "sourceId": "90672baa-73a8-4a6f-97cd-6840cf37b31d",
+        "theme": "dog",
+        "title": "Cosmetic dish in the shape of a dog",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/545210"
+      }
+    },
     {
       "id": "20261023-132331-relationship-00cc0482",
       "createdAt": "2026-10-23T13:23:31Z",
@@ -891,44 +929,6 @@
       },
       "contentHash": "62e1477b1bfefe82161c2010944e7c87931290cad13ad210c15d8d4e0d18cf57",
       "verified": null
-    },
-    {
-      "id": "20261018-000128-photo-42f4679e",
-      "createdAt": "2026-10-18T00:01:28Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Monkey when the boss says 'do it by hand':",
-      "body": "I'm doing it by foot. Still no.",
-      "kicker": "Share this with someone who needs it.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "grape",
-        "character": "mug",
-        "expression": "angry",
-        "sticker": "NOPE",
-        "animation": "wobble",
-        "layout": "right",
-        "seed": 412129
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 6
-      },
-      "contentHash": "42f4679e2e9092715433c3a91c270194eddf138aa732eca595540b49ec9e46b8",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261018-000128-d3d7d087.jpg",
-        "sourceId": "d3d7d087-689d-4ac1-83bf-69ab82055b34",
-        "theme": "monkey",
-        "title": "Monkey or meerkat",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/570214"
-      }
     }
   ]
 }
