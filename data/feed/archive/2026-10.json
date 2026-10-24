@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261024-231035-friends-8d5d3329",
+      "createdAt": "2026-10-24T23:10:35Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Come to my cousin's friend's DJ set?",
+      "body": "Let me ask my wallet… it fainted.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "tomato",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "NAH",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 547017
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 2
+      },
+      "contentHash": "8d5d332975493eb6b76113a53ad1eae41a05339d262f73f13f1b5a280d152376",
+      "verified": null
+    },
+    {
       "id": "20261024-204555-boss-b8bcf891",
       "createdAt": "2026-10-24T20:45:55Z",
       "category": "boss",
