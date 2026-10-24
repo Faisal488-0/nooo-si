@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261024-003929-binary-4db0e354",
+      "createdAt": "2026-10-24T00:39:29Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«انسى» بالأصفار والآحاد",
+      "body": "حطها في القروب وشوف الحيرة.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "lemon",
+        "character": "toaster",
+        "expression": "sleepy",
+        "sticker": "مرفوض",
+        "animation": "float",
+        "layout": "left",
+        "seed": 458994
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 8,
+        "headline": 2,
+        "reply": 4
+      },
+      "contentHash": "4db0e354b06d64f97004d6b67cbb2d7b5dc7d80e5be7a47f5d588c9e6923c045",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "انسى",
+        "output": "11011000 10100111 11011001 10000110 11011000 10110011 11011001 10001001"
+      }
+    },
+    {
       "id": "20261023-220724-scifi-018f6463",
       "createdAt": "2026-10-23T22:07:24Z",
       "category": "scifi",
