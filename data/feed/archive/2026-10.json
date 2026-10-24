@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261024-204555-boss-b8bcf891",
+      "createdAt": "2026-10-24T20:45:55Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you turn this into a 40-slide deck by morning?",
+      "body": "I can do it, do it well, or go home. I choose home.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "NAH",
+        "animation": "float",
+        "layout": "center",
+        "seed": 433447
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 11
+      },
+      "contentHash": "b8bcf891f73eb03b02b467cdd9540f60e5c4f0354824bf188e79fce8c26a9657",
+      "verified": null
+    },
+    {
       "id": "20261024-180729-photo-d66b33b7",
       "createdAt": "2026-10-24T18:07:29Z",
       "category": "photo",

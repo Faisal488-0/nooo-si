@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-24T18:07:29Z",
-  "total": 90,
+  "generatedAt": "2026-10-24T20:45:55Z",
+  "total": 91,
   "items": [
+    {
+      "id": "20261024-204555-boss-b8bcf891",
+      "createdAt": "2026-10-24T20:45:55Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you turn this into a 40-slide deck by morning?",
+      "body": "I can do it, do it well, or go home. I choose home.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "NAH",
+        "animation": "float",
+        "layout": "center",
+        "seed": 433447
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 11
+      },
+      "contentHash": "b8bcf891f73eb03b02b467cdd9540f60e5c4f0354824bf188e79fce8c26a9657",
+      "verified": null
+    },
     {
       "id": "20261024-180729-photo-d66b33b7",
       "createdAt": "2026-10-24T18:07:29Z",
@@ -900,34 +928,6 @@
         "reply": 12
       },
       "contentHash": "e406c5cd50fa3ad79d809800bc4160b23ba32c2cbb088deef4d8eba310cc5622",
-      "verified": null
-    },
-    {
-      "id": "20261019-011413-boss-21823734",
-      "createdAt": "2026-10-19T01:14:13Z",
-      "category": "boss",
-      "locale": "ar",
-      "eyebrow": "المدير يسأل",
-      "headline": "مكالمة سريعة الساعة ٥:٥٨؟",
-      "body": "«لا» قاطعة، مع ابتسامة لطيفة.",
-      "kicker": "مستوى الرفض: أسطوري.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "cyan",
-        "character": "laptop",
-        "expression": "sleepy",
-        "sticker": "مستحيل",
-        "animation": "wobble",
-        "layout": "left",
-        "seed": 806703
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 1,
-        "reply": 13
-      },
-      "contentHash": "2182373462078ae9dd6e10d41b65ed86f8048385c48d03f34199c0b724cd1769",
       "verified": null
     }
   ]
