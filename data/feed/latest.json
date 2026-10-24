@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-24T05:49:16Z",
-  "total": 87,
+  "generatedAt": "2026-10-24T10:54:48Z",
+  "total": 88,
   "items": [
+    {
+      "id": "20261024-105448-office-0e70b27f",
+      "createdAt": "2026-10-24T10:54:48Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "عصف ذهني: ما في فكرة غلط.",
+      "body": "أرسلت لك دعوة تقويم عنوانها «لا».",
+      "kicker": "أرسلها لشخص يحتاجها.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "dramatic",
+        "sticker": "مرفوض",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 425122
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 13
+      },
+      "contentHash": "0e70b27fd9a5eac6e5083dd995661379d76953dc143b532c4246420ab7f90533",
+      "verified": null
+    },
     {
       "id": "20261024-054916-morse-364376f8",
       "createdAt": "2026-10-24T05:49:16Z",
@@ -900,34 +928,6 @@
         "reply": 1
       },
       "contentHash": "706ab0f9fe2fea7282282cf6218324acf1e821b4c52ba800451471c340fa8bc5",
-      "verified": null
-    },
-    {
-      "id": "20261018-172055-office-ab06aaec",
-      "createdAt": "2026-10-18T17:20:55Z",
-      "category": "office",
-      "locale": "en",
-      "eyebrow": "Office life",
-      "headline": "Can you fix the printer? You're good with computers.",
-      "body": "Looping in: nobody.",
-      "kicker": "Handle with boundaries.",
-      "visualPreset": {
-        "background": "burst",
-        "palette": "lemon",
-        "character": "phone",
-        "expression": "shocked",
-        "sticker": "NEVER",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 285235
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 2,
-        "reply": 6
-      },
-      "contentHash": "ab06aaecf616851b7b329c63360ca80505fcdecc0bb57e96cc6c0b722e7a8c38",
       "verified": null
     }
   ]

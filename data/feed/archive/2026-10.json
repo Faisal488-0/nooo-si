@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261024-105448-office-0e70b27f",
+      "createdAt": "2026-10-24T10:54:48Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "عصف ذهني: ما في فكرة غلط.",
+      "body": "أرسلت لك دعوة تقويم عنوانها «لا».",
+      "kicker": "أرسلها لشخص يحتاجها.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "dramatic",
+        "sticker": "مرفوض",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 425122
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 13
+      },
+      "contentHash": "0e70b27fd9a5eac6e5083dd995661379d76953dc143b532c4246420ab7f90533",
+      "verified": null
+    },
+    {
       "id": "20261024-054916-morse-364376f8",
       "createdAt": "2026-10-24T05:49:16Z",
       "category": "morse",
