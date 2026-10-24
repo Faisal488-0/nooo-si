@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-24T10:54:48Z",
-  "total": 88,
+  "generatedAt": "2026-10-24T14:30:12Z",
+  "total": 89,
   "items": [
+    {
+      "id": "20261024-143012-monday-36a7a838",
+      "createdAt": "2026-10-24T14:30:12Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "المنبّه: الساعة ٦ الصبح. أول يوم دوام.",
+      "body": "الغفوة هي لغة الحب عندي.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lime",
+        "character": "alarm",
+        "expression": "sleepy",
+        "sticker": "لا.",
+        "animation": "float",
+        "layout": "left",
+        "seed": 529421
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 0
+      },
+      "contentHash": "36a7a838887dd1ab27be7249c18c0659104c47f1e25b063cf2f8caf6c38ba71b",
+      "verified": null
+    },
     {
       "id": "20261024-105448-office-0e70b27f",
       "createdAt": "2026-10-24T10:54:48Z",
@@ -901,34 +929,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/544542"
       }
-    },
-    {
-      "id": "20261018-203857-monday-706ab0f9",
-      "createdAt": "2026-10-18T20:38:57Z",
-      "category": "monday",
-      "locale": "en",
-      "eyebrow": "Monday morning",
-      "headline": "Weather: rain. Just for you.",
-      "body": "Monday, we need to talk. It's not me, it's you.",
-      "kicker": "Boundaries 1 — Chaos 0.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "cyan",
-        "character": "ghost",
-        "expression": "sleepy",
-        "sticker": "NAH",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 59849
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 8,
-        "reply": 1
-      },
-      "contentHash": "706ab0f9fe2fea7282282cf6218324acf1e821b4c52ba800451471c340fa8bc5",
-      "verified": null
     }
   ]
 }
