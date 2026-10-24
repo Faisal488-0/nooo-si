@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-24T00:39:29Z",
-  "total": 86,
+  "generatedAt": "2026-10-24T05:49:16Z",
+  "total": 87,
   "items": [
+    {
+      "id": "20261024-054916-morse-364376f8",
+      "createdAt": "2026-10-24T05:49:16Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«NO» بشفرة مورس",
+      "body": "كانوا يرسلونها من السفن. الحين دورك.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "cyan",
+        "character": "robot",
+        "expression": "shocked",
+        "sticker": "مرفوض",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 453035
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 0,
+        "headline": 0,
+        "reply": 4
+      },
+      "contentHash": "364376f8e0f11ae884a65e363a99048c53465ee803864c673650a1c8727e5342",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO",
+        "output": "-. ---"
+      }
+    },
     {
       "id": "20261024-003929-binary-4db0e354",
       "createdAt": "2026-10-24T00:39:29Z",
@@ -895,40 +929,6 @@
       },
       "contentHash": "ab06aaecf616851b7b329c63360ca80505fcdecc0bb57e96cc6c0b722e7a8c38",
       "verified": null
-    },
-    {
-      "id": "20261018-140006-morse-227e3298",
-      "createdAt": "2026-10-18T14:00:06Z",
-      "category": "morse",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "“NO WAY” in Morse code",
-      "body": "Perfect for refusing in total silence.",
-      "kicker": "Signed, sealed, declined.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "bubblegum",
-        "character": "alarm",
-        "expression": "sleepy",
-        "sticker": "DENIED",
-        "animation": "shake",
-        "layout": "left",
-        "seed": 288057
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 6,
-        "headline": 0,
-        "reply": 5
-      },
-      "contentHash": "227e3298384949c84ec2a677834fd7f789a4703836b1d8a91465fec1afe2a4c0",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NO WAY",
-        "output": "-. --- / .-- .- -.--"
-      }
     }
   ]
 }

@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261024-054916-morse-364376f8",
+      "createdAt": "2026-10-24T05:49:16Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«NO» بشفرة مورس",
+      "body": "كانوا يرسلونها من السفن. الحين دورك.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "cyan",
+        "character": "robot",
+        "expression": "shocked",
+        "sticker": "مرفوض",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 453035
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 0,
+        "headline": 0,
+        "reply": 4
+      },
+      "contentHash": "364376f8e0f11ae884a65e363a99048c53465ee803864c673650a1c8727e5342",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO",
+        "output": "-. ---"
+      }
+    },
+    {
       "id": "20261024-003929-binary-4db0e354",
       "createdAt": "2026-10-24T00:39:29Z",
       "category": "binary",
