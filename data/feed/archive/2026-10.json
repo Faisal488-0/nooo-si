@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261025-112203-scifi-a7967082",
+      "createdAt": "2026-10-25T11:22:03Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Earthling: can you teleport me to work?",
+      "body": "Beep-boop translation: never, in this timeline.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tomato",
+        "character": "planet",
+        "expression": "angry",
+        "sticker": "NOPE",
+        "animation": "tilt",
+        "layout": "center",
+        "seed": 798937
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 9
+      },
+      "contentHash": "a796708277d0ed2a0969e6dd2d6966c4bd60b5ce5f4533daf8125052efbbbdec",
+      "verified": null
+    },
+    {
       "id": "20261025-060448-cat-d2093769",
       "createdAt": "2026-10-25T06:04:48Z",
       "category": "cat",

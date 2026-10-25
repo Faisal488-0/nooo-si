@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-25T06:04:48Z",
-  "total": 94,
+  "generatedAt": "2026-10-25T11:22:03Z",
+  "total": 95,
   "items": [
+    {
+      "id": "20261025-112203-scifi-a7967082",
+      "createdAt": "2026-10-25T11:22:03Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Earthling: can you teleport me to work?",
+      "body": "Beep-boop translation: never, in this timeline.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tomato",
+        "character": "planet",
+        "expression": "angry",
+        "sticker": "NOPE",
+        "animation": "tilt",
+        "layout": "center",
+        "seed": 798937
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 9
+      },
+      "contentHash": "a796708277d0ed2a0969e6dd2d6966c4bd60b5ce5f4533daf8125052efbbbdec",
+      "verified": null
+    },
     {
       "id": "20261025-060448-cat-d2093769",
       "createdAt": "2026-10-25T06:04:48Z",
@@ -901,34 +929,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/631346"
       }
-    },
-    {
-      "id": "20261019-233742-scifi-f0d43fee",
-      "createdAt": "2026-10-19T23:37:42Z",
-      "category": "scifi",
-      "locale": "ar",
-      "eyebrow": "إرسال وارد",
-      "headline": "بنك المجرة: قسطك يستحق بعد ٣ سنوات ضوئية.",
-      "body": "مركز التحكم فقد الاهتمام. انتهى الإرسال.",
-      "kicker": "معتمدة من وزارة «لا».",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "bubblegum",
-        "character": "robot",
-        "expression": "smug",
-        "sticker": "انسى",
-        "animation": "shake",
-        "layout": "center",
-        "seed": 476409
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 6,
-        "reply": 11
-      },
-      "contentHash": "f0d43fee4d3bd82b9652c31879e90f4fd2f72d7a177bca6245def723d2fb9b24",
-      "verified": null
     }
   ]
 }
