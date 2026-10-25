@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261025-010759-relationship-99abe844",
+      "createdAt": "2026-10-25T01:07:59Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Can I name our future cat without you?",
+      "body": "Healthy relationships come with a no button. I'm pressing it.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "mint",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "LOL NO",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 452719
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 12
+      },
+      "contentHash": "99abe8444393cc9536bae67c6c2d231dcfc6ffcf260ddb03ae08593ad68f8305",
+      "verified": null
+    },
+    {
       "id": "20261024-231035-friends-8d5d3329",
       "createdAt": "2026-10-24T23:10:35Z",
       "category": "friends",
