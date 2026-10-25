@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261025-060448-cat-d2093769",
+      "createdAt": "2026-10-25T06:04:48Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "جرّب الأكل الجديد الغالي.",
+      "body": "سمعتك، واخترت أكون قطعة أثاث.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "cat",
+        "expression": "unbothered",
+        "sticker": "مو اليوم",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 978783
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 7
+      },
+      "contentHash": "d20937699fd6944595b710a8d3eb3dc5b7a48357c5f4d25da68814e939c45563",
+      "verified": null
+    },
+    {
       "id": "20261025-010759-relationship-99abe844",
       "createdAt": "2026-10-25T01:07:59Z",
       "category": "relationship",
