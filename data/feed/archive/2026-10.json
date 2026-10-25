@@ -2,6 +2,44 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261025-161424-photo-d73ccee5",
+      "createdAt": "2026-10-25T16:14:24Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Horse hearing 'one more lap':",
+      "body": "You said that three laps ago. No.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "HARD NO",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 478519
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 3
+      },
+      "contentHash": "d73ccee581b8854e70c5e88c03e729e51b6313969b05a003a5ae5f9eba6287dd",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261025-161424-9afc61da.jpg",
+        "sourceId": "9afc61da-312a-4d85-9215-dd9b54e998af",
+        "theme": "horse",
+        "title": "Bronze statuette of a horse",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/255368"
+      }
+    },
+    {
       "id": "20261025-112203-scifi-a7967082",
       "createdAt": "2026-10-25T11:22:03Z",
       "category": "scifi",

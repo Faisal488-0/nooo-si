@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-25T11:22:03Z",
-  "total": 95,
+  "generatedAt": "2026-10-25T16:14:24Z",
+  "total": 96,
   "items": [
+    {
+      "id": "20261025-161424-photo-d73ccee5",
+      "createdAt": "2026-10-25T16:14:24Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Horse hearing 'one more lap':",
+      "body": "You said that three laps ago. No.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "HARD NO",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 478519
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 3
+      },
+      "contentHash": "d73ccee581b8854e70c5e88c03e729e51b6313969b05a003a5ae5f9eba6287dd",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261025-161424-9afc61da.jpg",
+        "sourceId": "9afc61da-312a-4d85-9215-dd9b54e998af",
+        "theme": "horse",
+        "title": "Bronze statuette of a horse",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/255368"
+      }
+    },
     {
       "id": "20261025-112203-scifi-a7967082",
       "createdAt": "2026-10-25T11:22:03Z",
@@ -890,44 +928,6 @@
         "type": "morse",
         "input": "NOT NOW",
         "output": "-. --- - / -. --- .--"
-      }
-    },
-    {
-      "id": "20261020-044734-photo-0167c06b",
-      "createdAt": "2026-10-20T04:47:34Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "The bear, asked to wake up for spring:",
-      "body": "Spring can wait. I'm in a meeting with my pillow.",
-      "kicker": "No regrets. Just no.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "grape",
-        "character": "laptop",
-        "expression": "sleepy",
-        "sticker": "NOPE",
-        "animation": "wobble",
-        "layout": "left",
-        "seed": 651115
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 8
-      },
-      "contentHash": "0167c06b6a9ad6afdf54dd52780d8e3793d924fa9dcb82ea4ef179083acccc81",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261020-044734-30ae8990.jpg",
-        "sourceId": "30ae8990-630b-4e8d-b259-f330e05c7415",
-        "theme": "bear",
-        "title": "Grizzly Bear, from the Animals of the World series (T180), issued by Abdul Cigarettes",
-        "creator": "Abdul Cigarettes",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/631346"
       }
     }
   ]
