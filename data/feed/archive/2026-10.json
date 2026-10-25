@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261025-190214-morse-89729d28",
+      "createdAt": "2026-10-25T19:02:14Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Tap this on the table: “NOPE”",
+      "body": "Quiet, polite and impossible to argue with.",
+      "kicker": "Status: NOOO delivered.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "lime",
+        "character": "alarm",
+        "expression": "unbothered",
+        "sticker": "DENIED",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 576551
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 1,
+        "headline": 1,
+        "reply": 7
+      },
+      "contentHash": "89729d28b4cbf80b5926ad87c73f75e8ded1250a068efa66583aa15cbb0b3338",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOPE",
+        "output": "-. --- .--. ."
+      }
+    },
+    {
       "id": "20261025-161424-photo-d73ccee5",
       "createdAt": "2026-10-25T16:14:24Z",
       "category": "photo",

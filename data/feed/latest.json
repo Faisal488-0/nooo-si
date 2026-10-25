@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-25T16:14:24Z",
-  "total": 96,
+  "generatedAt": "2026-10-25T19:02:14Z",
+  "total": 97,
   "items": [
+    {
+      "id": "20261025-190214-morse-89729d28",
+      "createdAt": "2026-10-25T19:02:14Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Tap this on the table: “NOPE”",
+      "body": "Quiet, polite and impossible to argue with.",
+      "kicker": "Status: NOOO delivered.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "lime",
+        "character": "alarm",
+        "expression": "unbothered",
+        "sticker": "DENIED",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 576551
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 1,
+        "headline": 1,
+        "reply": 7
+      },
+      "contentHash": "89729d28b4cbf80b5926ad87c73f75e8ded1250a068efa66583aa15cbb0b3338",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOPE",
+        "output": "-. --- .--. ."
+      }
+    },
     {
       "id": "20261025-161424-photo-d73ccee5",
       "createdAt": "2026-10-25T16:14:24Z",
@@ -895,40 +929,6 @@
       },
       "contentHash": "43859b96a6ece18f73abc4d4ac2791230917f99e750217e4a831fa14ef89f60f",
       "verified": null
-    },
-    {
-      "id": "20261020-100122-morse-1abc954f",
-      "createdAt": "2026-10-20T10:01:22Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "انقرها على الطاولة: «NOT NOW»",
-      "body": "مثالية للرفض في صمت تام.",
-      "kicker": "الحدود ١ — الفوضى ٠.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "night",
-        "character": "robot",
-        "expression": "sleepy",
-        "sticker": "انسى",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 297412
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 8,
-        "headline": 1,
-        "reply": 5
-      },
-      "contentHash": "1abc954f4e86fc667a7c8d1de5bca72b267e7e0c23fe886fcad23d2e2b061467",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NOT NOW",
-        "output": "-. --- - / -. --- .--"
-      }
     }
   ]
 }
