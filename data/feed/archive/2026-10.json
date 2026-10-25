@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261025-214511-office-eaf3df7f",
+      "createdAt": "2026-10-25T21:45:11Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Can you take notes? You type fast.",
+      "body": "That's outside my job description, and my galaxy.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "cyan",
+        "character": "laptop",
+        "expression": "angry",
+        "sticker": "HARD NO",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 964400
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 8
+      },
+      "contentHash": "eaf3df7f98308753ae5f6b7b3d96ede494751d4bf34c84d9534470465bef1329",
+      "verified": null
+    },
+    {
       "id": "20261025-190214-morse-89729d28",
       "createdAt": "2026-10-25T19:02:14Z",
       "category": "morse",
