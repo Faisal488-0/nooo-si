@@ -2,6 +2,44 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261026-192249-photo-331a2a9a",
+      "createdAt": "2026-10-26T19:22:49Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الأسد حين تطلب منه «خدمة سريعة»:",
+      "body": "أنا الملك. وخدمات الملك بطيئة. لا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lemon",
+        "character": "printer",
+        "expression": "dramatic",
+        "sticker": "انسى",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 417893
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 4
+      },
+      "contentHash": "331a2a9a5675dc2e0a05b5b7290a8737632c1ada0287a44058b99a6879d52bdc",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261026-192249-4bc99fa7.jpg",
+        "sourceId": "4bc99fa7-f1a1-44c7-a061-59b9cd867d3a",
+        "theme": "lion",
+        "title": "Lion",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/43752"
+      }
+    },
+    {
       "id": "20261026-125612-boss-f700e2f1",
       "createdAt": "2026-10-26T12:56:12Z",
       "category": "boss",

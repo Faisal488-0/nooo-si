@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-26T12:56:12Z",
-  "total": 101,
+  "generatedAt": "2026-10-26T19:22:49Z",
+  "total": 102,
   "items": [
+    {
+      "id": "20261026-192249-photo-331a2a9a",
+      "createdAt": "2026-10-26T19:22:49Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الأسد حين تطلب منه «خدمة سريعة»:",
+      "body": "أنا الملك. وخدمات الملك بطيئة. لا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lemon",
+        "character": "printer",
+        "expression": "dramatic",
+        "sticker": "انسى",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 417893
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 4
+      },
+      "contentHash": "331a2a9a5675dc2e0a05b5b7290a8737632c1ada0287a44058b99a6879d52bdc",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261026-192249-4bc99fa7.jpg",
+        "sourceId": "4bc99fa7-f1a1-44c7-a061-59b9cd867d3a",
+        "theme": "lion",
+        "title": "Lion",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/43752"
+      }
+    },
     {
       "id": "20261026-125612-boss-f700e2f1",
       "createdAt": "2026-10-26T12:56:12Z",
@@ -891,44 +929,6 @@
       },
       "contentHash": "416048cc8cc6f71f20c9caa3ecc5c6613013404f4e9358b1988d7f3dacc4abb9",
       "verified": null
-    },
-    {
-      "id": "20261021-073537-photo-c7f63982",
-      "createdAt": "2026-10-21T07:35:37Z",
-      "category": "photo",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "القطة تراجع دعوة «مكالمة سريعة»:",
-      "body": "مرفوضة. عندي قيلولة محجوزة حتى 2031.",
-      "kicker": "مستوى الرفض: أسطوري.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "mint",
-        "character": "laptop",
-        "expression": "unbothered",
-        "sticker": "لا.",
-        "animation": "float",
-        "layout": "center",
-        "seed": 313897
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 0
-      },
-      "contentHash": "c7f6398267c5846e375edea066fcbd37889f71b06329f88aefc24da1793d10b0",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261021-073537-5af21355.jpg",
-        "sourceId": "5af21355-1677-4a5b-8599-182c665d8fb9",
-        "theme": "cat",
-        "title": "Cat amulet",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/555251"
-      }
     }
   ]
 }
