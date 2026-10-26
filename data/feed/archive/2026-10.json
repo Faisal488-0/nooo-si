@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261026-125612-boss-f700e2f1",
+      "createdAt": "2026-10-26T12:56:12Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "عندي شغلة صغيرة مستعجلة لك.",
+      "body": "التوازن بين العمل والحياة رفع شكوى رسمية.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tomato",
+        "character": "boss",
+        "expression": "sleepy",
+        "sticker": "لااا!",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 745690
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 7
+      },
+      "contentHash": "f700e2f1c25a8c122071998c54d1044fc647685043699742d83b6c8055c5c5b7",
+      "verified": null
+    },
+    {
       "id": "20261026-060959-global-fff96c52",
       "createdAt": "2026-10-26T06:09:59Z",
       "category": "global",

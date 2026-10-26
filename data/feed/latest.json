@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-26T06:09:59Z",
-  "total": 100,
+  "generatedAt": "2026-10-26T12:56:12Z",
+  "total": 101,
   "items": [
+    {
+      "id": "20261026-125612-boss-f700e2f1",
+      "createdAt": "2026-10-26T12:56:12Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "عندي شغلة صغيرة مستعجلة لك.",
+      "body": "التوازن بين العمل والحياة رفع شكوى رسمية.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tomato",
+        "character": "boss",
+        "expression": "sleepy",
+        "sticker": "لااا!",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 745690
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 7
+      },
+      "contentHash": "f700e2f1c25a8c122071998c54d1044fc647685043699742d83b6c8055c5c5b7",
+      "verified": null
+    },
     {
       "id": "20261026-060959-global-fff96c52",
       "createdAt": "2026-10-26T06:09:59Z",
@@ -901,34 +929,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/555251"
       }
-    },
-    {
-      "id": "20261021-013321-boss-c297f4d0",
-      "createdAt": "2026-10-21T01:33:21Z",
-      "category": "boss",
-      "locale": "en",
-      "eyebrow": "The boss asks",
-      "headline": "Can you do your job and two others, for the experience?",
-      "body": "I'm fully booked until the heat death of the universe.",
-      "kicker": "Boundaries 1 — Chaos 0.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "tomato",
-        "character": "phone",
-        "expression": "sleepy",
-        "sticker": "NEVER",
-        "animation": "float",
-        "layout": "left",
-        "seed": 772455
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 13,
-        "reply": 17
-      },
-      "contentHash": "c297f4d010e29697c28d060d6e132a54ec7cb66c6aeb60b1d0fcf3053858ee77",
-      "verified": null
     }
   ]
 }
