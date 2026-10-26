@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261026-230853-relationship-68e8ca5c",
+      "createdAt": "2026-10-26T23:08:53Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "تقدر تغيّر شخصيتك كلها… شوي؟",
+      "body": "سمعتك، وبرضو بقول لا.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "cyan",
+        "character": "ghost",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 908153
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 11
+      },
+      "contentHash": "68e8ca5cfca8748cd97422da66d30b3f4ca392893297441f5707003660a3853a",
+      "verified": null
+    },
+    {
       "id": "20261026-192249-photo-331a2a9a",
       "createdAt": "2026-10-26T19:22:49Z",
       "category": "photo",

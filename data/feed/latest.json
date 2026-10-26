@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-26T19:22:49Z",
-  "total": 102,
+  "generatedAt": "2026-10-26T23:08:53Z",
+  "total": 103,
   "items": [
+    {
+      "id": "20261026-230853-relationship-68e8ca5c",
+      "createdAt": "2026-10-26T23:08:53Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "تقدر تغيّر شخصيتك كلها… شوي؟",
+      "body": "سمعتك، وبرضو بقول لا.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "cyan",
+        "character": "ghost",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 908153
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 11
+      },
+      "contentHash": "68e8ca5cfca8748cd97422da66d30b3f4ca392893297441f5707003660a3853a",
+      "verified": null
+    },
     {
       "id": "20261026-192249-photo-331a2a9a",
       "createdAt": "2026-10-26T19:22:49Z",
@@ -900,34 +928,6 @@
         "reply": 9
       },
       "contentHash": "2de5a88ae40f76f2c58244413b9776d0ead40c0db56893ee0e7f1edee0916687",
-      "verified": null
-    },
-    {
-      "id": "20261021-134522-relationship-416048cc",
-      "createdAt": "2026-10-21T13:45:22Z",
-      "category": "relationship",
-      "locale": "en",
-      "eyebrow": "Your partner asks",
-      "headline": "Let's share one email account.",
-      "body": "That's a no to the request, not a no to you.",
-      "kicker": "Copy. Paste. Decline.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "bubblegum",
-        "character": "ghost",
-        "expression": "unbothered",
-        "sticker": "NOPE",
-        "animation": "float",
-        "layout": "left",
-        "seed": 416316
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 8,
-        "reply": 2
-      },
-      "contentHash": "416048cc8cc6f71f20c9caa3ecc5c6613013404f4e9358b1988d7f3dacc4abb9",
       "verified": null
     }
   ]
