@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-10-26T00:19:54Z",
-  "total": 99,
+  "generatedAt": "2026-10-26T06:09:59Z",
+  "total": 100,
   "items": [
+    {
+      "id": "20261026-060959-global-fff96c52",
+      "createdAt": "2026-10-26T06:09:59Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول «لا» بـالسلوفاكية",
+      "body": "استخدمها لما أحد يقول «طلب صغير».",
+      "kicker": "أرسلها لشخص يحتاجها.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "sleepy",
+        "sticker": "مستحيل",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 961616
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 55,
+        "headline": 0,
+        "reply": 1
+      },
+      "contentHash": "fff96c525ccffa11543223621c25e9ed7ad04e2d3ca175bf532d6090328dab2b",
+      "verified": true,
+      "lang": {
+        "id": "sk",
+        "name": "السلوفاكية",
+        "no": "Nie",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
     {
       "id": "20261026-001954-monday-dc0a035c",
       "createdAt": "2026-10-26T00:19:54Z",
@@ -892,43 +929,6 @@
       },
       "contentHash": "c297f4d010e29697c28d060d6e132a54ec7cb66c6aeb60b1d0fcf3053858ee77",
       "verified": null
-    },
-    {
-      "id": "20261020-221747-global-9a22e1af",
-      "createdAt": "2026-10-20T22:17:47Z",
-      "category": "global",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "لا اليوم جاية من الساموية",
-      "body": "كلمة وحدة، وصفر اجتماعات.",
-      "kicker": "صدى: لا… لا… لا…",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "cyan",
-        "character": "planet",
-        "expression": "smug",
-        "sticker": "لا.",
-        "animation": "tilt",
-        "layout": "left",
-        "seed": 626816
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "lang": 53,
-        "headline": 2,
-        "reply": 10
-      },
-      "contentHash": "9a22e1af10debbb670a41eff512569babc78cc995e10167704b3bf6e9d6bdad6",
-      "verified": true,
-      "lang": {
-        "id": "sm",
-        "name": "الساموية",
-        "no": "Leai",
-        "translit": "",
-        "dir": "ltr",
-        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
-      }
     }
   ]
 }

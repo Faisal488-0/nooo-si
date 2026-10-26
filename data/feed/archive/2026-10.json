@@ -2,6 +2,43 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261026-060959-global-fff96c52",
+      "createdAt": "2026-10-26T06:09:59Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول «لا» بـالسلوفاكية",
+      "body": "استخدمها لما أحد يقول «طلب صغير».",
+      "kicker": "أرسلها لشخص يحتاجها.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "sleepy",
+        "sticker": "مستحيل",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 961616
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 55,
+        "headline": 0,
+        "reply": 1
+      },
+      "contentHash": "fff96c525ccffa11543223621c25e9ed7ad04e2d3ca175bf532d6090328dab2b",
+      "verified": true,
+      "lang": {
+        "id": "sk",
+        "name": "السلوفاكية",
+        "no": "Nie",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261026-001954-monday-dc0a035c",
       "createdAt": "2026-10-26T00:19:54Z",
       "category": "monday",
