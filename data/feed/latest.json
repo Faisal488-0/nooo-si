@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-25T21:45:11Z",
-  "total": 98,
+  "generatedAt": "2026-10-26T00:19:54Z",
+  "total": 99,
   "items": [
+    {
+      "id": "20261026-001954-monday-dc0a035c",
+      "createdAt": "2026-10-26T00:19:54Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Calendar: eight meetings today, back to back.",
+      "body": "Snooze button, I choose you.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lemon",
+        "character": "ghost",
+        "expression": "sleepy",
+        "sticker": "NOT TODAY",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 292730
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 15
+      },
+      "contentHash": "dc0a035cfe753f50cc69a64a93695781c5d1e87ddc67c3cd608f33db1894fed2",
+      "verified": null
+    },
     {
       "id": "20261025-214511-office-eaf3df7f",
       "createdAt": "2026-10-25T21:45:11Z",
@@ -901,34 +929,6 @@
         "dir": "ltr",
         "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
       }
-    },
-    {
-      "id": "20261020-191403-monday-967247fd",
-      "createdAt": "2026-10-20T19:14:03Z",
-      "category": "monday",
-      "locale": "ar",
-      "eyebrow": "صباح أول يوم دوام",
-      "headline": "التقويم: ٨ اجتماعات اليوم ورا بعض.",
-      "body": "أول الأسبوع قدّم طلب. الطلب مرفوض.",
-      "kicker": "مختومة ومرفوضة.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "bubblegum",
-        "character": "ghost",
-        "expression": "smug",
-        "sticker": "مو اليوم",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 664074
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 4,
-        "reply": 8
-      },
-      "contentHash": "967247fdeddd4e17db45817de5c15c569f862418b497a0dea154b106914d6dc5",
-      "verified": null
     }
   ]
 }
