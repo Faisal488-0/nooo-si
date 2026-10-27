@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261027-074850-scifi-144d9b54",
+      "createdAt": "2026-10-27T07:48:50Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "مسافر عبر الزمن: سلّفني الويكند مالك؟",
+      "body": "النجوم اصطفت عشان تكتب: ل-ا.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "night",
+        "character": "alien",
+        "expression": "unbothered",
+        "sticker": "لااا!",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 630235
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 12
+      },
+      "contentHash": "144d9b542489b3e89da9be1019ced30a53507da286883ab04e74f4d7758547e4",
+      "verified": null
+    },
+    {
       "id": "20261027-020323-cat-f497310c",
       "createdAt": "2026-10-27T02:03:23Z",
       "category": "cat",

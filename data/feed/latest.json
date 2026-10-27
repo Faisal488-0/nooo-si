@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-27T02:03:23Z",
-  "total": 104,
+  "generatedAt": "2026-10-27T07:48:50Z",
+  "total": 105,
   "items": [
+    {
+      "id": "20261027-074850-scifi-144d9b54",
+      "createdAt": "2026-10-27T07:48:50Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "مسافر عبر الزمن: سلّفني الويكند مالك؟",
+      "body": "النجوم اصطفت عشان تكتب: ل-ا.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "night",
+        "character": "alien",
+        "expression": "unbothered",
+        "sticker": "لااا!",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 630235
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 12
+      },
+      "contentHash": "144d9b542489b3e89da9be1019ced30a53507da286883ab04e74f4d7758547e4",
+      "verified": null
+    },
     {
       "id": "20261027-020323-cat-f497310c",
       "createdAt": "2026-10-27T02:03:23Z",
@@ -901,34 +929,6 @@
         "input": "NO DRAMA",
         "output": "01001110 01001111 00100000 01000100 01010010 01000001 01001101 01000001"
       }
-    },
-    {
-      "id": "20261021-221854-scifi-cb34fe8f",
-      "createdAt": "2026-10-21T22:18:54Z",
-      "category": "scifi",
-      "locale": "en",
-      "eyebrow": "Incoming transmission",
-      "headline": "Asteroid: mind if I park in your orbit?",
-      "body": "My antennae have folded. That is a no.",
-      "kicker": "Signed, sealed, declined.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "tangerine",
-        "character": "robot",
-        "expression": "smug",
-        "sticker": "LOL NO",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 393424
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 2
-      },
-      "contentHash": "cb34fe8f4753c18a9c960e5012fdfca98263526c1e6eeafdffe2b7959af93f18",
-      "verified": null
     }
   ]
 }
