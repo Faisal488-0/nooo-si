@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261027-200400-morse-acb4234d",
+      "createdAt": "2026-10-27T20:04:00Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "ومّض «TRY TUESDAY» بالكشاف",
+      "body": "هادية ومهذبة ومستحيل تتناقش فيها.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "lemon",
+        "character": "robot",
+        "expression": "dramatic",
+        "sticker": "مستحيل",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 669096
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 15,
+        "headline": 2,
+        "reply": 7
+      },
+      "contentHash": "acb4234d4fd433d6f3a694eac0590ac36d27353ac43778a31a6c8bcbdfd033b1",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "TRY TUESDAY",
+        "output": "- .-. -.-- / - ..- . ... -.. .- -.--"
+      }
+    },
+    {
       "id": "20261027-142814-binary-cd3474e8",
       "createdAt": "2026-10-27T14:28:14Z",
       "category": "binary",

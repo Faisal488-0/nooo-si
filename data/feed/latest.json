@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-27T14:28:14Z",
-  "total": 106,
+  "generatedAt": "2026-10-27T20:04:00Z",
+  "total": 107,
   "items": [
+    {
+      "id": "20261027-200400-morse-acb4234d",
+      "createdAt": "2026-10-27T20:04:00Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "ومّض «TRY TUESDAY» بالكشاف",
+      "body": "هادية ومهذبة ومستحيل تتناقش فيها.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "lemon",
+        "character": "robot",
+        "expression": "dramatic",
+        "sticker": "مستحيل",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 669096
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 15,
+        "headline": 2,
+        "reply": 7
+      },
+      "contentHash": "acb4234d4fd433d6f3a694eac0590ac36d27353ac43778a31a6c8bcbdfd033b1",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "TRY TUESDAY",
+        "output": "- .-. -.-- / - ..- . ... -.. .- -.--"
+      }
+    },
     {
       "id": "20261027-142814-binary-cd3474e8",
       "createdAt": "2026-10-27T14:28:14Z",
@@ -895,40 +929,6 @@
       },
       "contentHash": "448c0317cf46c59089b955967deeb2feabf74ad63a1ef89f05761bc372e4d74e",
       "verified": null
-    },
-    {
-      "id": "20261022-073148-morse-391d69c6",
-      "createdAt": "2026-10-22T07:31:48Z",
-      "category": "morse",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Blink “NOT NOW” with a flashlight",
-      "body": "Dot dot dash means business.",
-      "kicker": "No was said. Peace was restored.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "tomato",
-        "character": "ufo",
-        "expression": "sleepy",
-        "sticker": "NAH",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 727421
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 8,
-        "headline": 2,
-        "reply": 0
-      },
-      "contentHash": "391d69c6ac801972d103737298bf2638b5518f17512cb82df24fff77ac16bb29",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NOT NOW",
-        "output": "-. --- - / -. --- .--"
-      }
     }
   ]
 }
