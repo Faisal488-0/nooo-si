@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261027-142814-binary-cd3474e8",
+      "createdAt": "2026-10-27T14:28:14Z",
+      "category": "binary",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NOT TODAY” for your printer",
+      "body": "Your laptop understood instantly.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "night",
+        "character": "robot",
+        "expression": "sleepy",
+        "sticker": "NEVER",
+        "animation": "float",
+        "layout": "right",
+        "seed": 762292
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 2,
+        "headline": 0,
+        "reply": 0
+      },
+      "contentHash": "cd3474e861465be802ff62ad21eaea5df42c95ccfcfae664e3b5f537156bd163",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "NOT TODAY",
+        "output": "01001110 01001111 01010100 00100000 01010100 01001111 01000100 01000001 01011001"
+      }
+    },
+    {
       "id": "20261027-074850-scifi-144d9b54",
       "createdAt": "2026-10-27T07:48:50Z",
       "category": "scifi",
