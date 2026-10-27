@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261027-020323-cat-f497310c",
+      "createdAt": "2026-10-27T02:03:23Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Sleep in the fancy bed I bought you.",
+      "body": "You may pet me twice. Then: no.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "mint",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "NOOO!",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 687531
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 11
+      },
+      "contentHash": "f497310ccf067e88198fcd77c53b7c770587fa6869797e1bb73d2b35ec9233cc",
+      "verified": null
+    },
+    {
       "id": "20261026-230853-relationship-68e8ca5c",
       "createdAt": "2026-10-26T23:08:53Z",
       "category": "relationship",

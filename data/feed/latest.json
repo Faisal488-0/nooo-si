@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-26T23:08:53Z",
-  "total": 103,
+  "generatedAt": "2026-10-27T02:03:23Z",
+  "total": 104,
   "items": [
+    {
+      "id": "20261027-020323-cat-f497310c",
+      "createdAt": "2026-10-27T02:03:23Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Sleep in the fancy bed I bought you.",
+      "body": "You may pet me twice. Then: no.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "mint",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "NOOO!",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 687531
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 11
+      },
+      "contentHash": "f497310ccf067e88198fcd77c53b7c770587fa6869797e1bb73d2b35ec9233cc",
+      "verified": null
+    },
     {
       "id": "20261026-230853-relationship-68e8ca5c",
       "createdAt": "2026-10-26T23:08:53Z",
@@ -900,34 +928,6 @@
         "reply": 2
       },
       "contentHash": "cb34fe8f4753c18a9c960e5012fdfca98263526c1e6eeafdffe2b7959af93f18",
-      "verified": null
-    },
-    {
-      "id": "20261021-183620-cat-2de5a88a",
-      "createdAt": "2026-10-21T18:36:20Z",
-      "category": "cat",
-      "locale": "en",
-      "eyebrow": "Human to cat",
-      "headline": "Come here, kitty kitty!",
-      "body": "Purring means yes. This is not purring.",
-      "kicker": "No regrets. Just no.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "lime",
-        "character": "cat",
-        "expression": "unbothered",
-        "sticker": "NO.",
-        "animation": "wobble",
-        "layout": "left",
-        "seed": 498498
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 2,
-        "reply": 9
-      },
-      "contentHash": "2de5a88ae40f76f2c58244413b9776d0ead40c0db56893ee0e7f1edee0916687",
       "verified": null
     }
   ]
