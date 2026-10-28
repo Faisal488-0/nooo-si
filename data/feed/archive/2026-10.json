@@ -2,6 +2,43 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261028-124900-global-43558d36",
+      "createdAt": "2026-10-28T12:49:00Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "NO, Swahili edition",
+      "body": "Say it slowly for extra drama.",
+      "kicker": "Fresh NO, baked this hour.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tangerine",
+        "character": "heart",
+        "expression": "unbothered",
+        "sticker": "HARD NO",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 896249
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 59,
+        "headline": 1,
+        "reply": 3
+      },
+      "contentHash": "43558d3643f256dae783d272f4866f4b067ef5a2f0e5664ef7a04448b8e3ebcc",
+      "verified": true,
+      "lang": {
+        "id": "sw",
+        "name": "Swahili",
+        "no": "Hapana",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
+      }
+    },
+    {
       "id": "20261028-053733-monday-a90fcc7b",
       "createdAt": "2026-10-28T05:37:33Z",
       "category": "monday",

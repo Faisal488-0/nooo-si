@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-10-28T05:37:33Z",
-  "total": 109,
+  "generatedAt": "2026-10-28T12:49:00Z",
+  "total": 110,
   "items": [
+    {
+      "id": "20261028-124900-global-43558d36",
+      "createdAt": "2026-10-28T12:49:00Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "NO, Swahili edition",
+      "body": "Say it slowly for extra drama.",
+      "kicker": "Fresh NO, baked this hour.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tangerine",
+        "character": "heart",
+        "expression": "unbothered",
+        "sticker": "HARD NO",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 896249
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 59,
+        "headline": 1,
+        "reply": 3
+      },
+      "contentHash": "43558d3643f256dae783d272f4866f4b067ef5a2f0e5664ef7a04448b8e3ebcc",
+      "verified": true,
+      "lang": {
+        "id": "sw",
+        "name": "Swahili",
+        "no": "Hapana",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
+      }
+    },
     {
       "id": "20261028-053733-monday-a90fcc7b",
       "createdAt": "2026-10-28T05:37:33Z",
@@ -902,43 +939,6 @@
       },
       "contentHash": "80ffb4a6c36727c4285d3e0b172bc5b3e5e20883eea8ff2a3ee75df653755a2c",
       "verified": null
-    },
-    {
-      "id": "20261022-221804-global-148211fb",
-      "createdAt": "2026-10-22T22:18:04Z",
-      "category": "global",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "How to say NO in French",
-      "body": "Add three O's for emphasis — the locals may not approve.",
-      "kicker": "Approved by cats everywhere.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "lime",
-        "character": "heart",
-        "expression": "shocked",
-        "sticker": "LOL NO",
-        "animation": "pulse",
-        "layout": "right",
-        "seed": 109279
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "lang": 19,
-        "headline": 0,
-        "reply": 6
-      },
-      "contentHash": "148211fb9db720940ee961d15a43094d60010fe7713361161cf4a2966c706678",
-      "verified": true,
-      "lang": {
-        "id": "fr",
-        "name": "French",
-        "no": "Non",
-        "translit": "",
-        "dir": "ltr",
-        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
-      }
     }
   ]
 }
