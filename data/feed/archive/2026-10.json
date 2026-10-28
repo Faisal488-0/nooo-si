@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261028-231222-friends-6110a5a9",
+      "createdAt": "2026-10-28T23:12:22Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "سلّفني شوي، أرجعها لك… بعدين.",
+      "body": "بطاريتي ٢٪، ورغبتي نفس الشي.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "lime",
+        "character": "ghost",
+        "expression": "unbothered",
+        "sticker": "أبدًا",
+        "animation": "float",
+        "layout": "center",
+        "seed": 511024
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 13
+      },
+      "contentHash": "6110a5a941f1103d79e4a5c3e25df6885b80a24647c28b5d48b35be15cef083a",
+      "verified": null
+    },
+    {
       "id": "20261028-185019-boss-1ff27bbd",
       "createdAt": "2026-10-28T18:50:19Z",
       "category": "boss",

@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-28T18:50:19Z",
-  "total": 111,
+  "generatedAt": "2026-10-28T23:12:22Z",
+  "total": 112,
   "items": [
+    {
+      "id": "20261028-231222-friends-6110a5a9",
+      "createdAt": "2026-10-28T23:12:22Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "سلّفني شوي، أرجعها لك… بعدين.",
+      "body": "بطاريتي ٢٪، ورغبتي نفس الشي.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "lime",
+        "character": "ghost",
+        "expression": "unbothered",
+        "sticker": "أبدًا",
+        "animation": "float",
+        "layout": "center",
+        "seed": 511024
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 13
+      },
+      "contentHash": "6110a5a941f1103d79e4a5c3e25df6885b80a24647c28b5d48b35be15cef083a",
+      "verified": null
+    },
     {
       "id": "20261028-185019-boss-1ff27bbd",
       "createdAt": "2026-10-28T18:50:19Z",
@@ -910,34 +938,6 @@
         "reply": 13
       },
       "contentHash": "00cc0482a5634e50634819b88e2cb3cb433a8de7f1cf4c6addc7130d3f8b31e9",
-      "verified": null
-    },
-    {
-      "id": "20261023-072838-friends-d4594c9f",
-      "createdAt": "2026-10-23T07:28:38Z",
-      "category": "friends",
-      "locale": "ar",
-      "eyebrow": "صديقك يطلب",
-      "headline": "قيم وحدة بس. وحدة. لين يطلع الفجر.",
-      "body": "القانون يلزمني أقول لا. والقانون أنا.",
-      "kicker": "«اللا» الجاية بعد ساعة.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "lime",
-        "character": "ghost",
-        "expression": "sleepy",
-        "sticker": "لا قاطعة",
-        "animation": "float",
-        "layout": "left",
-        "seed": 563656
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 2,
-        "reply": 17
-      },
-      "contentHash": "d4594c9f8ed94171c4016845e76cabc63bc91fbc9f13b898bd13ac01c41cf34d",
       "verified": null
     }
   ]
