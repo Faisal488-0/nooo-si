@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261028-185019-boss-1ff27bbd",
+      "createdAt": "2026-10-28T18:50:19Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "We need it by end of day. Which day? Today.",
+      "body": "My work-life balance just filed a formal complaint.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "bubblegum",
+        "character": "laptop",
+        "expression": "dramatic",
+        "sticker": "NOT TODAY",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 12953
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 7
+      },
+      "contentHash": "1ff27bbda6a8db2263f978d94c06ad4da4c6effdd654605edc621d1e9415f747",
+      "verified": null
+    },
+    {
       "id": "20261028-124900-global-43558d36",
       "createdAt": "2026-10-28T12:49:00Z",
       "category": "global",

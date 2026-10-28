@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-28T12:49:00Z",
-  "total": 110,
+  "generatedAt": "2026-10-28T18:50:19Z",
+  "total": 111,
   "items": [
+    {
+      "id": "20261028-185019-boss-1ff27bbd",
+      "createdAt": "2026-10-28T18:50:19Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "We need it by end of day. Which day? Today.",
+      "body": "My work-life balance just filed a formal complaint.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "bubblegum",
+        "character": "laptop",
+        "expression": "dramatic",
+        "sticker": "NOT TODAY",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 12953
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 7
+      },
+      "contentHash": "1ff27bbda6a8db2263f978d94c06ad4da4c6effdd654605edc621d1e9415f747",
+      "verified": null
+    },
     {
       "id": "20261028-124900-global-43558d36",
       "createdAt": "2026-10-28T12:49:00Z",
@@ -910,34 +938,6 @@
         "reply": 17
       },
       "contentHash": "d4594c9f8ed94171c4016845e76cabc63bc91fbc9f13b898bd13ac01c41cf34d",
-      "verified": null
-    },
-    {
-      "id": "20261023-012856-boss-80ffb4a6",
-      "createdAt": "2026-10-23T01:28:56Z",
-      "category": "boss",
-      "locale": "ar",
-      "eyebrow": "المدير يسأل",
-      "headline": "حوّل هذا لعرض من ٤٠ شريحة قبل الصبح.",
-      "body": "طاقتي مشغولة ١٠٠٪، وصبري باقي منه ٣٪.",
-      "kicker": "بدون ندم. بس لا.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "night",
-        "character": "phone",
-        "expression": "sleepy",
-        "sticker": "لااا!",
-        "animation": "float",
-        "layout": "right",
-        "seed": 572430
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 7,
-        "reply": 2
-      },
-      "contentHash": "80ffb4a6c36727c4285d3e0b172bc5b3e5e20883eea8ff2a3ee75df653755a2c",
       "verified": null
     }
   ]
