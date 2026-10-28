@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-27T23:51:59Z",
-  "total": 108,
+  "generatedAt": "2026-10-28T05:37:33Z",
+  "total": 109,
   "items": [
+    {
+      "id": "20261028-053733-monday-a90fcc7b",
+      "createdAt": "2026-10-28T05:37:33Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "مكينة القهوة: خارج الخدمة.",
+      "body": "ببدأ الأسبوع… الأسبوع الجاي.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "tangerine",
+        "character": "ghost",
+        "expression": "sleepy",
+        "sticker": "أبدًا",
+        "animation": "float",
+        "layout": "left",
+        "seed": 679025
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 9
+      },
+      "contentHash": "a90fcc7b1cd16d73c146951b9d372199ad027b35f9aa7f6e99d39ba7aed586c4",
+      "verified": null
+    },
     {
       "id": "20261027-235159-photo-26c347e8",
       "createdAt": "2026-10-27T23:51:59Z",
@@ -911,34 +939,6 @@
         "dir": "ltr",
         "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
       }
-    },
-    {
-      "id": "20261022-183055-monday-6e6304a7",
-      "createdAt": "2026-10-22T18:30:55Z",
-      "category": "monday",
-      "locale": "en",
-      "eyebrow": "Monday morning",
-      "headline": "Coffee machine: out of order.",
-      "body": "I'm opting out of Monday. See you Tuesday.",
-      "kicker": "The next NO arrives next hour.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "night",
-        "character": "bed",
-        "expression": "dramatic",
-        "sticker": "NAH",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 887538
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 3,
-        "reply": 2
-      },
-      "contentHash": "6e6304a7fb0562f85b2514c36183b6753a485bfa5b9c9f779f9c86f2e6250208",
-      "verified": null
     }
   ]
 }
