@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261029-214729-binary-4b719a81",
+      "createdAt": "2026-10-29T21:47:29Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول الآلة «لا لا لا»",
+      "body": "فهمها اللابتوب فورًا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tomato",
+        "character": "robot",
+        "expression": "angry",
+        "sticker": "مو اليوم",
+        "animation": "bounce",
+        "layout": "right",
+        "seed": 914538
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 7,
+        "headline": 1,
+        "reply": 0
+      },
+      "contentHash": "4b719a8150028cfae62595af14de9eaf8e012050075369cceeb778c42a62488f",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "لا لا لا",
+        "output": "11011001 10000100 11011000 10100111 00100000 11011001 10000100 11011000 10100111 00100000 11011001 10000100 11011000 10100111"
+      }
+    },
+    {
       "id": "20261029-165504-scifi-30ef4fca",
       "createdAt": "2026-10-29T16:55:04Z",
       "category": "scifi",

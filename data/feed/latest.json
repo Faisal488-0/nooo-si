@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-29T16:55:04Z",
-  "total": 115,
+  "generatedAt": "2026-10-29T21:47:29Z",
+  "total": 116,
   "items": [
+    {
+      "id": "20261029-214729-binary-4b719a81",
+      "createdAt": "2026-10-29T21:47:29Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول الآلة «لا لا لا»",
+      "body": "فهمها اللابتوب فورًا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tomato",
+        "character": "robot",
+        "expression": "angry",
+        "sticker": "مو اليوم",
+        "animation": "bounce",
+        "layout": "right",
+        "seed": 914538
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 7,
+        "headline": 1,
+        "reply": 0
+      },
+      "contentHash": "4b719a8150028cfae62595af14de9eaf8e012050075369cceeb778c42a62488f",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "لا لا لا",
+        "output": "11011001 10000100 11011000 10100111 00100000 11011001 10000100 11011000 10100111 00100000 11011001 10000100 11011000 10100111"
+      }
+    },
     {
       "id": "20261029-165504-scifi-30ef4fca",
       "createdAt": "2026-10-29T16:55:04Z",
@@ -894,40 +928,6 @@
         "type": "morse",
         "input": "NO",
         "output": "-. ---"
-      }
-    },
-    {
-      "id": "20261024-003929-binary-4db0e354",
-      "createdAt": "2026-10-24T00:39:29Z",
-      "category": "binary",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "«انسى» بالأصفار والآحاد",
-      "body": "حطها في القروب وشوف الحيرة.",
-      "kicker": "بدون ندم. بس لا.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "lemon",
-        "character": "toaster",
-        "expression": "sleepy",
-        "sticker": "مرفوض",
-        "animation": "float",
-        "layout": "left",
-        "seed": 458994
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 8,
-        "headline": 2,
-        "reply": 4
-      },
-      "contentHash": "4db0e354b06d64f97004d6b67cbb2d7b5dc7d80e5be7a47f5d588c9e6923c045",
-      "verified": null,
-      "code": {
-        "type": "binary",
-        "input": "انسى",
-        "output": "11011000 10100111 11011001 10000110 11011000 10110011 11011001 10001001"
       }
     }
   ]

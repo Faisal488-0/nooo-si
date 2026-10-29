@@ -1,9 +1,9 @@
 {
   "engineVersion": "template-engine-v1",
-  "lastRunAt": "2026-10-29T16:55:04Z",
+  "lastRunAt": "2026-10-29T21:47:29Z",
   "lastResult": "item-added",
-  "lastItemId": "20261029-165504-scifi-30ef4fca",
-  "lastCategory": "scifi",
-  "totalItems": 115,
+  "lastItemId": "20261029-214729-binary-4b719a81",
+  "lastCategory": "binary",
+  "totalItems": 116,
   "note": "lastRunAt is when the item was generated. It is live once this file is served by nooo.si; the workflow verifies that after deploying."
 }
