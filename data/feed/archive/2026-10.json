@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261029-022532-relationship-3cbd8118",
+      "createdAt": "2026-10-29T02:25:32Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Can I pick all your outfits?",
+      "body": "Respectfully, lovingly, completely: no.",
+      "kicker": "No regrets. Just no.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "NOT TODAY",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 38977
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 7
+      },
+      "contentHash": "3cbd81189fff6a3649fffdb282dc4430c6087fc3cd58d896408b05c0538c8ef3",
+      "verified": null
+    },
+    {
       "id": "20261028-231222-friends-6110a5a9",
       "createdAt": "2026-10-28T23:12:22Z",
       "category": "friends",
