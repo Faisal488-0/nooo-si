@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-29T10:04:54Z",
-  "total": 114,
+  "generatedAt": "2026-10-29T16:55:04Z",
+  "total": 115,
   "items": [
+    {
+      "id": "20261029-165504-scifi-30ef4fca",
+      "createdAt": "2026-10-29T16:55:04Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Spaceship: update available. Restart now?",
+      "body": "Error 404: yes not found.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "tomato",
+        "character": "planet",
+        "expression": "dramatic",
+        "sticker": "NEVER",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 315983
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 3
+      },
+      "contentHash": "30ef4fcaf2443768a519a97c236bc3c6ab95cf051510cd1d4bbeac61af3717a8",
+      "verified": null
+    },
     {
       "id": "20261029-100454-cat-28fc5092",
       "createdAt": "2026-10-29T10:04:54Z",
@@ -901,34 +929,6 @@
         "input": "انسى",
         "output": "11011000 10100111 11011001 10000110 11011000 10110011 11011001 10001001"
       }
-    },
-    {
-      "id": "20261023-220724-scifi-018f6463",
-      "createdAt": "2026-10-23T22:07:24Z",
-      "category": "scifi",
-      "locale": "ar",
-      "eyebrow": "إرسال وارد",
-      "headline": "القمر: تقدر تغطي نوبتي الليلية؟",
-      "body": "انطوت هوائياتي. هذي «لا».",
-      "kicker": "قيلت «لا» وعاد السلام.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "mint",
-        "character": "ufo",
-        "expression": "dramatic",
-        "sticker": "أبدًا",
-        "animation": "shake",
-        "layout": "center",
-        "seed": 127731
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 10,
-        "reply": 2
-      },
-      "contentHash": "018f6463414baaa5209bd6268ed7a2af036c43c6cf4ce2a7ff651135e8b1e6ef",
-      "verified": null
     }
   ]
 }

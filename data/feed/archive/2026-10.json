@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261029-165504-scifi-30ef4fca",
+      "createdAt": "2026-10-29T16:55:04Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Spaceship: update available. Restart now?",
+      "body": "Error 404: yes not found.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "tomato",
+        "character": "planet",
+        "expression": "dramatic",
+        "sticker": "NEVER",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 315983
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 3
+      },
+      "contentHash": "30ef4fcaf2443768a519a97c236bc3c6ab95cf051510cd1d4bbeac61af3717a8",
+      "verified": null
+    },
+    {
       "id": "20261029-100454-cat-28fc5092",
       "createdAt": "2026-10-29T10:04:54Z",
       "category": "cat",
