@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-29T02:25:32Z",
-  "total": 113,
+  "generatedAt": "2026-10-29T10:04:54Z",
+  "total": 114,
   "items": [
+    {
+      "id": "20261029-100454-cat-28fc5092",
+      "createdAt": "2026-10-29T10:04:54Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "نام في السرير الفخم اللي شريته لك.",
+      "body": "طيّحت طلبك من الطاولة. شوف، صار على الأرض.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "grape",
+        "character": "cat",
+        "expression": "sleepy",
+        "sticker": "لا قاطعة",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 115555
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 12
+      },
+      "contentHash": "28fc5092a5cbaeddf19d2ed4b6e8e3ed68384d0888ffd788bb20b3cd19c593a0",
+      "verified": null
+    },
     {
       "id": "20261029-022532-relationship-3cbd8118",
       "createdAt": "2026-10-29T02:25:32Z",
@@ -901,44 +929,6 @@
       },
       "contentHash": "018f6463414baaa5209bd6268ed7a2af036c43c6cf4ce2a7ff651135e8b1e6ef",
       "verified": null
-    },
-    {
-      "id": "20261023-182027-photo-d7468a3f",
-      "createdAt": "2026-10-23T18:20:27Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Dog at the vet door:",
-      "body": "I changed my mind about every walk. NO.",
-      "kicker": "Side effects: inner peace.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "cyan",
-        "character": "mug",
-        "expression": "unbothered",
-        "sticker": "LOL NO",
-        "animation": "float",
-        "layout": "center",
-        "seed": 882098
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 1
-      },
-      "contentHash": "d7468a3f7b7d96e900ff800f54e81e7820e07893f20286524a38020e76d57565",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261023-182027-90672baa.jpg",
-        "sourceId": "90672baa-73a8-4a6f-97cd-6840cf37b31d",
-        "theme": "dog",
-        "title": "Cosmetic dish in the shape of a dog",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/545210"
-      }
     }
   ]
 }

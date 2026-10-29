@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261029-100454-cat-28fc5092",
+      "createdAt": "2026-10-29T10:04:54Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "نام في السرير الفخم اللي شريته لك.",
+      "body": "طيّحت طلبك من الطاولة. شوف، صار على الأرض.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "grape",
+        "character": "cat",
+        "expression": "sleepy",
+        "sticker": "لا قاطعة",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 115555
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 12
+      },
+      "contentHash": "28fc5092a5cbaeddf19d2ed4b6e8e3ed68384d0888ffd788bb20b3cd19c593a0",
+      "verified": null
+    },
+    {
       "id": "20261029-022532-relationship-3cbd8118",
       "createdAt": "2026-10-29T02:25:32Z",
       "category": "relationship",
