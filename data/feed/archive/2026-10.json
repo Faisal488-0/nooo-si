@@ -2,6 +2,43 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261030-205850-global-48cd58bd",
+      "createdAt": "2026-10-30T20:58:50Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "لا اليوم جاية من العبرية",
+      "body": "أفضل شي تقولها وحواجبك مرفوعة.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tangerine",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "wobble",
+        "layout": "right",
+        "seed": 826783
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 27,
+        "headline": 2,
+        "reply": 4
+      },
+      "contentHash": "48cd58bd76c23db577dc2aacd91f22fb58bbc773a92a14217d169d9455dc5608",
+      "verified": true,
+      "lang": {
+        "id": "he",
+        "name": "العبرية",
+        "no": "לא",
+        "translit": "lo",
+        "dir": "rtl",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261030-155433-monday-bf4e4b00",
       "createdAt": "2026-10-30T15:54:33Z",
       "category": "monday",

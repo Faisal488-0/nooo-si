@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-10-30T15:54:33Z",
-  "total": 119,
+  "generatedAt": "2026-10-30T20:58:50Z",
+  "total": 120,
   "items": [
+    {
+      "id": "20261030-205850-global-48cd58bd",
+      "createdAt": "2026-10-30T20:58:50Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "لا اليوم جاية من العبرية",
+      "body": "أفضل شي تقولها وحواجبك مرفوعة.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tangerine",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "wobble",
+        "layout": "right",
+        "seed": 826783
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 27,
+        "headline": 2,
+        "reply": 4
+      },
+      "contentHash": "48cd58bd76c23db577dc2aacd91f22fb58bbc773a92a14217d169d9455dc5608",
+      "verified": true,
+      "lang": {
+        "id": "he",
+        "name": "العبرية",
+        "no": "לא",
+        "translit": "lo",
+        "dir": "rtl",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
     {
       "id": "20261030-155433-monday-bf4e4b00",
       "createdAt": "2026-10-30T15:54:33Z",
@@ -891,44 +928,6 @@
       },
       "contentHash": "b8bcf891f73eb03b02b467cdd9540f60e5c4f0354824bf188e79fce8c26a9657",
       "verified": null
-    },
-    {
-      "id": "20261024-180729-photo-d66b33b7",
-      "createdAt": "2026-10-24T18:07:29Z",
-      "category": "photo",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "البومة تقرأ بريدك «العاجل»:",
-      "body": "مَن؟ مَن أرسله؟ ومَن يهتم؟ لا.",
-      "kicker": "معتمدة من قطط العالم.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "bubblegum",
-        "character": "laptop",
-        "expression": "sleepy",
-        "sticker": "مرفوض",
-        "animation": "wobble",
-        "layout": "right",
-        "seed": 302786
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 2
-      },
-      "contentHash": "d66b33b798e8ed65cc4f4a8b93c3c5e18f9f0fc9b098ee5f8de4f70994614536",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261024-180729-dc0bdc3e.jpg",
-        "sourceId": "dc0bdc3e-5499-4b65-acaa-8509b24834e0",
-        "theme": "owl",
-        "title": "Owl",
-        "creator": "Bow Porcelain Factory",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/203559"
-      }
     }
   ]
 }
