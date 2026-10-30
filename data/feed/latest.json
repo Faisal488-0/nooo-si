@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-30T01:57:13Z",
-  "total": 117,
+  "generatedAt": "2026-10-30T08:36:28Z",
+  "total": 118,
   "items": [
+    {
+      "id": "20261030-083628-office-3f70812f",
+      "createdAt": "2026-10-30T08:36:28Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "توافق على هذا بدون ما تقراه؟",
+      "body": "هذا برّا وصفي الوظيفي، وبرّا مجرتي.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "grape",
+        "character": "laptop",
+        "expression": "angry",
+        "sticker": "مرفوض",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 263466
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 8
+      },
+      "contentHash": "3f70812f6c97cec7c868336ec97772dbd9c9853ee4ce63df1dab5ac680c9646c",
+      "verified": null
+    },
     {
       "id": "20261030-015713-morse-9767884f",
       "createdAt": "2026-10-30T01:57:13Z",
@@ -900,34 +928,6 @@
         "reply": 0
       },
       "contentHash": "36a7a838887dd1ab27be7249c18c0659104c47f1e25b063cf2f8caf6c38ba71b",
-      "verified": null
-    },
-    {
-      "id": "20261024-105448-office-0e70b27f",
-      "createdAt": "2026-10-24T10:54:48Z",
-      "category": "office",
-      "locale": "ar",
-      "eyebrow": "حياة المكتب",
-      "headline": "عصف ذهني: ما في فكرة غلط.",
-      "body": "أرسلت لك دعوة تقويم عنوانها «لا».",
-      "kicker": "أرسلها لشخص يحتاجها.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "lime",
-        "character": "mug",
-        "expression": "dramatic",
-        "sticker": "مرفوض",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 425122
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 7,
-        "reply": 13
-      },
-      "contentHash": "0e70b27fd9a5eac6e5083dd995661379d76953dc143b532c4246420ab7f90533",
       "verified": null
     }
   ]
