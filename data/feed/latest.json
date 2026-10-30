@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-29T21:47:29Z",
-  "total": 116,
+  "generatedAt": "2026-10-30T01:57:13Z",
+  "total": 117,
   "items": [
+    {
+      "id": "20261030-015713-morse-9767884f",
+      "createdAt": "2026-10-30T01:57:13Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NO MORE” in Morse code",
+      "body": "Ship captains used to send this. Now you can.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tomato",
+        "character": "alarm",
+        "expression": "angry",
+        "sticker": "NAH",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 38916
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 14,
+        "headline": 0,
+        "reply": 4
+      },
+      "contentHash": "9767884fec6b1267091611693487cc1e1dec570dd226da7579d8857dbb29e9b4",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO MORE",
+        "output": "-. --- / -- --- .-. ."
+      }
+    },
     {
       "id": "20261029-214729-binary-4b719a81",
       "createdAt": "2026-10-29T21:47:29Z",
@@ -895,40 +929,6 @@
       },
       "contentHash": "0e70b27fd9a5eac6e5083dd995661379d76953dc143b532c4246420ab7f90533",
       "verified": null
-    },
-    {
-      "id": "20261024-054916-morse-364376f8",
-      "createdAt": "2026-10-24T05:49:16Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "«NO» بشفرة مورس",
-      "body": "كانوا يرسلونها من السفن. الحين دورك.",
-      "kicker": "مستوى الرفض: أسطوري.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "cyan",
-        "character": "robot",
-        "expression": "shocked",
-        "sticker": "مرفوض",
-        "animation": "pop",
-        "layout": "right",
-        "seed": 453035
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 0,
-        "headline": 0,
-        "reply": 4
-      },
-      "contentHash": "364376f8e0f11ae884a65e363a99048c53465ee803864c673650a1c8727e5342",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NO",
-        "output": "-. ---"
-      }
     }
   ]
 }

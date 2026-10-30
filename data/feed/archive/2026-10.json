@@ -2,6 +2,40 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261030-015713-morse-9767884f",
+      "createdAt": "2026-10-30T01:57:13Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NO MORE” in Morse code",
+      "body": "Ship captains used to send this. Now you can.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tomato",
+        "character": "alarm",
+        "expression": "angry",
+        "sticker": "NAH",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 38916
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 14,
+        "headline": 0,
+        "reply": 4
+      },
+      "contentHash": "9767884fec6b1267091611693487cc1e1dec570dd226da7579d8857dbb29e9b4",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO MORE",
+        "output": "-. --- / -- --- .-. ."
+      }
+    },
+    {
       "id": "20261029-214729-binary-4b719a81",
       "createdAt": "2026-10-29T21:47:29Z",
       "category": "binary",
