@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-30T08:36:28Z",
-  "total": 118,
+  "generatedAt": "2026-10-30T15:54:33Z",
+  "total": 119,
   "items": [
+    {
+      "id": "20261030-155433-monday-bf4e4b00",
+      "createdAt": "2026-10-30T15:54:33Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Monday: smile, it's the start of the week!",
+      "body": "Snooze is my love language.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "ghost",
+        "expression": "angry",
+        "sticker": "HARD NO",
+        "animation": "float",
+        "layout": "right",
+        "seed": 831531
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 0
+      },
+      "contentHash": "bf4e4b0028594e3db5314dbf2586fa9da47c811e2dd3fac0fdb91cb874ac1f89",
+      "verified": null
+    },
     {
       "id": "20261030-083628-office-3f70812f",
       "createdAt": "2026-10-30T08:36:28Z",
@@ -901,34 +929,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/203559"
       }
-    },
-    {
-      "id": "20261024-143012-monday-36a7a838",
-      "createdAt": "2026-10-24T14:30:12Z",
-      "category": "monday",
-      "locale": "ar",
-      "eyebrow": "صباح أول يوم دوام",
-      "headline": "المنبّه: الساعة ٦ الصبح. أول يوم دوام.",
-      "body": "الغفوة هي لغة الحب عندي.",
-      "kicker": "«اللا» الجاية بعد ساعة.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "lime",
-        "character": "alarm",
-        "expression": "sleepy",
-        "sticker": "لا.",
-        "animation": "float",
-        "layout": "left",
-        "seed": 529421
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 0,
-        "reply": 0
-      },
-      "contentHash": "36a7a838887dd1ab27be7249c18c0659104c47f1e25b063cf2f8caf6c38ba71b",
-      "verified": null
     }
   ]
 }

@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261030-155433-monday-bf4e4b00",
+      "createdAt": "2026-10-30T15:54:33Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Monday: smile, it's the start of the week!",
+      "body": "Snooze is my love language.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "ghost",
+        "expression": "angry",
+        "sticker": "HARD NO",
+        "animation": "float",
+        "layout": "right",
+        "seed": 831531
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 0
+      },
+      "contentHash": "bf4e4b0028594e3db5314dbf2586fa9da47c811e2dd3fac0fdb91cb874ac1f89",
+      "verified": null
+    },
+    {
       "id": "20261030-083628-office-3f70812f",
       "createdAt": "2026-10-30T08:36:28Z",
       "category": "office",
