@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-31T06:59:00Z",
-  "total": 122,
+  "generatedAt": "2026-10-31T13:37:53Z",
+  "total": 123,
   "items": [
+    {
+      "id": "20261031-133753-relationship-101d3ec7",
+      "createdAt": "2026-10-31T13:37:53Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "رد على رسايلي خلال ٤ ثواني.",
+      "body": "قلبي يقول يمكن، وحدودي تقول لا، والقرار لحدودي.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tangerine",
+        "character": "ghost",
+        "expression": "unbothered",
+        "sticker": "لا قاطعة",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 296014
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 4
+      },
+      "contentHash": "101d3ec795b51b9f1b9c2e869772b391dfd428f880db25e7f11c9759dbfa99df",
+      "verified": null
+    },
     {
       "id": "20261031-065900-friends-bbaf32e4",
       "createdAt": "2026-10-31T06:59:00Z",
@@ -899,34 +927,6 @@
         "reply": 7
       },
       "contentHash": "d20937699fd6944595b710a8d3eb3dc5b7a48357c5f4d25da68814e939c45563",
-      "verified": null
-    },
-    {
-      "id": "20261025-010759-relationship-99abe844",
-      "createdAt": "2026-10-25T01:07:59Z",
-      "category": "relationship",
-      "locale": "en",
-      "eyebrow": "Your partner asks",
-      "headline": "Can I name our future cat without you?",
-      "body": "Healthy relationships come with a no button. I'm pressing it.",
-      "kicker": "Approved by cats everywhere.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "mint",
-        "character": "phone",
-        "expression": "angry",
-        "sticker": "LOL NO",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 452719
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 11,
-        "reply": 12
-      },
-      "contentHash": "99abe8444393cc9536bae67c6c2d231dcfc6ffcf260ddb03ae08593ad68f8305",
       "verified": null
     }
   ]

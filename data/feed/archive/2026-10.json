@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261031-133753-relationship-101d3ec7",
+      "createdAt": "2026-10-31T13:37:53Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "رد على رسايلي خلال ٤ ثواني.",
+      "body": "قلبي يقول يمكن، وحدودي تقول لا، والقرار لحدودي.",
+      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tangerine",
+        "character": "ghost",
+        "expression": "unbothered",
+        "sticker": "لا قاطعة",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 296014
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 4
+      },
+      "contentHash": "101d3ec795b51b9f1b9c2e869772b391dfd428f880db25e7f11c9759dbfa99df",
+      "verified": null
+    },
+    {
       "id": "20261031-065900-friends-bbaf32e4",
       "createdAt": "2026-10-31T06:59:00Z",
       "category": "friends",
