@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261031-065900-friends-bbaf32e4",
+      "createdAt": "2026-10-31T06:59:00Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Help me move on Friday? It's only a piano.",
+      "body": "Counter-offer: no, plus a hug.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "sleepy",
+        "sticker": "NEVER",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 994414
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 14
+      },
+      "contentHash": "bbaf32e421a69488b65082c11f2b1d744adad6c657166e2b9a1e1f044fb52367",
+      "verified": null
+    },
+    {
       "id": "20261031-004617-boss-10efcdf5",
       "createdAt": "2026-10-31T00:46:17Z",
       "category": "boss",

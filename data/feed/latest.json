@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-31T00:46:17Z",
-  "total": 121,
+  "generatedAt": "2026-10-31T06:59:00Z",
+  "total": 122,
   "items": [
+    {
+      "id": "20261031-065900-friends-bbaf32e4",
+      "createdAt": "2026-10-31T06:59:00Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Help me move on Friday? It's only a piano.",
+      "body": "Counter-offer: no, plus a hug.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "sleepy",
+        "sticker": "NEVER",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 994414
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 14
+      },
+      "contentHash": "bbaf32e421a69488b65082c11f2b1d744adad6c657166e2b9a1e1f044fb52367",
+      "verified": null
+    },
     {
       "id": "20261031-004617-boss-10efcdf5",
       "createdAt": "2026-10-31T00:46:17Z",
@@ -899,34 +927,6 @@
         "reply": 12
       },
       "contentHash": "99abe8444393cc9536bae67c6c2d231dcfc6ffcf260ddb03ae08593ad68f8305",
-      "verified": null
-    },
-    {
-      "id": "20261024-231035-friends-8d5d3329",
-      "createdAt": "2026-10-24T23:10:35Z",
-      "category": "friends",
-      "locale": "en",
-      "eyebrow": "Your friend asks",
-      "headline": "Come to my cousin's friend's DJ set?",
-      "body": "Let me ask my wallet… it fainted.",
-      "kicker": "Copy. Paste. Decline.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "tomato",
-        "character": "phone",
-        "expression": "dramatic",
-        "sticker": "NAH",
-        "animation": "pulse",
-        "layout": "left",
-        "seed": 547017
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 4,
-        "reply": 2
-      },
-      "contentHash": "8d5d332975493eb6b76113a53ad1eae41a05339d262f73f13f1b5a280d152376",
       "verified": null
     }
   ]
