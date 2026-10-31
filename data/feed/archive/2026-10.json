@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261031-183151-cat-37ce2235",
+      "createdAt": "2026-10-31T18:31:51Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Just one cute photo, please.",
+      "body": "This is my keyboard now. Your request was typed as 'nnnnnnooooo'.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "grape",
+        "character": "cat",
+        "expression": "unbothered",
+        "sticker": "NOT TODAY",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 728344
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 8
+      },
+      "contentHash": "37ce2235f5996c1e7d994f044c362f0fe48b7a206ab629c07276132bbb6c1686",
+      "verified": null
+    },
+    {
       "id": "20261031-133753-relationship-101d3ec7",
       "createdAt": "2026-10-31T13:37:53Z",
       "category": "relationship",
