@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-31T18:31:51Z",
-  "total": 124,
+  "generatedAt": "2026-10-31T22:27:38Z",
+  "total": 125,
   "items": [
+    {
+      "id": "20261031-222738-scifi-926c9400",
+      "createdAt": "2026-10-31T22:27:38Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "المركبة: تحديث متوفر. إعادة تشغيل الآن؟",
+      "body": "فتشنا كل الأكوان الموازية. برضو لا.",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "grape",
+        "character": "alien",
+        "expression": "unbothered",
+        "sticker": "مستحيل",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 389188
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 10
+      },
+      "contentHash": "926c94009e4bc4876f27cf7067f7fb0e15d7279596417012fb1660b7026a5b2a",
+      "verified": null
+    },
     {
       "id": "20261031-183151-cat-37ce2235",
       "createdAt": "2026-10-31T18:31:51Z",
@@ -900,34 +928,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/255368"
       }
-    },
-    {
-      "id": "20261025-112203-scifi-a7967082",
-      "createdAt": "2026-10-25T11:22:03Z",
-      "category": "scifi",
-      "locale": "en",
-      "eyebrow": "Incoming transmission",
-      "headline": "Earthling: can you teleport me to work?",
-      "body": "Beep-boop translation: never, in this timeline.",
-      "kicker": "The next NO arrives next hour.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "tomato",
-        "character": "planet",
-        "expression": "angry",
-        "sticker": "NOPE",
-        "animation": "tilt",
-        "layout": "center",
-        "seed": 798937
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 3,
-        "reply": 9
-      },
-      "contentHash": "a796708277d0ed2a0969e6dd2d6966c4bd60b5ce5f4533daf8125052efbbbdec",
-      "verified": null
     }
   ]
 }

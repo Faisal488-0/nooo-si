@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261031-222738-scifi-926c9400",
+      "createdAt": "2026-10-31T22:27:38Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "المركبة: تحديث متوفر. إعادة تشغيل الآن؟",
+      "body": "فتشنا كل الأكوان الموازية. برضو لا.",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "grape",
+        "character": "alien",
+        "expression": "unbothered",
+        "sticker": "مستحيل",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 389188
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 8,
+        "reply": 10
+      },
+      "contentHash": "926c94009e4bc4876f27cf7067f7fb0e15d7279596417012fb1660b7026a5b2a",
+      "verified": null
+    },
+    {
       "id": "20261031-183151-cat-37ce2235",
       "createdAt": "2026-10-31T18:31:51Z",
       "category": "cat",
