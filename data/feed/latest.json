@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-10-30T20:58:50Z",
-  "total": 120,
+  "generatedAt": "2026-10-31T00:46:17Z",
+  "total": 121,
   "items": [
+    {
+      "id": "20261031-004617-boss-10efcdf5",
+      "createdAt": "2026-10-31T00:46:17Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "تعال اجتماع عن الاجتماع.",
+      "body": "اللابتوب نام. حدوده أحسن من حدودي… إلى اليوم.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tomato",
+        "character": "boss",
+        "expression": "shocked",
+        "sticker": "مرفوض",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 694234
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 14
+      },
+      "contentHash": "10efcdf51560422f4f43b53ab31903e21507cb6af79deb478932a32374ad3173",
+      "verified": null
+    },
     {
       "id": "20261030-205850-global-48cd58bd",
       "createdAt": "2026-10-30T20:58:50Z",
@@ -899,34 +927,6 @@
         "reply": 2
       },
       "contentHash": "8d5d332975493eb6b76113a53ad1eae41a05339d262f73f13f1b5a280d152376",
-      "verified": null
-    },
-    {
-      "id": "20261024-204555-boss-b8bcf891",
-      "createdAt": "2026-10-24T20:45:55Z",
-      "category": "boss",
-      "locale": "en",
-      "eyebrow": "The boss asks",
-      "headline": "Can you turn this into a 40-slide deck by morning?",
-      "body": "I can do it, do it well, or go home. I choose home.",
-      "kicker": "Boundaries 1 — Chaos 0.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "lemon",
-        "character": "phone",
-        "expression": "angry",
-        "sticker": "NAH",
-        "animation": "float",
-        "layout": "center",
-        "seed": 433447
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 7,
-        "reply": 11
-      },
-      "contentHash": "b8bcf891f73eb03b02b467cdd9540f60e5c4f0354824bf188e79fce8c26a9657",
       "verified": null
     }
   ]

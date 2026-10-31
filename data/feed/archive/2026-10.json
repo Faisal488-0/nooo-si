@@ -2,6 +2,34 @@
   "month": "2026-10",
   "items": [
     {
+      "id": "20261031-004617-boss-10efcdf5",
+      "createdAt": "2026-10-31T00:46:17Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "تعال اجتماع عن الاجتماع.",
+      "body": "اللابتوب نام. حدوده أحسن من حدودي… إلى اليوم.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tomato",
+        "character": "boss",
+        "expression": "shocked",
+        "sticker": "مرفوض",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 694234
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 14
+      },
+      "contentHash": "10efcdf51560422f4f43b53ab31903e21507cb6af79deb478932a32374ad3173",
+      "verified": null
+    },
+    {
       "id": "20261030-205850-global-48cd58bd",
       "createdAt": "2026-10-30T20:58:50Z",
       "category": "global",
