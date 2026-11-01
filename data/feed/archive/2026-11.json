@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261101-091317-morse-c84dbae7",
+      "createdAt": "2026-11-01T09:13:17Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "انقرها على الطاولة: «NOPE»",
+      "body": "نقطة نقطة شرطة يعني الموضوع جد.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tangerine",
+        "character": "ufo",
+        "expression": "smug",
+        "sticker": "لا.",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 835346
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 1,
+        "headline": 1,
+        "reply": 0
+      },
+      "contentHash": "c84dbae7044f91ffcb9b00ff58168f1f5c3dafe4c05de5b7e4e7f355e6ffb96a",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOPE",
+        "output": "-. --- .--. ."
+      }
+    },
+    {
       "id": "20261101-022244-photo-4b43c9d0",
       "createdAt": "2026-11-01T02:22:44Z",
       "category": "photo",

@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-01T02:22:44Z",
-  "total": 126,
+  "generatedAt": "2026-11-01T09:13:17Z",
+  "total": 127,
   "items": [
+    {
+      "id": "20261101-091317-morse-c84dbae7",
+      "createdAt": "2026-11-01T09:13:17Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "انقرها على الطاولة: «NOPE»",
+      "body": "نقطة نقطة شرطة يعني الموضوع جد.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tangerine",
+        "character": "ufo",
+        "expression": "smug",
+        "sticker": "لا.",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 835346
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 1,
+        "headline": 1,
+        "reply": 0
+      },
+      "contentHash": "c84dbae7044f91ffcb9b00ff58168f1f5c3dafe4c05de5b7e4e7f355e6ffb96a",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOPE",
+        "output": "-. --- .--. ."
+      }
+    },
     {
       "id": "20261101-022244-photo-4b43c9d0",
       "createdAt": "2026-11-01T02:22:44Z",
@@ -894,40 +928,6 @@
       },
       "contentHash": "eaf3df7f98308753ae5f6b7b3d96ede494751d4bf34c84d9534470465bef1329",
       "verified": null
-    },
-    {
-      "id": "20261025-190214-morse-89729d28",
-      "createdAt": "2026-10-25T19:02:14Z",
-      "category": "morse",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Tap this on the table: “NOPE”",
-      "body": "Quiet, polite and impossible to argue with.",
-      "kicker": "Status: NOOO delivered.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "lime",
-        "character": "alarm",
-        "expression": "unbothered",
-        "sticker": "DENIED",
-        "animation": "pulse",
-        "layout": "right",
-        "seed": 576551
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 1,
-        "headline": 1,
-        "reply": 7
-      },
-      "contentHash": "89729d28b4cbf80b5926ad87c73f75e8ded1250a068efa66583aa15cbb0b3338",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NOPE",
-        "output": "-. --- .--. ."
-      }
     }
   ]
 }
