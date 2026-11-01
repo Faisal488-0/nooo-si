@@ -1,0 +1,43 @@
+{
+  "month": "2026-11",
+  "items": [
+    {
+      "id": "20261101-022244-photo-4b43c9d0",
+      "createdAt": "2026-11-01T02:22:44Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "القرد مدعوًّا إلى «عصف ذهني»:",
+      "body": "دماغي عاصفة موز. لا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "grape",
+        "character": "printer",
+        "expression": "shocked",
+        "sticker": "مستحيل",
+        "animation": "float",
+        "layout": "right",
+        "seed": 911372
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 6
+      },
+      "contentHash": "4b43c9d03fb4098e873b5d7e942c55a20b8b28e143c216af84b4026428a2716c",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261101-022244-116d67ee.jpg",
+        "sourceId": "116d67ee-f5de-4f6b-be5f-18fec08531a9",
+        "theme": "monkey",
+        "title": "Monkey and Man Playing Instruments",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/550062"
+      }
+    }
+  ]
+}
