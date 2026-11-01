@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261101-202916-monday-7bc638bf",
+      "createdAt": "2026-11-01T20:29:16Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "قائمة المهام: تذكر اللي خليته من الخميس؟",
+      "body": "مو كسلان، أنا بوضع توفير الطاقة.",
+      "kicker": "أرسلها لشخص يحتاجها.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "bubblegum",
+        "character": "alarm",
+        "expression": "smug",
+        "sticker": "لا قاطعة",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 801109
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 5
+      },
+      "contentHash": "7bc638bfe553cd97599549859fa4e7779c72bee92951b47f6d19d894a71fc534",
+      "verified": null
+    },
+    {
       "id": "20261101-160032-office-689a7f93",
       "createdAt": "2026-11-01T16:00:32Z",
       "category": "office",
