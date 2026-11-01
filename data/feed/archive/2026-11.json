@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261101-160032-office-689a7f93",
+      "createdAt": "2026-11-01T16:00:32Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Can you approve this without reading it?",
+      "body": "The synergy says no.",
+      "kicker": "Refusal level: legendary.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "lime",
+        "character": "laptop",
+        "expression": "sleepy",
+        "sticker": "DENIED",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 408377
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 11
+      },
+      "contentHash": "689a7f938dbc59129c597a8b5e030671b8ddef1cbef91bdf1469305ead454e14",
+      "verified": null
+    },
+    {
       "id": "20261101-091317-morse-c84dbae7",
       "createdAt": "2026-11-01T09:13:17Z",
       "category": "morse",

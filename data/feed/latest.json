@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-01T09:13:17Z",
-  "total": 127,
+  "generatedAt": "2026-11-01T16:00:32Z",
+  "total": 128,
   "items": [
+    {
+      "id": "20261101-160032-office-689a7f93",
+      "createdAt": "2026-11-01T16:00:32Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Can you approve this without reading it?",
+      "body": "The synergy says no.",
+      "kicker": "Refusal level: legendary.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "lime",
+        "character": "laptop",
+        "expression": "sleepy",
+        "sticker": "DENIED",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 408377
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 11
+      },
+      "contentHash": "689a7f938dbc59129c597a8b5e030671b8ddef1cbef91bdf1469305ead454e14",
+      "verified": null
+    },
     {
       "id": "20261101-091317-morse-c84dbae7",
       "createdAt": "2026-11-01T09:13:17Z",
@@ -899,34 +927,6 @@
         "reply": 15
       },
       "contentHash": "dc0a035cfe753f50cc69a64a93695781c5d1e87ddc67c3cd608f33db1894fed2",
-      "verified": null
-    },
-    {
-      "id": "20261025-214511-office-eaf3df7f",
-      "createdAt": "2026-10-25T21:45:11Z",
-      "category": "office",
-      "locale": "en",
-      "eyebrow": "Office life",
-      "headline": "Can you take notes? You type fast.",
-      "body": "That's outside my job description, and my galaxy.",
-      "kicker": "Share this with someone who needs it.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "cyan",
-        "character": "laptop",
-        "expression": "angry",
-        "sticker": "HARD NO",
-        "animation": "shake",
-        "layout": "left",
-        "seed": 964400
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 4,
-        "reply": 8
-      },
-      "contentHash": "eaf3df7f98308753ae5f6b7b3d96ede494751d4bf34c84d9534470465bef1329",
       "verified": null
     }
   ]
