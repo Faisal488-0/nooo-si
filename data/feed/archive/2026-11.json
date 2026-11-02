@@ -2,6 +2,43 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261102-004118-global-c6fa33ad",
+      "createdAt": "2026-11-02T00:41:18Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "How to say NO in Italian",
+      "body": "Works on bosses, aunties and spam calls.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "tomato",
+        "character": "ufo",
+        "expression": "smug",
+        "sticker": "NOOO!",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 991836
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 33,
+        "headline": 0,
+        "reply": 2
+      },
+      "contentHash": "c6fa33add99c3b215311c6e9a97794bc989a81859aca40f60638e7859847bfed",
+      "verified": true,
+      "lang": {
+        "id": "it",
+        "name": "Italian",
+        "no": "No",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261101-202916-monday-7bc638bf",
       "createdAt": "2026-11-01T20:29:16Z",
       "category": "monday",
