@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-02T00:41:18Z",
-  "total": 130,
+  "generatedAt": "2026-11-02T07:39:28Z",
+  "total": 131,
   "items": [
+    {
+      "id": "20261102-073928-boss-b6964165",
+      "createdAt": "2026-11-02T07:39:28Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Let's circle back at 11 PM.",
+      "body": "That sounds like a great opportunity for someone else.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "lemon",
+        "character": "laptop",
+        "expression": "angry",
+        "sticker": "NEVER",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 9085
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 6
+      },
+      "contentHash": "b696416533a27da1d96230ed45ab32948caf2c2d8d41fd3fc027c81d0749d306",
+      "verified": null
+    },
     {
       "id": "20261102-004118-global-c6fa33ad",
       "createdAt": "2026-11-02T00:41:18Z",
@@ -900,34 +928,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/43752"
       }
-    },
-    {
-      "id": "20261026-125612-boss-f700e2f1",
-      "createdAt": "2026-10-26T12:56:12Z",
-      "category": "boss",
-      "locale": "ar",
-      "eyebrow": "المدير يسأل",
-      "headline": "عندي شغلة صغيرة مستعجلة لك.",
-      "body": "التوازن بين العمل والحياة رفع شكوى رسمية.",
-      "kicker": "بدون ندم. بس لا.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "tomato",
-        "character": "boss",
-        "expression": "sleepy",
-        "sticker": "لااا!",
-        "animation": "shake",
-        "layout": "center",
-        "seed": 745690
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 3,
-        "reply": 7
-      },
-      "contentHash": "f700e2f1c25a8c122071998c54d1044fc647685043699742d83b6c8055c5c5b7",
-      "verified": null
     }
   ]
 }

@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261102-073928-boss-b6964165",
+      "createdAt": "2026-11-02T07:39:28Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Let's circle back at 11 PM.",
+      "body": "That sounds like a great opportunity for someone else.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "lemon",
+        "character": "laptop",
+        "expression": "angry",
+        "sticker": "NEVER",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 9085
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 6
+      },
+      "contentHash": "b696416533a27da1d96230ed45ab32948caf2c2d8d41fd3fc027c81d0749d306",
+      "verified": null
+    },
+    {
       "id": "20261102-004118-global-c6fa33ad",
       "createdAt": "2026-11-02T00:41:18Z",
       "category": "global",
