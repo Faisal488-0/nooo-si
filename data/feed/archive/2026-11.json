@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261102-182640-friends-16f14afd",
+      "createdAt": "2026-11-02T18:26:40Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "عطني شاحنك. للأبد.",
+      "body": "أسوي لك أي شي. إلا هذا.",
+      "kicker": "تُستخدم مع الحدود.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "grape",
+        "character": "cactus",
+        "expression": "shocked",
+        "sticker": "انسى",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 794035
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 10
+      },
+      "contentHash": "16f14afd15e8f0b767460ab8de4c58ded9bfa8474b10fb3b3b1ba608487a7a59",
+      "verified": null
+    },
+    {
       "id": "20261102-073928-boss-b6964165",
       "createdAt": "2026-11-02T07:39:28Z",
       "category": "boss",

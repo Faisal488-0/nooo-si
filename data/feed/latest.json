@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-02T07:39:28Z",
-  "total": 131,
+  "generatedAt": "2026-11-02T18:26:40Z",
+  "total": 132,
   "items": [
+    {
+      "id": "20261102-182640-friends-16f14afd",
+      "createdAt": "2026-11-02T18:26:40Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "عطني شاحنك. للأبد.",
+      "body": "أسوي لك أي شي. إلا هذا.",
+      "kicker": "تُستخدم مع الحدود.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "grape",
+        "character": "cactus",
+        "expression": "shocked",
+        "sticker": "انسى",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 794035
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 10
+      },
+      "contentHash": "16f14afd15e8f0b767460ab8de4c58ded9bfa8474b10fb3b3b1ba608487a7a59",
+      "verified": null
+    },
     {
       "id": "20261102-073928-boss-b6964165",
       "createdAt": "2026-11-02T07:39:28Z",
@@ -890,44 +918,6 @@
       },
       "contentHash": "68e8ca5cfca8748cd97422da66d30b3f4ca392893297441f5707003660a3853a",
       "verified": null
-    },
-    {
-      "id": "20261026-192249-photo-331a2a9a",
-      "createdAt": "2026-10-26T19:22:49Z",
-      "category": "photo",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "الأسد حين تطلب منه «خدمة سريعة»:",
-      "body": "أنا الملك. وخدمات الملك بطيئة. لا.",
-      "kicker": "صدى: لا… لا… لا…",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "lemon",
-        "character": "printer",
-        "expression": "dramatic",
-        "sticker": "انسى",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 417893
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 4
-      },
-      "contentHash": "331a2a9a5675dc2e0a05b5b7290a8737632c1ada0287a44058b99a6879d52bdc",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261026-192249-4bc99fa7.jpg",
-        "sourceId": "4bc99fa7-f1a1-44c7-a061-59b9cd867d3a",
-        "theme": "lion",
-        "title": "Lion",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/43752"
-      }
     }
   ]
 }
