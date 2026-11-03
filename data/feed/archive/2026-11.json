@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261103-174926-scifi-1f1041e6",
+      "createdAt": "2026-11-03T17:49:26Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Mars colony: mandatory 6 AM oxygen meeting.",
+      "body": "Warp drive engaged. Direction: away from your request.",
+      "kicker": "Fresh NO, baked this hour.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "night",
+        "character": "alien",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 841199
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 8
+      },
+      "contentHash": "1f1041e6921f7ba700c422e605344cd557dcbfd8d5dd5337ee56c10848ecd850",
+      "verified": null
+    },
+    {
       "id": "20261103-092919-cat-e355fedc",
       "createdAt": "2026-11-03T09:29:19Z",
       "category": "cat",
