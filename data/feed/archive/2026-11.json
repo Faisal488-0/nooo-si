@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261103-092919-cat-e355fedc",
+      "createdAt": "2026-11-03T09:29:19Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "لا تغني أوبرا الساعة ٤ الفجر.",
+      "body": "جدولي: نوم، حكم عليك، نوم. وأنت مو فيه.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "لا قاطعة",
+        "animation": "bounce",
+        "layout": "center",
+        "seed": 600572
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 6
+      },
+      "contentHash": "e355fedccbc9aaaa6e9ff385091a34ad23bd912856945d2239af63e8ca52fc25",
+      "verified": null
+    },
+    {
       "id": "20261103-013350-relationship-b9ede40a",
       "createdAt": "2026-11-03T01:33:50Z",
       "category": "relationship",

@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-03T01:33:50Z",
-  "total": 133,
+  "generatedAt": "2026-11-03T09:29:19Z",
+  "total": 134,
   "items": [
+    {
+      "id": "20261103-092919-cat-e355fedc",
+      "createdAt": "2026-11-03T09:29:19Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "لا تغني أوبرا الساعة ٤ الفجر.",
+      "body": "جدولي: نوم، حكم عليك، نوم. وأنت مو فيه.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "لا قاطعة",
+        "animation": "bounce",
+        "layout": "center",
+        "seed": 600572
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 6
+      },
+      "contentHash": "e355fedccbc9aaaa6e9ff385091a34ad23bd912856945d2239af63e8ca52fc25",
+      "verified": null
+    },
     {
       "id": "20261103-013350-relationship-b9ede40a",
       "createdAt": "2026-11-03T01:33:50Z",
@@ -889,34 +917,6 @@
         "reply": 12
       },
       "contentHash": "144d9b542489b3e89da9be1019ced30a53507da286883ab04e74f4d7758547e4",
-      "verified": null
-    },
-    {
-      "id": "20261027-020323-cat-f497310c",
-      "createdAt": "2026-10-27T02:03:23Z",
-      "category": "cat",
-      "locale": "en",
-      "eyebrow": "Human to cat",
-      "headline": "Sleep in the fancy bed I bought you.",
-      "body": "You may pet me twice. Then: no.",
-      "kicker": "Side effects: inner peace.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "mint",
-        "character": "cat",
-        "expression": "smug",
-        "sticker": "NOOO!",
-        "animation": "pulse",
-        "layout": "right",
-        "seed": 687531
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 5,
-        "reply": 11
-      },
-      "contentHash": "f497310ccf067e88198fcd77c53b7c770587fa6869797e1bb73d2b35ec9233cc",
       "verified": null
     }
   ]
