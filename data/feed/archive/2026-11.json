@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261103-013350-relationship-b9ede40a",
+      "createdAt": "2026-11-03T01:33:50Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Can you reply within four seconds?",
+      "body": "I'd rather be honest than agreeable: no.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "lime",
+        "character": "cactus",
+        "expression": "dramatic",
+        "sticker": "NOT TODAY",
+        "animation": "bounce",
+        "layout": "right",
+        "seed": 103110
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 5
+      },
+      "contentHash": "b9ede40a3e9dda3b3a41bc78d97e5c4450edb8c51c9b11d9def0e29e6b613715",
+      "verified": null
+    },
+    {
       "id": "20261102-182640-friends-16f14afd",
       "createdAt": "2026-11-02T18:26:40Z",
       "category": "friends",
