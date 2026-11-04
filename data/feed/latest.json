@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-03T23:19:06Z",
-  "total": 136,
+  "generatedAt": "2026-11-04T06:13:14Z",
+  "total": 137,
   "items": [
+    {
+      "id": "20261104-061314-morse-c2660322",
+      "createdAt": "2026-11-04T06:13:14Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Blink “NO THANKS” with a flashlight",
+      "body": "Works through walls, doors and family group chats.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "cyan",
+        "character": "alarm",
+        "expression": "shocked",
+        "sticker": "NEVER",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 492790
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 3,
+        "headline": 2,
+        "reply": 2
+      },
+      "contentHash": "c2660322c2eb74700df95a6136c3d696953af01d7428a41a01956118c495691d",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO THANKS",
+        "output": "-. --- / - .... .- -. -.- ..."
+      }
+    },
     {
       "id": "20261103-231906-binary-5ff57ed1",
       "createdAt": "2026-11-03T23:19:06Z",
@@ -883,40 +917,6 @@
         "license": "cc0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/203043"
-      }
-    },
-    {
-      "id": "20261027-200400-morse-acb4234d",
-      "createdAt": "2026-10-27T20:04:00Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "ومّض «TRY TUESDAY» بالكشاف",
-      "body": "هادية ومهذبة ومستحيل تتناقش فيها.",
-      "kicker": "انسخ. الصق. ارفض.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "lemon",
-        "character": "robot",
-        "expression": "dramatic",
-        "sticker": "مستحيل",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 669096
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 15,
-        "headline": 2,
-        "reply": 7
-      },
-      "contentHash": "acb4234d4fd433d6f3a694eac0590ac36d27353ac43778a31a6c8bcbdfd033b1",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "TRY TUESDAY",
-        "output": "- .-. -.-- / - ..- . ... -.. .- -.--"
       }
     }
   ]
