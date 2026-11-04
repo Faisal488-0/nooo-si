@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261104-143047-photo-340c3cf9",
+      "createdAt": "2026-11-04T14:30:47Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Donkey told 'don't be stubborn':",
+      "body": "I prefer 'consistent'. No.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "night",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "DENIED",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 642754
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 7
+      },
+      "contentHash": "340c3cf925d937c3fe7542c7a02131e9439717160e9f817884740b5b5557fd7b",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261104-143047-bb5b5ac1.jpg",
+        "sourceId": "bb5b5ac1-7d3a-4597-988f-8f271eb22997",
+        "theme": "donkey",
+        "title": "Model Saddle Bag for a Donkey",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/556749"
+      }
+    },
+    {
       "id": "20261104-061314-morse-c2660322",
       "createdAt": "2026-11-04T06:13:14Z",
       "category": "morse",

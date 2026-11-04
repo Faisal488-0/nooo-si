@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-04T06:13:14Z",
-  "total": 137,
+  "generatedAt": "2026-11-04T14:30:47Z",
+  "total": 138,
   "items": [
+    {
+      "id": "20261104-143047-photo-340c3cf9",
+      "createdAt": "2026-11-04T14:30:47Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Donkey told 'don't be stubborn':",
+      "body": "I prefer 'consistent'. No.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "night",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "DENIED",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 642754
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 7
+      },
+      "contentHash": "340c3cf925d937c3fe7542c7a02131e9439717160e9f817884740b5b5557fd7b",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261104-143047-bb5b5ac1.jpg",
+        "sourceId": "bb5b5ac1-7d3a-4597-988f-8f271eb22997",
+        "theme": "donkey",
+        "title": "Model Saddle Bag for a Donkey",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/556749"
+      }
+    },
     {
       "id": "20261104-061314-morse-c2660322",
       "createdAt": "2026-11-04T06:13:14Z",
@@ -880,44 +918,6 @@
       },
       "contentHash": "a90fcc7b1cd16d73c146951b9d372199ad027b35f9aa7f6e99d39ba7aed586c4",
       "verified": null
-    },
-    {
-      "id": "20261027-235159-photo-26c347e8",
-      "createdAt": "2026-10-27T23:51:59Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "The rooster at 4:59 a.m.:",
-      "body": "The sun asked for permission. I said no. Then I said it louder.",
-      "kicker": "Boundaries 1 — Chaos 0.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "lemon",
-        "character": "laptop",
-        "expression": "angry",
-        "sticker": "HARD NO",
-        "animation": "float",
-        "layout": "left",
-        "seed": 794449
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 5
-      },
-      "contentHash": "26c347e82810a3e6afe08153fa3a4d6fc28e1aff66a24593e728ff9e4c3e13ae",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261027-235159-0fc1a538.jpg",
-        "sourceId": "0fc1a538-ca6c-4cbd-91ee-6d074d1e6627",
-        "theme": "rooster",
-        "title": "Chinese rooster (one of a pair)",
-        "creator": "Meissen Manufactory",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/203043"
-      }
     }
   ]
 }
