@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-04T14:30:47Z",
-  "total": 138,
+  "generatedAt": "2026-11-04T21:17:50Z",
+  "total": 139,
   "items": [
+    {
+      "id": "20261104-211750-monday-116ed911",
+      "createdAt": "2026-11-04T21:17:50Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Bed: you really have to get up now.",
+      "body": "My motivation is still on weekend roaming.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "lemon",
+        "character": "mug",
+        "expression": "unbothered",
+        "sticker": "HARD NO",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 86252
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 10
+      },
+      "contentHash": "116ed911b9735de72e77f2c580c2f9902ccc16477da9835e0cc6f3ebfeab886a",
+      "verified": null
+    },
     {
       "id": "20261104-143047-photo-340c3cf9",
       "createdAt": "2026-11-04T14:30:47Z",
@@ -890,34 +918,6 @@
         "dir": "ltr",
         "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
       }
-    },
-    {
-      "id": "20261028-053733-monday-a90fcc7b",
-      "createdAt": "2026-10-28T05:37:33Z",
-      "category": "monday",
-      "locale": "ar",
-      "eyebrow": "صباح أول يوم دوام",
-      "headline": "مكينة القهوة: خارج الخدمة.",
-      "body": "ببدأ الأسبوع… الأسبوع الجاي.",
-      "kicker": "«اللا» الجاية بعد ساعة.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "tangerine",
-        "character": "ghost",
-        "expression": "sleepy",
-        "sticker": "أبدًا",
-        "animation": "float",
-        "layout": "left",
-        "seed": 679025
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 3,
-        "reply": 9
-      },
-      "contentHash": "a90fcc7b1cd16d73c146951b9d372199ad027b35f9aa7f6e99d39ba7aed586c4",
-      "verified": null
     }
   ]
 }

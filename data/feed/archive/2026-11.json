@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261104-211750-monday-116ed911",
+      "createdAt": "2026-11-04T21:17:50Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Bed: you really have to get up now.",
+      "body": "My motivation is still on weekend roaming.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "lemon",
+        "character": "mug",
+        "expression": "unbothered",
+        "sticker": "HARD NO",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 86252
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 10
+      },
+      "contentHash": "116ed911b9735de72e77f2c580c2f9902ccc16477da9835e0cc6f3ebfeab886a",
+      "verified": null
+    },
+    {
       "id": "20261104-143047-photo-340c3cf9",
       "createdAt": "2026-11-04T14:30:47Z",
       "category": "photo",
