@@ -2,6 +2,43 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261105-022348-global-2794c5e8",
+      "createdAt": "2026-11-05T02:23:48Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«لا» بنسخة الألبانية",
+      "body": "تدرّب عليها قدام المراية قبل الدوام.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "mint",
+        "character": "cat",
+        "expression": "sleepy",
+        "sticker": "لا.",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 98376
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 4,
+        "headline": 1,
+        "reply": 7
+      },
+      "contentHash": "2794c5e816d84e02e0a083df70e76842aed8a285a463be3fbb41465a33eb69c4",
+      "verified": true,
+      "lang": {
+        "id": "sq",
+        "name": "الألبانية",
+        "no": "Jo",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261104-211750-monday-116ed911",
       "createdAt": "2026-11-04T21:17:50Z",
       "category": "monday",
