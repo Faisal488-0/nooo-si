@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-05T10:49:44Z",
-  "total": 141,
+  "generatedAt": "2026-11-05T18:42:57Z",
+  "total": 142,
   "items": [
+    {
+      "id": "20261105-184257-friends-69332aa3",
+      "createdAt": "2026-11-05T18:42:57Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Be my plus-one at a wedding of people I don't know?",
+      "body": "I'd do anything for you. Except that.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "NOPE",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 909029
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 13,
+        "reply": 10
+      },
+      "contentHash": "69332aa3f8e3172afdf3324155fce8df5d5b103ad3cad1fc3983498315d1b1ce",
+      "verified": null
+    },
     {
       "id": "20261105-104944-boss-796a5b22",
       "createdAt": "2026-11-05T10:49:44Z",
@@ -889,34 +917,6 @@
         "reply": 7
       },
       "contentHash": "3cbd81189fff6a3649fffdb282dc4430c6087fc3cd58d896408b05c0538c8ef3",
-      "verified": null
-    },
-    {
-      "id": "20261028-231222-friends-6110a5a9",
-      "createdAt": "2026-10-28T23:12:22Z",
-      "category": "friends",
-      "locale": "ar",
-      "eyebrow": "صديقك يطلب",
-      "headline": "سلّفني شوي، أرجعها لك… بعدين.",
-      "body": "بطاريتي ٢٪، ورغبتي نفس الشي.",
-      "kicker": "صدى: لا… لا… لا…",
-      "visualPreset": {
-        "background": "burst",
-        "palette": "lime",
-        "character": "ghost",
-        "expression": "unbothered",
-        "sticker": "أبدًا",
-        "animation": "float",
-        "layout": "center",
-        "seed": 511024
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 0,
-        "reply": 13
-      },
-      "contentHash": "6110a5a941f1103d79e4a5c3e25df6885b80a24647c28b5d48b35be15cef083a",
       "verified": null
     }
   ]

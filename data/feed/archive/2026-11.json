@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261105-184257-friends-69332aa3",
+      "createdAt": "2026-11-05T18:42:57Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Be my plus-one at a wedding of people I don't know?",
+      "body": "I'd do anything for you. Except that.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "NOPE",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 909029
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 13,
+        "reply": 10
+      },
+      "contentHash": "69332aa3f8e3172afdf3324155fce8df5d5b103ad3cad1fc3983498315d1b1ce",
+      "verified": null
+    },
+    {
       "id": "20261105-104944-boss-796a5b22",
       "createdAt": "2026-11-05T10:49:44Z",
       "category": "boss",
