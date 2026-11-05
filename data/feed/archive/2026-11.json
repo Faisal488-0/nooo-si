@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261105-104944-boss-796a5b22",
+      "createdAt": "2026-11-05T10:49:44Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "ممكن تمسك مشروع زميلك بعد؟",
+      "body": "خلنا نكون على نفس الصفحة: لا.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tangerine",
+        "character": "boss",
+        "expression": "angry",
+        "sticker": "لا قاطعة",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 561423
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 12
+      },
+      "contentHash": "796a5b22e1ccff6171a24d2ce922a585aadc92ffcddc75e640ade91e896d114b",
+      "verified": null
+    },
+    {
       "id": "20261105-022348-global-2794c5e8",
       "createdAt": "2026-11-05T02:23:48Z",
       "category": "global",
