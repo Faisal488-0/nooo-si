@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261106-205215-binary-10e3ef23",
+      "createdAt": "2026-11-06T20:52:15Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«لا شكرًا» بلغة الكمبيوتر",
+      "body": "الصقها على ثلاجتك الذكية.",
+      "kicker": "معتمدة من وزارة «لا».",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lemon",
+        "character": "toaster",
+        "expression": "sleepy",
+        "sticker": "مرفوض",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 164317
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 1,
+        "headline": 0,
+        "reply": 1
+      },
+      "contentHash": "10e3ef23f031674e6328db367f566ca90511992adb96b578686db348baa1d7ab",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "لا شكرًا",
+        "output": "11011001 10000100 11011000 10100111 00100000 11011000 10110100 11011001 10000011 11011000 10110001 11011001 10001011 11011000 10100111"
+      }
+    },
+    {
       "id": "20261106-145944-scifi-b6599ed6",
       "createdAt": "2026-11-06T14:59:44Z",
       "category": "scifi",
