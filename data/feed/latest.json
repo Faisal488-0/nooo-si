@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-06T00:12:33Z",
-  "total": 143,
+  "generatedAt": "2026-11-06T06:38:51Z",
+  "total": 144,
   "items": [
+    {
+      "id": "20261106-063851-photo-397e0694",
+      "createdAt": "2026-11-06T06:38:51Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الدبّ حين طلبوا منه الاستيقاظ للربيع:",
+      "body": "الربيع يستطيع الانتظار. أنا في اجتماع مع وسادتي.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "night",
+        "character": "phone",
+        "expression": "unbothered",
+        "sticker": "لا.",
+        "animation": "bounce",
+        "layout": "center",
+        "seed": 748642
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 8
+      },
+      "contentHash": "397e06941646e0aaddfc78b1321be3342067b0af27f10dd9ca4eb2cd99599ed2",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261106-063851-f7690607.jpg",
+        "sourceId": "f7690607-ed5f-492e-9770-25655d7a8638",
+        "theme": "bear",
+        "title": "Plate from 'The Set of The Bears'",
+        "creator": "Marcus de Bye",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/399431"
+      }
+    },
     {
       "id": "20261106-001233-relationship-fa91adc3",
       "createdAt": "2026-11-06T00:12:33Z",
@@ -889,34 +927,6 @@
         "reply": 3
       },
       "contentHash": "30ef4fcaf2443768a519a97c236bc3c6ab95cf051510cd1d4bbeac61af3717a8",
-      "verified": null
-    },
-    {
-      "id": "20261029-100454-cat-28fc5092",
-      "createdAt": "2026-10-29T10:04:54Z",
-      "category": "cat",
-      "locale": "ar",
-      "eyebrow": "الإنسان للقطوة",
-      "headline": "نام في السرير الفخم اللي شريته لك.",
-      "body": "طيّحت طلبك من الطاولة. شوف، صار على الأرض.",
-      "kicker": "صدى: لا… لا… لا…",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "grape",
-        "character": "cat",
-        "expression": "sleepy",
-        "sticker": "لا قاطعة",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 115555
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 5,
-        "reply": 12
-      },
-      "contentHash": "28fc5092a5cbaeddf19d2ed4b6e8e3ed68384d0888ffd788bb20b3cd19c593a0",
       "verified": null
     }
   ]
