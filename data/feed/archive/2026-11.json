@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261106-145944-scifi-b6599ed6",
+      "createdAt": "2026-11-06T14:59:44Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "موارد بشرية فضائية: نشاط جماعي إجباري على المشتري.",
+      "body": "المحرك الفائق شغّال. الاتجاه: بعيد عن طلبك.",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "cyan",
+        "character": "alien",
+        "expression": "angry",
+        "sticker": "أبدًا",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 35524
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 8
+      },
+      "contentHash": "b6599ed6afb8b2d7558a4001240b60b08a926f597bc82b091fb88721f17f2470",
+      "verified": null
+    },
+    {
       "id": "20261106-063851-photo-397e0694",
       "createdAt": "2026-11-06T06:38:51Z",
       "category": "photo",
