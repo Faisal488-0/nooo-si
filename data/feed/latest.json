@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-05T18:42:57Z",
-  "total": 142,
+  "generatedAt": "2026-11-06T00:12:33Z",
+  "total": 143,
   "items": [
+    {
+      "id": "20261106-001233-relationship-fa91adc3",
+      "createdAt": "2026-11-06T00:12:33Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "أسمّي قطوتنا المستقبلية بدونك؟",
+      "body": "أفضّل أكون صادق على إني أكون مجامل: لا.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tangerine",
+        "character": "cactus",
+        "expression": "unbothered",
+        "sticker": "مرفوض",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 988514
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 5
+      },
+      "contentHash": "fa91adc3dfc324f08d6a196277cb245c8e33eb52b2ea8405d6624c408d56a03a",
+      "verified": null
+    },
     {
       "id": "20261105-184257-friends-69332aa3",
       "createdAt": "2026-11-05T18:42:57Z",
@@ -889,34 +917,6 @@
         "reply": 12
       },
       "contentHash": "28fc5092a5cbaeddf19d2ed4b6e8e3ed68384d0888ffd788bb20b3cd19c593a0",
-      "verified": null
-    },
-    {
-      "id": "20261029-022532-relationship-3cbd8118",
-      "createdAt": "2026-10-29T02:25:32Z",
-      "category": "relationship",
-      "locale": "en",
-      "eyebrow": "Your partner asks",
-      "headline": "Can I pick all your outfits?",
-      "body": "Respectfully, lovingly, completely: no.",
-      "kicker": "No regrets. Just no.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "lemon",
-        "character": "phone",
-        "expression": "dramatic",
-        "sticker": "NOT TODAY",
-        "animation": "shake",
-        "layout": "left",
-        "seed": 38977
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 5,
-        "reply": 7
-      },
-      "contentHash": "3cbd81189fff6a3649fffdb282dc4430c6087fc3cd58d896408b05c0538c8ef3",
       "verified": null
     }
   ]

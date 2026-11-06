@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261106-001233-relationship-fa91adc3",
+      "createdAt": "2026-11-06T00:12:33Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "أسمّي قطوتنا المستقبلية بدونك؟",
+      "body": "أفضّل أكون صادق على إني أكون مجامل: لا.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tangerine",
+        "character": "cactus",
+        "expression": "unbothered",
+        "sticker": "مرفوض",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 988514
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 5
+      },
+      "contentHash": "fa91adc3dfc324f08d6a196277cb245c8e33eb52b2ea8405d6624c408d56a03a",
+      "verified": null
+    },
+    {
       "id": "20261105-184257-friends-69332aa3",
       "createdAt": "2026-11-05T18:42:57Z",
       "category": "friends",
