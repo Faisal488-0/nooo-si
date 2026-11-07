@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261107-070600-office-3d95100c",
+      "createdAt": "2026-11-07T07:06:00Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "تصلح الطابعة؟ أنت شاطر بالكمبيوتر.",
+      "body": "حسب سياستنا اللي توني كتبتها: لا.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tangerine",
+        "character": "mug",
+        "expression": "angry",
+        "sticker": "لااا!",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 812161
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 12
+      },
+      "contentHash": "3d95100c76b5054de49a82144110c343ce2954b7871d53bb454249e8d45d01f9",
+      "verified": null
+    },
+    {
       "id": "20261107-005454-morse-5f022263",
       "createdAt": "2026-11-07T00:54:54Z",
       "category": "morse",

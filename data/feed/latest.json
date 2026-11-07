@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-07T00:54:54Z",
-  "total": 147,
+  "generatedAt": "2026-11-07T07:06:00Z",
+  "total": 148,
   "items": [
+    {
+      "id": "20261107-070600-office-3d95100c",
+      "createdAt": "2026-11-07T07:06:00Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "تصلح الطابعة؟ أنت شاطر بالكمبيوتر.",
+      "body": "حسب سياستنا اللي توني كتبتها: لا.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tangerine",
+        "character": "mug",
+        "expression": "angry",
+        "sticker": "لااا!",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 812161
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 12
+      },
+      "contentHash": "3d95100c76b5054de49a82144110c343ce2954b7871d53bb454249e8d45d01f9",
+      "verified": null
+    },
     {
       "id": "20261107-005454-morse-5f022263",
       "createdAt": "2026-11-07T00:54:54Z",
@@ -899,34 +927,6 @@
         "reply": 0
       },
       "contentHash": "bf4e4b0028594e3db5314dbf2586fa9da47c811e2dd3fac0fdb91cb874ac1f89",
-      "verified": null
-    },
-    {
-      "id": "20261030-083628-office-3f70812f",
-      "createdAt": "2026-10-30T08:36:28Z",
-      "category": "office",
-      "locale": "ar",
-      "eyebrow": "حياة المكتب",
-      "headline": "توافق على هذا بدون ما تقراه؟",
-      "body": "هذا برّا وصفي الوظيفي، وبرّا مجرتي.",
-      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "grape",
-        "character": "laptop",
-        "expression": "angry",
-        "sticker": "مرفوض",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 263466
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 8
-      },
-      "contentHash": "3f70812f6c97cec7c868336ec97772dbd9c9853ee4ce63df1dab5ac680c9646c",
       "verified": null
     }
   ]
