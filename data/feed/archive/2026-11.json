@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261107-005454-morse-5f022263",
+      "createdAt": "2026-11-07T00:54:54Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "ومّض «NO THANKS» بالكشاف",
+      "body": "مفاصل أصابعك تكلمت.",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "tangerine",
+        "character": "phone",
+        "expression": "smug",
+        "sticker": "لا.",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 487352
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 3,
+        "headline": 2,
+        "reply": 6
+      },
+      "contentHash": "5f02226387170f44949e4be532516463ea76452ae03c9ee75c306b4708dd5811",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO THANKS",
+        "output": "-. --- / - .... .- -. -.- ..."
+      }
+    },
+    {
       "id": "20261106-205215-binary-10e3ef23",
       "createdAt": "2026-11-06T20:52:15Z",
       "category": "binary",

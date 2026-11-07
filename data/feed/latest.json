@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-06T20:52:15Z",
-  "total": 146,
+  "generatedAt": "2026-11-07T00:54:54Z",
+  "total": 147,
   "items": [
+    {
+      "id": "20261107-005454-morse-5f022263",
+      "createdAt": "2026-11-07T00:54:54Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "ومّض «NO THANKS» بالكشاف",
+      "body": "مفاصل أصابعك تكلمت.",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "tangerine",
+        "character": "phone",
+        "expression": "smug",
+        "sticker": "لا.",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 487352
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 3,
+        "headline": 2,
+        "reply": 6
+      },
+      "contentHash": "5f02226387170f44949e4be532516463ea76452ae03c9ee75c306b4708dd5811",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO THANKS",
+        "output": "-. --- / - .... .- -. -.- ..."
+      }
+    },
     {
       "id": "20261106-205215-binary-10e3ef23",
       "createdAt": "2026-11-06T20:52:15Z",
@@ -894,40 +928,6 @@
       },
       "contentHash": "3f70812f6c97cec7c868336ec97772dbd9c9853ee4ce63df1dab5ac680c9646c",
       "verified": null
-    },
-    {
-      "id": "20261030-015713-morse-9767884f",
-      "createdAt": "2026-10-30T01:57:13Z",
-      "category": "morse",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "“NO MORE” in Morse code",
-      "body": "Ship captains used to send this. Now you can.",
-      "kicker": "Signed, sealed, declined.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "tomato",
-        "character": "alarm",
-        "expression": "angry",
-        "sticker": "NAH",
-        "animation": "tilt",
-        "layout": "right",
-        "seed": 38916
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 14,
-        "headline": 0,
-        "reply": 4
-      },
-      "contentHash": "9767884fec6b1267091611693487cc1e1dec570dd226da7579d8857dbb29e9b4",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NO MORE",
-        "output": "-. --- / -- --- .-. ."
-      }
     }
   ]
 }
