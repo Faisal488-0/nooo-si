@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-07T07:06:00Z",
-  "total": 148,
+  "generatedAt": "2026-11-07T13:58:20Z",
+  "total": 149,
   "items": [
+    {
+      "id": "20261107-135820-monday-a40bb59c",
+      "createdAt": "2026-11-07T13:58:20Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "الإيميل: عندك ٢١٤ رسالة غير مقروءة.",
+      "body": "يا أول الأسبوع، أنت مو معزوم على أسبوعي.",
+      "kicker": "قيلت «لا» وعاد السلام.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tangerine",
+        "character": "bed",
+        "expression": "dramatic",
+        "sticker": "لا قاطعة",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 244160
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 14
+      },
+      "contentHash": "a40bb59c5fef657ba8e85a00b2a8e3fba55ce5c89ae658152c7fed82b3c3a3dc",
+      "verified": null
+    },
     {
       "id": "20261107-070600-office-3d95100c",
       "createdAt": "2026-11-07T07:06:00Z",
@@ -900,34 +928,6 @@
         "dir": "rtl",
         "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
       }
-    },
-    {
-      "id": "20261030-155433-monday-bf4e4b00",
-      "createdAt": "2026-10-30T15:54:33Z",
-      "category": "monday",
-      "locale": "en",
-      "eyebrow": "Monday morning",
-      "headline": "Monday: smile, it's the start of the week!",
-      "body": "Snooze is my love language.",
-      "kicker": "Boundaries 1 — Chaos 0.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "mint",
-        "character": "ghost",
-        "expression": "angry",
-        "sticker": "HARD NO",
-        "animation": "float",
-        "layout": "right",
-        "seed": 831531
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 0
-      },
-      "contentHash": "bf4e4b0028594e3db5314dbf2586fa9da47c811e2dd3fac0fdb91cb874ac1f89",
-      "verified": null
     }
   ]
 }

@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261107-135820-monday-a40bb59c",
+      "createdAt": "2026-11-07T13:58:20Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "الإيميل: عندك ٢١٤ رسالة غير مقروءة.",
+      "body": "يا أول الأسبوع، أنت مو معزوم على أسبوعي.",
+      "kicker": "قيلت «لا» وعاد السلام.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tangerine",
+        "character": "bed",
+        "expression": "dramatic",
+        "sticker": "لا قاطعة",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 244160
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 14
+      },
+      "contentHash": "a40bb59c5fef657ba8e85a00b2a8e3fba55ce5c89ae658152c7fed82b3c3a3dc",
+      "verified": null
+    },
+    {
       "id": "20261107-070600-office-3d95100c",
       "createdAt": "2026-11-07T07:06:00Z",
       "category": "office",
