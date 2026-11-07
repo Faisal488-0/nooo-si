@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-07T18:45:48Z",
-  "total": 150,
+  "generatedAt": "2026-11-07T22:42:58Z",
+  "total": 151,
   "items": [
+    {
+      "id": "20261107-224258-boss-b7560ed0",
+      "createdAt": "2026-11-07T22:42:58Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you cover your colleague's project too?",
+      "body": "I'm going to have to decline, respectfully and immediately.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "laptop",
+        "expression": "dramatic",
+        "sticker": "NOPE",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 980453
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 5
+      },
+      "contentHash": "b7560ed0859f17dbed6cadfeb4fc756835d9f1779c74965609ef69e18788f5e1",
+      "verified": null
+    },
     {
       "id": "20261107-184548-photo-51c97084",
       "createdAt": "2026-11-07T18:45:48Z",
@@ -900,34 +928,6 @@
         "reply": 14
       },
       "contentHash": "bbaf32e421a69488b65082c11f2b1d744adad6c657166e2b9a1e1f044fb52367",
-      "verified": null
-    },
-    {
-      "id": "20261031-004617-boss-10efcdf5",
-      "createdAt": "2026-10-31T00:46:17Z",
-      "category": "boss",
-      "locale": "ar",
-      "eyebrow": "المدير يسأل",
-      "headline": "تعال اجتماع عن الاجتماع.",
-      "body": "اللابتوب نام. حدوده أحسن من حدودي… إلى اليوم.",
-      "kicker": "الأعراض الجانبية: راحة بال.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "tomato",
-        "character": "boss",
-        "expression": "shocked",
-        "sticker": "مرفوض",
-        "animation": "shake",
-        "layout": "right",
-        "seed": 694234
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 11,
-        "reply": 14
-      },
-      "contentHash": "10efcdf51560422f4f43b53ab31903e21507cb6af79deb478932a32374ad3173",
       "verified": null
     }
   ]

@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261107-224258-boss-b7560ed0",
+      "createdAt": "2026-11-07T22:42:58Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you cover your colleague's project too?",
+      "body": "I'm going to have to decline, respectfully and immediately.",
+      "kicker": "Share this with someone who needs it.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "laptop",
+        "expression": "dramatic",
+        "sticker": "NOPE",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 980453
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 5
+      },
+      "contentHash": "b7560ed0859f17dbed6cadfeb4fc756835d9f1779c74965609ef69e18788f5e1",
+      "verified": null
+    },
+    {
       "id": "20261107-184548-photo-51c97084",
       "createdAt": "2026-11-07T18:45:48Z",
       "category": "photo",
