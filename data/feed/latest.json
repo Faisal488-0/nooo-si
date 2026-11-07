@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-07T13:58:20Z",
-  "total": 149,
+  "generatedAt": "2026-11-07T18:45:48Z",
+  "total": 150,
   "items": [
+    {
+      "id": "20261107-184548-photo-51c97084",
+      "createdAt": "2026-11-07T18:45:48Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Cat, 3 a.m., asked to be quiet:",
+      "body": "No. The hallway needs a concert.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "bubblegum",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "HARD NO",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 139096
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 0
+      },
+      "contentHash": "51c97084cbaa64b11b530ff8822288be1ae2091ed07aca2eb22afbbf2b301c63",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261107-184548-ca058194.jpg",
+        "sourceId": "ca058194-ce44-43b7-bf5f-7be448c4e315",
+        "theme": "cat",
+        "title": "Cat amulet",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/545389"
+      }
+    },
     {
       "id": "20261107-135820-monday-a40bb59c",
       "createdAt": "2026-11-07T13:58:20Z",
@@ -891,43 +929,6 @@
       },
       "contentHash": "10efcdf51560422f4f43b53ab31903e21507cb6af79deb478932a32374ad3173",
       "verified": null
-    },
-    {
-      "id": "20261030-205850-global-48cd58bd",
-      "createdAt": "2026-10-30T20:58:50Z",
-      "category": "global",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "لا اليوم جاية من العبرية",
-      "body": "أفضل شي تقولها وحواجبك مرفوعة.",
-      "kicker": "مختومة ومرفوضة.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "tangerine",
-        "character": "cat",
-        "expression": "smug",
-        "sticker": "مو اليوم",
-        "animation": "wobble",
-        "layout": "right",
-        "seed": 826783
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "lang": 27,
-        "headline": 2,
-        "reply": 4
-      },
-      "contentHash": "48cd58bd76c23db577dc2aacd91f22fb58bbc773a92a14217d169d9455dc5608",
-      "verified": true,
-      "lang": {
-        "id": "he",
-        "name": "العبرية",
-        "no": "לא",
-        "translit": "lo",
-        "dir": "rtl",
-        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
-      }
     }
   ]
 }
