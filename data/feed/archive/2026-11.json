@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261108-164055-cat-578c8f8e",
+      "createdAt": "2026-11-08T16:40:55Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Stop singing opera at 4 AM.",
+      "body": "The council of whiskers has voted: no.",
+      "kicker": "Fresh NO, baked this hour.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "unbothered",
+        "sticker": "NOOO!",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 165648
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 0
+      },
+      "contentHash": "578c8f8e7881cbd8db18fffb98586df7fcce6eb685640a0249c89fa2d190e2ee",
+      "verified": null
+    },
+    {
       "id": "20261108-101521-relationship-b1a4d90b",
       "createdAt": "2026-11-08T10:15:21Z",
       "category": "relationship",
