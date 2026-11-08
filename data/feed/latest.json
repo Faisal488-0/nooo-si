@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-08T16:40:55Z",
-  "total": 154,
+  "generatedAt": "2026-11-08T21:07:53Z",
+  "total": 155,
   "items": [
+    {
+      "id": "20261108-210753-scifi-e35f5b96",
+      "createdAt": "2026-11-08T21:07:53Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Ship computer: please open the snack bay doors.",
+      "body": "Your request entered a black hole. Nothing comes back.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "alien",
+        "expression": "shocked",
+        "sticker": "NOT TODAY",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 999816
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 13
+      },
+      "contentHash": "e35f5b96c32ab21191784ba5feea8d2d94e310f62692803ba4270a13460b8872",
+      "verified": null
+    },
     {
       "id": "20261108-164055-cat-578c8f8e",
       "createdAt": "2026-11-08T16:40:55Z",
@@ -901,34 +929,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/550062"
       }
-    },
-    {
-      "id": "20261031-222738-scifi-926c9400",
-      "createdAt": "2026-10-31T22:27:38Z",
-      "category": "scifi",
-      "locale": "ar",
-      "eyebrow": "إرسال وارد",
-      "headline": "المركبة: تحديث متوفر. إعادة تشغيل الآن؟",
-      "body": "فتشنا كل الأكوان الموازية. برضو لا.",
-      "kicker": "الحدود ١ — الفوضى ٠.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "grape",
-        "character": "alien",
-        "expression": "unbothered",
-        "sticker": "مستحيل",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 389188
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 8,
-        "reply": 10
-      },
-      "contentHash": "926c94009e4bc4876f27cf7067f7fb0e15d7279596417012fb1660b7026a5b2a",
-      "verified": null
     }
   ]
 }

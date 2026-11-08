@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261108-210753-scifi-e35f5b96",
+      "createdAt": "2026-11-08T21:07:53Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Ship computer: please open the snack bay doors.",
+      "body": "Your request entered a black hole. Nothing comes back.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "mint",
+        "character": "alien",
+        "expression": "shocked",
+        "sticker": "NOT TODAY",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 999816
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 13
+      },
+      "contentHash": "e35f5b96c32ab21191784ba5feea8d2d94e310f62692803ba4270a13460b8872",
+      "verified": null
+    },
+    {
       "id": "20261108-164055-cat-578c8f8e",
       "createdAt": "2026-11-08T16:40:55Z",
       "category": "cat",
