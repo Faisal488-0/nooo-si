@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-08T02:26:22Z",
-  "total": 152,
+  "generatedAt": "2026-11-08T10:15:21Z",
+  "total": 153,
   "items": [
+    {
+      "id": "20261108-101521-relationship-b1a4d90b",
+      "createdAt": "2026-11-08T10:15:21Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Matching tattoos on our third date?",
+      "body": "I care about you, and my answer is still no.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "cyan",
+        "character": "heart",
+        "expression": "unbothered",
+        "sticker": "NOPE",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 559661
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 0
+      },
+      "contentHash": "b1a4d90bd0dc6f8b233437870d6ddb95d36ca7a7c3e6db95089ee78627b7cd1d",
+      "verified": null
+    },
     {
       "id": "20261108-022622-friends-9e95dfc5",
       "createdAt": "2026-11-08T02:26:22Z",
@@ -900,34 +928,6 @@
         "reply": 8
       },
       "contentHash": "37ce2235f5996c1e7d994f044c362f0fe48b7a206ab629c07276132bbb6c1686",
-      "verified": null
-    },
-    {
-      "id": "20261031-133753-relationship-101d3ec7",
-      "createdAt": "2026-10-31T13:37:53Z",
-      "category": "relationship",
-      "locale": "ar",
-      "eyebrow": "الشريك يطلب",
-      "headline": "رد على رسايلي خلال ٤ ثواني.",
-      "body": "قلبي يقول يمكن، وحدودي تقول لا، والقرار لحدودي.",
-      "kicker": "«لا» طازجة، مخبوزة هالساعة.",
-      "visualPreset": {
-        "background": "burst",
-        "palette": "tangerine",
-        "character": "ghost",
-        "expression": "unbothered",
-        "sticker": "لا قاطعة",
-        "animation": "pop",
-        "layout": "left",
-        "seed": 296014
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 7,
-        "reply": 4
-      },
-      "contentHash": "101d3ec795b51b9f1b9c2e869772b391dfd428f880db25e7f11c9759dbfa99df",
       "verified": null
     }
   ]

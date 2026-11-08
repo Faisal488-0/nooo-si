@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261108-101521-relationship-b1a4d90b",
+      "createdAt": "2026-11-08T10:15:21Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Matching tattoos on our third date?",
+      "body": "I care about you, and my answer is still no.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "cyan",
+        "character": "heart",
+        "expression": "unbothered",
+        "sticker": "NOPE",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 559661
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 0
+      },
+      "contentHash": "b1a4d90bd0dc6f8b233437870d6ddb95d36ca7a7c3e6db95089ee78627b7cd1d",
+      "verified": null
+    },
+    {
       "id": "20261108-022622-friends-9e95dfc5",
       "createdAt": "2026-11-08T02:26:22Z",
       "category": "friends",
