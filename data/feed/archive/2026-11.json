@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261108-022622-friends-9e95dfc5",
+      "createdAt": "2026-11-08T02:26:22Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "تعال معاي عرس ناس ما أعرفهم؟",
+      "body": "خلنا نحافظ على الصداقة ونخسر الخطة.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "cyan",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "مو اليوم",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 904381
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 13,
+        "reply": 12
+      },
+      "contentHash": "9e95dfc5f8945ef7a1c7c2369ae3482a1acb14d101f0596c64916a820393d4af",
+      "verified": null
+    },
+    {
       "id": "20261107-224258-boss-b7560ed0",
       "createdAt": "2026-11-07T22:42:58Z",
       "category": "boss",
