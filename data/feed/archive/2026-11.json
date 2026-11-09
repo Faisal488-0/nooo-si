@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261109-005142-photo-ec9b2404",
+      "createdAt": "2026-11-09T00:51:42Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الكلب عند باب الطبيب البيطري:",
+      "body": "غيّرت رأيي في كل المشاوير. لا.",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "cyan",
+        "character": "laptop",
+        "expression": "shocked",
+        "sticker": "مرفوض",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 624252
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 1
+      },
+      "contentHash": "ec9b2404f8fc78fab8fb19e4c3acfb26646efb4896686f97ad29c5d933b0f4c3",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261109-005142-0ab2d402.jpg",
+        "sourceId": "0ab2d402-3c6d-40fe-aacc-faf984e6f757",
+        "theme": "dog",
+        "title": "Cosmetic dish in the shape of a dog",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/545210"
+      }
+    },
+    {
       "id": "20261108-210753-scifi-e35f5b96",
       "createdAt": "2026-11-08T21:07:53Z",
       "category": "scifi",
