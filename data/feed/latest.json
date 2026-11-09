@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-09T07:55:51Z",
-  "total": 157,
+  "generatedAt": "2026-11-09T18:44:44Z",
+  "total": 158,
   "items": [
+    {
+      "id": "20261109-184444-office-87e3514c",
+      "createdAt": "2026-11-09T18:44:44Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Can you rename 4,000 files by hand?",
+      "body": "Sending you a calendar invite titled 'No'.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "mint",
+        "character": "mug",
+        "expression": "smug",
+        "sticker": "DENIED",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 709572
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 13
+      },
+      "contentHash": "87e3514c76f6a382b165bee9eef1af030132b6374ce042b0f3c35d389aadd0d8",
+      "verified": null
+    },
     {
       "id": "20261109-075551-morse-674b23b6",
       "createdAt": "2026-11-09T07:55:51Z",
@@ -900,34 +928,6 @@
         "reply": 5
       },
       "contentHash": "7bc638bfe553cd97599549859fa4e7779c72bee92951b47f6d19d894a71fc534",
-      "verified": null
-    },
-    {
-      "id": "20261101-160032-office-689a7f93",
-      "createdAt": "2026-11-01T16:00:32Z",
-      "category": "office",
-      "locale": "en",
-      "eyebrow": "Office life",
-      "headline": "Can you approve this without reading it?",
-      "body": "The synergy says no.",
-      "kicker": "Refusal level: legendary.",
-      "visualPreset": {
-        "background": "burst",
-        "palette": "lime",
-        "character": "laptop",
-        "expression": "sleepy",
-        "sticker": "DENIED",
-        "animation": "shake",
-        "layout": "center",
-        "seed": 408377
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 11
-      },
-      "contentHash": "689a7f938dbc59129c597a8b5e030671b8ddef1cbef91bdf1469305ead454e14",
       "verified": null
     }
   ]

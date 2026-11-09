@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261109-184444-office-87e3514c",
+      "createdAt": "2026-11-09T18:44:44Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Can you rename 4,000 files by hand?",
+      "body": "Sending you a calendar invite titled 'No'.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "mint",
+        "character": "mug",
+        "expression": "smug",
+        "sticker": "DENIED",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 709572
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 13
+      },
+      "contentHash": "87e3514c76f6a382b165bee9eef1af030132b6374ce042b0f3c35d389aadd0d8",
+      "verified": null
+    },
+    {
       "id": "20261109-075551-morse-674b23b6",
       "createdAt": "2026-11-09T07:55:51Z",
       "category": "morse",
