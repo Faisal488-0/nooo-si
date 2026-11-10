@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261110-020403-monday-630e5db1",
+      "createdAt": "2026-11-10T02:04:03Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Gym app: your weekly streak starts now!",
+      "body": "Wake me up when it's Wednesday.",
+      "kicker": "No regrets. Just no.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "bubblegum",
+        "character": "mug",
+        "expression": "unbothered",
+        "sticker": "NEVER",
+        "animation": "wobble",
+        "layout": "right",
+        "seed": 158847
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 13
+      },
+      "contentHash": "630e5db177af7f006583e9f8cbd3f30fff7b30b6b0065159359d9b0fe7aaea82",
+      "verified": null
+    },
+    {
       "id": "20261109-184444-office-87e3514c",
       "createdAt": "2026-11-09T18:44:44Z",
       "category": "office",
