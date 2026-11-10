@@ -2,6 +2,43 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261110-094449-global-ace406cf",
+      "createdAt": "2026-11-10T09:44:49Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Today's NO comes from Haitian Creole",
+      "body": "Whisper it for a mysterious refusal.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tangerine",
+        "character": "ufo",
+        "expression": "dramatic",
+        "sticker": "DENIED",
+        "animation": "float",
+        "layout": "right",
+        "seed": 431647
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 24,
+        "headline": 2,
+        "reply": 5
+      },
+      "contentHash": "ace406cf8b15d5180616e597dfb00a08dae447bfdc58a2280a9e12ec2e214e48",
+      "verified": true,
+      "lang": {
+        "id": "ht",
+        "name": "Haitian Creole",
+        "no": "Non",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261110-020403-monday-630e5db1",
       "createdAt": "2026-11-10T02:04:03Z",
       "category": "monday",
