@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261110-231653-photo-0f64e8ef",
+      "createdAt": "2026-11-10T23:16:53Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Horse asked to wear the tiny hat:",
+      "body": "I have dignity. Small, but it exists. No.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "lemon",
+        "character": "phone",
+        "expression": "unbothered",
+        "sticker": "HARD NO",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 531075
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 3
+      },
+      "contentHash": "0f64e8efb03e22a2324efd2d83910ee120669b5c0d0b2ca565f147e2e809bca6",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261110-231653-d16aa321.jpg",
+        "sourceId": "d16aa321-4d9c-4514-a809-044b144be2f0",
+        "theme": "horse",
+        "title": "Head from a figure of a horse",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/569683"
+      }
+    },
+    {
       "id": "20261110-174730-boss-91e1e80c",
       "createdAt": "2026-11-10T17:47:30Z",
       "category": "boss",
