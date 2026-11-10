@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-10T09:44:49Z",
-  "total": 160,
+  "generatedAt": "2026-11-10T17:47:30Z",
+  "total": 161,
   "items": [
+    {
+      "id": "20261110-174730-boss-91e1e80c",
+      "createdAt": "2026-11-10T17:47:30Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "خلنا نسوي اجتماع سريع يوم السبت.",
+      "body": "تحديث سريع: ل. ا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "smug",
+        "sticker": "لا.",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 771715
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 15
+      },
+      "contentHash": "91e1e80cd08dfc15f495e3d2fe2daab79306721db3edf65218a16010f88cf7ff",
+      "verified": null
+    },
     {
       "id": "20261110-094449-global-ace406cf",
       "createdAt": "2026-11-10T09:44:49Z",
@@ -900,34 +928,6 @@
         "reply": 10
       },
       "contentHash": "16f14afd15e8f0b767460ab8de4c58ded9bfa8474b10fb3b3b1ba608487a7a59",
-      "verified": null
-    },
-    {
-      "id": "20261102-073928-boss-b6964165",
-      "createdAt": "2026-11-02T07:39:28Z",
-      "category": "boss",
-      "locale": "en",
-      "eyebrow": "The boss asks",
-      "headline": "Let's circle back at 11 PM.",
-      "body": "That sounds like a great opportunity for someone else.",
-      "kicker": "The next NO arrives next hour.",
-      "visualPreset": {
-        "background": "burst",
-        "palette": "lemon",
-        "character": "laptop",
-        "expression": "angry",
-        "sticker": "NEVER",
-        "animation": "shake",
-        "layout": "left",
-        "seed": 9085
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 6
-      },
-      "contentHash": "b696416533a27da1d96230ed45ab32948caf2c2d8d41fd3fc027c81d0749d306",
       "verified": null
     }
   ]

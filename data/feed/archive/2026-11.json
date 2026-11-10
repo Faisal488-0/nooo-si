@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261110-174730-boss-91e1e80c",
+      "createdAt": "2026-11-10T17:47:30Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "خلنا نسوي اجتماع سريع يوم السبت.",
+      "body": "تحديث سريع: ل. ا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "smug",
+        "sticker": "لا.",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 771715
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 15
+      },
+      "contentHash": "91e1e80cd08dfc15f495e3d2fe2daab79306721db3edf65218a16010f88cf7ff",
+      "verified": null
+    },
+    {
       "id": "20261110-094449-global-ace406cf",
       "createdAt": "2026-11-10T09:44:49Z",
       "category": "global",
