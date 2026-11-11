@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261111-024904-relationship-27251f4a",
+      "createdAt": "2026-11-11T02:49:04Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "نتكلم عن علاقتنا الساعة ٢ الفجر؟",
+      "body": "باحترام وبحب وبشكل كامل: لا.",
+      "kicker": "مستوى الرفض: أسطوري.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "cyan",
+        "character": "phone",
+        "expression": "unbothered",
+        "sticker": "لا.",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 506965
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 7
+      },
+      "contentHash": "27251f4a6b2901afa02671707efed61bdb7819276696a9bf4aa3547463bddccd",
+      "verified": null
+    },
+    {
       "id": "20261110-231653-photo-0f64e8ef",
       "createdAt": "2026-11-10T23:16:53Z",
       "category": "photo",
