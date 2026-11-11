@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261111-105242-cat-1479d203",
+      "createdAt": "2026-11-11T10:52:42Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "لا تطيّح جوالي من الطاولة.",
+      "body": "أنا كنت هني قبلك. قبل لا ينخلق الكرسي.",
+      "kicker": "تُستخدم مع الحدود.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lemon",
+        "character": "cat",
+        "expression": "angry",
+        "sticker": "لااا!",
+        "animation": "float",
+        "layout": "left",
+        "seed": 737750
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 15
+      },
+      "contentHash": "1479d203711802785a2337f36e30416cb4273220278b5e25a452a3c8385d09ec",
+      "verified": null
+    },
+    {
       "id": "20261111-024904-relationship-27251f4a",
       "createdAt": "2026-11-11T02:49:04Z",
       "category": "relationship",
