@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261111-184053-scifi-1475fe63",
+      "createdAt": "2026-11-11T18:40:53Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "كويكب: أقدر أوقف في مدارك؟",
+      "body": "تم إرسال «لا» إلى ١٢ مجرة. وكلهم موافقين.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "night",
+        "character": "robot",
+        "expression": "sleepy",
+        "sticker": "مو اليوم",
+        "animation": "float",
+        "layout": "center",
+        "seed": 815734
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 4
+      },
+      "contentHash": "1475fe63c382e1f0dc9fa55caed16ba490e16119e7622fb020dc81c8f8488728",
+      "verified": null
+    },
+    {
       "id": "20261111-105242-cat-1479d203",
       "createdAt": "2026-11-11T10:52:42Z",
       "category": "cat",

@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-11T10:52:42Z",
-  "total": 164,
+  "generatedAt": "2026-11-11T18:40:53Z",
+  "total": 165,
   "items": [
+    {
+      "id": "20261111-184053-scifi-1475fe63",
+      "createdAt": "2026-11-11T18:40:53Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "كويكب: أقدر أوقف في مدارك؟",
+      "body": "تم إرسال «لا» إلى ١٢ مجرة. وكلهم موافقين.",
+      "kicker": "بدون ندم. بس لا.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "night",
+        "character": "robot",
+        "expression": "sleepy",
+        "sticker": "مو اليوم",
+        "animation": "float",
+        "layout": "center",
+        "seed": 815734
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 4
+      },
+      "contentHash": "1475fe63c382e1f0dc9fa55caed16ba490e16119e7622fb020dc81c8f8488728",
+      "verified": null
+    },
     {
       "id": "20261111-105242-cat-1479d203",
       "createdAt": "2026-11-11T10:52:42Z",
@@ -911,34 +939,6 @@
         "input": "NO MEETINGS",
         "output": "01001110 01001111 00100000 01001101 01000101 01000101 01010100 01001001 01001110 01000111 01010011"
       }
-    },
-    {
-      "id": "20261103-174926-scifi-1f1041e6",
-      "createdAt": "2026-11-03T17:49:26Z",
-      "category": "scifi",
-      "locale": "en",
-      "eyebrow": "Incoming transmission",
-      "headline": "Mars colony: mandatory 6 AM oxygen meeting.",
-      "body": "Warp drive engaged. Direction: away from your request.",
-      "kicker": "Fresh NO, baked this hour.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "night",
-        "character": "alien",
-        "expression": "shocked",
-        "sticker": "LOL NO",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 841199
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 11,
-        "reply": 8
-      },
-      "contentHash": "1f1041e6921f7ba700c422e605344cd557dcbfd8d5dd5337ee56c10848ecd850",
-      "verified": null
     }
   ]
 }
