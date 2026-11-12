@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261112-094701-morse-e04269cd",
+      "createdAt": "2026-11-12T09:47:01Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«NOT A CHANCE» بشفرة مورس",
+      "body": "تعدّي الجدران والأبواب وقروبات العايلة.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "bubblegum",
+        "character": "ufo",
+        "expression": "shocked",
+        "sticker": "لااا!",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 701492
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 13,
+        "headline": 0,
+        "reply": 2
+      },
+      "contentHash": "e04269cd75f2f832edd4b5962a573297b310cc8d6d6a1bbacbc2ae34fd49b207",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOT A CHANCE",
+        "output": "-. --- - / .- / -.-. .... .- -. -.-. ."
+      }
+    },
+    {
       "id": "20261112-013137-binary-04eaea79",
       "createdAt": "2026-11-12T01:31:37Z",
       "category": "binary",

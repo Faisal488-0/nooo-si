@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-12T01:31:37Z",
-  "total": 166,
+  "generatedAt": "2026-11-12T09:47:01Z",
+  "total": 167,
   "items": [
+    {
+      "id": "20261112-094701-morse-e04269cd",
+      "createdAt": "2026-11-12T09:47:01Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«NOT A CHANCE» بشفرة مورس",
+      "body": "تعدّي الجدران والأبواب وقروبات العايلة.",
+      "kicker": "انسخ. الصق. ارفض.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "bubblegum",
+        "character": "ufo",
+        "expression": "shocked",
+        "sticker": "لااا!",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 701492
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 13,
+        "headline": 0,
+        "reply": 2
+      },
+      "contentHash": "e04269cd75f2f832edd4b5962a573297b310cc8d6d6a1bbacbc2ae34fd49b207",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOT A CHANCE",
+        "output": "-. --- - / .- / -.-. .... .- -. -.-. ."
+      }
+    },
     {
       "id": "20261112-013137-binary-04eaea79",
       "createdAt": "2026-11-12T01:31:37Z",
@@ -904,40 +938,6 @@
         "license": "cc0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/556749"
-      }
-    },
-    {
-      "id": "20261104-061314-morse-c2660322",
-      "createdAt": "2026-11-04T06:13:14Z",
-      "category": "morse",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Blink “NO THANKS” with a flashlight",
-      "body": "Works through walls, doors and family group chats.",
-      "kicker": "Handle with boundaries.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "cyan",
-        "character": "alarm",
-        "expression": "shocked",
-        "sticker": "NEVER",
-        "animation": "pop",
-        "layout": "center",
-        "seed": 492790
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 3,
-        "headline": 2,
-        "reply": 2
-      },
-      "contentHash": "c2660322c2eb74700df95a6136c3d696953af01d7428a41a01956118c495691d",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NO THANKS",
-        "output": "-. --- / - .... .- -. -.- ..."
       }
     }
   ]
