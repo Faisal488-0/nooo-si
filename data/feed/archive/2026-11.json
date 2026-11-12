@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261112-013137-binary-04eaea79",
+      "createdAt": "2026-11-12T01:31:37Z",
+      "category": "binary",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NO THANKS”, in pure ones and zeros",
+      "body": "Eight bits per letter, zero bits of guilt.",
+      "kicker": "Boundaries 1 — Chaos 0.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "grape",
+        "character": "laptop",
+        "expression": "dramatic",
+        "sticker": "NO.",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 632893
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 3,
+        "headline": 2,
+        "reply": 6
+      },
+      "contentHash": "04eaea797dafff6735447ae584dfbadbb17b705549bc63bec60009e8a3848404",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "NO THANKS",
+        "output": "01001110 01001111 00100000 01010100 01001000 01000001 01001110 01001011 01010011"
+      }
+    },
+    {
       "id": "20261111-184053-scifi-1475fe63",
       "createdAt": "2026-11-11T18:40:53Z",
       "category": "scifi",
