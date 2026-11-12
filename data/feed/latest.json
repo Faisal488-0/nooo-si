@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-12T18:17:43Z",
-  "total": 168,
+  "generatedAt": "2026-11-12T23:40:21Z",
+  "total": 169,
   "items": [
+    {
+      "id": "20261112-234021-monday-45f12078",
+      "createdAt": "2026-11-12T23:40:21Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "السرير: لازم تقوم الحين.",
+      "body": "زر الغفوة، اخترتك أنت.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "cyan",
+        "character": "bed",
+        "expression": "shocked",
+        "sticker": "مستحيل",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 733298
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 15
+      },
+      "contentHash": "45f12078ab3a30f4ce7857a16b1c6c35fc9bf6063bbd4dd0eed9c53deb5d4ed8",
+      "verified": null
+    },
     {
       "id": "20261112-181743-photo-a6073974",
       "createdAt": "2026-11-12T18:17:43Z",
@@ -911,34 +939,6 @@
         "dir": "ltr",
         "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
       }
-    },
-    {
-      "id": "20261104-211750-monday-116ed911",
-      "createdAt": "2026-11-04T21:17:50Z",
-      "category": "monday",
-      "locale": "en",
-      "eyebrow": "Monday morning",
-      "headline": "Bed: you really have to get up now.",
-      "body": "My motivation is still on weekend roaming.",
-      "kicker": "Signed, sealed, declined.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "lemon",
-        "character": "mug",
-        "expression": "unbothered",
-        "sticker": "HARD NO",
-        "animation": "pulse",
-        "layout": "right",
-        "seed": 86252
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 11,
-        "reply": 10
-      },
-      "contentHash": "116ed911b9735de72e77f2c580c2f9902ccc16477da9835e0cc6f3ebfeab886a",
-      "verified": null
     }
   ]
 }

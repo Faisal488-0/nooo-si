@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261112-234021-monday-45f12078",
+      "createdAt": "2026-11-12T23:40:21Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "السرير: لازم تقوم الحين.",
+      "body": "زر الغفوة، اخترتك أنت.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "cyan",
+        "character": "bed",
+        "expression": "shocked",
+        "sticker": "مستحيل",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 733298
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 15
+      },
+      "contentHash": "45f12078ab3a30f4ce7857a16b1c6c35fc9bf6063bbd4dd0eed9c53deb5d4ed8",
+      "verified": null
+    },
+    {
       "id": "20261112-181743-photo-a6073974",
       "createdAt": "2026-11-12T18:17:43Z",
       "category": "photo",
