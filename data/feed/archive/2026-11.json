@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261112-181743-photo-a6073974",
+      "createdAt": "2026-11-12T18:17:43Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الحصان حين يسمع «لفّة أخيرة»:",
+      "body": "قلتها قبل ثلاث لفّات. لا.",
+      "kicker": "معتمدة من قطط العالم.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "bubblegum",
+        "character": "printer",
+        "expression": "angry",
+        "sticker": "مو اليوم",
+        "animation": "float",
+        "layout": "left",
+        "seed": 364157
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 3
+      },
+      "contentHash": "a6073974af81ffbfafe8039eb62fccad3db74552dcfddd8779e2997ae3d3a618",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261112-181743-343e1d0a.jpg",
+        "sourceId": "343e1d0a-ce62-4bfd-88ef-e3d857b46bc5",
+        "theme": "horse",
+        "title": "Head from a figure of a horse",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/569683"
+      }
+    },
+    {
       "id": "20261112-094701-morse-e04269cd",
       "createdAt": "2026-11-12T09:47:01Z",
       "category": "morse",

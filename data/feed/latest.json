@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-12T09:47:01Z",
-  "total": 167,
+  "generatedAt": "2026-11-12T18:17:43Z",
+  "total": 168,
   "items": [
+    {
+      "id": "20261112-181743-photo-a6073974",
+      "createdAt": "2026-11-12T18:17:43Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الحصان حين يسمع «لفّة أخيرة»:",
+      "body": "قلتها قبل ثلاث لفّات. لا.",
+      "kicker": "معتمدة من قطط العالم.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "bubblegum",
+        "character": "printer",
+        "expression": "angry",
+        "sticker": "مو اليوم",
+        "animation": "float",
+        "layout": "left",
+        "seed": 364157
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 3
+      },
+      "contentHash": "a6073974af81ffbfafe8039eb62fccad3db74552dcfddd8779e2997ae3d3a618",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261112-181743-343e1d0a.jpg",
+        "sourceId": "343e1d0a-ce62-4bfd-88ef-e3d857b46bc5",
+        "theme": "horse",
+        "title": "Head from a figure of a horse",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/569683"
+      }
+    },
     {
       "id": "20261112-094701-morse-e04269cd",
       "createdAt": "2026-11-12T09:47:01Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "116ed911b9735de72e77f2c580c2f9902ccc16477da9835e0cc6f3ebfeab886a",
       "verified": null
-    },
-    {
-      "id": "20261104-143047-photo-340c3cf9",
-      "createdAt": "2026-11-04T14:30:47Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Donkey told 'don't be stubborn':",
-      "body": "I prefer 'consistent'. No.",
-      "kicker": "Copy. Paste. Decline.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "night",
-        "character": "phone",
-        "expression": "angry",
-        "sticker": "DENIED",
-        "animation": "pop",
-        "layout": "right",
-        "seed": 642754
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 7
-      },
-      "contentHash": "340c3cf925d937c3fe7542c7a02131e9439717160e9f817884740b5b5557fd7b",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261104-143047-bb5b5ac1.jpg",
-        "sourceId": "bb5b5ac1-7d3a-4597-988f-8f271eb22997",
-        "theme": "donkey",
-        "title": "Model Saddle Bag for a Donkey",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/556749"
-      }
     }
   ]
 }
