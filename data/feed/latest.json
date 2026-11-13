@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-13T15:22:06Z",
-  "total": 171,
+  "generatedAt": "2026-11-13T21:57:59Z",
+  "total": 172,
   "items": [
+    {
+      "id": "20261113-215759-friends-10ef0e1e",
+      "createdAt": "2026-11-13T21:57:59Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "One more game. Just one. Until sunrise.",
+      "body": "I love you, buddy. My answer doesn't.",
+      "kicker": "Status: NOOO delivered.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "mint",
+        "character": "cactus",
+        "expression": "shocked",
+        "sticker": "NOPE",
+        "animation": "float",
+        "layout": "right",
+        "seed": 350982
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 0
+      },
+      "contentHash": "10ef0e1e5bded85c97d4446d027a1c39ff37ea3eb08f154192a2f34498449d01",
+      "verified": null
+    },
     {
       "id": "20261113-152206-boss-da931fdd",
       "createdAt": "2026-11-13T15:22:06Z",
@@ -910,34 +938,6 @@
         "reply": 5
       },
       "contentHash": "fa91adc3dfc324f08d6a196277cb245c8e33eb52b2ea8405d6624c408d56a03a",
-      "verified": null
-    },
-    {
-      "id": "20261105-184257-friends-69332aa3",
-      "createdAt": "2026-11-05T18:42:57Z",
-      "category": "friends",
-      "locale": "en",
-      "eyebrow": "Your friend asks",
-      "headline": "Be my plus-one at a wedding of people I don't know?",
-      "body": "I'd do anything for you. Except that.",
-      "kicker": "Share this with someone who needs it.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "mint",
-        "character": "phone",
-        "expression": "sleepy",
-        "sticker": "NOPE",
-        "animation": "shake",
-        "layout": "right",
-        "seed": 909029
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 13,
-        "reply": 10
-      },
-      "contentHash": "69332aa3f8e3172afdf3324155fce8df5d5b103ad3cad1fc3983498315d1b1ce",
       "verified": null
     }
   ]
