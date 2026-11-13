@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-11-12T23:40:21Z",
-  "total": 169,
+  "generatedAt": "2026-11-13T06:39:15Z",
+  "total": 170,
   "items": [
+    {
+      "id": "20261113-063915-global-270e978b",
+      "createdAt": "2026-11-13T06:39:15Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«لا» بنسخة الإسبانية",
+      "body": "تنفع مع المدير والعمّات ومكالمات الإعلانات.",
+      "kicker": "قيلت «لا» وعاد السلام.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "bubblegum",
+        "character": "cat",
+        "expression": "smug",
+        "sticker": "مستحيل",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 698754
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 58,
+        "headline": 1,
+        "reply": 2
+      },
+      "contentHash": "270e978b92a22134d576dcb1491046f6f423b7c78f6735c0846aac0f01c38917",
+      "verified": true,
+      "lang": {
+        "id": "es",
+        "name": "الإسبانية",
+        "no": "No",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
     {
       "id": "20261112-234021-monday-45f12078",
       "createdAt": "2026-11-12T23:40:21Z",
@@ -902,43 +939,6 @@
       },
       "contentHash": "796a5b22e1ccff6171a24d2ce922a585aadc92ffcddc75e640ade91e896d114b",
       "verified": null
-    },
-    {
-      "id": "20261105-022348-global-2794c5e8",
-      "createdAt": "2026-11-05T02:23:48Z",
-      "category": "global",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "«لا» بنسخة الألبانية",
-      "body": "تدرّب عليها قدام المراية قبل الدوام.",
-      "kicker": "الحالة: تم تسليم «اللا».",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "mint",
-        "character": "cat",
-        "expression": "sleepy",
-        "sticker": "لا.",
-        "animation": "tilt",
-        "layout": "right",
-        "seed": 98376
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "lang": 4,
-        "headline": 1,
-        "reply": 7
-      },
-      "contentHash": "2794c5e816d84e02e0a083df70e76842aed8a285a463be3fbb41465a33eb69c4",
-      "verified": true,
-      "lang": {
-        "id": "sq",
-        "name": "الألبانية",
-        "no": "Jo",
-        "translit": "",
-        "dir": "ltr",
-        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
-      }
     }
   ]
 }
