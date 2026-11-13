@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261113-152206-boss-da931fdd",
+      "createdAt": "2026-11-13T15:22:06Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you join the meeting about the meeting?",
+      "body": "I escalated your request to my sofa. It declined.",
+      "kicker": "Echo: no… no… no…",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "night",
+        "character": "mug",
+        "expression": "shocked",
+        "sticker": "NOT TODAY",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 182890
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 16
+      },
+      "contentHash": "da931fddca05a04eee1fa0c7e72d2f5ac0b6a7c25b645d49a6795842a2177ef6",
+      "verified": null
+    },
+    {
       "id": "20261113-063915-global-270e978b",
       "createdAt": "2026-11-13T06:39:15Z",
       "category": "global",

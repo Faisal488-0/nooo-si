@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-13T06:39:15Z",
-  "total": 170,
+  "generatedAt": "2026-11-13T15:22:06Z",
+  "total": 171,
   "items": [
+    {
+      "id": "20261113-152206-boss-da931fdd",
+      "createdAt": "2026-11-13T15:22:06Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Can you join the meeting about the meeting?",
+      "body": "I escalated your request to my sofa. It declined.",
+      "kicker": "Echo: no… no… no…",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "night",
+        "character": "mug",
+        "expression": "shocked",
+        "sticker": "NOT TODAY",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 182890
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 16
+      },
+      "contentHash": "da931fddca05a04eee1fa0c7e72d2f5ac0b6a7c25b645d49a6795842a2177ef6",
+      "verified": null
+    },
     {
       "id": "20261113-063915-global-270e978b",
       "createdAt": "2026-11-13T06:39:15Z",
@@ -910,34 +938,6 @@
         "reply": 10
       },
       "contentHash": "69332aa3f8e3172afdf3324155fce8df5d5b103ad3cad1fc3983498315d1b1ce",
-      "verified": null
-    },
-    {
-      "id": "20261105-104944-boss-796a5b22",
-      "createdAt": "2026-11-05T10:49:44Z",
-      "category": "boss",
-      "locale": "ar",
-      "eyebrow": "المدير يسأل",
-      "headline": "ممكن تمسك مشروع زميلك بعد؟",
-      "body": "خلنا نكون على نفس الصفحة: لا.",
-      "kicker": "بدون ندم. بس لا.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "tangerine",
-        "character": "boss",
-        "expression": "angry",
-        "sticker": "لا قاطعة",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 561423
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 5,
-        "reply": 12
-      },
-      "contentHash": "796a5b22e1ccff6171a24d2ce922a585aadc92ffcddc75e640ade91e896d114b",
       "verified": null
     }
   ]
