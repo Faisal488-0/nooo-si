@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261114-022518-relationship-0e71a5f7",
+      "createdAt": "2026-11-14T02:25:18Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Let's post our relationship status every hour.",
+      "body": "I hear you. I'm still going to say no.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lemon",
+        "character": "cactus",
+        "expression": "sleepy",
+        "sticker": "HARD NO",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 163094
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 11
+      },
+      "contentHash": "0e71a5f777735c536041faca41a31a122b7182b02a3b9410d6a42c7397cdb320",
+      "verified": null
+    },
+    {
       "id": "20261113-215759-friends-10ef0e1e",
       "createdAt": "2026-11-13T21:57:59Z",
       "category": "friends",
