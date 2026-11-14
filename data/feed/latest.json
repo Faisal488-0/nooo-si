@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-14T02:25:18Z",
-  "total": 173,
+  "generatedAt": "2026-11-14T10:19:57Z",
+  "total": 174,
   "items": [
+    {
+      "id": "20261114-101957-photo-f8e04495",
+      "createdAt": "2026-11-14T10:19:57Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Lion told 'this is a sprint, not a marathon':",
+      "body": "I'm a lion. I do 'a short sprint, then 20 hours of no'.",
+      "kicker": "Status: NOOO delivered.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lemon",
+        "character": "printer",
+        "expression": "unbothered",
+        "sticker": "NOT TODAY",
+        "animation": "wobble",
+        "layout": "right",
+        "seed": 949896
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 4
+      },
+      "contentHash": "f8e04495327ba303f281d0cbf0fbe6f502bbbaf178986f253fb2f96b910b0c1c",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261114-101957-6770e7ff.jpg",
+        "sourceId": "6770e7ff-651e-4ead-8d22-6c66f99de598",
+        "theme": "lion",
+        "title": "Figure of lion mounted as lamp",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/461498"
+      }
+    },
     {
       "id": "20261114-022518-relationship-0e71a5f7",
       "createdAt": "2026-11-14T02:25:18Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "b6599ed6afb8b2d7558a4001240b60b08a926f597bc82b091fb88721f17f2470",
       "verified": null
-    },
-    {
-      "id": "20261106-063851-photo-397e0694",
-      "createdAt": "2026-11-06T06:38:51Z",
-      "category": "photo",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "الدبّ حين طلبوا منه الاستيقاظ للربيع:",
-      "body": "الربيع يستطيع الانتظار. أنا في اجتماع مع وسادتي.",
-      "kicker": "مستوى الرفض: أسطوري.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "night",
-        "character": "phone",
-        "expression": "unbothered",
-        "sticker": "لا.",
-        "animation": "bounce",
-        "layout": "center",
-        "seed": 748642
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 8
-      },
-      "contentHash": "397e06941646e0aaddfc78b1321be3342067b0af27f10dd9ca4eb2cd99599ed2",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261106-063851-f7690607.jpg",
-        "sourceId": "f7690607-ed5f-492e-9770-25655d7a8638",
-        "theme": "bear",
-        "title": "Plate from 'The Set of The Bears'",
-        "creator": "Marcus de Bye",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/399431"
-      }
     }
   ]
 }

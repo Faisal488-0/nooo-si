@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261114-101957-photo-f8e04495",
+      "createdAt": "2026-11-14T10:19:57Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Lion told 'this is a sprint, not a marathon':",
+      "body": "I'm a lion. I do 'a short sprint, then 20 hours of no'.",
+      "kicker": "Status: NOOO delivered.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "lemon",
+        "character": "printer",
+        "expression": "unbothered",
+        "sticker": "NOT TODAY",
+        "animation": "wobble",
+        "layout": "right",
+        "seed": 949896
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 4
+      },
+      "contentHash": "f8e04495327ba303f281d0cbf0fbe6f502bbbaf178986f253fb2f96b910b0c1c",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261114-101957-6770e7ff.jpg",
+        "sourceId": "6770e7ff-651e-4ead-8d22-6c66f99de598",
+        "theme": "lion",
+        "title": "Figure of lion mounted as lamp",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/461498"
+      }
+    },
+    {
       "id": "20261114-022518-relationship-0e71a5f7",
       "createdAt": "2026-11-14T02:25:18Z",
       "category": "relationship",
