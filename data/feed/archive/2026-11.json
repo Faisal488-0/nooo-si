@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261114-212741-binary-cc6b9b5e",
+      "createdAt": "2026-11-14T21:27:41Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول الآلة «مرفوض»",
+      "body": "تم التجميع بدون أي تحذيرات.",
+      "kicker": "معتمدة من قطط العالم.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "grape",
+        "character": "toaster",
+        "expression": "dramatic",
+        "sticker": "مستحيل",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 940021
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 6,
+        "headline": 1,
+        "reply": 7
+      },
+      "contentHash": "cc6b9b5e52082b3db82f043dade2812f4e2677a49f5432b0e476c69e27a28cdc",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "مرفوض",
+        "output": "11011001 10000101 11011000 10110001 11011001 10000001 11011001 10001000 11011000 10110110"
+      }
+    },
+    {
       "id": "20261114-170334-scifi-fae01a46",
       "createdAt": "2026-11-14T17:03:34Z",
       "category": "scifi",

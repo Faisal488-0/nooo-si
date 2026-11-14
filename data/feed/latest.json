@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-14T17:03:34Z",
-  "total": 175,
+  "generatedAt": "2026-11-14T21:27:41Z",
+  "total": 176,
   "items": [
+    {
+      "id": "20261114-212741-binary-cc6b9b5e",
+      "createdAt": "2026-11-14T21:27:41Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول الآلة «مرفوض»",
+      "body": "تم التجميع بدون أي تحذيرات.",
+      "kicker": "معتمدة من قطط العالم.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "grape",
+        "character": "toaster",
+        "expression": "dramatic",
+        "sticker": "مستحيل",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 940021
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 6,
+        "headline": 1,
+        "reply": 7
+      },
+      "contentHash": "cc6b9b5e52082b3db82f043dade2812f4e2677a49f5432b0e476c69e27a28cdc",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "مرفوض",
+        "output": "11011001 10000101 11011000 10110001 11011001 10000001 11011001 10001000 11011000 10110110"
+      }
+    },
     {
       "id": "20261114-170334-scifi-fae01a46",
       "createdAt": "2026-11-14T17:03:34Z",
@@ -904,40 +938,6 @@
         "type": "morse",
         "input": "NO THANKS",
         "output": "-. --- / - .... .- -. -.- ..."
-      }
-    },
-    {
-      "id": "20261106-205215-binary-10e3ef23",
-      "createdAt": "2026-11-06T20:52:15Z",
-      "category": "binary",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "«لا شكرًا» بلغة الكمبيوتر",
-      "body": "الصقها على ثلاجتك الذكية.",
-      "kicker": "معتمدة من وزارة «لا».",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "lemon",
-        "character": "toaster",
-        "expression": "sleepy",
-        "sticker": "مرفوض",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 164317
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 1,
-        "headline": 0,
-        "reply": 1
-      },
-      "contentHash": "10e3ef23f031674e6328db367f566ca90511992adb96b578686db348baa1d7ab",
-      "verified": null,
-      "code": {
-        "type": "binary",
-        "input": "لا شكرًا",
-        "output": "11011001 10000100 11011000 10100111 00100000 11011000 10110100 11011001 10000011 11011000 10110001 11011001 10001011 11011000 10100111"
       }
     }
   ]
