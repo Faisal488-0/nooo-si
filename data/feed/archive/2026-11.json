@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261114-170334-scifi-fae01a46",
+      "createdAt": "2026-11-14T17:03:34Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Space HR: mandatory team-building on Jupiter.",
+      "body": "Shields up. Request bounced.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lime",
+        "character": "robot",
+        "expression": "dramatic",
+        "sticker": "NOOO!",
+        "animation": "float",
+        "layout": "left",
+        "seed": 816908
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 6
+      },
+      "contentHash": "fae01a46d81b0ee76c0227a54e8a6c7f477b5923e2fe2458f1c5e7c1384dc81a",
+      "verified": null
+    },
+    {
       "id": "20261114-101957-photo-f8e04495",
       "createdAt": "2026-11-14T10:19:57Z",
       "category": "photo",

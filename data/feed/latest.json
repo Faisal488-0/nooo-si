@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-14T10:19:57Z",
-  "total": 174,
+  "generatedAt": "2026-11-14T17:03:34Z",
+  "total": 175,
   "items": [
+    {
+      "id": "20261114-170334-scifi-fae01a46",
+      "createdAt": "2026-11-14T17:03:34Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Space HR: mandatory team-building on Jupiter.",
+      "body": "Shields up. Request bounced.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lime",
+        "character": "robot",
+        "expression": "dramatic",
+        "sticker": "NOOO!",
+        "animation": "float",
+        "layout": "left",
+        "seed": 816908
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 6
+      },
+      "contentHash": "fae01a46d81b0ee76c0227a54e8a6c7f477b5923e2fe2458f1c5e7c1384dc81a",
+      "verified": null
+    },
     {
       "id": "20261114-101957-photo-f8e04495",
       "createdAt": "2026-11-14T10:19:57Z",
@@ -911,34 +939,6 @@
         "input": "لا شكرًا",
         "output": "11011001 10000100 11011000 10100111 00100000 11011000 10110100 11011001 10000011 11011000 10110001 11011001 10001011 11011000 10100111"
       }
-    },
-    {
-      "id": "20261106-145944-scifi-b6599ed6",
-      "createdAt": "2026-11-06T14:59:44Z",
-      "category": "scifi",
-      "locale": "ar",
-      "eyebrow": "إرسال وارد",
-      "headline": "موارد بشرية فضائية: نشاط جماعي إجباري على المشتري.",
-      "body": "المحرك الفائق شغّال. الاتجاه: بعيد عن طلبك.",
-      "kicker": "الحدود ١ — الفوضى ٠.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "cyan",
-        "character": "alien",
-        "expression": "angry",
-        "sticker": "أبدًا",
-        "animation": "pop",
-        "layout": "center",
-        "seed": 35524
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 5,
-        "reply": 8
-      },
-      "contentHash": "b6599ed6afb8b2d7558a4001240b60b08a926f597bc82b091fb88721f17f2470",
-      "verified": null
     }
   ]
 }
