@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-15T09:19:43Z",
-  "total": 178,
+  "generatedAt": "2026-11-15T17:05:29Z",
+  "total": 179,
   "items": [
+    {
+      "id": "20261115-170529-monday-ba6e61bd",
+      "createdAt": "2026-11-15T17:05:29Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Inbox: you have 214 unread emails.",
+      "body": "I'll start the week… next week.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "night",
+        "character": "ghost",
+        "expression": "angry",
+        "sticker": "NAH",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 350869
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 9
+      },
+      "contentHash": "ba6e61bd9d2b19d88e8587a27e34bc9bf4c8405d9cfd2acffa3dd267a2531dfa",
+      "verified": null
+    },
     {
       "id": "20261115-091943-office-57c9614f",
       "createdAt": "2026-11-15T09:19:43Z",
@@ -911,34 +939,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/545389"
       }
-    },
-    {
-      "id": "20261107-135820-monday-a40bb59c",
-      "createdAt": "2026-11-07T13:58:20Z",
-      "category": "monday",
-      "locale": "ar",
-      "eyebrow": "صباح أول يوم دوام",
-      "headline": "الإيميل: عندك ٢١٤ رسالة غير مقروءة.",
-      "body": "يا أول الأسبوع، أنت مو معزوم على أسبوعي.",
-      "kicker": "قيلت «لا» وعاد السلام.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "tangerine",
-        "character": "bed",
-        "expression": "dramatic",
-        "sticker": "لا قاطعة",
-        "animation": "shake",
-        "layout": "center",
-        "seed": 244160
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 2,
-        "reply": 14
-      },
-      "contentHash": "a40bb59c5fef657ba8e85a00b2a8e3fba55ce5c89ae658152c7fed82b3c3a3dc",
-      "verified": null
     }
   ]
 }

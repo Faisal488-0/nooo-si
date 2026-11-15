@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261115-170529-monday-ba6e61bd",
+      "createdAt": "2026-11-15T17:05:29Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Inbox: you have 214 unread emails.",
+      "body": "I'll start the week… next week.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "night",
+        "character": "ghost",
+        "expression": "angry",
+        "sticker": "NAH",
+        "animation": "wobble",
+        "layout": "left",
+        "seed": 350869
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 9
+      },
+      "contentHash": "ba6e61bd9d2b19d88e8587a27e34bc9bf4c8405d9cfd2acffa3dd267a2531dfa",
+      "verified": null
+    },
+    {
       "id": "20261115-091943-office-57c9614f",
       "createdAt": "2026-11-15T09:19:43Z",
       "category": "office",
