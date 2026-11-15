@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-15T17:05:29Z",
-  "total": 179,
+  "generatedAt": "2026-11-15T21:45:48Z",
+  "total": 180,
   "items": [
+    {
+      "id": "20261115-214548-photo-759ea20a",
+      "createdAt": "2026-11-15T21:45:48Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الديك في الرابعة وتسع وخمسين صباحًا:",
+      "body": "الشمس طلبت إذنًا. قلت لا. ثم قلتها بصوت أعلى.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "bubblegum",
+        "character": "printer",
+        "expression": "angry",
+        "sticker": "مرفوض",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 135046
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 5
+      },
+      "contentHash": "759ea20aca8d34d654dfd080a772dbe437dd67ae13b6c595b7f605868b25c2d9",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261115-214548-578e2ca7.jpg",
+        "sourceId": "578e2ca7-cf13-4d16-a1ed-c49883ca473a",
+        "theme": "rooster",
+        "title": "Figure of a Rooster",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/564927"
+      }
+    },
     {
       "id": "20261115-170529-monday-ba6e61bd",
       "createdAt": "2026-11-15T17:05:29Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "b7560ed0859f17dbed6cadfeb4fc756835d9f1779c74965609ef69e18788f5e1",
       "verified": null
-    },
-    {
-      "id": "20261107-184548-photo-51c97084",
-      "createdAt": "2026-11-07T18:45:48Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Cat, 3 a.m., asked to be quiet:",
-      "body": "No. The hallway needs a concert.",
-      "kicker": "Copy. Paste. Decline.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "bubblegum",
-        "character": "phone",
-        "expression": "shocked",
-        "sticker": "HARD NO",
-        "animation": "wobble",
-        "layout": "center",
-        "seed": 139096
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 0
-      },
-      "contentHash": "51c97084cbaa64b11b530ff8822288be1ae2091ed07aca2eb22afbbf2b301c63",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261107-184548-ca058194.jpg",
-        "sourceId": "ca058194-ce44-43b7-bf5f-7be448c4e315",
-        "theme": "cat",
-        "title": "Cat amulet",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/545389"
-      }
     }
   ]
 }

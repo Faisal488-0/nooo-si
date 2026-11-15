@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261115-214548-photo-759ea20a",
+      "createdAt": "2026-11-15T21:45:48Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الديك في الرابعة وتسع وخمسين صباحًا:",
+      "body": "الشمس طلبت إذنًا. قلت لا. ثم قلتها بصوت أعلى.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "bubblegum",
+        "character": "printer",
+        "expression": "angry",
+        "sticker": "مرفوض",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 135046
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 5
+      },
+      "contentHash": "759ea20aca8d34d654dfd080a772dbe437dd67ae13b6c595b7f605868b25c2d9",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261115-214548-578e2ca7.jpg",
+        "sourceId": "578e2ca7-cf13-4d16-a1ed-c49883ca473a",
+        "theme": "rooster",
+        "title": "Figure of a Rooster",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/564927"
+      }
+    },
+    {
       "id": "20261115-170529-monday-ba6e61bd",
       "createdAt": "2026-11-15T17:05:29Z",
       "category": "monday",
