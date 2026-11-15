@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261115-091943-office-57c9614f",
+      "createdAt": "2026-11-15T09:19:43Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "تكتب المحضر؟ أنت تكتب بسرعة.",
+      "body": "خلنا نكملها برّا الاجتماع. برّا وايد.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "night",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "أبدًا",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 442010
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 3
+      },
+      "contentHash": "57c9614f8ef70e7bebb936c71f0ff86775e2fa435e65fc60f3ab81aee771e6c3",
+      "verified": null
+    },
+    {
       "id": "20261115-015239-morse-3876e14c",
       "createdAt": "2026-11-15T01:52:39Z",
       "category": "morse",

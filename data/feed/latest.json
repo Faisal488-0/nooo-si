@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-15T01:52:39Z",
-  "total": 177,
+  "generatedAt": "2026-11-15T09:19:43Z",
+  "total": 178,
   "items": [
+    {
+      "id": "20261115-091943-office-57c9614f",
+      "createdAt": "2026-11-15T09:19:43Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "تكتب المحضر؟ أنت تكتب بسرعة.",
+      "body": "خلنا نكملها برّا الاجتماع. برّا وايد.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "night",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "أبدًا",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 442010
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 3
+      },
+      "contentHash": "57c9614f8ef70e7bebb936c71f0ff86775e2fa435e65fc60f3ab81aee771e6c3",
+      "verified": null
+    },
     {
       "id": "20261115-015239-morse-3876e14c",
       "createdAt": "2026-11-15T01:52:39Z",
@@ -910,34 +938,6 @@
         "reply": 14
       },
       "contentHash": "a40bb59c5fef657ba8e85a00b2a8e3fba55ce5c89ae658152c7fed82b3c3a3dc",
-      "verified": null
-    },
-    {
-      "id": "20261107-070600-office-3d95100c",
-      "createdAt": "2026-11-07T07:06:00Z",
-      "category": "office",
-      "locale": "ar",
-      "eyebrow": "حياة المكتب",
-      "headline": "تصلح الطابعة؟ أنت شاطر بالكمبيوتر.",
-      "body": "حسب سياستنا اللي توني كتبتها: لا.",
-      "kicker": "مختومة ومرفوضة.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "tangerine",
-        "character": "mug",
-        "expression": "angry",
-        "sticker": "لااا!",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 812161
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 2,
-        "reply": 12
-      },
-      "contentHash": "3d95100c76b5054de49a82144110c343ce2954b7871d53bb454249e8d45d01f9",
       "verified": null
     }
   ]
