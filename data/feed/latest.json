@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-14T21:27:41Z",
-  "total": 176,
+  "generatedAt": "2026-11-15T01:52:39Z",
+  "total": 177,
   "items": [
+    {
+      "id": "20261115-015239-morse-3876e14c",
+      "createdAt": "2026-11-15T01:52:39Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NO MEETINGS” in Morse code",
+      "body": "Long beep = long no.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "mint",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "DENIED",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 384151
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 10,
+        "headline": 0,
+        "reply": 3
+      },
+      "contentHash": "3876e14cfa5ba7741a32e8c32665fe91da72d5abc6b877785c9f14323da7f623",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO MEETINGS",
+        "output": "-. --- / -- . . - .. -. --. ..."
+      }
+    },
     {
       "id": "20261114-212741-binary-cc6b9b5e",
       "createdAt": "2026-11-14T21:27:41Z",
@@ -905,40 +939,6 @@
       },
       "contentHash": "3d95100c76b5054de49a82144110c343ce2954b7871d53bb454249e8d45d01f9",
       "verified": null
-    },
-    {
-      "id": "20261107-005454-morse-5f022263",
-      "createdAt": "2026-11-07T00:54:54Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "ومّض «NO THANKS» بالكشاف",
-      "body": "مفاصل أصابعك تكلمت.",
-      "kicker": "الحدود ١ — الفوضى ٠.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "tangerine",
-        "character": "phone",
-        "expression": "smug",
-        "sticker": "لا.",
-        "animation": "pop",
-        "layout": "center",
-        "seed": 487352
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 3,
-        "headline": 2,
-        "reply": 6
-      },
-      "contentHash": "5f02226387170f44949e4be532516463ea76452ae03c9ee75c306b4708dd5811",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NO THANKS",
-        "output": "-. --- / - .... .- -. -.- ..."
-      }
     }
   ]
 }

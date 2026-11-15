@@ -1,10 +1,10 @@
 {
-  "total": 176,
+  "total": 177,
   "months": [
     {
       "month": "2026-11",
       "file": "data/feed/archive/2026-11.json",
-      "count": 51
+      "count": 52
     },
     {
       "month": "2026-10",

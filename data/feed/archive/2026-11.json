@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261115-015239-morse-3876e14c",
+      "createdAt": "2026-11-15T01:52:39Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "“NO MEETINGS” in Morse code",
+      "body": "Long beep = long no.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "mint",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "DENIED",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 384151
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 10,
+        "headline": 0,
+        "reply": 3
+      },
+      "contentHash": "3876e14cfa5ba7741a32e8c32665fe91da72d5abc6b877785c9f14323da7f623",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NO MEETINGS",
+        "output": "-. --- / -- . . - .. -. --. ..."
+      }
+    },
+    {
       "id": "20261114-212741-binary-cc6b9b5e",
       "createdAt": "2026-11-14T21:27:41Z",
       "category": "binary",
