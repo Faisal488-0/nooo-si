@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261116-202626-relationship-d68194c9",
+      "createdAt": "2026-11-16T20:26:26Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "خفّف من شوفة ربعك؟",
+      "body": "أحبنا. وأحب الحدود بعد.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lime",
+        "character": "cactus",
+        "expression": "dramatic",
+        "sticker": "مستحيل",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 814379
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 1
+      },
+      "contentHash": "d68194c9b93333729635787f2af64302dd072f24a617c1cc05bb558b2207cb70",
+      "verified": null
+    },
+    {
       "id": "20261116-093706-friends-520d2848",
       "createdAt": "2026-11-16T09:37:06Z",
       "category": "friends",
