@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261116-093706-friends-520d2848",
+      "createdAt": "2026-11-16T09:37:06Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "يلا نطلع. نتحرك بعد ٣ دقايق.",
+      "body": "عندي ارتباط مسبق مع الكنبة.",
+      "kicker": "«اللا» الجاية بعد ساعة.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "cyan",
+        "character": "mug",
+        "expression": "angry",
+        "sticker": "أبدًا",
+        "animation": "shake",
+        "layout": "left",
+        "seed": 998184
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 7
+      },
+      "contentHash": "520d284833a0fff4714569c8f6088cc35d755cbdc77d237778ee04f15db20181",
+      "verified": null
+    },
+    {
       "id": "20261116-020133-boss-e5cf2a19",
       "createdAt": "2026-11-16T02:01:33Z",
       "category": "boss",
