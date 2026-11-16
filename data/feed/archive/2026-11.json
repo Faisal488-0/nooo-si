@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261116-020133-boss-e5cf2a19",
+      "createdAt": "2026-11-16T02:01:33Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "ممكن تتأخر شوي اليوم؟",
+      "body": "رفعت طلبك للكنبة، والكنبة رفضت.",
+      "kicker": "قيلت «لا» وعاد السلام.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tomato",
+        "character": "laptop",
+        "expression": "shocked",
+        "sticker": "لا قاطعة",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 359390
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 16
+      },
+      "contentHash": "e5cf2a19fd316fa02f3799c1e5fb8a8585795af13ea7abc3c4322a00160fb793",
+      "verified": null
+    },
+    {
       "id": "20261115-214548-photo-759ea20a",
       "createdAt": "2026-11-15T21:45:48Z",
       "category": "photo",

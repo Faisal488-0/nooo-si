@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-15T21:45:48Z",
-  "total": 180,
+  "generatedAt": "2026-11-16T02:01:33Z",
+  "total": 181,
   "items": [
+    {
+      "id": "20261116-020133-boss-e5cf2a19",
+      "createdAt": "2026-11-16T02:01:33Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "ممكن تتأخر شوي اليوم؟",
+      "body": "رفعت طلبك للكنبة، والكنبة رفضت.",
+      "kicker": "قيلت «لا» وعاد السلام.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "tomato",
+        "character": "laptop",
+        "expression": "shocked",
+        "sticker": "لا قاطعة",
+        "animation": "bounce",
+        "layout": "left",
+        "seed": 359390
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 16
+      },
+      "contentHash": "e5cf2a19fd316fa02f3799c1e5fb8a8585795af13ea7abc3c4322a00160fb793",
+      "verified": null
+    },
     {
       "id": "20261115-214548-photo-759ea20a",
       "createdAt": "2026-11-15T21:45:48Z",
@@ -910,34 +938,6 @@
         "reply": 12
       },
       "contentHash": "9e95dfc5f8945ef7a1c7c2369ae3482a1acb14d101f0596c64916a820393d4af",
-      "verified": null
-    },
-    {
-      "id": "20261107-224258-boss-b7560ed0",
-      "createdAt": "2026-11-07T22:42:58Z",
-      "category": "boss",
-      "locale": "en",
-      "eyebrow": "The boss asks",
-      "headline": "Can you cover your colleague's project too?",
-      "body": "I'm going to have to decline, respectfully and immediately.",
-      "kicker": "Share this with someone who needs it.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "lime",
-        "character": "laptop",
-        "expression": "dramatic",
-        "sticker": "NOPE",
-        "animation": "tilt",
-        "layout": "left",
-        "seed": 980453
-      },
-      "effect": "stamp",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 5,
-        "reply": 5
-      },
-      "contentHash": "b7560ed0859f17dbed6cadfeb4fc756835d9f1779c74965609ef69e18788f5e1",
       "verified": null
     }
   ]
