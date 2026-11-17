@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261117-034941-cat-2eef6237",
+      "createdAt": "2026-11-17T03:49:41Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Time for your bath!",
+      "body": "I was here first. I was here before chairs.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "grape",
+        "character": "cat",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 570498
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 15
+      },
+      "contentHash": "2eef6237113756b110f57a2b90849bd8128029b9b6f40e628bace0b2cc5ce459",
+      "verified": null
+    },
+    {
       "id": "20261116-202626-relationship-d68194c9",
       "createdAt": "2026-11-16T20:26:26Z",
       "category": "relationship",

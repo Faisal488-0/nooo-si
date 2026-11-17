@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-16T20:26:26Z",
-  "total": 183,
+  "generatedAt": "2026-11-17T03:49:41Z",
+  "total": 184,
   "items": [
+    {
+      "id": "20261117-034941-cat-2eef6237",
+      "createdAt": "2026-11-17T03:49:41Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Time for your bath!",
+      "body": "I was here first. I was here before chairs.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "grape",
+        "character": "cat",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 570498
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 15
+      },
+      "contentHash": "2eef6237113756b110f57a2b90849bd8128029b9b6f40e628bace0b2cc5ce459",
+      "verified": null
+    },
     {
       "id": "20261116-202626-relationship-d68194c9",
       "createdAt": "2026-11-16T20:26:26Z",
@@ -910,34 +938,6 @@
         "reply": 13
       },
       "contentHash": "e35f5b96c32ab21191784ba5feea8d2d94e310f62692803ba4270a13460b8872",
-      "verified": null
-    },
-    {
-      "id": "20261108-164055-cat-578c8f8e",
-      "createdAt": "2026-11-08T16:40:55Z",
-      "category": "cat",
-      "locale": "en",
-      "eyebrow": "Human to cat",
-      "headline": "Stop singing opera at 4 AM.",
-      "body": "The council of whiskers has voted: no.",
-      "kicker": "Fresh NO, baked this hour.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "lime",
-        "character": "cat",
-        "expression": "unbothered",
-        "sticker": "NOOO!",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 165648
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 7,
-        "reply": 0
-      },
-      "contentHash": "578c8f8e7881cbd8db18fffb98586df7fcce6eb685640a0249c89fa2d190e2ee",
       "verified": null
     }
   ]
