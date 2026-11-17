@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261117-131912-scifi-d56e7851",
+      "createdAt": "2026-11-17T13:19:12Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "مستعمرة المريخ: اجتماع أكسجين إجباري ٦ الصبح.",
+      "body": "ترجمة «بيب بوب»: مستحيل في هذا الخط الزمني.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "tangerine",
+        "character": "ufo",
+        "expression": "sleepy",
+        "sticker": "أبدًا",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 949601
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 9
+      },
+      "contentHash": "d56e7851e87cde9366cee5aa5eb7257a6bef59efdfed2979334711f9a0c11c50",
+      "verified": null
+    },
+    {
       "id": "20261117-034941-cat-2eef6237",
       "createdAt": "2026-11-17T03:49:41Z",
       "category": "cat",
