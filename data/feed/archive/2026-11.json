@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261117-221833-photo-b7e9603c",
+      "createdAt": "2026-11-17T22:18:33Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Monkey when the boss says 'do it by hand':",
+      "body": "I'm doing it by foot. Still no.",
+      "kicker": "Copy. Paste. Decline.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tangerine",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "NOT TODAY",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 957249
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 6
+      },
+      "contentHash": "b7e9603c10dec337281f02a6ebc9ebf79b163d352293d82c6993a7a47d8aa836",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261117-221833-04e37872.jpg",
+        "sourceId": "04e37872-bbab-4b31-8e6d-4198e45b5c6d",
+        "theme": "monkey",
+        "title": "Standing Monkey Amulet",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/550993"
+      }
+    },
+    {
       "id": "20261117-131912-scifi-d56e7851",
       "createdAt": "2026-11-17T13:19:12Z",
       "category": "scifi",
