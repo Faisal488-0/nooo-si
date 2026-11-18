@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-18T13:05:39Z",
-  "total": 188,
+  "generatedAt": "2026-11-18T21:24:58Z",
+  "total": 189,
   "items": [
+    {
+      "id": "20261118-212458-monday-52b3e480",
+      "createdAt": "2026-11-18T21:24:58Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "أول الأسبوع: ابتسم، بداية الأسبوع!",
+      "body": "لا، وأقولها بالبيجامة.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "lime",
+        "character": "alarm",
+        "expression": "shocked",
+        "sticker": "أبدًا",
+        "animation": "float",
+        "layout": "center",
+        "seed": 632623
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 11
+      },
+      "contentHash": "52b3e480815ee313168a85d64c30f976897935ffb3707ae3a940b6637017548c",
+      "verified": null
+    },
     {
       "id": "20261118-130539-office-dda95d80",
       "createdAt": "2026-11-18T13:05:39Z",
@@ -911,34 +939,6 @@
         "dir": "ltr",
         "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
       }
-    },
-    {
-      "id": "20261110-020403-monday-630e5db1",
-      "createdAt": "2026-11-10T02:04:03Z",
-      "category": "monday",
-      "locale": "en",
-      "eyebrow": "Monday morning",
-      "headline": "Gym app: your weekly streak starts now!",
-      "body": "Wake me up when it's Wednesday.",
-      "kicker": "No regrets. Just no.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "bubblegum",
-        "character": "mug",
-        "expression": "unbothered",
-        "sticker": "NEVER",
-        "animation": "wobble",
-        "layout": "right",
-        "seed": 158847
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 10,
-        "reply": 13
-      },
-      "contentHash": "630e5db177af7f006583e9f8cbd3f30fff7b30b6b0065159359d9b0fe7aaea82",
-      "verified": null
     }
   ]
 }

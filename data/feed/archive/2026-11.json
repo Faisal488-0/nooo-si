@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261118-212458-monday-52b3e480",
+      "createdAt": "2026-11-18T21:24:58Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "أول الأسبوع: ابتسم، بداية الأسبوع!",
+      "body": "لا، وأقولها بالبيجامة.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "lime",
+        "character": "alarm",
+        "expression": "shocked",
+        "sticker": "أبدًا",
+        "animation": "float",
+        "layout": "center",
+        "seed": 632623
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 9,
+        "reply": 11
+      },
+      "contentHash": "52b3e480815ee313168a85d64c30f976897935ffb3707ae3a940b6637017548c",
+      "verified": null
+    },
+    {
       "id": "20261118-130539-office-dda95d80",
       "createdAt": "2026-11-18T13:05:39Z",
       "category": "office",
