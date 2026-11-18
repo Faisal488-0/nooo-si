@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-18T04:15:48Z",
-  "total": 187,
+  "generatedAt": "2026-11-18T13:05:39Z",
+  "total": 188,
   "items": [
+    {
+      "id": "20261118-130539-office-dda95d80",
+      "createdAt": "2026-11-18T13:05:39Z",
+      "category": "office",
+      "locale": "en",
+      "eyebrow": "Office life",
+      "headline": "Can you train the new intern, the new system, and the new plant?",
+      "body": "Out of office, out of patience, out of here.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "lime",
+        "character": "mug",
+        "expression": "unbothered",
+        "sticker": "NOPE",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 66650
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 11,
+        "reply": 5
+      },
+      "contentHash": "dda95d803bf40e53f54fca9b2fe437a8a44d87870c0e0e23342b09052620d468",
+      "verified": null
+    },
     {
       "id": "20261118-041548-morse-2652bd30",
       "createdAt": "2026-11-18T04:15:48Z",
@@ -910,34 +938,6 @@
         "reply": 13
       },
       "contentHash": "630e5db177af7f006583e9f8cbd3f30fff7b30b6b0065159359d9b0fe7aaea82",
-      "verified": null
-    },
-    {
-      "id": "20261109-184444-office-87e3514c",
-      "createdAt": "2026-11-09T18:44:44Z",
-      "category": "office",
-      "locale": "en",
-      "eyebrow": "Office life",
-      "headline": "Can you rename 4,000 files by hand?",
-      "body": "Sending you a calendar invite titled 'No'.",
-      "kicker": "Boundaries 1 — Chaos 0.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "mint",
-        "character": "mug",
-        "expression": "smug",
-        "sticker": "DENIED",
-        "animation": "wobble",
-        "layout": "center",
-        "seed": 709572
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 6,
-        "reply": 13
-      },
-      "contentHash": "87e3514c76f6a382b165bee9eef1af030132b6374ce042b0f3c35d389aadd0d8",
       "verified": null
     }
   ]
