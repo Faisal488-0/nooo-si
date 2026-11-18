@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261118-041548-morse-2652bd30",
+      "createdAt": "2026-11-18T04:15:48Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "انقرها على الطاولة: «DENIED»",
+      "body": "انقرها وقت الاجتماع. محد بيدري.",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "bubblegum",
+        "character": "alarm",
+        "expression": "angry",
+        "sticker": "أبدًا",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 994668
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 9,
+        "headline": 1,
+        "reply": 1
+      },
+      "contentHash": "2652bd30fe8bb73d827ea53d3cfc7b5a24638059bf9bf15b0be52a9961999895",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "DENIED",
+        "output": "-.. . -. .. . -.."
+      }
+    },
+    {
       "id": "20261117-221833-photo-b7e9603c",
       "createdAt": "2026-11-17T22:18:33Z",
       "category": "photo",

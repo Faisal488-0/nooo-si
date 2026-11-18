@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-17T22:18:33Z",
-  "total": 186,
+  "generatedAt": "2026-11-18T04:15:48Z",
+  "total": 187,
   "items": [
+    {
+      "id": "20261118-041548-morse-2652bd30",
+      "createdAt": "2026-11-18T04:15:48Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "انقرها على الطاولة: «DENIED»",
+      "body": "انقرها وقت الاجتماع. محد بيدري.",
+      "kicker": "الحدود ١ — الفوضى ٠.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "bubblegum",
+        "character": "alarm",
+        "expression": "angry",
+        "sticker": "أبدًا",
+        "animation": "pulse",
+        "layout": "center",
+        "seed": 994668
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 9,
+        "headline": 1,
+        "reply": 1
+      },
+      "contentHash": "2652bd30fe8bb73d827ea53d3cfc7b5a24638059bf9bf15b0be52a9961999895",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "DENIED",
+        "output": "-.. . -. .. . -.."
+      }
+    },
     {
       "id": "20261117-221833-photo-b7e9603c",
       "createdAt": "2026-11-17T22:18:33Z",
@@ -905,40 +939,6 @@
       },
       "contentHash": "87e3514c76f6a382b165bee9eef1af030132b6374ce042b0f3c35d389aadd0d8",
       "verified": null
-    },
-    {
-      "id": "20261109-075551-morse-674b23b6",
-      "createdAt": "2026-11-09T07:55:51Z",
-      "category": "morse",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Tap this on the table: “STILL NO”",
-      "body": "Your knuckles have spoken.",
-      "kicker": "Signed, sealed, declined.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "tangerine",
-        "character": "phone",
-        "expression": "shocked",
-        "sticker": "DENIED",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 14615
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 7,
-        "headline": 1,
-        "reply": 6
-      },
-      "contentHash": "674b23b6f0fd612dbafac80f12fcd1abc8c94f55cf02a107259b4d368a58f05a",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "STILL NO",
-        "output": "... - .. .-.. .-.. / -. ---"
-      }
     }
   ]
 }
