@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-19T12:59:08Z",
-  "total": 191,
+  "generatedAt": "2026-11-19T21:29:09Z",
+  "total": 192,
   "items": [
+    {
+      "id": "20261119-212909-photo-f179a8c2",
+      "createdAt": "2026-11-19T21:29:09Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الحمار حين قيل له «لا تكن عنيدًا»:",
+      "body": "أفضّل «ثابت على موقفه». لا.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "grape",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "لااا!",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 277951
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 7
+      },
+      "contentHash": "f179a8c2a089616fd92562b5a43a8d3c37c78fc7fd4cc5303cb29bc3d4e95414",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261119-212909-608007d0.jpg",
+        "sourceId": "608007d0-efc6-41d9-920e-4a80abbc0a77",
+        "theme": "donkey",
+        "title": "Lha Mo Riding on a Donkey",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/38347"
+      }
+    },
     {
       "id": "20261119-125908-boss-8ad90394",
       "createdAt": "2026-11-19T12:59:08Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "27251f4a6b2901afa02671707efed61bdb7819276696a9bf4aa3547463bddccd",
       "verified": null
-    },
-    {
-      "id": "20261110-231653-photo-0f64e8ef",
-      "createdAt": "2026-11-10T23:16:53Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Horse asked to wear the tiny hat:",
-      "body": "I have dignity. Small, but it exists. No.",
-      "kicker": "Signed, sealed, declined.",
-      "visualPreset": {
-        "background": "halftone",
-        "palette": "lemon",
-        "character": "phone",
-        "expression": "unbothered",
-        "sticker": "HARD NO",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 531075
-      },
-      "effect": "confetti",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 3
-      },
-      "contentHash": "0f64e8efb03e22a2324efd2d83910ee120669b5c0d0b2ca565f147e2e809bca6",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261110-231653-d16aa321.jpg",
-        "sourceId": "d16aa321-4d9c-4514-a809-044b144be2f0",
-        "theme": "horse",
-        "title": "Head from a figure of a horse",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/569683"
-      }
     }
   ]
 }

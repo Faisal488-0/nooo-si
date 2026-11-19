@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261119-212909-photo-f179a8c2",
+      "createdAt": "2026-11-19T21:29:09Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "الحمار حين قيل له «لا تكن عنيدًا»:",
+      "body": "أفضّل «ثابت على موقفه». لا.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "grape",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "لااا!",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 277951
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 7
+      },
+      "contentHash": "f179a8c2a089616fd92562b5a43a8d3c37c78fc7fd4cc5303cb29bc3d4e95414",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261119-212909-608007d0.jpg",
+        "sourceId": "608007d0-efc6-41d9-920e-4a80abbc0a77",
+        "theme": "donkey",
+        "title": "Lha Mo Riding on a Donkey",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/38347"
+      }
+    },
+    {
       "id": "20261119-125908-boss-8ad90394",
       "createdAt": "2026-11-19T12:59:08Z",
       "category": "boss",
