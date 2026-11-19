@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261119-125908-boss-8ad90394",
+      "createdAt": "2026-11-19T12:59:08Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Could you just check your email on vacation?",
+      "body": "Unfortunately my capacity is at 100% and my patience is at 3%.",
+      "kicker": "Echo: no… no… no…",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tomato",
+        "character": "phone",
+        "expression": "unbothered",
+        "sticker": "NOT TODAY",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 446730
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 2
+      },
+      "contentHash": "8ad90394f1c8bd812faddc8ebadfb605d13001f21a6e658a3741dd4d2d280646",
+      "verified": null
+    },
+    {
       "id": "20261119-032241-global-337c30e1",
       "createdAt": "2026-11-19T03:22:41Z",
       "category": "global",

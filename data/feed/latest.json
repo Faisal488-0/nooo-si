@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-19T03:22:41Z",
-  "total": 190,
+  "generatedAt": "2026-11-19T12:59:08Z",
+  "total": 191,
   "items": [
+    {
+      "id": "20261119-125908-boss-8ad90394",
+      "createdAt": "2026-11-19T12:59:08Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Could you just check your email on vacation?",
+      "body": "Unfortunately my capacity is at 100% and my patience is at 3%.",
+      "kicker": "Echo: no… no… no…",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tomato",
+        "character": "phone",
+        "expression": "unbothered",
+        "sticker": "NOT TODAY",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 446730
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 2
+      },
+      "contentHash": "8ad90394f1c8bd812faddc8ebadfb605d13001f21a6e658a3741dd4d2d280646",
+      "verified": null
+    },
     {
       "id": "20261119-032241-global-337c30e1",
       "createdAt": "2026-11-19T03:22:41Z",
@@ -911,34 +939,6 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/569683"
       }
-    },
-    {
-      "id": "20261110-174730-boss-91e1e80c",
-      "createdAt": "2026-11-10T17:47:30Z",
-      "category": "boss",
-      "locale": "ar",
-      "eyebrow": "المدير يسأل",
-      "headline": "خلنا نسوي اجتماع سريع يوم السبت.",
-      "body": "تحديث سريع: ل. ا.",
-      "kicker": "صدى: لا… لا… لا…",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "lime",
-        "character": "mug",
-        "expression": "smug",
-        "sticker": "لا.",
-        "animation": "shake",
-        "layout": "right",
-        "seed": 771715
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 4,
-        "reply": 15
-      },
-      "contentHash": "91e1e80cd08dfc15f495e3d2fe2daab79306721db3edf65218a16010f88cf7ff",
-      "verified": null
     }
   ]
 }
