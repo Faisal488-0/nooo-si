@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-11-18T21:24:58Z",
-  "total": 189,
+  "generatedAt": "2026-11-19T03:22:41Z",
+  "total": 190,
   "items": [
+    {
+      "id": "20261119-032241-global-337c30e1",
+      "createdAt": "2026-11-19T03:22:41Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "How to say NO in Japanese",
+      "body": "Perfect for declining a third dessert.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "night",
+        "character": "cat",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 887823
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 34,
+        "headline": 0,
+        "reply": 0
+      },
+      "contentHash": "337c30e15d94d003e90a2aa07fca4a419d0e4e3dcaf055e0a1e2752f64ca9497",
+      "verified": true,
+      "lang": {
+        "id": "ja",
+        "name": "Japanese",
+        "no": "いいえ",
+        "translit": "Iie",
+        "dir": "ltr",
+        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
+      }
+    },
     {
       "id": "20261118-212458-monday-52b3e480",
       "createdAt": "2026-11-18T21:24:58Z",
@@ -902,43 +939,6 @@
       },
       "contentHash": "91e1e80cd08dfc15f495e3d2fe2daab79306721db3edf65218a16010f88cf7ff",
       "verified": null
-    },
-    {
-      "id": "20261110-094449-global-ace406cf",
-      "createdAt": "2026-11-10T09:44:49Z",
-      "category": "global",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Today's NO comes from Haitian Creole",
-      "body": "Whisper it for a mysterious refusal.",
-      "kicker": "Copy. Paste. Decline.",
-      "visualPreset": {
-        "background": "burst",
-        "palette": "tangerine",
-        "character": "ufo",
-        "expression": "dramatic",
-        "sticker": "DENIED",
-        "animation": "float",
-        "layout": "right",
-        "seed": 431647
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "lang": 24,
-        "headline": 2,
-        "reply": 5
-      },
-      "contentHash": "ace406cf8b15d5180616e597dfb00a08dae447bfdc58a2280a9e12ec2e214e48",
-      "verified": true,
-      "lang": {
-        "id": "ht",
-        "name": "Haitian Creole",
-        "no": "Non",
-        "translit": "",
-        "dir": "ltr",
-        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
-      }
     }
   ]
 }

@@ -2,6 +2,43 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261119-032241-global-337c30e1",
+      "createdAt": "2026-11-19T03:22:41Z",
+      "category": "global",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "How to say NO in Japanese",
+      "body": "Perfect for declining a third dessert.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "night",
+        "character": "cat",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 887823
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 34,
+        "headline": 0,
+        "reply": 0
+      },
+      "contentHash": "337c30e15d94d003e90a2aa07fca4a419d0e4e3dcaf055e0a1e2752f64ca9497",
+      "verified": true,
+      "lang": {
+        "id": "ja",
+        "name": "Japanese",
+        "no": "いいえ",
+        "translit": "Iie",
+        "dir": "ltr",
+        "sourceUrl": "https://berlitz.com/blog/yes-no-different-languages"
+      }
+    },
+    {
       "id": "20261118-212458-monday-52b3e480",
       "createdAt": "2026-11-18T21:24:58Z",
       "category": "monday",
