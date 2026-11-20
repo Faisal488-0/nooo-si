@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261120-201008-scifi-0ce03196",
+      "createdAt": "2026-11-20T20:10:08Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Robot: upgrade to Human 2.0?",
+      "body": "Gravity says down. I say no.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "bubblegum",
+        "character": "robot",
+        "expression": "unbothered",
+        "sticker": "NOPE",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 191720
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 14
+      },
+      "contentHash": "0ce03196bdb979ef5b6e8bc617bc33cd63031e04e60589374f316e55b438aaf8",
+      "verified": null
+    },
+    {
       "id": "20261120-113112-cat-92b69411",
       "createdAt": "2026-11-20T11:31:12Z",
       "category": "cat",

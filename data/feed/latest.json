@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-20T11:31:12Z",
-  "total": 194,
+  "generatedAt": "2026-11-20T20:10:08Z",
+  "total": 195,
   "items": [
+    {
+      "id": "20261120-201008-scifi-0ce03196",
+      "createdAt": "2026-11-20T20:10:08Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Robot: upgrade to Human 2.0?",
+      "body": "Gravity says down. I say no.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "bubblegum",
+        "character": "robot",
+        "expression": "unbothered",
+        "sticker": "NOPE",
+        "animation": "shake",
+        "layout": "center",
+        "seed": 191720
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 14
+      },
+      "contentHash": "0ce03196bdb979ef5b6e8bc617bc33cd63031e04e60589374f316e55b438aaf8",
+      "verified": null
+    },
     {
       "id": "20261120-113112-cat-92b69411",
       "createdAt": "2026-11-20T11:31:12Z",
@@ -911,34 +939,6 @@
         "input": "NO THANKS",
         "output": "01001110 01001111 00100000 01010100 01001000 01000001 01001110 01001011 01010011"
       }
-    },
-    {
-      "id": "20261111-184053-scifi-1475fe63",
-      "createdAt": "2026-11-11T18:40:53Z",
-      "category": "scifi",
-      "locale": "ar",
-      "eyebrow": "إرسال وارد",
-      "headline": "كويكب: أقدر أوقف في مدارك؟",
-      "body": "تم إرسال «لا» إلى ١٢ مجرة. وكلهم موافقين.",
-      "kicker": "بدون ندم. بس لا.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "night",
-        "character": "robot",
-        "expression": "sleepy",
-        "sticker": "مو اليوم",
-        "animation": "float",
-        "layout": "center",
-        "seed": 815734
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 4
-      },
-      "contentHash": "1475fe63c382e1f0dc9fa55caed16ba490e16119e7622fb020dc81c8f8488728",
-      "verified": null
     }
   ]
 }
