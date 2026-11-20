@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261120-030939-relationship-4e58054e",
+      "createdAt": "2026-11-20T03:09:39Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Meet my entire family this weekend? All 63 of them.",
+      "body": "Not a fight, just a fact: no.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "lemon",
+        "character": "heart",
+        "expression": "angry",
+        "sticker": "NOT TODAY",
+        "animation": "float",
+        "layout": "left",
+        "seed": 403001
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 6,
+        "reply": 13
+      },
+      "contentHash": "4e58054ecedd21097c8f9f974876d85f524167e1f26a693071d68fd21a6807f0",
+      "verified": null
+    },
+    {
       "id": "20261119-212909-photo-f179a8c2",
       "createdAt": "2026-11-19T21:29:09Z",
       "category": "photo",
