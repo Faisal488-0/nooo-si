@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-20T03:09:39Z",
-  "total": 193,
+  "generatedAt": "2026-11-20T11:31:12Z",
+  "total": 194,
   "items": [
+    {
+      "id": "20261120-113112-cat-92b69411",
+      "createdAt": "2026-11-20T11:31:12Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "بسبس بسبس، تعال!",
+      "body": "درست طلبك، واخترت الفوضى (فوضى لطيفة جدًا).",
+      "kicker": "معتمدة من وزارة «لا».",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "night",
+        "character": "cat",
+        "expression": "sleepy",
+        "sticker": "انسى",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 888836
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 1
+      },
+      "contentHash": "92b69411714b4d9c2d03132c1fe8276ddab8a6bd1f710c3087786ef364bc9ae8",
+      "verified": null
+    },
     {
       "id": "20261120-030939-relationship-4e58054e",
       "createdAt": "2026-11-20T03:09:39Z",
@@ -910,34 +938,6 @@
         "reply": 4
       },
       "contentHash": "1475fe63c382e1f0dc9fa55caed16ba490e16119e7622fb020dc81c8f8488728",
-      "verified": null
-    },
-    {
-      "id": "20261111-105242-cat-1479d203",
-      "createdAt": "2026-11-11T10:52:42Z",
-      "category": "cat",
-      "locale": "ar",
-      "eyebrow": "الإنسان للقطوة",
-      "headline": "لا تطيّح جوالي من الطاولة.",
-      "body": "أنا كنت هني قبلك. قبل لا ينخلق الكرسي.",
-      "kicker": "تُستخدم مع الحدود.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "lemon",
-        "character": "cat",
-        "expression": "angry",
-        "sticker": "لااا!",
-        "animation": "float",
-        "layout": "left",
-        "seed": 737750
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 3,
-        "reply": 15
-      },
-      "contentHash": "1479d203711802785a2337f36e30416cb4273220278b5e25a452a3c8385d09ec",
       "verified": null
     }
   ]

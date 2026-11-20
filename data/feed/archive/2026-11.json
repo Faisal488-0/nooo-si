@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261120-113112-cat-92b69411",
+      "createdAt": "2026-11-20T11:31:12Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "بسبس بسبس، تعال!",
+      "body": "درست طلبك، واخترت الفوضى (فوضى لطيفة جدًا).",
+      "kicker": "معتمدة من وزارة «لا».",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "night",
+        "character": "cat",
+        "expression": "sleepy",
+        "sticker": "انسى",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 888836
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 2,
+        "reply": 1
+      },
+      "contentHash": "92b69411714b4d9c2d03132c1fe8276ddab8a6bd1f710c3087786ef364bc9ae8",
+      "verified": null
+    },
+    {
       "id": "20261120-030939-relationship-4e58054e",
       "createdAt": "2026-11-20T03:09:39Z",
       "category": "relationship",
