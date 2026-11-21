@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261121-094451-morse-026b7532",
+      "createdAt": "2026-11-21T09:44:51Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Blink “NOT TODAY” with a flashlight",
+      "body": "Perfect for refusing in total silence.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tangerine",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 816859
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 2,
+        "headline": 2,
+        "reply": 5
+      },
+      "contentHash": "026b75321f904f0835cfb794adf5c19dbfbf8647dbec912f34dddf54541ea996",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOT TODAY",
+        "output": "-. --- - / - --- -.. .- -.--"
+      }
+    },
+    {
       "id": "20261121-012910-binary-b89385b5",
       "createdAt": "2026-11-21T01:29:10Z",
       "category": "binary",

@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-21T01:29:10Z",
-  "total": 196,
+  "generatedAt": "2026-11-21T09:44:51Z",
+  "total": 197,
   "items": [
+    {
+      "id": "20261121-094451-morse-026b7532",
+      "createdAt": "2026-11-21T09:44:51Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Blink “NOT TODAY” with a flashlight",
+      "body": "Perfect for refusing in total silence.",
+      "kicker": "Approved by cats everywhere.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "tangerine",
+        "character": "phone",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "pop",
+        "layout": "right",
+        "seed": 816859
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 2,
+        "headline": 2,
+        "reply": 5
+      },
+      "contentHash": "026b75321f904f0835cfb794adf5c19dbfbf8647dbec912f34dddf54541ea996",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NOT TODAY",
+        "output": "-. --- - / - --- -.. .- -.--"
+      }
+    },
     {
       "id": "20261121-012910-binary-b89385b5",
       "createdAt": "2026-11-21T01:29:10Z",
@@ -904,40 +938,6 @@
         "license": "cc0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "landingUrl": "https://www.metmuseum.org/art/collection/search/569683"
-      }
-    },
-    {
-      "id": "20261112-094701-morse-e04269cd",
-      "createdAt": "2026-11-12T09:47:01Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "«NOT A CHANCE» بشفرة مورس",
-      "body": "تعدّي الجدران والأبواب وقروبات العايلة.",
-      "kicker": "انسخ. الصق. ارفض.",
-      "visualPreset": {
-        "background": "rays",
-        "palette": "bubblegum",
-        "character": "ufo",
-        "expression": "shocked",
-        "sticker": "لااا!",
-        "animation": "tilt",
-        "layout": "right",
-        "seed": 701492
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 13,
-        "headline": 0,
-        "reply": 2
-      },
-      "contentHash": "e04269cd75f2f832edd4b5962a573297b310cc8d6d6a1bbacbc2ae34fd49b207",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NOT A CHANCE",
-        "output": "-. --- - / .- / -.-. .... .- -. -.-. ."
       }
     }
   ]
