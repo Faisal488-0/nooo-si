@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-21T17:30:07Z",
-  "total": 198,
+  "generatedAt": "2026-11-21T23:11:18Z",
+  "total": 199,
   "items": [
+    {
+      "id": "20261121-231118-monday-2bd0164d",
+      "createdAt": "2026-11-21T23:11:18Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Alarm: it's 6:00 AM. Monday.",
+      "body": "No — and I'm saying it in pajamas.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "grape",
+        "character": "ghost",
+        "expression": "dramatic",
+        "sticker": "NAH",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 72060
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 11
+      },
+      "contentHash": "2bd0164d2e5f15fafe421983b6253869f3e76855094ca73c724ee99c10b55918",
+      "verified": null
+    },
     {
       "id": "20261121-173007-photo-01be0745",
       "createdAt": "2026-11-21T17:30:07Z",
@@ -911,34 +939,6 @@
         "dir": "ltr",
         "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
       }
-    },
-    {
-      "id": "20261112-234021-monday-45f12078",
-      "createdAt": "2026-11-12T23:40:21Z",
-      "category": "monday",
-      "locale": "ar",
-      "eyebrow": "صباح أول يوم دوام",
-      "headline": "السرير: لازم تقوم الحين.",
-      "body": "زر الغفوة، اخترتك أنت.",
-      "kicker": "الحالة: تم تسليم «اللا».",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "cyan",
-        "character": "bed",
-        "expression": "shocked",
-        "sticker": "مستحيل",
-        "animation": "wobble",
-        "layout": "center",
-        "seed": 733298
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 11,
-        "reply": 15
-      },
-      "contentHash": "45f12078ab3a30f4ce7857a16b1c6c35fc9bf6063bbd4dd0eed9c53deb5d4ed8",
-      "verified": null
     }
   ]
 }

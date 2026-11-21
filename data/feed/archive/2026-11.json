@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261121-231118-monday-2bd0164d",
+      "createdAt": "2026-11-21T23:11:18Z",
+      "category": "monday",
+      "locale": "en",
+      "eyebrow": "Monday morning",
+      "headline": "Alarm: it's 6:00 AM. Monday.",
+      "body": "No — and I'm saying it in pajamas.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "halftone",
+        "palette": "grape",
+        "character": "ghost",
+        "expression": "dramatic",
+        "sticker": "NAH",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 72060
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 11
+      },
+      "contentHash": "2bd0164d2e5f15fafe421983b6253869f3e76855094ca73c724ee99c10b55918",
+      "verified": null
+    },
+    {
       "id": "20261121-173007-photo-01be0745",
       "createdAt": "2026-11-21T17:30:07Z",
       "category": "photo",
