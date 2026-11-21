@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261121-012910-binary-b89385b5",
+      "createdAt": "2026-11-21T01:29:10Z",
+      "category": "binary",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "How a computer says “NAH”",
+      "body": "Tape it to your smart fridge.",
+      "kicker": "Fresh NO, baked this hour.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tomato",
+        "character": "toaster",
+        "expression": "shocked",
+        "sticker": "NOT TODAY",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 490733
+      },
+      "effect": "none",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 5,
+        "headline": 1,
+        "reply": 1
+      },
+      "contentHash": "b89385b5bd4b48093c97caf62daadd21efa18a24465cca3b0994dfda30da5fd3",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "NAH",
+        "output": "01001110 01000001 01001000"
+      }
+    },
+    {
       "id": "20261120-201008-scifi-0ce03196",
       "createdAt": "2026-11-20T20:10:08Z",
       "category": "scifi",
