@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261121-173007-photo-01be0745",
+      "createdAt": "2026-11-21T17:30:07Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Dog when you say 'not now':",
+      "body": "'Not now' is a language I don't speak. No.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lemon",
+        "character": "mug",
+        "expression": "smug",
+        "sticker": "NOT TODAY",
+        "animation": "float",
+        "layout": "left",
+        "seed": 225554
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 1
+      },
+      "contentHash": "01be07455aae1de7031257c8a70ca0b1a0633d9b720968fd6c4d11a0b12b69f8",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261121-173007-a2731672.jpg",
+        "sourceId": "a2731672-e4a5-4e3c-b1c2-1df16592d1fc",
+        "theme": "dog",
+        "title": "Snarling dog",
+        "creator": "Colima artist(s)",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/318999"
+      }
+    },
+    {
       "id": "20261121-094451-morse-026b7532",
       "createdAt": "2026-11-21T09:44:51Z",
       "category": "morse",

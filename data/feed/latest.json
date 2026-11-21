@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-21T09:44:51Z",
-  "total": 197,
+  "generatedAt": "2026-11-21T17:30:07Z",
+  "total": 198,
   "items": [
+    {
+      "id": "20261121-173007-photo-01be0745",
+      "createdAt": "2026-11-21T17:30:07Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Dog when you say 'not now':",
+      "body": "'Not now' is a language I don't speak. No.",
+      "kicker": "The next NO arrives next hour.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lemon",
+        "character": "mug",
+        "expression": "smug",
+        "sticker": "NOT TODAY",
+        "animation": "float",
+        "layout": "left",
+        "seed": 225554
+      },
+      "effect": "stamp",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 1
+      },
+      "contentHash": "01be07455aae1de7031257c8a70ca0b1a0633d9b720968fd6c4d11a0b12b69f8",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261121-173007-a2731672.jpg",
+        "sourceId": "a2731672-e4a5-4e3c-b1c2-1df16592d1fc",
+        "theme": "dog",
+        "title": "Snarling dog",
+        "creator": "Colima artist(s)",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/318999"
+      }
+    },
     {
       "id": "20261121-094451-morse-026b7532",
       "createdAt": "2026-11-21T09:44:51Z",
@@ -901,44 +939,6 @@
       },
       "contentHash": "45f12078ab3a30f4ce7857a16b1c6c35fc9bf6063bbd4dd0eed9c53deb5d4ed8",
       "verified": null
-    },
-    {
-      "id": "20261112-181743-photo-a6073974",
-      "createdAt": "2026-11-12T18:17:43Z",
-      "category": "photo",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "الحصان حين يسمع «لفّة أخيرة»:",
-      "body": "قلتها قبل ثلاث لفّات. لا.",
-      "kicker": "معتمدة من قطط العالم.",
-      "visualPreset": {
-        "background": "dots",
-        "palette": "bubblegum",
-        "character": "printer",
-        "expression": "angry",
-        "sticker": "مو اليوم",
-        "animation": "float",
-        "layout": "left",
-        "seed": 364157
-      },
-      "effect": "glitch",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 3
-      },
-      "contentHash": "a6073974af81ffbfafe8039eb62fccad3db74552dcfddd8779e2997ae3d3a618",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261112-181743-343e1d0a.jpg",
-        "sourceId": "343e1d0a-ce62-4bfd-88ef-e3d857b46bc5",
-        "theme": "horse",
-        "title": "Head from a figure of a horse",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/569683"
-      }
     }
   ]
 }
