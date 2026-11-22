@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261122-183215-friends-36cb0aa3",
+      "createdAt": "2026-11-22T18:32:15Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Let's start a business. You fund it.",
+      "body": "My battery is at 2%, and so is my willingness.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "bubblegum",
+        "character": "mug",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 387558
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 13
+      },
+      "contentHash": "36cb0aa3ae9f0a99609535738c345914f4b0ae4087765093e92d570c00e8f099",
+      "verified": null
+    },
+    {
       "id": "20261122-111603-boss-544cd710",
       "createdAt": "2026-11-22T11:16:03Z",
       "category": "boss",

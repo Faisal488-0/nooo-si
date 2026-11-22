@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-22T11:16:03Z",
-  "total": 201,
+  "generatedAt": "2026-11-22T18:32:15Z",
+  "total": 202,
   "items": [
+    {
+      "id": "20261122-183215-friends-36cb0aa3",
+      "createdAt": "2026-11-22T18:32:15Z",
+      "category": "friends",
+      "locale": "en",
+      "eyebrow": "Your friend asks",
+      "headline": "Let's start a business. You fund it.",
+      "body": "My battery is at 2%, and so is my willingness.",
+      "kicker": "Side effects: inner peace.",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "bubblegum",
+        "character": "mug",
+        "expression": "shocked",
+        "sticker": "LOL NO",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 387558
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 13
+      },
+      "contentHash": "36cb0aa3ae9f0a99609535738c345914f4b0ae4087765093e92d570c00e8f099",
+      "verified": null
+    },
     {
       "id": "20261122-111603-boss-544cd710",
       "createdAt": "2026-11-22T11:16:03Z",
@@ -910,34 +938,6 @@
         "reply": 11
       },
       "contentHash": "0e71a5f777735c536041faca41a31a122b7182b02a3b9410d6a42c7397cdb320",
-      "verified": null
-    },
-    {
-      "id": "20261113-215759-friends-10ef0e1e",
-      "createdAt": "2026-11-13T21:57:59Z",
-      "category": "friends",
-      "locale": "en",
-      "eyebrow": "Your friend asks",
-      "headline": "One more game. Just one. Until sunrise.",
-      "body": "I love you, buddy. My answer doesn't.",
-      "kicker": "Status: NOOO delivered.",
-      "visualPreset": {
-        "background": "grid",
-        "palette": "mint",
-        "character": "cactus",
-        "expression": "shocked",
-        "sticker": "NOPE",
-        "animation": "float",
-        "layout": "right",
-        "seed": 350982
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 2,
-        "reply": 0
-      },
-      "contentHash": "10ef0e1e5bded85c97d4446d027a1c39ff37ea3eb08f154192a2f34498449d01",
       "verified": null
     }
   ]
