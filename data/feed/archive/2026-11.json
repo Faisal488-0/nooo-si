@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261122-111603-boss-544cd710",
+      "createdAt": "2026-11-22T11:16:03Z",
+      "category": "boss",
+      "locale": "ar",
+      "eyebrow": "المدير يسأل",
+      "headline": "ابدأ شغل الأسبوع الجاي من الويكند.",
+      "body": "ودّي، بس مسائي حاجزني قبلك.",
+      "kicker": "معتمدة من قطط العالم.",
+      "visualPreset": {
+        "background": "checker",
+        "palette": "lemon",
+        "character": "boss",
+        "expression": "angry",
+        "sticker": "لااا!",
+        "animation": "float",
+        "layout": "right",
+        "seed": 171205
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 12,
+        "reply": 1
+      },
+      "contentHash": "544cd71049281f59deadd8621050a59086b2407ba66735ebb0bfee14850a67b8",
+      "verified": null
+    },
+    {
       "id": "20261122-030746-global-6feab7db",
       "createdAt": "2026-11-22T03:07:46Z",
       "category": "global",
