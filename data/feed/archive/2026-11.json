@@ -2,6 +2,43 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261122-030746-global-6feab7db",
+      "createdAt": "2026-11-22T03:07:46Z",
+      "category": "global",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "كيف تقول «لا» بـاليوروبا",
+      "body": "قلها بطء عشان دراما زيادة.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "cyan",
+        "character": "heart",
+        "expression": "dramatic",
+        "sticker": "مو اليوم",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 332164
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "lang": 69,
+        "headline": 0,
+        "reply": 3
+      },
+      "contentHash": "6feab7db40379ce77ccc06f3ee26b03926365c29b1a56b5475cb0b8a06580d44",
+      "verified": true,
+      "lang": {
+        "id": "yo",
+        "name": "اليوروبا",
+        "no": "Rárá",
+        "translit": "",
+        "dir": "ltr",
+        "sourceUrl": "https://omniglot.com/language/phrases/yesnomaybe.htm"
+      }
+    },
+    {
       "id": "20261121-231118-monday-2bd0164d",
       "createdAt": "2026-11-21T23:11:18Z",
       "category": "monday",
