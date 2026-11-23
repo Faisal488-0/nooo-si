@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261123-201032-scifi-607485b0",
+      "createdAt": "2026-11-23T20:10:32Z",
+      "category": "scifi",
+      "locale": "ar",
+      "eyebrow": "إرسال وارد",
+      "headline": "روبوت: ترقية إلى إنسان 2.0؟",
+      "body": "رُفض الطلب بسرعة الضوء.",
+      "kicker": "معتمدة من وزارة «لا».",
+      "visualPreset": {
+        "background": "dots",
+        "palette": "lemon",
+        "character": "alien",
+        "expression": "sleepy",
+        "sticker": "مستحيل",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 109383
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 7,
+        "reply": 1
+      },
+      "contentHash": "607485b08449a7a346840ac6169e5208830d330ac4dc0bdac055d163aacaaca7",
+      "verified": null
+    },
+    {
       "id": "20261123-074621-cat-847263b3",
       "createdAt": "2026-11-23T07:46:21Z",
       "category": "cat",
