@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261123-001713-relationship-5ac7adf2",
+      "createdAt": "2026-11-23T00:17:13Z",
+      "category": "relationship",
+      "locale": "ar",
+      "eyebrow": "الشريك يطلب",
+      "headline": "نسوي وشم متطابق في ثالث موعد؟",
+      "body": "أهتم فيك، وجوابي برضو لا.",
+      "kicker": "قيلت «لا» وعاد السلام.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "mint",
+        "character": "ghost",
+        "expression": "dramatic",
+        "sticker": "انسى",
+        "animation": "shake",
+        "layout": "right",
+        "seed": 107827
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 10,
+        "reply": 0
+      },
+      "contentHash": "5ac7adf2d74154e3f0220dc315d4402ce48f9c37d9e56dd8b77e8c82fc9fd4fe",
+      "verified": null
+    },
+    {
       "id": "20261122-183215-friends-36cb0aa3",
       "createdAt": "2026-11-22T18:32:15Z",
       "category": "friends",
