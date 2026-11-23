@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261123-074621-cat-847263b3",
+      "createdAt": "2026-11-23T07:46:21Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Try this new, very expensive food.",
+      "body": "My schedule is nap, judge, nap. You're not on it.",
+      "kicker": "Certified by the Department of No.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "angry",
+        "sticker": "NOPE",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 358287
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 6
+      },
+      "contentHash": "847263b3bb867fd01d70c5bdd3cc59ac74b0d89b5e4f05f173a73fabf9aaa1e8",
+      "verified": null
+    },
+    {
       "id": "20261123-001713-relationship-5ac7adf2",
       "createdAt": "2026-11-23T00:17:13Z",
       "category": "relationship",

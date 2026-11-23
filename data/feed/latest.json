@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-23T00:17:13Z",
-  "total": 203,
+  "generatedAt": "2026-11-23T07:46:21Z",
+  "total": 204,
   "items": [
+    {
+      "id": "20261123-074621-cat-847263b3",
+      "createdAt": "2026-11-23T07:46:21Z",
+      "category": "cat",
+      "locale": "en",
+      "eyebrow": "Human to cat",
+      "headline": "Try this new, very expensive food.",
+      "body": "My schedule is nap, judge, nap. You're not on it.",
+      "kicker": "Certified by the Department of No.",
+      "visualPreset": {
+        "background": "rays",
+        "palette": "lime",
+        "character": "cat",
+        "expression": "angry",
+        "sticker": "NOPE",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 358287
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 4,
+        "reply": 6
+      },
+      "contentHash": "847263b3bb867fd01d70c5bdd3cc59ac74b0d89b5e4f05f173a73fabf9aaa1e8",
+      "verified": null
+    },
     {
       "id": "20261123-001713-relationship-5ac7adf2",
       "createdAt": "2026-11-23T00:17:13Z",
@@ -901,44 +929,6 @@
       },
       "contentHash": "fae01a46d81b0ee76c0227a54e8a6c7f477b5923e2fe2458f1c5e7c1384dc81a",
       "verified": null
-    },
-    {
-      "id": "20261114-101957-photo-f8e04495",
-      "createdAt": "2026-11-14T10:19:57Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Lion told 'this is a sprint, not a marathon':",
-      "body": "I'm a lion. I do 'a short sprint, then 20 hours of no'.",
-      "kicker": "Status: NOOO delivered.",
-      "visualPreset": {
-        "background": "zigzag",
-        "palette": "lemon",
-        "character": "printer",
-        "expression": "unbothered",
-        "sticker": "NOT TODAY",
-        "animation": "wobble",
-        "layout": "right",
-        "seed": 949896
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 4
-      },
-      "contentHash": "f8e04495327ba303f281d0cbf0fbe6f502bbbaf178986f253fb2f96b910b0c1c",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261114-101957-6770e7ff.jpg",
-        "sourceId": "6770e7ff-651e-4ead-8d22-6c66f99de598",
-        "theme": "lion",
-        "title": "Figure of lion mounted as lamp",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/461498"
-      }
     }
   ]
 }
