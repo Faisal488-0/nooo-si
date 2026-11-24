@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-24T04:45:43Z",
-  "total": 206,
+  "generatedAt": "2026-11-24T15:50:54Z",
+  "total": 207,
   "items": [
+    {
+      "id": "20261124-155054-morse-6c678546",
+      "createdAt": "2026-11-24T15:50:54Z",
+      "category": "morse",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "ومّض «NAH» بالكشاف",
+      "body": "مثالية للرفض في صمت تام.",
+      "kicker": "الأعراض الجانبية: راحة بال.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "mint",
+        "character": "robot",
+        "expression": "dramatic",
+        "sticker": "لا قاطعة",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 132643
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 5,
+        "headline": 2,
+        "reply": 5
+      },
+      "contentHash": "6c6785461fe63e7f3a7fb487206c5bc25206d62f4b9bdc476d0b6d9a59491a07",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NAH",
+        "output": "-. .- ...."
+      }
+    },
     {
       "id": "20261124-044543-binary-e656aa74",
       "createdAt": "2026-11-24T04:45:43Z",
@@ -895,40 +929,6 @@
       },
       "contentHash": "57c9614f8ef70e7bebb936c71f0ff86775e2fa435e65fc60f3ab81aee771e6c3",
       "verified": null
-    },
-    {
-      "id": "20261115-015239-morse-3876e14c",
-      "createdAt": "2026-11-15T01:52:39Z",
-      "category": "morse",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "“NO MEETINGS” in Morse code",
-      "body": "Long beep = long no.",
-      "kicker": "No was said. Peace was restored.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "mint",
-        "character": "phone",
-        "expression": "dramatic",
-        "sticker": "DENIED",
-        "animation": "tilt",
-        "layout": "right",
-        "seed": 384151
-      },
-      "effect": "none",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 10,
-        "headline": 0,
-        "reply": 3
-      },
-      "contentHash": "3876e14cfa5ba7741a32e8c32665fe91da72d5abc6b877785c9f14323da7f623",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "NO MEETINGS",
-        "output": "-. --- / -- . . - .. -. --. ..."
-      }
     }
   ]
 }
