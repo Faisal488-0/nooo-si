@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261124-044543-binary-e656aa74",
+      "createdAt": "2026-11-24T04:45:43Z",
+      "category": "binary",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "«ولا بالأحلام» بالأصفار والآحاد",
+      "body": "حتى الراوتر وصلته الرسالة.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "space",
+        "palette": "bubblegum",
+        "character": "printer",
+        "expression": "shocked",
+        "sticker": "مو اليوم",
+        "animation": "wobble",
+        "layout": "center",
+        "seed": 50170
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 9,
+        "headline": 2,
+        "reply": 3
+      },
+      "contentHash": "e656aa74ee2caa3577b052d273ce28f1217665bd9bb7373f5bf3673ff4254f75",
+      "verified": null,
+      "code": {
+        "type": "binary",
+        "input": "ولا بالأحلام",
+        "output": "11011001 10001000 11011001 10000100 11011000 10100111 00100000 11011000 10101000 11011000 10100111 11011001 10000100 11011000 10100011 11011000 10101101 11011001 10000100 11011000 10100111 11011001 10000101"
+      }
+    },
+    {
       "id": "20261123-201032-scifi-607485b0",
       "createdAt": "2026-11-23T20:10:32Z",
       "category": "scifi",
