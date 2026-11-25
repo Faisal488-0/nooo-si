@@ -2,6 +2,44 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261125-195542-photo-006028f4",
+      "createdAt": "2026-11-25T19:55:42Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "القطة حين طلبوا منها مشاركة الكنبة:",
+      "body": "المشاركة فكرة بشرية. لا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "space",
+        "palette": "grape",
+        "character": "laptop",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "float",
+        "layout": "left",
+        "seed": 85771
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 0
+      },
+      "contentHash": "006028f4e3e8ac4d196c2d943417a638cd40d849014e521d29117dc77b69fce9",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261125-195542-9b5bff0c.jpg",
+        "sourceId": "9b5bff0c-5b4e-4c48-a722-d9340d0aaebb",
+        "theme": "cat",
+        "title": "Cat amulet",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/570234"
+      }
+    },
+    {
       "id": "20261125-095005-monday-b89197d9",
       "createdAt": "2026-11-25T09:50:05Z",
       "category": "monday",

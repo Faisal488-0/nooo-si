@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-25T09:50:05Z",
-  "total": 209,
+  "generatedAt": "2026-11-25T19:55:42Z",
+  "total": 210,
   "items": [
+    {
+      "id": "20261125-195542-photo-006028f4",
+      "createdAt": "2026-11-25T19:55:42Z",
+      "category": "photo",
+      "locale": "ar",
+      "eyebrow": null,
+      "headline": "القطة حين طلبوا منها مشاركة الكنبة:",
+      "body": "المشاركة فكرة بشرية. لا.",
+      "kicker": "صدى: لا… لا… لا…",
+      "visualPreset": {
+        "background": "space",
+        "palette": "grape",
+        "character": "laptop",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "float",
+        "layout": "left",
+        "seed": 85771
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 0
+      },
+      "contentHash": "006028f4e3e8ac4d196c2d943417a638cd40d849014e521d29117dc77b69fce9",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261125-195542-9b5bff0c.jpg",
+        "sourceId": "9b5bff0c-5b4e-4c48-a722-d9340d0aaebb",
+        "theme": "cat",
+        "title": "Cat amulet",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/570234"
+      }
+    },
     {
       "id": "20261125-095005-monday-b89197d9",
       "createdAt": "2026-11-25T09:50:05Z",
@@ -891,44 +929,6 @@
       },
       "contentHash": "e5cf2a19fd316fa02f3799c1e5fb8a8585795af13ea7abc3c4322a00160fb793",
       "verified": null
-    },
-    {
-      "id": "20261115-214548-photo-759ea20a",
-      "createdAt": "2026-11-15T21:45:48Z",
-      "category": "photo",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "الديك في الرابعة وتسع وخمسين صباحًا:",
-      "body": "الشمس طلبت إذنًا. قلت لا. ثم قلتها بصوت أعلى.",
-      "kicker": "الحالة: تم تسليم «اللا».",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "bubblegum",
-        "character": "printer",
-        "expression": "angry",
-        "sticker": "مرفوض",
-        "animation": "pop",
-        "layout": "center",
-        "seed": 135046
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 5
-      },
-      "contentHash": "759ea20aca8d34d654dfd080a772dbe437dd67ae13b6c595b7f605868b25c2d9",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261115-214548-578e2ca7.jpg",
-        "sourceId": "578e2ca7-cf13-4d16-a1ed-c49883ca473a",
-        "theme": "rooster",
-        "title": "Figure of a Rooster",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/564927"
-      }
     }
   ]
 }
