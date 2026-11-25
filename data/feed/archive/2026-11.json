@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261125-004049-office-71a4e8f8",
+      "createdAt": "2026-11-25T00:40:49Z",
+      "category": "office",
+      "locale": "ar",
+      "eyebrow": "حياة المكتب",
+      "headline": "مكالمة سريعة، ٩٠ دقيقة بس.",
+      "body": "خارج المكتب، خارج الصبر، خارج المبنى.",
+      "kicker": "مختومة ومرفوضة.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "grape",
+        "character": "laptop",
+        "expression": "unbothered",
+        "sticker": "لااا!",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 461972
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 5
+      },
+      "contentHash": "71a4e8f81bb98158991246ee86d3b9e378f88aa92f836d2128686bd8c8c5cf98",
+      "verified": null
+    },
+    {
       "id": "20261124-155054-morse-6c678546",
       "createdAt": "2026-11-24T15:50:54Z",
       "category": "morse",
