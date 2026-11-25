@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261125-095005-monday-b89197d9",
+      "createdAt": "2026-11-25T09:50:05Z",
+      "category": "monday",
+      "locale": "ar",
+      "eyebrow": "صباح أول يوم دوام",
+      "headline": "الزحمة: ٤٥ دقيقة زيادة.",
+      "body": "خطأ: الإنسان لا يستجيب.",
+      "kicker": "معتمدة من وزارة «لا».",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "night",
+        "character": "bed",
+        "expression": "smug",
+        "sticker": "مو اليوم",
+        "animation": "pop",
+        "layout": "left",
+        "seed": 394754
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 5,
+        "reply": 7
+      },
+      "contentHash": "b89197d91a870eb33268b613081b89a8fa89f8edb255638f9be46e4eec73f7dd",
+      "verified": null
+    },
+    {
       "id": "20261125-004049-office-71a4e8f8",
       "createdAt": "2026-11-25T00:40:49Z",
       "category": "office",
