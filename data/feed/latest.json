@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-25T19:55:42Z",
-  "total": 210,
+  "generatedAt": "2026-11-26T02:49:41Z",
+  "total": 211,
   "items": [
+    {
+      "id": "20261126-024941-boss-b8722ad5",
+      "createdAt": "2026-11-26T02:49:41Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Quick call at 5:58?",
+      "body": "I'll add it to my list, right under 'never'.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tomato",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "HARD NO",
+        "animation": "tilt",
+        "layout": "center",
+        "seed": 649282
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 8
+      },
+      "contentHash": "b8722ad55f5a142c960dec1b2d60017d809beab36a3c78ff746520be286dc5ed",
+      "verified": null
+    },
     {
       "id": "20261125-195542-photo-006028f4",
       "createdAt": "2026-11-25T19:55:42Z",
@@ -900,34 +928,6 @@
         "reply": 7
       },
       "contentHash": "520d284833a0fff4714569c8f6088cc35d755cbdc77d237778ee04f15db20181",
-      "verified": null
-    },
-    {
-      "id": "20261116-020133-boss-e5cf2a19",
-      "createdAt": "2026-11-16T02:01:33Z",
-      "category": "boss",
-      "locale": "ar",
-      "eyebrow": "المدير يسأل",
-      "headline": "ممكن تتأخر شوي اليوم؟",
-      "body": "رفعت طلبك للكنبة، والكنبة رفضت.",
-      "kicker": "قيلت «لا» وعاد السلام.",
-      "visualPreset": {
-        "background": "stripes",
-        "palette": "tomato",
-        "character": "laptop",
-        "expression": "shocked",
-        "sticker": "لا قاطعة",
-        "animation": "bounce",
-        "layout": "left",
-        "seed": 359390
-      },
-      "effect": "rain",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 0,
-        "reply": 16
-      },
-      "contentHash": "e5cf2a19fd316fa02f3799c1e5fb8a8585795af13ea7abc3c4322a00160fb793",
       "verified": null
     }
   ]

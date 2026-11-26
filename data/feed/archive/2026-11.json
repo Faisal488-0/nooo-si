@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261126-024941-boss-b8722ad5",
+      "createdAt": "2026-11-26T02:49:41Z",
+      "category": "boss",
+      "locale": "en",
+      "eyebrow": "The boss asks",
+      "headline": "Quick call at 5:58?",
+      "body": "I'll add it to my list, right under 'never'.",
+      "kicker": "Handle with boundaries.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "tomato",
+        "character": "phone",
+        "expression": "angry",
+        "sticker": "HARD NO",
+        "animation": "tilt",
+        "layout": "center",
+        "seed": 649282
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 8
+      },
+      "contentHash": "b8722ad55f5a142c960dec1b2d60017d809beab36a3c78ff746520be286dc5ed",
+      "verified": null
+    },
+    {
       "id": "20261125-195542-photo-006028f4",
       "createdAt": "2026-11-25T19:55:42Z",
       "category": "photo",
