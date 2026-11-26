@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261126-122444-friends-86243325",
+      "createdAt": "2026-11-26T12:24:44Z",
+      "category": "friends",
+      "locale": "ar",
+      "eyebrow": "صديقك يطلب",
+      "headline": "تساعدني أنقل يوم الجمعة؟ بس بيانو.",
+      "body": "خلني أسأل محفظتي… أغمى عليها.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "stripes",
+        "palette": "grape",
+        "character": "cactus",
+        "expression": "shocked",
+        "sticker": "انسى",
+        "animation": "pulse",
+        "layout": "left",
+        "seed": 35813
+      },
+      "effect": "rain",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 3,
+        "reply": 2
+      },
+      "contentHash": "862433251beec7e6ea77628d2fb73f383c7163009dd07cb62adfcdb503bfded8",
+      "verified": null
+    },
+    {
       "id": "20261126-024941-boss-b8722ad5",
       "createdAt": "2026-11-26T02:49:41Z",
       "category": "boss",
