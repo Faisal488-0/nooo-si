@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-26T12:24:44Z",
-  "total": 212,
+  "generatedAt": "2026-11-26T22:19:23Z",
+  "total": 213,
   "items": [
+    {
+      "id": "20261126-221923-relationship-e17775a7",
+      "createdAt": "2026-11-26T22:19:23Z",
+      "category": "relationship",
+      "locale": "en",
+      "eyebrow": "Your partner asks",
+      "headline": "Let's move in together. Tomorrow.",
+      "body": "No thanks — I like the speed we're at.",
+      "kicker": "Certified by the Department of No.",
+      "visualPreset": {
+        "background": "zigzag",
+        "palette": "bubblegum",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "HARD NO",
+        "animation": "pop",
+        "layout": "center",
+        "seed": 991459
+      },
+      "effect": "confetti",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 1,
+        "reply": 9
+      },
+      "contentHash": "e17775a758ce2245504343e969ab69525eafc954e65b7572a529d788caa7c44c",
+      "verified": null
+    },
     {
       "id": "20261126-122444-friends-86243325",
       "createdAt": "2026-11-26T12:24:44Z",
@@ -900,34 +928,6 @@
         "reply": 15
       },
       "contentHash": "2eef6237113756b110f57a2b90849bd8128029b9b6f40e628bace0b2cc5ce459",
-      "verified": null
-    },
-    {
-      "id": "20261116-202626-relationship-d68194c9",
-      "createdAt": "2026-11-16T20:26:26Z",
-      "category": "relationship",
-      "locale": "ar",
-      "eyebrow": "الشريك يطلب",
-      "headline": "خفّف من شوفة ربعك؟",
-      "body": "أحبنا. وأحب الحدود بعد.",
-      "kicker": "مختومة ومرفوضة.",
-      "visualPreset": {
-        "background": "checker",
-        "palette": "lime",
-        "character": "cactus",
-        "expression": "dramatic",
-        "sticker": "مستحيل",
-        "animation": "wobble",
-        "layout": "center",
-        "seed": 814379
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "ask": 9,
-        "reply": 1
-      },
-      "contentHash": "d68194c9b93333729635787f2af64302dd072f24a617c1cc05bb558b2207cb70",
       "verified": null
     }
   ]
