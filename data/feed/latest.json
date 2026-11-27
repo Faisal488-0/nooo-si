@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-11-27T15:01:16Z",
-  "total": 215,
+  "generatedAt": "2026-11-27T23:26:11Z",
+  "total": 216,
   "items": [
+    {
+      "id": "20261127-232611-photo-8e3fa986",
+      "createdAt": "2026-11-27T23:26:11Z",
+      "category": "photo",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Dog at the vet door:",
+      "body": "I changed my mind about every walk. NO.",
+      "kicker": "Signed, sealed, declined.",
+      "visualPreset": {
+        "background": "grid",
+        "palette": "lime",
+        "character": "phone",
+        "expression": "dramatic",
+        "sticker": "NOPE",
+        "animation": "wobble",
+        "layout": "right",
+        "seed": 342937
+      },
+      "effect": "glitch",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "theme": 1
+      },
+      "contentHash": "8e3fa9866158c263a98ac794315724ea84cc921a1f3cd5e9f895d8462b22993e",
+      "verified": null,
+      "photo": {
+        "file": "data/feed/img/20261127-232611-4682460b.jpg",
+        "sourceId": "4682460b-62ad-4bc1-97eb-be581afd1880",
+        "theme": "dog",
+        "title": "Reclining dog",
+        "creator": "",
+        "provider": "met",
+        "license": "cc0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "landingUrl": "https://www.metmuseum.org/art/collection/search/551827"
+      }
+    },
     {
       "id": "20261127-150116-scifi-7ec024b4",
       "createdAt": "2026-11-27T15:01:16Z",
@@ -890,44 +928,6 @@
         "type": "morse",
         "input": "DENIED",
         "output": "-.. . -. .. . -.."
-      }
-    },
-    {
-      "id": "20261117-221833-photo-b7e9603c",
-      "createdAt": "2026-11-17T22:18:33Z",
-      "category": "photo",
-      "locale": "en",
-      "eyebrow": null,
-      "headline": "Monkey when the boss says 'do it by hand':",
-      "body": "I'm doing it by foot. Still no.",
-      "kicker": "Copy. Paste. Decline.",
-      "visualPreset": {
-        "background": "burst",
-        "palette": "tangerine",
-        "character": "phone",
-        "expression": "angry",
-        "sticker": "NOT TODAY",
-        "animation": "wobble",
-        "layout": "center",
-        "seed": 957249
-      },
-      "effect": "echo",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "theme": 6
-      },
-      "contentHash": "b7e9603c10dec337281f02a6ebc9ebf79b163d352293d82c6993a7a47d8aa836",
-      "verified": null,
-      "photo": {
-        "file": "data/feed/img/20261117-221833-04e37872.jpg",
-        "sourceId": "04e37872-bbab-4b31-8e6d-4198e45b5c6d",
-        "theme": "monkey",
-        "title": "Standing Monkey Amulet",
-        "creator": "",
-        "provider": "met",
-        "license": "cc0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "landingUrl": "https://www.metmuseum.org/art/collection/search/550993"
       }
     }
   ]
