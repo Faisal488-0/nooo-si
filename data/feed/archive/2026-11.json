@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261127-050125-cat-0188227a",
+      "createdAt": "2026-11-27T05:01:25Z",
+      "category": "cat",
+      "locale": "ar",
+      "eyebrow": "الإنسان للقطوة",
+      "headline": "انزل عن الكيبورد لو سمحت.",
+      "body": "بفكر فيها بعد قيلولتي رقم ١٧.",
+      "kicker": "الحالة: تم تسليم «اللا».",
+      "visualPreset": {
+        "background": "space",
+        "palette": "tomato",
+        "character": "cat",
+        "expression": "shocked",
+        "sticker": "مستحيل",
+        "animation": "pulse",
+        "layout": "right",
+        "seed": 686155
+      },
+      "effect": "echo",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 10
+      },
+      "contentHash": "0188227a9122d4fbc3e3ed0e0eca5b216e0d73699a14b45ffcd02bb0da9e7668",
+      "verified": null
+    },
+    {
       "id": "20261126-221923-relationship-e17775a7",
       "createdAt": "2026-11-26T22:19:23Z",
       "category": "relationship",
