@@ -2,6 +2,34 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261127-150116-scifi-7ec024b4",
+      "createdAt": "2026-11-27T15:01:16Z",
+      "category": "scifi",
+      "locale": "en",
+      "eyebrow": "Incoming transmission",
+      "headline": "Ground control: abort the coffee break.",
+      "body": "Negative, Earthling. Broadcasting NO on all frequencies.",
+      "kicker": "Status: NOOO delivered.",
+      "visualPreset": {
+        "background": "space",
+        "palette": "cyan",
+        "character": "ufo",
+        "expression": "unbothered",
+        "sticker": "DENIED",
+        "animation": "tilt",
+        "layout": "right",
+        "seed": 671941
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "ask": 0,
+        "reply": 0
+      },
+      "contentHash": "7ec024b49c0986c776aa9fe40c9dee7469bd1c24b8dd912c4fe2a5c15ae6d704",
+      "verified": null
+    },
+    {
       "id": "20261127-050125-cat-0188227a",
       "createdAt": "2026-11-27T05:01:25Z",
       "category": "cat",
