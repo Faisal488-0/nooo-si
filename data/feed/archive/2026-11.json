@@ -2,6 +2,40 @@
   "month": "2026-11",
   "items": [
     {
+      "id": "20261128-074244-morse-6b567d7e",
+      "createdAt": "2026-11-28T07:42:44Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Tap this on the table: “NAH”",
+      "body": "Dot dot dash means business.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tomato",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "NO.",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 288082
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 5,
+        "headline": 1,
+        "reply": 0
+      },
+      "contentHash": "6b567d7e2e76d3c42313966c63a6779c50c7796d419a2e24751e127bbfc48e65",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NAH",
+        "output": "-. .- ...."
+      }
+    },
+    {
       "id": "20261127-232611-photo-8e3fa986",
       "createdAt": "2026-11-27T23:26:11Z",
       "category": "photo",

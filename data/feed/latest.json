@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-27T23:26:11Z",
-  "total": 216,
+  "generatedAt": "2026-11-28T07:42:44Z",
+  "total": 217,
   "items": [
+    {
+      "id": "20261128-074244-morse-6b567d7e",
+      "createdAt": "2026-11-28T07:42:44Z",
+      "category": "morse",
+      "locale": "en",
+      "eyebrow": null,
+      "headline": "Tap this on the table: “NAH”",
+      "body": "Dot dot dash means business.",
+      "kicker": "No was said. Peace was restored.",
+      "visualPreset": {
+        "background": "burst",
+        "palette": "tomato",
+        "character": "phone",
+        "expression": "sleepy",
+        "sticker": "NO.",
+        "animation": "tilt",
+        "layout": "left",
+        "seed": 288082
+      },
+      "effect": "zoom",
+      "sourceType": "template-engine-v1",
+      "templateRefs": {
+        "phrase": 5,
+        "headline": 1,
+        "reply": 0
+      },
+      "contentHash": "6b567d7e2e76d3c42313966c63a6779c50c7796d419a2e24751e127bbfc48e65",
+      "verified": null,
+      "code": {
+        "type": "morse",
+        "input": "NAH",
+        "output": "-. .- ...."
+      }
+    },
     {
       "id": "20261127-232611-photo-8e3fa986",
       "createdAt": "2026-11-27T23:26:11Z",
@@ -895,40 +929,6 @@
       },
       "contentHash": "dda95d803bf40e53f54fca9b2fe437a8a44d87870c0e0e23342b09052620d468",
       "verified": null
-    },
-    {
-      "id": "20261118-041548-morse-2652bd30",
-      "createdAt": "2026-11-18T04:15:48Z",
-      "category": "morse",
-      "locale": "ar",
-      "eyebrow": null,
-      "headline": "انقرها على الطاولة: «DENIED»",
-      "body": "انقرها وقت الاجتماع. محد بيدري.",
-      "kicker": "الحدود ١ — الفوضى ٠.",
-      "visualPreset": {
-        "background": "space",
-        "palette": "bubblegum",
-        "character": "alarm",
-        "expression": "angry",
-        "sticker": "أبدًا",
-        "animation": "pulse",
-        "layout": "center",
-        "seed": 994668
-      },
-      "effect": "zoom",
-      "sourceType": "template-engine-v1",
-      "templateRefs": {
-        "phrase": 9,
-        "headline": 1,
-        "reply": 1
-      },
-      "contentHash": "2652bd30fe8bb73d827ea53d3cfc7b5a24638059bf9bf15b0be52a9961999895",
-      "verified": null,
-      "code": {
-        "type": "morse",
-        "input": "DENIED",
-        "output": "-.. . -. .. . -.."
-      }
     }
   ]
 }
